@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-05 14:26+0100\n"
-"PO-Revision-Date: 2016-11-05 13:27+0000\n"
+"POT-Creation-Date: 2016-11-07 15:47+0100\n"
+"PO-Revision-Date: 2016-11-07 14:49+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Hebrew (http://www.transifex.com/gnumdk/lollypop/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -291,7 +291,7 @@ msgid "Search"
 msgstr "חיפוש"
 
 #: ../data/lollypop.appdata.xml.in.h:9 ../src/pop_menu.py:488
-#: ../src/pop_menu.py:509 ../src/toolbar_end.py:413
+#: ../src/pop_menu.py:509 ../src/toolbar_end.py:408
 #: ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr "תור"
@@ -503,15 +503,15 @@ msgstr ""
 msgid "Your music is updating"
 msgstr "המוזיקה שלך מתעדכנת"
 
-#: ../src/collectionscanner.py:179
+#: ../src/collectionscanner.py:183
 msgid "Lollypop is detecting an empty folder."
 msgstr ""
 
-#: ../src/collectionscanner.py:180
+#: ../src/collectionscanner.py:184
 msgid "Check your music settings."
 msgstr ""
 
-#: ../src/collectionscanner.py:281 ../src/database_albums.py:326
+#: ../src/collectionscanner.py:285 ../src/database_albums.py:326
 #: ../src/database_artists.py:104 ../src/database_genres.py:70
 #: ../src/database_tracks.py:259 ../src/selectionlist.py:389
 #: ../src/tagreader.py:84 ../src/tagreader.py:99 ../src/tagreader.py:114
@@ -520,23 +520,23 @@ msgstr ""
 msgid "Unknown"
 msgstr "לא ידוע"
 
-#: ../src/container.py:462
+#: ../src/container.py:446
 msgid "Compilations"
 msgstr "אוספים"
 
-#: ../src/container.py:486 ../src/playlists.py:233
+#: ../src/container.py:470 ../src/playlists.py:233
 msgid "Popular tracks"
 msgstr "רצועות אהובות"
 
-#: ../src/container.py:487 ../src/playlists.py:235
+#: ../src/container.py:471 ../src/playlists.py:235
 msgid "Recently played"
 msgstr "נוגן לאחרונה"
 
-#: ../src/container.py:488 ../src/playlists.py:237
+#: ../src/container.py:472 ../src/playlists.py:237
 msgid "Never played"
 msgstr "לעולם לא נוגן"
 
-#: ../src/container.py:489 ../src/playlists.py:239
+#: ../src/container.py:473 ../src/playlists.py:239
 msgid "Random tracks"
 msgstr "רצועות אקראיות"
 
@@ -545,7 +545,7 @@ msgid "Pause"
 msgstr "השהיה"
 
 #: ../src/controllers.py:87 ../src/controllers.py:106 ../src/pop_tunein.py:216
-#: ../src/widgets_album.py:504 ../src/widgets_radio.py:173
+#: ../src/widgets_album.py:506 ../src/widgets_radio.py:176
 #: ../data/AlbumDetailedWidget.ui.h:1 ../data/ArtistView.ui.h:2
 #: ../data/ToolbarPlayback.ui.h:2
 msgid "Play"
@@ -601,7 +601,7 @@ msgstr "ניקוי אלבומים"
 msgid "Go to current track"
 msgstr "חזרה לרצועה הנוכחית"
 
-#: ../src/pop_albums.py:300 ../src/toolbar_end.py:417
+#: ../src/pop_albums.py:300 ../src/toolbar_end.py:412
 msgid "Playing albums"
 msgstr "ניגון אלבומים"
 
@@ -788,11 +788,11 @@ msgstr "חביבים"
 msgid "Recently added"
 msgstr "נוסף לאחרונה"
 
-#: ../src/toolbar_end.py:411
+#: ../src/toolbar_end.py:406
 msgid "Externals tracks playing"
 msgstr "ניגון רצועות חיצוניות"
 
-#: ../src/toolbar_end.py:415
+#: ../src/toolbar_end.py:410
 msgid "Playing playlists"
 msgstr "ניגון רשימות השמעה"
 
@@ -804,7 +804,7 @@ msgid "The the"
 msgstr " ו"
 
 #. Translators: artist context
-#: ../src/view_artist.py:343 ../src/widgets_album.py:367
+#: ../src/view_artist.py:343 ../src/widgets_album.py:349
 msgid "Remove"
 msgstr "הסרה"
 
@@ -821,34 +821,34 @@ msgstr "מתאם %s"
 msgid "Cancel synchronization"
 msgstr "ביטול התיאום"
 
-#: ../src/widgets_album.py:363
+#: ../src/widgets_album.py:345
 msgid "Append"
 msgstr "הוספה"
 
-#: ../src/widgets_album.py:515
+#: ../src/widgets_album.py:517
 msgid "Play albums"
 msgstr "ניגון אלבומים"
 
-#: ../src/widgets_album.py:525 ../data/AlbumDetailedWidget.ui.h:2
+#: ../src/widgets_album.py:527 ../data/AlbumDetailedWidget.ui.h:2
 msgid "Change artwork"
 msgstr "שינוי עטיפה"
 
-#: ../src/widgets_album.py:864
+#: ../src/widgets_album.py:890
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s ש׳ ו־%s דק׳"
 
-#: ../src/widgets_album.py:866
+#: ../src/widgets_album.py:892
 #, python-format
 msgid "%s h"
 msgstr "%s שעות"
 
-#: ../src/widgets_album.py:868
+#: ../src/widgets_album.py:894
 #, python-format
 msgid "%s m"
 msgstr "%s דקות"
 
-#: ../src/widgets_album.py:1019
+#: ../src/widgets_album.py:1045
 #, python-format
 msgid "Disc %s"
 msgstr "דיסק %s"
@@ -888,7 +888,7 @@ msgstr "להסיר את „%s”?"
 msgid "Remove these tracks?"
 msgstr "להסיר רצועות אלו?"
 
-#: ../src/widgets_radio.py:189
+#: ../src/widgets_radio.py:192
 msgid "Modify radio"
 msgstr "ו"
 
@@ -908,16 +908,16 @@ msgid "Continuous playback"
 msgstr "השמעה רציפה"
 
 #: ../data/PlaybackMenu.ui.h:2
+msgid "Repeat track"
+msgstr "חזרה על הרצועה"
+
+#: ../data/PlaybackMenu.ui.h:3
 msgid "Stop after this track"
 msgstr "עצירה לאחר רצועה זו"
 
-#: ../data/PlaybackMenu.ui.h:3
+#: ../data/PlaybackMenu.ui.h:4
 msgid "Stop after this album"
 msgstr "עצירה לאחר אלבום זה"
-
-#: ../data/PlaybackMenu.ui.h:4
-msgid "Repeat track"
-msgstr "חזרה על הרצועה"
 
 #: ../data/PlaybackMenu.ui.h:5
 msgid "Do not repeat"
@@ -1284,28 +1284,28 @@ msgstr "נגן מזערי"
 
 #: ../data/Shortcuts.ui.h:6
 msgctxt "shortcut window"
-msgid "Fullscreen"
-msgstr "מסך מלא"
-
-#: ../data/Shortcuts.ui.h:7
-msgctxt "shortcut window"
-msgid "Love current track"
-msgstr "רצועה נוכחית אהובה"
-
-#: ../data/Shortcuts.ui.h:8
-msgctxt "shortcut window"
 msgid "Show genres"
 msgstr "הצגת סוגה"
 
-#: ../data/Shortcuts.ui.h:9
+#: ../data/Shortcuts.ui.h:7
+msgctxt "shortcut window"
+msgid "Show/Hide filter"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Lock playback"
 msgstr "נעילת ההשמעה"
 
-#: ../data/Shortcuts.ui.h:10
+#: ../data/Shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Show/Hide volume control"
 msgstr ""
+
+#: ../data/Shortcuts.ui.h:10
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "מסך מלא"
 
 #: ../data/Shortcuts.ui.h:11
 msgctxt "shortcut window"
@@ -1344,15 +1344,20 @@ msgstr "דילוג על האלבום הנוכחי"
 
 #: ../data/Shortcuts.ui.h:18
 msgctxt "shortcut window"
+msgid "Love current track"
+msgstr "רצועה נוכחית אהובה"
+
+#: ../data/Shortcuts.ui.h:19
+msgctxt "shortcut window"
 msgid "Repeat track"
 msgstr "חזרה על הרצועה"
 
-#: ../data/Shortcuts.ui.h:19
+#: ../data/Shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Skip backward in track"
 msgstr "דילוג קדימה ברצועה"
 
-#: ../data/Shortcuts.ui.h:20
+#: ../data/Shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "דילוג לאחור ברצועה"

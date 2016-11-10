@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-05 14:26+0100\n"
-"PO-Revision-Date: 2016-11-05 13:27+0000\n"
+"POT-Creation-Date: 2016-11-07 15:47+0100\n"
+"PO-Revision-Date: 2016-11-07 14:49+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Swedish (http://www.transifex.com/gnumdk/lollypop/language/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -290,7 +290,7 @@ msgid "Search"
 msgstr "Sökning"
 
 #: ../data/lollypop.appdata.xml.in.h:9 ../src/pop_menu.py:488
-#: ../src/pop_menu.py:509 ../src/toolbar_end.py:413
+#: ../src/pop_menu.py:509 ../src/toolbar_end.py:408
 #: ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr "Kö"
@@ -502,15 +502,15 @@ msgstr "världsmusik"
 msgid "Your music is updating"
 msgstr "Din musik uppdateras"
 
-#: ../src/collectionscanner.py:179
+#: ../src/collectionscanner.py:183
 msgid "Lollypop is detecting an empty folder."
 msgstr "Lollypop upptäcker en tom mapp."
 
-#: ../src/collectionscanner.py:180
+#: ../src/collectionscanner.py:184
 msgid "Check your music settings."
 msgstr "Kontrollera dina musikinställningar."
 
-#: ../src/collectionscanner.py:281 ../src/database_albums.py:326
+#: ../src/collectionscanner.py:285 ../src/database_albums.py:326
 #: ../src/database_artists.py:104 ../src/database_genres.py:70
 #: ../src/database_tracks.py:259 ../src/selectionlist.py:389
 #: ../src/tagreader.py:84 ../src/tagreader.py:99 ../src/tagreader.py:114
@@ -519,23 +519,23 @@ msgstr "Kontrollera dina musikinställningar."
 msgid "Unknown"
 msgstr "Okänd"
 
-#: ../src/container.py:462
+#: ../src/container.py:446
 msgid "Compilations"
 msgstr "Samlingsalbum"
 
-#: ../src/container.py:486 ../src/playlists.py:233
+#: ../src/container.py:470 ../src/playlists.py:233
 msgid "Popular tracks"
 msgstr "Populära spår"
 
-#: ../src/container.py:487 ../src/playlists.py:235
+#: ../src/container.py:471 ../src/playlists.py:235
 msgid "Recently played"
 msgstr "Nyligen spelade"
 
-#: ../src/container.py:488 ../src/playlists.py:237
+#: ../src/container.py:472 ../src/playlists.py:237
 msgid "Never played"
 msgstr "Aldrig spelade"
 
-#: ../src/container.py:489 ../src/playlists.py:239
+#: ../src/container.py:473 ../src/playlists.py:239
 msgid "Random tracks"
 msgstr "Slumpmässiga spår"
 
@@ -544,7 +544,7 @@ msgid "Pause"
 msgstr "Pausa"
 
 #: ../src/controllers.py:87 ../src/controllers.py:106 ../src/pop_tunein.py:216
-#: ../src/widgets_album.py:504 ../src/widgets_radio.py:173
+#: ../src/widgets_album.py:506 ../src/widgets_radio.py:176
 #: ../data/AlbumDetailedWidget.ui.h:1 ../data/ArtistView.ui.h:2
 #: ../data/ToolbarPlayback.ui.h:2
 msgid "Play"
@@ -600,7 +600,7 @@ msgstr "Rensa album"
 msgid "Go to current track"
 msgstr "Gå till aktuellt spår"
 
-#: ../src/pop_albums.py:300 ../src/toolbar_end.py:417
+#: ../src/pop_albums.py:300 ../src/toolbar_end.py:412
 msgid "Playing albums"
 msgstr "Album som spelas"
 
@@ -787,11 +787,11 @@ msgstr "Populära"
 msgid "Recently added"
 msgstr "Nyligen tillagda"
 
-#: ../src/toolbar_end.py:411
+#: ../src/toolbar_end.py:406
 msgid "Externals tracks playing"
 msgstr "Externa spår som spelas"
 
-#: ../src/toolbar_end.py:415
+#: ../src/toolbar_end.py:410
 msgid "Playing playlists"
 msgstr "Spellistor som spelas"
 
@@ -803,7 +803,7 @@ msgid "The the"
 msgstr "The the"
 
 #. Translators: artist context
-#: ../src/view_artist.py:343 ../src/widgets_album.py:367
+#: ../src/view_artist.py:343 ../src/widgets_album.py:349
 msgid "Remove"
 msgstr "Ta bort"
 
@@ -820,34 +820,34 @@ msgstr "Synkronisera %s"
 msgid "Cancel synchronization"
 msgstr "Avbryt synkronisering"
 
-#: ../src/widgets_album.py:363
+#: ../src/widgets_album.py:345
 msgid "Append"
 msgstr "Lägg till"
 
-#: ../src/widgets_album.py:515
+#: ../src/widgets_album.py:517
 msgid "Play albums"
 msgstr "Spela album"
 
-#: ../src/widgets_album.py:525 ../data/AlbumDetailedWidget.ui.h:2
+#: ../src/widgets_album.py:527 ../data/AlbumDetailedWidget.ui.h:2
 msgid "Change artwork"
 msgstr "Ändra bildmaterial"
 
-#: ../src/widgets_album.py:864
+#: ../src/widgets_album.py:890
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h  %s m"
 
-#: ../src/widgets_album.py:866
+#: ../src/widgets_album.py:892
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../src/widgets_album.py:868
+#: ../src/widgets_album.py:894
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../src/widgets_album.py:1019
+#: ../src/widgets_album.py:1045
 #, python-format
 msgid "Disc %s"
 msgstr "Skiva %s"
@@ -887,7 +887,7 @@ msgstr "Ta bort ”%s”?"
 msgid "Remove these tracks?"
 msgstr "Ta bort dessa spår?"
 
-#: ../src/widgets_radio.py:189
+#: ../src/widgets_radio.py:192
 msgid "Modify radio"
 msgstr "Modifiera radiostation"
 
@@ -907,16 +907,16 @@ msgid "Continuous playback"
 msgstr "Kontinuerlig uppspelning"
 
 #: ../data/PlaybackMenu.ui.h:2
+msgid "Repeat track"
+msgstr "Upprepa spår"
+
+#: ../data/PlaybackMenu.ui.h:3
 msgid "Stop after this track"
 msgstr "Stoppa efter detta spår"
 
-#: ../data/PlaybackMenu.ui.h:3
+#: ../data/PlaybackMenu.ui.h:4
 msgid "Stop after this album"
 msgstr "Stoppa efter detta album"
-
-#: ../data/PlaybackMenu.ui.h:4
-msgid "Repeat track"
-msgstr "Upprepa spår"
 
 #: ../data/PlaybackMenu.ui.h:5
 msgid "Do not repeat"
@@ -1283,28 +1283,28 @@ msgstr "Minispelare"
 
 #: ../data/Shortcuts.ui.h:6
 msgctxt "shortcut window"
-msgid "Fullscreen"
-msgstr "Helskärm"
-
-#: ../data/Shortcuts.ui.h:7
-msgctxt "shortcut window"
-msgid "Love current track"
-msgstr "Älska aktuellt spår"
-
-#: ../data/Shortcuts.ui.h:8
-msgctxt "shortcut window"
 msgid "Show genres"
 msgstr "Visa genrer"
 
-#: ../data/Shortcuts.ui.h:9
+#: ../data/Shortcuts.ui.h:7
+msgctxt "shortcut window"
+msgid "Show/Hide filter"
+msgstr ""
+
+#: ../data/Shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Lock playback"
 msgstr "Lås uppspelning"
 
-#: ../data/Shortcuts.ui.h:10
+#: ../data/Shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Show/Hide volume control"
 msgstr "Visa/Göm volymkontroll"
+
+#: ../data/Shortcuts.ui.h:10
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "Helskärm"
 
 #: ../data/Shortcuts.ui.h:11
 msgctxt "shortcut window"
@@ -1343,15 +1343,20 @@ msgstr "Hoppa över aktuellt album"
 
 #: ../data/Shortcuts.ui.h:18
 msgctxt "shortcut window"
+msgid "Love current track"
+msgstr "Älska aktuellt spår"
+
+#: ../data/Shortcuts.ui.h:19
+msgctxt "shortcut window"
 msgid "Repeat track"
 msgstr "Upprepa spår"
 
-#: ../data/Shortcuts.ui.h:19
+#: ../data/Shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Skip backward in track"
 msgstr "Hoppa bakåt i spår"
 
-#: ../data/Shortcuts.ui.h:20
+#: ../data/Shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "Hoppa framåt i spår"

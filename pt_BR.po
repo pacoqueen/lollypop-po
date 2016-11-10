@@ -6,17 +6,17 @@
 # Cédric Bellegarde <web@adishatz.org>, 2016
 # Ian Brunelli <ian@brunelli.me>, 2015
 # Laís Figueiredo <laisfigsantos@gmail.com>, 2016
-# Lidáque <Liddack@outlook.com>, 2016
-# Lidáque <Liddack@outlook.com>, 2016
-# Lidáque <Liddack@outlook.com>, 2016
+# Lucas Miranda <Liddack@outlook.com>, 2016
+# Lucas Miranda <Liddack@outlook.com>, 2016
+# Lucas Miranda <Liddack@outlook.com>, 2016
 # Ricardo Borges Jr. <ricardoborges.jr@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-05 14:26+0100\n"
-"PO-Revision-Date: 2016-11-05 14:40+0000\n"
-"Last-Translator: Lidáque <Liddack@outlook.com>\n"
+"POT-Creation-Date: 2016-11-07 15:47+0100\n"
+"PO-Revision-Date: 2016-11-07 16:42+0000\n"
+"Last-Translator: Lucas Miranda <Liddack@outlook.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/gnumdk/lollypop/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -295,7 +295,7 @@ msgid "Search"
 msgstr "Pesquisa"
 
 #: ../data/lollypop.appdata.xml.in.h:9 ../src/pop_menu.py:488
-#: ../src/pop_menu.py:509 ../src/toolbar_end.py:413
+#: ../src/pop_menu.py:509 ../src/toolbar_end.py:408
 #: ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr "Fila"
@@ -507,15 +507,15 @@ msgstr "mundial"
 msgid "Your music is updating"
 msgstr "Suas músicas estão sendo atualizadas"
 
-#: ../src/collectionscanner.py:179
+#: ../src/collectionscanner.py:183
 msgid "Lollypop is detecting an empty folder."
 msgstr "O Lollypop está detectando uma pasta vazia."
 
-#: ../src/collectionscanner.py:180
+#: ../src/collectionscanner.py:184
 msgid "Check your music settings."
 msgstr "Veja suas configurações de música."
 
-#: ../src/collectionscanner.py:281 ../src/database_albums.py:326
+#: ../src/collectionscanner.py:285 ../src/database_albums.py:326
 #: ../src/database_artists.py:104 ../src/database_genres.py:70
 #: ../src/database_tracks.py:259 ../src/selectionlist.py:389
 #: ../src/tagreader.py:84 ../src/tagreader.py:99 ../src/tagreader.py:114
@@ -524,23 +524,23 @@ msgstr "Veja suas configurações de música."
 msgid "Unknown"
 msgstr "Desconhecido"
 
-#: ../src/container.py:462
+#: ../src/container.py:446
 msgid "Compilations"
 msgstr "Compilações"
 
-#: ../src/container.py:486 ../src/playlists.py:233
+#: ../src/container.py:470 ../src/playlists.py:233
 msgid "Popular tracks"
 msgstr "Faixas populares"
 
-#: ../src/container.py:487 ../src/playlists.py:235
+#: ../src/container.py:471 ../src/playlists.py:235
 msgid "Recently played"
 msgstr "Tocadas recentemente "
 
-#: ../src/container.py:488 ../src/playlists.py:237
+#: ../src/container.py:472 ../src/playlists.py:237
 msgid "Never played"
 msgstr "Nunca tocadas"
 
-#: ../src/container.py:489 ../src/playlists.py:239
+#: ../src/container.py:473 ../src/playlists.py:239
 msgid "Random tracks"
 msgstr "Faixas aleatórias"
 
@@ -549,7 +549,7 @@ msgid "Pause"
 msgstr "Pausar"
 
 #: ../src/controllers.py:87 ../src/controllers.py:106 ../src/pop_tunein.py:216
-#: ../src/widgets_album.py:504 ../src/widgets_radio.py:173
+#: ../src/widgets_album.py:506 ../src/widgets_radio.py:176
 #: ../data/AlbumDetailedWidget.ui.h:1 ../data/ArtistView.ui.h:2
 #: ../data/ToolbarPlayback.ui.h:2
 msgid "Play"
@@ -605,7 +605,7 @@ msgstr "Limpar álbuns"
 msgid "Go to current track"
 msgstr "Ir para a faixa atual"
 
-#: ../src/pop_albums.py:300 ../src/toolbar_end.py:417
+#: ../src/pop_albums.py:300 ../src/toolbar_end.py:412
 msgid "Playing albums"
 msgstr "Álbuns tocando"
 
@@ -792,11 +792,11 @@ msgstr "Populares"
 msgid "Recently added"
 msgstr "Adicionado recentemente"
 
-#: ../src/toolbar_end.py:411
+#: ../src/toolbar_end.py:406
 msgid "Externals tracks playing"
 msgstr "Faixas externas tocando"
 
-#: ../src/toolbar_end.py:415
+#: ../src/toolbar_end.py:410
 msgid "Playing playlists"
 msgstr "Listas de reprodução tocando"
 
@@ -808,7 +808,7 @@ msgid "The the"
 msgstr "A a O o As as Os os The the"
 
 #. Translators: artist context
-#: ../src/view_artist.py:343 ../src/widgets_album.py:367
+#: ../src/view_artist.py:343 ../src/widgets_album.py:349
 msgid "Remove"
 msgstr "Remover"
 
@@ -825,34 +825,34 @@ msgstr "Sincronizar %s"
 msgid "Cancel synchronization"
 msgstr "Cancelar sincronização"
 
-#: ../src/widgets_album.py:363
+#: ../src/widgets_album.py:345
 msgid "Append"
 msgstr "Anexar"
 
-#: ../src/widgets_album.py:515
+#: ../src/widgets_album.py:517
 msgid "Play albums"
 msgstr "Reproduzir álbuns"
 
-#: ../src/widgets_album.py:525 ../data/AlbumDetailedWidget.ui.h:2
+#: ../src/widgets_album.py:527 ../data/AlbumDetailedWidget.ui.h:2
 msgid "Change artwork"
 msgstr "Alterar arte de capa"
 
-#: ../src/widgets_album.py:864
+#: ../src/widgets_album.py:890
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h %s m"
 
-#: ../src/widgets_album.py:866
+#: ../src/widgets_album.py:892
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../src/widgets_album.py:868
+#: ../src/widgets_album.py:894
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../src/widgets_album.py:1019
+#: ../src/widgets_album.py:1045
 #, python-format
 msgid "Disc %s"
 msgstr "Disco %s"
@@ -892,7 +892,7 @@ msgstr "Remover \"%s\"?"
 msgid "Remove these tracks?"
 msgstr "Remover estas faixas?"
 
-#: ../src/widgets_radio.py:189
+#: ../src/widgets_radio.py:192
 msgid "Modify radio"
 msgstr "Modificar rádio"
 
@@ -912,16 +912,16 @@ msgid "Continuous playback"
 msgstr "Reprodução contínua"
 
 #: ../data/PlaybackMenu.ui.h:2
+msgid "Repeat track"
+msgstr "Repetir faixa"
+
+#: ../data/PlaybackMenu.ui.h:3
 msgid "Stop after this track"
 msgstr "Parar após esta faixa"
 
-#: ../data/PlaybackMenu.ui.h:3
+#: ../data/PlaybackMenu.ui.h:4
 msgid "Stop after this album"
 msgstr "Parar após este álbum"
-
-#: ../data/PlaybackMenu.ui.h:4
-msgid "Repeat track"
-msgstr "Repetir faixa"
 
 #: ../data/PlaybackMenu.ui.h:5
 msgid "Do not repeat"
@@ -1288,28 +1288,28 @@ msgstr "Mini Player"
 
 #: ../data/Shortcuts.ui.h:6
 msgctxt "shortcut window"
-msgid "Fullscreen"
-msgstr "Tela cheia"
-
-#: ../data/Shortcuts.ui.h:7
-msgctxt "shortcut window"
-msgid "Love current track"
-msgstr "Curtir faixa atual"
-
-#: ../data/Shortcuts.ui.h:8
-msgctxt "shortcut window"
 msgid "Show genres"
 msgstr "Mostrar gêneros"
 
-#: ../data/Shortcuts.ui.h:9
+#: ../data/Shortcuts.ui.h:7
+msgctxt "shortcut window"
+msgid "Show/Hide filter"
+msgstr "Mostrar/esconder filtro"
+
+#: ../data/Shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Lock playback"
 msgstr "Travar reprodução"
 
-#: ../data/Shortcuts.ui.h:10
+#: ../data/Shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Show/Hide volume control"
 msgstr "Mostrar/esconder controle de volume"
+
+#: ../data/Shortcuts.ui.h:10
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "Tela cheia"
 
 #: ../data/Shortcuts.ui.h:11
 msgctxt "shortcut window"
@@ -1348,15 +1348,20 @@ msgstr "Pular álbum atual"
 
 #: ../data/Shortcuts.ui.h:18
 msgctxt "shortcut window"
+msgid "Love current track"
+msgstr "Curtir faixa atual"
+
+#: ../data/Shortcuts.ui.h:19
+msgctxt "shortcut window"
 msgid "Repeat track"
 msgstr "Repetir faixa"
 
-#: ../data/Shortcuts.ui.h:19
+#: ../data/Shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Skip backward in track"
 msgstr "Retroceder uma faixa"
 
-#: ../data/Shortcuts.ui.h:20
+#: ../data/Shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "Avançar rapidamente"

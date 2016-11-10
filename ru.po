@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Alexey, 2016
+# Alex G <alex.burns@inbox.ru>, 2016
 # Denis Morozov <www.strelookpb09@mail.ru>, 2015
 # Derpy Crabs <derpycrabs@gmail.com>, 2015
 # hant 0508 <hant0508@gmail.com>, 2016
@@ -15,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-05 14:26+0100\n"
-"PO-Revision-Date: 2016-11-05 13:27+0000\n"
-"Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
+"POT-Creation-Date: 2016-11-07 15:47+0100\n"
+"PO-Revision-Date: 2016-11-09 02:41+0000\n"
+"Last-Translator: Alex G <alex.burns@inbox.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/gnumdk/lollypop/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,7 +52,7 @@ msgstr "Позиция Мини-плеера"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:7
 msgid "Access network"
-msgstr ""
+msgstr "Доступ к сети"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:8
 msgid "Search over network"
@@ -59,7 +60,7 @@ msgstr "Поиск по сети"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:9
 msgid "Save artwork/popularity in tags"
-msgstr ""
+msgstr "Сохранять изображения или популярность в тегах"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:10
 msgid "Window maximized"
@@ -79,7 +80,7 @@ msgstr "Идентификаторы для жанров"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:14
 msgid "Music uris"
-msgstr ""
+msgstr "URI с музыкой"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:15
 msgid "When empty, use XDG_MUSIC_DIR"
@@ -170,7 +171,7 @@ msgstr "Показывать список жанров"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:36
 msgid "Show charts"
-msgstr ""
+msgstr "Показать чарты"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:37 ../data/SettingsDialog.ui.h:8
 msgid "Show artist artwork"
@@ -234,7 +235,7 @@ msgstr "Режим перемешивания"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:52
 msgid "Playback behaviour"
-msgstr ""
+msgstr "Поведение при проигрывании"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:53 ../data/SettingsDialog.ui.h:9
 msgid "Order albums by"
@@ -296,7 +297,7 @@ msgid "Search"
 msgstr "Поиск"
 
 #: ../data/lollypop.appdata.xml.in.h:9 ../src/pop_menu.py:488
-#: ../src/pop_menu.py:509 ../src/toolbar_end.py:413
+#: ../src/pop_menu.py:509 ../src/toolbar_end.py:408
 #: ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr "Очередь"
@@ -508,15 +509,15 @@ msgstr "мировая"
 msgid "Your music is updating"
 msgstr "Ваша музыка обновляется"
 
-#: ../src/collectionscanner.py:179
+#: ../src/collectionscanner.py:183
 msgid "Lollypop is detecting an empty folder."
 msgstr "Lollypop обнаружил пустую папку."
 
-#: ../src/collectionscanner.py:180
+#: ../src/collectionscanner.py:184
 msgid "Check your music settings."
 msgstr "Проверьте ваши музыкальные настройки."
 
-#: ../src/collectionscanner.py:281 ../src/database_albums.py:326
+#: ../src/collectionscanner.py:285 ../src/database_albums.py:326
 #: ../src/database_artists.py:104 ../src/database_genres.py:70
 #: ../src/database_tracks.py:259 ../src/selectionlist.py:389
 #: ../src/tagreader.py:84 ../src/tagreader.py:99 ../src/tagreader.py:114
@@ -525,23 +526,23 @@ msgstr "Проверьте ваши музыкальные настройки."
 msgid "Unknown"
 msgstr "Неизвестный"
 
-#: ../src/container.py:462
+#: ../src/container.py:446
 msgid "Compilations"
 msgstr "Подборки"
 
-#: ../src/container.py:486 ../src/playlists.py:233
+#: ../src/container.py:470 ../src/playlists.py:233
 msgid "Popular tracks"
 msgstr "Популярные треки"
 
-#: ../src/container.py:487 ../src/playlists.py:235
+#: ../src/container.py:471 ../src/playlists.py:235
 msgid "Recently played"
 msgstr "Недавно прослушанные"
 
-#: ../src/container.py:488 ../src/playlists.py:237
+#: ../src/container.py:472 ../src/playlists.py:237
 msgid "Never played"
 msgstr "Ни разу не проигрывались"
 
-#: ../src/container.py:489 ../src/playlists.py:239
+#: ../src/container.py:473 ../src/playlists.py:239
 msgid "Random tracks"
 msgstr "Случайные треки"
 
@@ -550,7 +551,7 @@ msgid "Pause"
 msgstr "Приостановить"
 
 #: ../src/controllers.py:87 ../src/controllers.py:106 ../src/pop_tunein.py:216
-#: ../src/widgets_album.py:504 ../src/widgets_radio.py:173
+#: ../src/widgets_album.py:506 ../src/widgets_radio.py:176
 #: ../data/AlbumDetailedWidget.ui.h:1 ../data/ArtistView.ui.h:2
 #: ../data/ToolbarPlayback.ui.h:2
 msgid "Play"
@@ -606,7 +607,7 @@ msgstr "Очистить альбомы"
 msgid "Go to current track"
 msgstr "Перейти к текущему треку"
 
-#: ../src/pop_albums.py:300 ../src/toolbar_end.py:417
+#: ../src/pop_albums.py:300 ../src/toolbar_end.py:412
 msgid "Playing albums"
 msgstr "Воспроизведение альбомов"
 
@@ -621,7 +622,7 @@ msgstr "Поддержка WebKit отключена"
 #: ../src/pop_info.py:252 ../src/settings.py:328
 #: ../src/view_artist_albums.py:77 ../src/widgets_info.py:129
 msgid "Network access disabled"
-msgstr ""
+msgstr "Доступ к сети невозможен"
 
 #: ../src/pop_info.py:259
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
@@ -799,11 +800,11 @@ msgstr "Популярные"
 msgid "Recently added"
 msgstr "Недавно добавленные"
 
-#: ../src/toolbar_end.py:411
+#: ../src/toolbar_end.py:406
 msgid "Externals tracks playing"
 msgstr "Воспроизведение внешних треков"
 
-#: ../src/toolbar_end.py:415
+#: ../src/toolbar_end.py:410
 msgid "Playing playlists"
 msgstr "Воспроизведение плейлистов"
 
@@ -815,7 +816,7 @@ msgid "The the"
 msgstr "The the"
 
 #. Translators: artist context
-#: ../src/view_artist.py:343 ../src/widgets_album.py:367
+#: ../src/view_artist.py:343 ../src/widgets_album.py:349
 msgid "Remove"
 msgstr "Удалить"
 
@@ -832,41 +833,41 @@ msgstr "Синхронизировать %s"
 msgid "Cancel synchronization"
 msgstr "Отменить синхронизацию"
 
-#: ../src/widgets_album.py:363
+#: ../src/widgets_album.py:345
 msgid "Append"
 msgstr "Добавить"
 
-#: ../src/widgets_album.py:515
+#: ../src/widgets_album.py:517
 msgid "Play albums"
 msgstr "Проиграть альбомы"
 
-#: ../src/widgets_album.py:525 ../data/AlbumDetailedWidget.ui.h:2
+#: ../src/widgets_album.py:527 ../data/AlbumDetailedWidget.ui.h:2
 msgid "Change artwork"
 msgstr "Изменить обложку"
 
-#: ../src/widgets_album.py:864
+#: ../src/widgets_album.py:890
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s ч %s мин"
 
-#: ../src/widgets_album.py:866
+#: ../src/widgets_album.py:892
 #, python-format
 msgid "%s h"
 msgstr "%s ч"
 
-#: ../src/widgets_album.py:868
+#: ../src/widgets_album.py:894
 #, python-format
 msgid "%s m"
 msgstr "%s мин"
 
-#: ../src/widgets_album.py:1019
+#: ../src/widgets_album.py:1045
 #, python-format
 msgid "Disc %s"
 msgstr "Диск %s"
 
 #: ../src/widgets_info.py:127
 msgid "No information for this artist"
-msgstr ""
+msgstr "Нет информации об этом исполнителе"
 
 #: ../src/widgets_device.py:57
 msgid "You need to install gstreamer-plugins-ugly"
@@ -899,7 +900,7 @@ msgstr "Удалить \"%s\"?"
 msgid "Remove these tracks?"
 msgstr "Удалить эти треки?"
 
-#: ../src/widgets_radio.py:189
+#: ../src/widgets_radio.py:192
 msgid "Modify radio"
 msgstr "Изменить радио"
 
@@ -919,16 +920,16 @@ msgid "Continuous playback"
 msgstr "Непрерывное воспроизведение"
 
 #: ../data/PlaybackMenu.ui.h:2
+msgid "Repeat track"
+msgstr "Повторить трек"
+
+#: ../data/PlaybackMenu.ui.h:3
 msgid "Stop after this track"
 msgstr "Остановить после этого трека"
 
-#: ../data/PlaybackMenu.ui.h:3
+#: ../data/PlaybackMenu.ui.h:4
 msgid "Stop after this album"
 msgstr "Остановить после этого альбома"
-
-#: ../data/PlaybackMenu.ui.h:4
-msgid "Repeat track"
-msgstr "Повторить трек"
 
 #: ../data/PlaybackMenu.ui.h:5
 msgid "Do not repeat"
@@ -970,7 +971,7 @@ msgstr "_Полноэкранный режим"
 
 #: ../data/Appmenu.ui.h:3
 msgid "_Network access"
-msgstr ""
+msgstr "_Доступ к сети"
 
 #: ../data/Appmenu.ui.h:4
 msgid "_Preferences"
@@ -1295,28 +1296,28 @@ msgstr "Мини-плеер"
 
 #: ../data/Shortcuts.ui.h:6
 msgctxt "shortcut window"
-msgid "Fullscreen"
-msgstr "Полноэкранный режим"
-
-#: ../data/Shortcuts.ui.h:7
-msgctxt "shortcut window"
-msgid "Love current track"
-msgstr "Любимый трек"
-
-#: ../data/Shortcuts.ui.h:8
-msgctxt "shortcut window"
 msgid "Show genres"
 msgstr "Показывать жанры"
 
-#: ../data/Shortcuts.ui.h:9
+#: ../data/Shortcuts.ui.h:7
+msgctxt "shortcut window"
+msgid "Show/Hide filter"
+msgstr "Показать/скрыть фильтр"
+
+#: ../data/Shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Lock playback"
 msgstr "Блокировать воспроизведение"
 
-#: ../data/Shortcuts.ui.h:10
+#: ../data/Shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Show/Hide volume control"
 msgstr "Показать/спрятать регулятор громкости"
+
+#: ../data/Shortcuts.ui.h:10
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "Полноэкранный режим"
 
 #: ../data/Shortcuts.ui.h:11
 msgctxt "shortcut window"
@@ -1355,15 +1356,20 @@ msgstr "Пропустить текущий альбом"
 
 #: ../data/Shortcuts.ui.h:18
 msgctxt "shortcut window"
+msgid "Love current track"
+msgstr "Любимый трек"
+
+#: ../data/Shortcuts.ui.h:19
+msgctxt "shortcut window"
 msgid "Repeat track"
 msgstr "Повторить трек"
 
-#: ../data/Shortcuts.ui.h:19
+#: ../data/Shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Skip backward in track"
 msgstr "Перемотать назад"
 
-#: ../data/Shortcuts.ui.h:20
+#: ../data/Shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "Перемотать вперёд"
