@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-17 22:12+0100\n"
-"PO-Revision-Date: 2016-11-28 13:17+0000\n"
+"PO-Revision-Date: 2016-11-29 09:41+0000\n"
 "Last-Translator: Piotr Sokół <psokol.l10n@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/gnumdk/lollypop/language/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -37,7 +37,7 @@ msgstr "Położenie okna"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:4
 msgid "Window position (x and y)."
-msgstr "Określa położenie okna (na osi X i Y)."
+msgstr "Określa położenie okna (wzdłuż osi X i Y)."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:5
 msgid "Mini player size"
@@ -53,11 +53,11 @@ msgstr "Dostęp do sieci"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:8
 msgid "Search over network"
-msgstr ""
+msgstr "Wyszukiwanie w sieci"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:9
 msgid "Save artwork/popularity in tags"
-msgstr ""
+msgstr "Zapisywanie obrazów i popularności w etykietach"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:10
 msgid "Window maximized"
@@ -85,7 +85,7 @@ msgstr "Wskazuje ścieżki do katalogów z muzyką. Jeśli nie skonfigurowano, z
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:16
 msgid "Use Librefm instead of Lastfm"
-msgstr ""
+msgstr "Używanie Librefm zamiast Lastfm"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:17
 msgid "Last.fm login"
@@ -105,13 +105,13 @@ msgstr "WEWNĘTRZNE"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:21
 msgid "Audio output preview on track hover"
-msgstr ""
+msgstr "Urządzenie szybkiego odsłuchiwania"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:22
 msgid ""
 "Pulseaudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
-msgstr ""
+msgstr "Wprowadza urządzenie wyjściowe pulseaudio. Np.: alsa_output.pci-0000_00_14.2.analog-stereo. Listę urządzeń można wypisać poleceniem $ pacmd list-sinks|grep 'name:'."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:23
 msgid "Favorite cover file"
@@ -144,7 +144,7 @@ msgstr "Pomiędzy -15 i 15"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:30
 msgid "Sync all albums(MTP)"
-msgstr "Zsynchronizuj wszystkie albumy (MTP)"
+msgstr "Synchronizowanie wszystkich albumów (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:31
 msgid "Convert to MP3(MTP)"
@@ -152,7 +152,7 @@ msgstr "Skonwertuj do MP3 (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
 msgid "Normalize MP3(MTP)"
-msgstr ""
+msgstr "Normalizowanie MP3 (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:33 ../data/SettingsDialog.ui.h:16
 msgid "Auto update music"
@@ -168,7 +168,7 @@ msgstr "Lista gatunków"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:36
 msgid "Show charts"
-msgstr ""
+msgstr "Wyświetlanie list przebojów"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:37 ../data/SettingsDialog.ui.h:8
 msgid "Show artist artwork"
@@ -180,7 +180,7 @@ msgstr "Ciemny styl GTK"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:39
 msgid "Disable the use of client side window decorations (headerbar)"
-msgstr ""
+msgstr "Wyłączenie wyświetlania obramowań po stronie klienta (headerbar)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:40 ../data/SettingsDialog.ui.h:6
 msgid "Show compilations in albums view"
@@ -200,15 +200,15 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:44
 msgid "Restore previous state"
-msgstr "Przywraca poprzedni stan po uruchomieniu"
+msgstr "Przywracanie poprzedniego stanu po uruchomieniu"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:45
 msgid "Disable MPRIS"
-msgstr "Wyłącza MPRIS"
+msgstr "Wyłączenie MPRIS"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:46
 msgid "Disable notifications"
-msgstr "Wyłącza powiadomienia"
+msgstr "Wyłączenie powiadomień"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:47
 msgid "Show track number from tags"
@@ -232,7 +232,7 @@ msgstr "Losowanie kolejności"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:52
 msgid "Playback behaviour"
-msgstr ""
+msgstr "Sposób odtwarzania"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:53 ../data/SettingsDialog.ui.h:9
 msgid "Order albums by"
@@ -240,7 +240,7 @@ msgstr "Kolejność sortowania albumów"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:54
 msgid "Charts provider"
-msgstr ""
+msgstr "Dostawca list przebojów"
 
 #: ../data/lollypop.desktop.in.h:1 ../data/lollypop.appdata.xml.in.h:1
 msgid "Lollypop"
@@ -291,7 +291,7 @@ msgstr "przeglądanie gatunków/wykonawców/okładek albumów,"
 #: ../data/lollypop.appdata.xml.in.h:8 ../src/playlists.py:242
 #: ../data/ArtistInfo.ui.h:5 ../data/ToolbarEnd.ui.h:15
 msgid "Search"
-msgstr "Wyszukuje muzykę"
+msgstr "Wyszukiwanie"
 
 #: ../data/lollypop.appdata.xml.in.h:9 ../src/pop_menu.py:413
 #: ../src/pop_menu.py:432 ../src/toolbar_end.py:424
@@ -731,7 +731,7 @@ msgstr "Radio"
 #: ../src/selectionlist.py:313 ../src/settings.py:332 ../src/settings.py:342
 #: ../data/SettingsDialog.ui.h:27
 msgid "The charts"
-msgstr ""
+msgstr "Listy przebojów"
 
 #: ../src/selectionlist.py:315
 msgid "All albums"
@@ -1019,7 +1019,7 @@ msgstr "Konwertuj do MP3"
 
 #: ../data/DeviceManagerWidget.ui.h:3
 msgid "Normalize MP3"
-msgstr "Normalizuj MP3"
+msgstr "Normalizowanie MP3"
 
 #: ../data/PlaylistsManagerView.ui.h:1
 msgid "New playlist"
@@ -1071,7 +1071,7 @@ msgstr "Tworzy nową listę odtwarzania na podstawie wyników wyszukiwania"
 
 #: ../data/SearchPopover.ui.h:2
 msgid "Search on the web"
-msgstr "Wyszukaj w sieci"
+msgstr "Wyszukanie w sieci"
 
 #: ../data/InternalSearchRow.ui.h:1
 msgid "Add to playlist"
@@ -1196,7 +1196,7 @@ msgstr "Konfiguruje logowanie do Last.fm"
 
 #: ../data/ToolbarEnd.ui.h:1
 msgid "Shuffle"
-msgstr "Przełącza losowanie kolejności"
+msgstr "Losowanie kolejności"
 
 #: ../data/ToolbarEnd.ui.h:2
 msgid "No shuffle"
@@ -1212,7 +1212,7 @@ msgstr "Losowanie utworów"
 
 #: ../data/ToolbarEnd.ui.h:5
 msgid "Repetition"
-msgstr ""
+msgstr "Powtarzanie"
 
 #: ../data/ToolbarEnd.ui.h:6
 msgid "Continuous playback"
@@ -1232,7 +1232,7 @@ msgstr "Zatrzymanie po tym albumie"
 
 #: ../data/ToolbarEnd.ui.h:10
 msgid "Do not repeat"
-msgstr "Nie powtarzaj"
+msgstr "Brak powtarzania"
 
 #: ../data/ToolbarEnd.ui.h:11
 msgid "Settings"
