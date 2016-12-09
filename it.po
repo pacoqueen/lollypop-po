@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-17 22:12+0100\n"
-"PO-Revision-Date: 2016-11-26 18:40+0000\n"
+"PO-Revision-Date: 2016-11-30 16:24+0000\n"
 "Last-Translator: Fabio Iacovino <fabio.iacovino99@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/gnumdk/lollypop/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -75,7 +75,7 @@ msgstr "Identificativi per i generi."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:14
 msgid "Music uris"
-msgstr ""
+msgstr "Musica URI"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:15
 msgid "When empty, use XDG_MUSIC_DIR"
