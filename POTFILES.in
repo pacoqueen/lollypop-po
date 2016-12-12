@@ -3,8 +3,8 @@
 [encoding: UTF-8]
 # List of source files which contain translatable strings.
 data/org.gnome.Lollypop.gschema.xml
-data/lollypop.desktop.in
-data/lollypop.appdata.xml.in
+data/org.gnome.Lollypop.desktop.in
+data/org.gnome.Lollypop.appdata.xml.in
 src/application.py
 src/art_album.py
 src/art_base.py
@@ -68,6 +68,8 @@ src/view_playlists.py
 src/view.py
 src/view_radios.py
 src/widgets_album.py
+src/widgets_album_simple.py
+src/widgets_album_detailed.py
 src/widgets_context.py
 src/widgets_info.py
 src/widgets_device.py
