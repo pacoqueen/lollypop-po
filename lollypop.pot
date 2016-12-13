@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-14 15:27+0100\n"
+"POT-Creation-Date: 2016-12-14 16:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -217,23 +217,31 @@ msgstr ""
 msgid "Mix songs only in party mode"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:50
-msgid "Mix duration"
+#: ../data/org.gnome.Lollypop.gschema.xml.h:50 ../data/SettingsDialog.ui.h:33
+msgid "Search tracks on Itunes"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:51
-msgid "Shuffle mode"
+#: ../data/org.gnome.Lollypop.gschema.xml.h:51 ../data/SettingsDialog.ui.h:32
+msgid "Search tracks on Spotify"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:52
-msgid "Playback behaviour"
+msgid "Mix duration"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:53 ../data/SettingsDialog.ui.h:9
-msgid "Order albums by"
+#: ../data/org.gnome.Lollypop.gschema.xml.h:53
+msgid "Shuffle mode"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:54
+msgid "Playback behaviour"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:55 ../data/SettingsDialog.ui.h:9
+msgid "Order albums by"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:56
 msgid "Charts provider"
 msgstr ""
 
@@ -603,7 +611,7 @@ msgstr ""
 msgid "WebKit support disabled"
 msgstr ""
 
-#: ../src/pop_info.py:251 ../src/settings.py:357 ../src/view_artist.py:60
+#: ../src/pop_info.py:251 ../src/settings.py:366 ../src/view_artist.py:60
 #: ../src/view_artist_albums.py:76 ../src/widgets_info.py:130
 msgid "Network access disabled"
 msgstr ""
@@ -698,7 +706,7 @@ msgstr ""
 msgid "Modify"
 msgstr ""
 
-#: ../src/pop_search.py:305
+#: ../src/pop_search.py:305 ../data/SettingsDialog.ui.h:34
 msgid "You need to install youtube-dl"
 msgstr ""
 
@@ -726,7 +734,7 @@ msgstr ""
 msgid "Radios"
 msgstr ""
 
-#: ../src/selectionlist.py:312 ../src/settings.py:346 ../src/settings.py:356
+#: ../src/selectionlist.py:312 ../src/settings.py:355 ../src/settings.py:365
 #: ../data/SettingsDialog.ui.h:27
 msgid "The charts"
 msgstr ""
@@ -1004,7 +1012,7 @@ msgid ""
 "Please create a \"Custom Search Engine\" here:"
 msgstr ""
 
-#: ../data/ArtworkSearch.ui.h:6 ../data/SettingsDialog.ui.h:38
+#: ../data/ArtworkSearch.ui.h:6 ../data/SettingsDialog.ui.h:43
 msgid "API key"
 msgstr ""
 
@@ -1157,39 +1165,51 @@ msgid "Music"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:30
-msgid "Login:"
+msgid "Spotify"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:31
-msgid "Password:"
-msgstr ""
-
-#: ../data/SettingsDialog.ui.h:32
-msgid "Connect"
-msgstr ""
-
-#: ../data/SettingsDialog.ui.h:33
-msgid "You need to install pylast and gi secret"
-msgstr ""
-
-#: ../data/SettingsDialog.ui.h:34
-msgid "Use Librefm"
+msgid "Itunes"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:35
+msgid "Login:"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:36
+msgid "Password:"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:37
+msgid "Connect"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:38
+msgid "You need to install pylast and gi secret"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:39
+msgid "Use Librefm"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:40
 msgid ""
 "Google Web Services need a custom API key.\n"
 "Without one, you will reach default quota soon...\n"
 "Lollypop needs this to search artwork and music."
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:39
+#: ../data/SettingsDialog.ui.h:44
 msgid ""
 "You need to enable \"Custom Search API\" \n"
 "and \"YouTube Data API\" for your project."
 msgstr ""
 
-#: ../data/SettingsDialog.ui.h:41
+#: ../data/SettingsDialog.ui.h:46
+msgid "Google"
+msgstr ""
+
+#: ../data/SettingsDialog.ui.h:47
 msgid "Configure Last.fm credentials"
 msgstr ""
 
