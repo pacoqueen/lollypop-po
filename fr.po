@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-18 12:45+0100\n"
-"PO-Revision-Date: 2016-12-18 11:46+0000\n"
+"POT-Creation-Date: 2016-12-19 14:57+0100\n"
+"PO-Revision-Date: 2016-12-19 13:58+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French (http://www.transifex.com/gnumdk/lollypop/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -186,7 +186,7 @@ msgstr "Ne pas noter automatiquement les albums/morceaux"
 msgid "Show compilations in albums view"
 msgstr "Afficher les compilations dans la vue des albums"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:42 ../data/SettingsDialog.ui.h:18
+#: ../data/org.gnome.Lollypop.gschema.xml.h:42 ../data/SettingsDialog.ui.h:17
 msgid "Continue playback when closed"
 msgstr "Continuer à lire à la fermeture"
 
@@ -306,14 +306,14 @@ msgstr "Navigation par  Genre/Pochette"
 msgid "Genre/Artist/Cover browsing"
 msgstr "Navigation par Genre/Artiste/Pochette"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:8 ../src/playlists.py:243
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:8 ../src/playlists.py:246
 #: ../data/ArtistInfo.ui.h:5 ../data/SettingsDialog.ui.h:36
 #: ../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr "Recherche"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/pop_menu.py:428
-#: ../src/pop_menu.py:447 ../src/toolbar_end.py:430
+#: ../src/pop_menu.py:447 ../src/toolbar_end.py:431
 #: ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr "File d'attente"
@@ -525,32 +525,32 @@ msgstr "Lollypop a détecté un dossier vide."
 msgid "Check your music settings."
 msgstr "Vérifiez vos paramètres de musique."
 
-#: ../src/collectionscanner.py:291 ../src/database_albums.py:328
+#: ../src/collectionscanner.py:293 ../src/database_albums.py:328
 #: ../src/database_artists.py:104 ../src/database_genres.py:70
-#: ../src/database_tracks.py:259 ../src/selectionlist.py:388
+#: ../src/database_tracks.py:259 ../src/selectionlist.py:403
 #: ../src/tagreader.py:85 ../src/tagreader.py:100 ../src/tagreader.py:115
 #: ../src/tagreader.py:160 ../src/tagreader.py:175 ../src/tagreader.py:178
 #: ../src/tagreader.py:188 ../src/tagreader.py:195
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: ../src/container.py:447
+#: ../src/container.py:463
 msgid "Compilations"
 msgstr "Compilations"
 
-#: ../src/container.py:471 ../src/playlists.py:235
+#: ../src/container.py:487 ../src/playlists.py:238
 msgid "Popular tracks"
 msgstr "Morceaux populaires"
 
-#: ../src/container.py:472 ../src/playlists.py:237
+#: ../src/container.py:488 ../src/playlists.py:240
 msgid "Recently played"
 msgstr "Jouées récemment"
 
-#: ../src/container.py:473 ../src/playlists.py:239
+#: ../src/container.py:489 ../src/playlists.py:242
 msgid "Never played"
 msgstr "Jamais jouées"
 
-#: ../src/container.py:474 ../src/playlists.py:241
+#: ../src/container.py:490 ../src/playlists.py:244
 msgid "Random tracks"
 msgstr "Morceaux aléatoires"
 
@@ -597,7 +597,7 @@ msgstr "par %s, sur %s"
 msgid "No network available, can't play this track"
 msgstr "Pas de réseau, impossible de lire ce morceau"
 
-#: ../src/playlists.py:55
+#: ../src/playlists.py:58
 msgid "Loved tracks"
 msgstr "Coups de coeur"
 
@@ -614,7 +614,7 @@ msgstr "Vider la liste des albums"
 msgid "Go to current track"
 msgstr "Aller au morceau courant"
 
-#: ../src/pop_albums.py:303 ../src/toolbar_end.py:434
+#: ../src/pop_albums.py:303 ../src/toolbar_end.py:435
 msgid "Playing albums"
 msgstr "Albums en cours de lecture"
 
@@ -687,7 +687,7 @@ msgstr "Modifier les informations"
 msgid "Artist"
 msgstr "Artiste"
 
-#: ../src/pop_menu.py:430 ../src/pop_menu.py:449 ../src/selectionlist.py:308
+#: ../src/pop_menu.py:430 ../src/pop_menu.py:449 ../src/selectionlist.py:323
 #: ../src/widgets_context.py:134 ../src/widgets_device.py:117
 #: ../src/widgets_playlist.py:557
 msgid "Playlists"
@@ -733,32 +733,32 @@ msgstr "Veuillez patienter..."
 msgid "Can't connect to TuneIn..."
 msgstr "Impossible de se connecter à TuneIn..."
 
-#: ../src/selectionlist.py:305
+#: ../src/selectionlist.py:320
 msgid "Popular albums"
 msgstr "Albums populaires"
 
-#: ../src/selectionlist.py:306
+#: ../src/selectionlist.py:321
 msgid "Recently added albums"
 msgstr "Albums ajoutés récemment"
 
-#: ../src/selectionlist.py:307
+#: ../src/selectionlist.py:322
 msgid "Random albums"
 msgstr "Albums aléatoires"
 
-#: ../src/selectionlist.py:309
+#: ../src/selectionlist.py:324
 msgid "Radios"
 msgstr "Radios"
 
-#: ../src/selectionlist.py:312 ../src/settings.py:358 ../src/settings.py:368
+#: ../src/selectionlist.py:327 ../src/settings.py:358 ../src/settings.py:368
 #: ../data/SettingsDialog.ui.h:28
 msgid "The charts"
 msgstr "Le hit-parade"
 
-#: ../src/selectionlist.py:314
+#: ../src/selectionlist.py:329
 msgid "All albums"
 msgstr "Tous les albums"
 
-#: ../src/selectionlist.py:316
+#: ../src/selectionlist.py:331
 msgid "All artists"
 msgstr "Tous les artistes"
 
@@ -807,11 +807,11 @@ msgstr "Populaires"
 msgid "Recently added"
 msgstr "Ajoutés récemment"
 
-#: ../src/toolbar_end.py:428
+#: ../src/toolbar_end.py:429
 msgid "Externals tracks playing"
 msgstr "Morceaux externes en cours de lecture"
 
-#: ../src/toolbar_end.py:432
+#: ../src/toolbar_end.py:433
 msgid "Playing playlists"
 msgstr "Listes de lecture en cours"
 
@@ -1135,7 +1135,7 @@ msgstr "Configurer l'apparence de lollypop"
 msgid "Appearance"
 msgstr "Apparence"
 
-#: ../data/SettingsDialog.ui.h:17
+#: ../data/SettingsDialog.ui.h:18
 msgid "Restore state on startup"
 msgstr "Restaurer l'état au démarrage"
 
@@ -1229,8 +1229,8 @@ msgid "Google"
 msgstr "Google"
 
 #: ../data/SettingsDialog.ui.h:49
-msgid "Configure Last.fm credentials"
-msgstr "Configurer les identifiants Last.fm"
+msgid "Web"
+msgstr "Web"
 
 #: ../data/ToolbarEnd.ui.h:1
 msgid "Shuffle"
@@ -1334,65 +1334,70 @@ msgstr "Verrouiller la lecture"
 
 #: ../data/Shortcuts.ui.h:9
 msgctxt "shortcut window"
+msgid "Show/Hide navigation list"
+msgstr "Afficher/Cacher la liste de navigation"
+
+#: ../data/Shortcuts.ui.h:10
+msgctxt "shortcut window"
 msgid "Show/Hide volume control"
 msgstr "Afficher/Cacher le contrôle du volume"
 
-#: ../data/Shortcuts.ui.h:10
+#: ../data/Shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "Plein écran"
 
-#: ../data/Shortcuts.ui.h:11
+#: ../data/Shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "Playback"
 msgstr "Lecture"
 
-#: ../data/Shortcuts.ui.h:12
+#: ../data/Shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Play"
 msgstr "Lire"
 
-#: ../data/Shortcuts.ui.h:13
+#: ../data/Shortcuts.ui.h:14
 msgctxt "shortcut window"
 msgid "Pause"
 msgstr "Pause"
 
-#: ../data/Shortcuts.ui.h:14
+#: ../data/Shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Stop"
 msgstr "Stop"
 
-#: ../data/Shortcuts.ui.h:15
+#: ../data/Shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Next track"
 msgstr "Morceau suivant"
 
-#: ../data/Shortcuts.ui.h:16
+#: ../data/Shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Previous track"
 msgstr "Morceau précédent"
 
-#: ../data/Shortcuts.ui.h:17
+#: ../data/Shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Skip current album"
 msgstr "Saute l'album courant"
 
-#: ../data/Shortcuts.ui.h:18
+#: ../data/Shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Love current track"
 msgstr "Aimer le morceau en cours"
 
-#: ../data/Shortcuts.ui.h:19
+#: ../data/Shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Repeat track"
 msgstr "Répéter le morceau"
 
-#: ../data/Shortcuts.ui.h:20
+#: ../data/Shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Skip backward in track"
 msgstr "Recule dans le morceau"
 
-#: ../data/Shortcuts.ui.h:21
+#: ../data/Shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "Avance dans le morceau"
