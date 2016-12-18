@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-14 16:52+0100\n"
-"PO-Revision-Date: 2016-12-14 15:54+0000\n"
+"POT-Creation-Date: 2016-12-18 12:45+0100\n"
+"PO-Revision-Date: 2016-12-18 11:46+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French (http://www.transifex.com/gnumdk/lollypop/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -178,71 +178,83 @@ msgstr "Utiliser le thème gtk sombre"
 msgid "Disable the use of client side window decorations (headerbar)"
 msgstr "Désactiver les décorations coté client (Barre de titre)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:40 ../data/SettingsDialog.ui.h:6
+#: ../data/org.gnome.Lollypop.gschema.xml.h:40
+msgid "Do not auto rate albums/tracks"
+msgstr "Ne pas noter automatiquement les albums/morceaux"
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:41 ../data/SettingsDialog.ui.h:6
 msgid "Show compilations in albums view"
 msgstr "Afficher les compilations dans la vue des albums"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:41 ../data/SettingsDialog.ui.h:18
+#: ../data/org.gnome.Lollypop.gschema.xml.h:42 ../data/SettingsDialog.ui.h:18
 msgid "Continue playback when closed"
 msgstr "Continuer à lire à la fermeture"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:42
+#: ../data/org.gnome.Lollypop.gschema.xml.h:43
 msgid "Smart sort for artist"
 msgstr "Tri intelligent pour l'artiste"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:43
+#: ../data/org.gnome.Lollypop.gschema.xml.h:44
 msgid "Ex: The Beatles sorted as Beatles. Resetting database needed."
 msgstr "Ex: The Beatles trié comme Beatles. Remise à zero de la base de données nécessaire."
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:44
+#: ../data/org.gnome.Lollypop.gschema.xml.h:45
 msgid "Restore previous state"
 msgstr "Restaurer l'état au démarrage"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:45
+#: ../data/org.gnome.Lollypop.gschema.xml.h:46
 msgid "Disable MPRIS"
 msgstr "Désactive MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:46
+#: ../data/org.gnome.Lollypop.gschema.xml.h:47
 msgid "Disable notifications"
 msgstr "Désactive les notifications"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:47
+#: ../data/org.gnome.Lollypop.gschema.xml.h:48
 msgid "Show track number from tags"
 msgstr "Montrer les numéros des morceaux présents dans les tags"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:48
+#: ../data/org.gnome.Lollypop.gschema.xml.h:49
+msgid "JPG cover quality"
+msgstr "Qualité des pochettes JPG"
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:50
+msgid "0-100"
+msgstr "0-100"
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:51
 msgid "Mix songs"
 msgstr "Enchaîner les morceaux"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:49
+#: ../data/org.gnome.Lollypop.gschema.xml.h:52
 msgid "Mix songs only in party mode"
 msgstr "Enchaîner les morceaux seulement en mode soirée"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:50 ../data/SettingsDialog.ui.h:33
+#: ../data/org.gnome.Lollypop.gschema.xml.h:53 ../data/SettingsDialog.ui.h:34
 msgid "Search tracks on Itunes"
 msgstr "Rechercher des morceaux sur Itunes"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:51 ../data/SettingsDialog.ui.h:32
+#: ../data/org.gnome.Lollypop.gschema.xml.h:54 ../data/SettingsDialog.ui.h:33
 msgid "Search tracks on Spotify"
 msgstr "Rechercher des morceaux sur Spotify"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:52
+#: ../data/org.gnome.Lollypop.gschema.xml.h:55
 msgid "Mix duration"
 msgstr "Durée de l'enchaînement"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:53
+#: ../data/org.gnome.Lollypop.gschema.xml.h:56
 msgid "Shuffle mode"
 msgstr "Mode de lecture aléatoire"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:54
+#: ../data/org.gnome.Lollypop.gschema.xml.h:57
 msgid "Playback behaviour"
 msgstr "Comportement de la lecture"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:55 ../data/SettingsDialog.ui.h:9
+#: ../data/org.gnome.Lollypop.gschema.xml.h:58 ../data/SettingsDialog.ui.h:9
 msgid "Order albums by"
 msgstr "Trier les albums par"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:56
+#: ../data/org.gnome.Lollypop.gschema.xml.h:59
 msgid "Charts provider"
 msgstr "Fournisseur de hit parade"
 
@@ -295,7 +307,8 @@ msgid "Genre/Artist/Cover browsing"
 msgstr "Navigation par Genre/Artiste/Pochette"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:8 ../src/playlists.py:243
-#: ../data/ArtistInfo.ui.h:5 ../data/ToolbarEnd.ui.h:13
+#: ../data/ArtistInfo.ui.h:5 ../data/SettingsDialog.ui.h:36
+#: ../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr "Recherche"
 
@@ -364,7 +377,7 @@ msgstr "Lollypop: Vous devez installer yelp."
 msgid "Select artwork"
 msgstr "Choisissez une image"
 
-#: ../src/art_widgets.py:342
+#: ../src/art_widgets.py:345
 msgid "Reset artwork?"
 msgstr "Réinitialiser l'image?"
 
@@ -613,7 +626,7 @@ msgstr "Informations avancées sur l'artiste désactivée"
 msgid "WebKit support disabled"
 msgstr "Support de WebKit désactivé"
 
-#: ../src/pop_info.py:251 ../src/settings.py:366 ../src/view_artist.py:60
+#: ../src/pop_info.py:251 ../src/settings.py:369 ../src/view_artist.py:60
 #: ../src/view_artist_albums.py:76 ../src/widgets_info.py:130
 msgid "Network access disabled"
 msgstr "Accès réseau désactivé"
@@ -699,7 +712,7 @@ msgstr "Enregistrer dans la collection"
 
 #. Translators: radio context
 #. Translators: artist context
-#: ../src/pop_radio.py:84 ../src/pop_tunein.py:224 ../src/view_artist.py:365
+#: ../src/pop_radio.py:84 ../src/pop_tunein.py:224 ../src/view_artist.py:366
 msgid "Add"
 msgstr "Ajouter"
 
@@ -708,7 +721,7 @@ msgstr "Ajouter"
 msgid "Modify"
 msgstr "Modifier"
 
-#: ../src/pop_search.py:305 ../data/SettingsDialog.ui.h:34
+#: ../src/pop_search.py:328 ../data/SettingsDialog.ui.h:35
 msgid "You need to install youtube-dl"
 msgstr "Vous devez installer youtube-dl"
 
@@ -736,8 +749,8 @@ msgstr "Albums aléatoires"
 msgid "Radios"
 msgstr "Radios"
 
-#: ../src/selectionlist.py:312 ../src/settings.py:355 ../src/settings.py:365
-#: ../data/SettingsDialog.ui.h:27
+#: ../src/selectionlist.py:312 ../src/settings.py:358 ../src/settings.py:368
+#: ../data/SettingsDialog.ui.h:28
 msgid "The charts"
 msgstr "Le hit-parade"
 
@@ -814,7 +827,7 @@ msgid "Go back"
 msgstr "Aller en arrière"
 
 #. Translators: artist context
-#: ../src/view_artist.py:359 ../src/widgets_album.py:297
+#: ../src/view_artist.py:360 ../src/widgets_album.py:297
 msgid "Remove"
 msgstr "Enlever"
 
@@ -1014,7 +1027,7 @@ msgid ""
 "Please create a \"Custom Search Engine\" here:"
 msgstr "Lollypop utilise \"Google Custom Search API\" pour rechercher des images sur le web.\nCette API est limitée donc cela pourrait ne pas fonctionner avec la clé d'API par défaut.\nMerci de créer un \"Custom Search Engine\" ici:"
 
-#: ../data/ArtworkSearch.ui.h:6 ../data/SettingsDialog.ui.h:43
+#: ../data/ArtworkSearch.ui.h:6 ../data/SettingsDialog.ui.h:45
 msgid "API key"
 msgstr "Clé d'API"
 
@@ -1147,71 +1160,75 @@ msgid "No audio device"
 msgstr "Aucun périphérique audio"
 
 #: ../data/SettingsDialog.ui.h:24
+msgid "Disable automatic rating"
+msgstr "Désactiver la notation automatique"
+
+#: ../data/SettingsDialog.ui.h:25
 msgid "Configure lollypop behaviour"
 msgstr "Configurer le comportement de lollypop"
 
-#: ../data/SettingsDialog.ui.h:25
+#: ../data/SettingsDialog.ui.h:26
 msgid "Behaviour"
 msgstr "Comportement"
 
-#: ../data/SettingsDialog.ui.h:26
+#: ../data/SettingsDialog.ui.h:27
 msgid "Reset database"
 msgstr "Remise à zéro de la base de données"
 
-#: ../data/SettingsDialog.ui.h:28
+#: ../data/SettingsDialog.ui.h:29
 msgid "Select music folders"
 msgstr "Selectionnez vos dossiers de musique"
 
-#: ../data/SettingsDialog.ui.h:29
+#: ../data/SettingsDialog.ui.h:30
 msgid "Music"
 msgstr "Musique"
 
-#: ../data/SettingsDialog.ui.h:30
+#: ../data/SettingsDialog.ui.h:31
 msgid "Spotify"
 msgstr "Spotify"
 
-#: ../data/SettingsDialog.ui.h:31
+#: ../data/SettingsDialog.ui.h:32
 msgid "Itunes"
 msgstr "Itunes"
 
-#: ../data/SettingsDialog.ui.h:35
+#: ../data/SettingsDialog.ui.h:37
 msgid "Login:"
 msgstr "Identifiant:"
 
-#: ../data/SettingsDialog.ui.h:36
+#: ../data/SettingsDialog.ui.h:38
 msgid "Password:"
 msgstr "Mot de passe:"
 
-#: ../data/SettingsDialog.ui.h:37
+#: ../data/SettingsDialog.ui.h:39
 msgid "Connect"
 msgstr "Connexion"
 
-#: ../data/SettingsDialog.ui.h:38
+#: ../data/SettingsDialog.ui.h:40
 msgid "You need to install pylast and gi secret"
 msgstr "Vous devez installer pylast et gi secret"
 
-#: ../data/SettingsDialog.ui.h:39
+#: ../data/SettingsDialog.ui.h:41
 msgid "Use Librefm"
 msgstr "Utiliser Librefm"
 
-#: ../data/SettingsDialog.ui.h:40
+#: ../data/SettingsDialog.ui.h:42
 msgid ""
 "Google Web Services need a custom API key.\n"
 "Without one, you will reach default quota soon...\n"
 "Lollypop needs this to search artwork and music."
 msgstr "Google Web Services a besoin d'une clé d'API personnalisée.\nSans cette dernière, vous aurez atteint le quota par défaut rapidement...\nLollypop a besoin de cela pour rechercher des pochettes et de la musique."
 
-#: ../data/SettingsDialog.ui.h:44
+#: ../data/SettingsDialog.ui.h:46
 msgid ""
 "You need to enable \"Custom Search API\" \n"
 "and \"YouTube Data API\" for your project."
 msgstr "Vous devez activer \"Custom Search API\"\net \"YouTube Data API\" pour votre projet."
 
-#: ../data/SettingsDialog.ui.h:46
+#: ../data/SettingsDialog.ui.h:48
 msgid "Google"
 msgstr "Google"
 
-#: ../data/SettingsDialog.ui.h:47
+#: ../data/SettingsDialog.ui.h:49
 msgid "Configure Last.fm credentials"
 msgstr "Configurer les identifiants Last.fm"
 
