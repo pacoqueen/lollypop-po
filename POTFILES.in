@@ -110,5 +110,6 @@ src/window.py
 [type: gettext/glade]data/ToolbarInfo.ui
 [type: gettext/glade]data/ToolbarPlayback.ui
 [type: gettext/glade]data/ToolbarTitle.ui
+[type: gettext/glade]data/CoverBox.ui
 [type: gettext/glade]data/TuneinPopover.ui
 [type: gettext/glade]data/Shortcuts.ui
