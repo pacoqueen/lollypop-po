@@ -4,12 +4,13 @@
 # 
 # Translators:
 # Alejandro Vidal <dael99@gmail.com>, 2016
+# Se Zuo <sebastien.zurfluh@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-07 15:47+0100\n"
-"PO-Revision-Date: 2016-11-07 14:49+0000\n"
+"POT-Creation-Date: 2017-01-09 14:59+0100\n"
+"PO-Revision-Date: 2017-01-09 14:01+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Esperanto (http://www.transifex.com/gnumdk/lollypop/language/eo/)\n"
 "MIME-Version: 1.0\n"
@@ -20,39 +21,39 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:1
 msgid "Window size"
-msgstr "Fenestron grandecon"
+msgstr "Dimensio de fenestro"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:2
 msgid "Window size (width and height)."
-msgstr "Fenestron grandecon (larĝeco kaj alteco)."
+msgstr "Dimensio de fenestro (larĝeco kaj alteco)."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:3
 msgid "Window position"
-msgstr "Fenestron pozicion"
+msgstr "Pozicio de fenestro"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:4
 msgid "Window position (x and y)."
-msgstr "Fenestron pozicion (x kaj y)."
+msgstr "Pozicio de fenestro (x kaj y)."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:5
 msgid "Mini player size"
-msgstr "Grandeco malgranda ludanto"
+msgstr "Dimensio de muzikludileto"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:6
 msgid "Mini player position"
-msgstr "Pozicio malgranda ludanto"
+msgstr "Pozicio de muzikludileto"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:7
 msgid "Access network"
-msgstr ""
+msgstr "Atingi reton"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:8
 msgid "Search over network"
-msgstr ""
+msgstr "Serĉi laurete"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:9
 msgid "Save artwork/popularity in tags"
-msgstr ""
+msgstr "Konservi artaĵo/populareco en la etikedaro"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:10
 msgid "Window maximized"
@@ -60,39 +61,39 @@ msgstr "Fenestro maksimumigita"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:11
 msgid "Window maximized state."
-msgstr "Fenestro maksimumigita ŝtato"
+msgstr "Ŝtato de maksimumigita fenestro"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:12
 msgid "Enabled genres in party mode"
-msgstr "Ebligi ĝenroj en partio reĝimo"
+msgstr "Aktivaj ĝenroj en festa reĝimo"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:13
 msgid "Ids for genres."
-msgstr "Identigilo per ĝenroj"
+msgstr "IDj por ĝenroj"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:14
 msgid "Music uris"
-msgstr ""
+msgstr "URIj de muzikaĵoj"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:15
 msgid "When empty, use XDG_MUSIC_DIR"
-msgstr "Kiam malplena, uzo XDG_MUSIC_DIR"
+msgstr "Kiam malplena, uzu XDG_MUSIC_DIR"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:16
 msgid "Use Librefm instead of Lastfm"
-msgstr ""
+msgstr "Uzu Librefm anstataŭ Lastfm"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:17
 msgid "Last.fm login"
-msgstr "Ensaluti Last.fm"
+msgstr "Ensaluto de Last.fm"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:18
 msgid "Google Custom Search API key"
-msgstr ""
+msgstr "Google Custom Search API ŝlosilo"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:19
 msgid "Favorite tag editor"
-msgstr "ŝatata etikedo redaktilo"
+msgstr "Favorata redaktilo de etikedoj"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:20
 msgid "INTERNAL"
@@ -100,1262 +101,1306 @@ msgstr "INTERNA"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:21
 msgid "Audio output preview on track hover"
-msgstr ""
+msgstr "Antaŭvido de sona eligo dum ŝvebado sur muzikpeco"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:22
 msgid ""
 "Pulseaudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
-msgstr ""
+msgstr "Nur pri pulseaudio. Ekzemple: alsa_output.pci-0000_00_14.2.analog-stereo. Instrukcio pri listado de eligoj : $ pacmd list-sinks|grep 'name:'"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:23
 msgid "Favorite cover file"
-msgstr "ŝatata kovrilo dosieron"
+msgstr "Pliŝatata dosiero de albumartaĵo"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:24
 msgid "Restart needed"
-msgstr "Rekomenco bezonas"
+msgstr "Restarto necesas"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:25
 msgid "Database version"
-msgstr "Datumbazo versio"
+msgstr "Versio de datumbazo"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:26
 msgid ""
 "Reset this value will reset the database, popular albums will be restored"
-msgstr ""
+msgstr "Rekomenciĝi ĉi tiun valoron rekomenciĝos la datumbazon, la popularaj albumoj restariĝos"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:27 ../data/SettingsDialog.ui.h:7
 msgid "Albums cover size"
-msgstr "Albumoj kovri grandeco"
+msgstr "Dimensio de albumartaĵoj"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:28
 msgid "Replay gain value in db"
-msgstr "Gajno valoro en decibeloj"
+msgstr "Gajno de reludo en decibeloj"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:29
 msgid "Between -15 and 15"
-msgstr ""
+msgstr "Inter -15 kaj 15"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:30
 msgid "Sync all albums(MTP)"
-msgstr "Sinkronigi ĉiuj albumoj (MTP)"
+msgstr "Sinkronigi ĉiujn albumojn (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:31
 msgid "Convert to MP3(MTP)"
 msgstr "Konverti al MP3 (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
+msgid "Quality for converting mp3s"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:33
 msgid "Normalize MP3(MTP)"
-msgstr ""
+msgstr "Normigi MP3(MTP)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:33 ../data/SettingsDialog.ui.h:16
+#: ../data/org.gnome.Lollypop.gschema.xml.h:34 ../data/SettingsDialog.ui.h:16
 msgid "Auto update music"
-msgstr "Aŭtomata ĝisdatigo muziko"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:34
-msgid "Split playlists view"
-msgstr ""
+msgstr "Aŭtomata ĝisdatiĝo de muziko"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:35
-msgid "Show genres list"
-msgstr ""
+msgid "Split playlists view"
+msgstr "Dividi ludlistajn vidaĵon "
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:36
-msgid "Show charts"
-msgstr ""
+msgid "Show genres list"
+msgstr "Vidigi ĝenrliston"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:37 ../data/SettingsDialog.ui.h:8
-msgid "Show artist artwork"
-msgstr ""
+#: ../data/org.gnome.Lollypop.gschema.xml.h:37
+msgid "Show navigation list"
+msgstr "Vidigi liston de navigado"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:38
+msgid "Show charts"
+msgstr "Vidigi plibonajn"
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:39 ../data/SettingsDialog.ui.h:8
+msgid "Show artist artwork"
+msgstr "Vidigi artistan artaĵon"
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:40
 msgid "Use dark gtk theme"
-msgstr ""
+msgstr "Uzi malhelan gtk-aspekton"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:39
+#: ../data/org.gnome.Lollypop.gschema.xml.h:41
 msgid "Disable the use of client side window decorations (headerbar)"
-msgstr ""
+msgstr "Malebli klientajn ornamojn (titola breto)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:40 ../data/SettingsDialog.ui.h:6
+#: ../data/org.gnome.Lollypop.gschema.xml.h:42 ../data/SettingsDialog.ui.h:6
 msgid "Show compilations in albums view"
-msgstr ""
+msgstr "Vidigi kompilojn en la albumaj vido"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:41 ../data/SettingsDialog.ui.h:18
+#: ../data/org.gnome.Lollypop.gschema.xml.h:43 ../data/SettingsDialog.ui.h:17
 msgid "Continue playback when closed"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:42
-msgid "Smart sort for artist"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:43
-msgid "Ex: The Beatles sorted as Beatles. Resetting database needed."
-msgstr ""
+msgstr "Daŭri ludadon kiam fermita"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:44
-msgid "Restore previous state"
-msgstr ""
+msgid "Smart sort for artist"
+msgstr "Sprita klasigo por artistoj"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:45
-msgid "Disable MPRIS"
-msgstr ""
+msgid "Ex: The Beatles sorted as Beatles. Resetting database needed."
+msgstr "Ekz.: The Beatles klasigita kiel Beatles. Necesas rekomencigon de datumbazo."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:46
-msgid "Disable notifications"
-msgstr ""
+msgid "Restore previous state"
+msgstr "Restarigi antaŭan staton"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:47
-msgid "Show track number from tags"
-msgstr ""
+msgid "Disable MPRIS"
+msgstr "Malebli MPRIS"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:48
-msgid "Mix songs"
-msgstr ""
+msgid "Disable notifications"
+msgstr "Malebli sciigojn"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:49
-msgid "Mix songs only in party mode"
-msgstr ""
+msgid "Show track number from tags"
+msgstr "Vidigi indeksojn muzikaĵajn el etikedoj"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:50
-msgid "Mix duration"
-msgstr ""
+msgid "JPG cover quality"
+msgstr "Kvalito de JPG-artaĵojn"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:51
-msgid "Shuffle mode"
-msgstr ""
+msgid "0-100"
+msgstr "0-100"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:52
+msgid "Mix songs"
+msgstr "Miksi muzikaĵojn"
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:53
+msgid "Mix songs only in party mode"
+msgstr "Miksi muzikaĵojn nur en festreĝimo"
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:54 ../data/SettingsDialog.ui.h:34
+msgid "Search tracks on Itunes"
+msgstr "Ĉerpi muzikaĵojn el Itunes"
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:55 ../data/SettingsDialog.ui.h:33
+msgid "Search tracks on Spotify"
+msgstr "Ĉerpi muzikaĵojn el Spotify"
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:56
+msgid "Mix duration"
+msgstr "Daŭro de miksado"
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:57
+msgid "Shuffle mode"
+msgstr "Reĝimo de ludmiksado"
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:58
 msgid "Playback behaviour"
-msgstr ""
+msgstr "Konduto de ludado"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:53 ../data/SettingsDialog.ui.h:9
+#: ../data/org.gnome.Lollypop.gschema.xml.h:59 ../data/SettingsDialog.ui.h:9
 msgid "Order albums by"
-msgstr ""
+msgstr "Klasifiki albumojn per"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:54
+#: ../data/org.gnome.Lollypop.gschema.xml.h:60
 msgid "Charts provider"
-msgstr ""
+msgstr "Peranto de plibonaj listoj"
 
-#: ../data/lollypop.desktop.in.h:1 ../data/lollypop.appdata.xml.in.h:1
+#: ../data/org.gnome.Lollypop.desktop.in.h:1
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:1
 msgid "Lollypop"
-msgstr ""
+msgstr "Lollypop"
 
-#: ../data/lollypop.desktop.in.h:2
+#: ../data/org.gnome.Lollypop.desktop.in.h:2
 msgid "Music Player"
-msgstr ""
+msgstr "Muzikludilo"
 
-#: ../data/lollypop.desktop.in.h:3 ../data/lollypop.appdata.xml.in.h:2
+#: ../data/org.gnome.Lollypop.desktop.in.h:3
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:2
 msgid "Play and organize your music collection"
-msgstr ""
+msgstr "Ludi kaj klasigi vian diskejon"
 
-#: ../data/lollypop.desktop.in.h:4
+#: ../data/org.gnome.Lollypop.desktop.in.h:4
 msgid "Play/Pause"
-msgstr ""
+msgstr "Ludi/Paŭzigi"
 
-#: ../data/lollypop.desktop.in.h:5 ../src/notification.py:79
+#: ../data/org.gnome.Lollypop.desktop.in.h:5 ../src/notification.py:83
 #: ../data/ToolbarPlayback.ui.h:3
 msgid "Next"
-msgstr ""
+msgstr "Sekvanta"
 
-#: ../data/lollypop.desktop.in.h:6 ../src/notification.py:75
+#: ../data/org.gnome.Lollypop.desktop.in.h:6 ../src/notification.py:79
 #: ../data/ToolbarPlayback.ui.h:1
 msgid "Previous"
-msgstr ""
+msgstr "Antaŭa"
 
-#: ../data/lollypop.appdata.xml.in.h:3
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:3
 msgid "Lollypop is a new GNOME music playing application."
-msgstr ""
+msgstr "Lollypop estas nova muzika apliko por GNOME."
 
-#: ../data/lollypop.appdata.xml.in.h:4
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:4
 msgid "It provides:"
-msgstr ""
+msgstr "Provizas:"
 
-#: ../data/lollypop.appdata.xml.in.h:5
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:5
 msgid "mp3/4, ogg and flac playback"
-msgstr ""
+msgstr "mp3/4, ogg kaj flac legado"
 
-#: ../data/lollypop.appdata.xml.in.h:6
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:6
 msgid "Genre/Cover browsing"
-msgstr ""
+msgstr "Navigado laŭ ĝenro/artaĵo"
 
-#: ../data/lollypop.appdata.xml.in.h:7
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:7
 msgid "Genre/Artist/Cover browsing"
-msgstr ""
+msgstr "Navigado laŭ ĝenro/artisto/artaĵo"
 
-#: ../data/lollypop.appdata.xml.in.h:8 ../src/playlists.py:241
-#: ../data/ArtistInfo.ui.h:5 ../data/ToolbarEnd.ui.h:8
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:8 ../src/playlists.py:269
+#: ../data/ArtistInfo.ui.h:5 ../data/SettingsDialog.ui.h:36
+#: ../data/ToolbarEnd.ui.h:13
 msgid "Search"
-msgstr ""
+msgstr "Serĉo"
 
-#: ../data/lollypop.appdata.xml.in.h:9 ../src/pop_menu.py:488
-#: ../src/pop_menu.py:509 ../src/toolbar_end.py:408
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/pop_menu.py:428
+#: ../src/pop_menu.py:447 ../src/toolbar_end.py:431
 #: ../data/QueuePopover.ui.h:2
 msgid "Queue"
-msgstr ""
+msgstr "Atendovico"
 
-#: ../data/lollypop.appdata.xml.in.h:10
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10
 msgid "Party mode"
-msgstr ""
+msgstr "Festreĝimo"
 
-#: ../data/lollypop.appdata.xml.in.h:11
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:11
 msgid "Replay gain"
-msgstr ""
+msgstr "Gajno de reludo"
 
-#: ../data/lollypop.appdata.xml.in.h:12
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:12
 msgid "Cover art downloader"
-msgstr ""
+msgstr "Elŝuto de artaĵoj"
 
-#: ../data/lollypop.appdata.xml.in.h:13
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:13
 msgid "Context artist view"
-msgstr ""
+msgstr "Kunteksta vido por artistoj"
 
-#: ../data/lollypop.appdata.xml.in.h:14
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:14
 msgid "MTP sync"
-msgstr ""
+msgstr "Sinkronigo MTP"
 
-#: ../data/lollypop.appdata.xml.in.h:15
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:15
 msgid "Fullscreen view"
-msgstr ""
+msgstr "Tutekrana vido"
 
-#: ../data/lollypop.appdata.xml.in.h:16
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:16
 msgid "Radios support"
-msgstr ""
+msgstr "Funkcias kun radioj"
 
-#: ../data/lollypop.appdata.xml.in.h:17
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:17
 msgid "Last.fm support"
-msgstr ""
+msgstr "Funkcias kun Last.fm"
 
-#: ../data/lollypop.appdata.xml.in.h:18
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:18
 msgid "Auto install codecs"
-msgstr ""
+msgstr "Aŭtomata instalado de kromprogramoj"
 
-#: ../data/lollypop.appdata.xml.in.h:19
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:19
 msgid "HiDPI support"
-msgstr ""
+msgstr "Funkcias kun HiDPI"
 
-#: ../data/lollypop.appdata.xml.in.h:20
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:20
 msgid "Tunein support"
-msgstr ""
+msgstr "Funkcias kun Tunein"
 
-#: ../src/application.py:32
+#: ../src/application.py:31
 msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
 "    - Artist informations disabled"
-msgstr ""
+msgstr "    - Scrobbler maleblita\n    - Aŭtomata elŝuto de artaĵoj maleblita\n    - Artistaj detaloj maleblita"
 
-#: ../src/application.py:222
-msgid "Google Web Services need a custom API key"
-msgstr ""
-
-#: ../src/application.py:223
-msgid "Lollypop needs this to search artwork and music."
-msgstr ""
-
-#: ../src/application.py:494
+#: ../src/application.py:540
 msgid "Lollypop: You need to install yelp."
-msgstr ""
+msgstr "Lollypop: Vi bezonas instali yelp."
 
-#: ../src/art_widgets.py:62
+#: ../src/art_widgets.py:71
 msgid "Select artwork"
-msgstr ""
+msgstr "Elektu artaĵo"
 
-#: ../src/art_widgets.py:335
+#: ../src/art_widgets.py:282
+msgid "Low quality, missing API key..."
+msgstr "Malalta kvalito, API-ŝlosilo mankas..."
+
+#: ../src/art_widgets.py:376
 msgid "Reset artwork?"
-msgstr ""
+msgstr "Rekomencigi la artaĵon?"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:37
+#: ../src/charts_itunes.py:38
 msgid "alternative"
-msgstr ""
+msgstr "alternativo"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:41
+#: ../src/charts_itunes.py:42
 msgid "anime"
-msgstr ""
+msgstr "animacio"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:45
+#: ../src/charts_itunes.py:46
 msgid "blues"
-msgstr ""
+msgstr "bluso"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:49
+#: ../src/charts_itunes.py:50
 msgid "brazil"
-msgstr ""
+msgstr "brazila"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:53
+#: ../src/charts_itunes.py:54
 msgid "classic"
-msgstr ""
+msgstr "klasika"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:57
+#: ../src/charts_itunes.py:58
 msgid "country"
-msgstr ""
+msgstr "kontreo"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:61
+#: ../src/charts_itunes.py:62
 msgid "dance"
-msgstr ""
+msgstr "danco"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:65
+#: ../src/charts_itunes.py:66
 msgid "electro"
-msgstr ""
+msgstr "elektro"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:69
+#: ../src/charts_itunes.py:70
 msgid "french"
-msgstr ""
+msgstr "franca"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:73
+#: ../src/charts_itunes.py:74
 msgid "german"
-msgstr ""
+msgstr "germana"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:77
+#: ../src/charts_itunes.py:78
 msgid "rap"
-msgstr ""
+msgstr "repo"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:81
+#: ../src/charts_itunes.py:82
 msgid "hip hop"
-msgstr ""
+msgstr "hiphopo"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:85
+#: ../src/charts_itunes.py:86
 msgid "jazz"
-msgstr ""
+msgstr "ĵazo"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:89
+#: ../src/charts_itunes.py:90
 msgid "latin"
-msgstr ""
+msgstr "latina"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:93
+#: ../src/charts_itunes.py:94
 msgid "new age"
-msgstr ""
+msgstr "novepoka"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:97
+#: ../src/charts_itunes.py:98
 msgid "opera"
-msgstr ""
+msgstr "opero"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:101
+#: ../src/charts_itunes.py:102
 msgid "pop"
-msgstr ""
+msgstr "pop"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:105
+#: ../src/charts_itunes.py:106
 msgid "soul"
-msgstr ""
+msgstr "soulo"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:110
+#: ../src/charts_itunes.py:111
 msgid "reggae"
-msgstr ""
+msgstr "regeo"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:114
+#: ../src/charts_itunes.py:115
 msgid "rock"
-msgstr ""
+msgstr "roko"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:118
+#: ../src/charts_itunes.py:119
 msgid "soundtrack"
-msgstr ""
+msgstr "filmmuziko"
 
 #. Translators: Only translate this music genre
 #. if it makes sense for you
-#: ../src/charts_itunes.py:122
+#: ../src/charts_itunes.py:123
 msgid "world"
-msgstr ""
+msgstr "tradicio"
 
-#: ../src/collectionscanner.py:65
+#: ../src/collectionscanner.py:67
 msgid "Your music is updating"
-msgstr ""
+msgstr "Via muziko ĝisdatiĝas"
 
-#: ../src/collectionscanner.py:183
+#: ../src/collectionscanner.py:189
 msgid "Lollypop is detecting an empty folder."
-msgstr ""
+msgstr "Lollypop detektas malplenan dosieron"
 
-#: ../src/collectionscanner.py:184
+#: ../src/collectionscanner.py:190
 msgid "Check your music settings."
-msgstr ""
+msgstr "Kontrolu viajn muzikajn agordojn"
 
-#: ../src/collectionscanner.py:285 ../src/database_albums.py:326
+#: ../src/collectionscanner.py:293 ../src/database_albums.py:400
 #: ../src/database_artists.py:104 ../src/database_genres.py:70
-#: ../src/database_tracks.py:259 ../src/selectionlist.py:389
-#: ../src/tagreader.py:84 ../src/tagreader.py:99 ../src/tagreader.py:114
-#: ../src/tagreader.py:159 ../src/tagreader.py:174 ../src/tagreader.py:177
-#: ../src/tagreader.py:187 ../src/tagreader.py:194
+#: ../src/database_tracks.py:288 ../src/selectionlist.py:373
+#: ../src/tagreader.py:85 ../src/tagreader.py:100 ../src/tagreader.py:115
+#: ../src/tagreader.py:160 ../src/tagreader.py:175 ../src/tagreader.py:178
+#: ../src/tagreader.py:188 ../src/tagreader.py:195
 msgid "Unknown"
-msgstr ""
+msgstr "Nekonata"
 
-#: ../src/container.py:446
+#: ../src/container.py:467 ../src/widgets_device.py:310
 msgid "Compilations"
-msgstr ""
+msgstr "Kompiloj"
 
-#: ../src/container.py:470 ../src/playlists.py:233
-msgid "Popular tracks"
-msgstr ""
-
-#: ../src/container.py:471 ../src/playlists.py:235
-msgid "Recently played"
-msgstr ""
-
-#: ../src/container.py:472 ../src/playlists.py:237
-msgid "Never played"
-msgstr ""
-
-#: ../src/container.py:473 ../src/playlists.py:239
-msgid "Random tracks"
-msgstr ""
-
-#: ../src/controllers.py:85 ../src/controllers.py:109
+#: ../src/controllers.py:83 ../src/controllers.py:107
 msgid "Pause"
-msgstr ""
+msgstr "Paŭzi"
 
-#: ../src/controllers.py:87 ../src/controllers.py:106 ../src/pop_tunein.py:216
-#: ../src/widgets_album.py:506 ../src/widgets_radio.py:176
-#: ../data/AlbumDetailedWidget.ui.h:1 ../data/ArtistView.ui.h:2
-#: ../data/ToolbarPlayback.ui.h:2
+#: ../src/controllers.py:85 ../src/controllers.py:104 ../src/pop_tunein.py:217
+#: ../src/widgets_album_simple.py:126 ../src/widgets_radio.py:182
+#: ../data/ArtistView.ui.h:2 ../data/ToolbarPlayback.ui.h:2
+#: ../data/CoverBox.ui.h:1
 msgid "Play"
-msgstr ""
+msgstr "Ludi"
 
-#: ../src/controllers.py:196
+#: ../src/controllers.py:194
 msgid "Volume"
-msgstr ""
+msgstr "Sonforto"
 
 #: ../src/database_artists.py:97
 msgid "Many artists"
-msgstr ""
+msgstr "Diversaj artistoj"
 
 #: ../src/lastfm.py:23
 msgid "Last.fm authentication disabled"
-msgstr ""
+msgstr "Last.fm aliĝo malebligita"
 
 #: ../src/lastfm.py:348
 msgid "Wrong Last.fm credentials"
-msgstr ""
+msgstr "Last.fm leĝitimaĵoj malpravas"
 
 #. TRANSLATORS: by refers to the artist,
-#: ../src/notification.py:112
+#: ../src/notification.py:116
 #, python-format
 msgid "by %s"
-msgstr ""
+msgstr "laŭ %s"
 
 #. TRANSLATORS: by refers to the artist,
 #. from to the album
-#: ../src/notification.py:120
+#: ../src/notification.py:124
 #, python-format
 msgid "by %s, from %s"
-msgstr ""
+msgstr "laŭ %s, el %s"
 
-#: ../src/player_queue.py:42 ../src/player_queue.py:65
+#: ../src/player_queue.py:43 ../src/player_queue.py:68
 msgid "No network available, can't play this track"
-msgstr ""
+msgstr "Reto malatingas, neeblas ludi ĉi tiun pecon"
 
-#: ../src/playlists.py:53
+#: ../src/playlists.py:58
 msgid "Loved tracks"
-msgstr ""
+msgstr "Favorataj pecoj"
+
+#: ../src/playlists.py:261 ../src/selectionlist.py:296
+msgid "Popular tracks"
+msgstr "Popularaj pecoj"
+
+#: ../src/playlists.py:263 ../src/selectionlist.py:298
+msgid "Recently played"
+msgstr "Freŝluditaj"
+
+#: ../src/playlists.py:265 ../src/selectionlist.py:299
+msgid "Never played"
+msgstr "Neniam luditaj"
+
+#: ../src/playlists.py:267 ../src/selectionlist.py:300
+msgid "Random tracks"
+msgstr "Hazardelektitaj pecoj"
 
 #: ../src/pop_albums.py:81
 msgid "Compilation"
-msgstr ""
+msgstr "Kompilo"
 
-#: ../src/pop_albums.py:291
+#: ../src/pop_albums.py:294
 msgid "Clear albums"
-msgstr ""
+msgstr "Malpleni la albumaron"
 
-#: ../src/pop_albums.py:299 ../src/view_artist.py:50 ../data/ArtistInfo.ui.h:8
+#: ../src/pop_albums.py:302 ../src/view_artist.py:52 ../data/ArtistInfo.ui.h:8
 #: ../data/ArtistView.ui.h:5
 msgid "Go to current track"
-msgstr ""
+msgstr "Iri al nuntempa peco"
 
-#: ../src/pop_albums.py:300 ../src/toolbar_end.py:412
+#: ../src/pop_albums.py:303 ../src/toolbar_end.py:435
 msgid "Playing albums"
-msgstr ""
+msgstr "Ludataj albumoj"
 
 #: ../src/pop_info.py:36
 msgid "Advanced artist informations disabled"
-msgstr ""
+msgstr "Altnivelaj detaloj pri astisto melebligita"
 
 #: ../src/pop_info.py:44
 msgid "WebKit support disabled"
-msgstr ""
+msgstr "Funkciado kun WebKit malebligita"
 
-#: ../src/pop_info.py:252 ../src/settings.py:328
-#: ../src/view_artist_albums.py:77 ../src/widgets_info.py:129
+#: ../src/pop_info.py:251 ../src/settings.py:366 ../src/view_artist.py:61
+#: ../src/view_artist_albums.py:76 ../src/widgets_info.py:130
 msgid "Network access disabled"
-msgstr ""
+msgstr "Reta atingo malebligita"
 
 #: ../src/pop_info.py:259
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
-msgstr ""
+msgstr "Troviĝas neniuj paroloj, bonvolu instali gir1.2-webkit2-4.0"
 
-#: ../src/pop_menu.py:72
+#: ../src/pop_menu.py:64
 msgid "Show albums from artist"
-msgstr ""
+msgstr "Vidigi albumojn de la artisto"
 
-#: ../src/pop_menu.py:140 ../src/widgets_indicator.py:111
-#: ../data/InternalSearchRow.ui.h:2
+#: ../src/pop_menu.py:128 ../src/widgets_context.py:144
+#: ../src/widgets_indicator.py:111 ../data/InternalSearchRow.ui.h:2
 msgid "Add to queue"
-msgstr ""
+msgstr "Almeti je atendovico"
 
-#: ../src/pop_menu.py:145
+#: ../src/pop_menu.py:133
 msgid "Next tracks"
-msgstr ""
+msgstr "Sekvantaj pecoj"
 
-#: ../src/pop_menu.py:147 ../data/NextPopover.ui.h:1
+#: ../src/pop_menu.py:135 ../data/NextPopover.ui.h:1
 msgid "Next track"
-msgstr ""
+msgstr "Sekvanta peco"
 
-#: ../src/pop_menu.py:151 ../src/widgets_indicator.py:107
+#: ../src/pop_menu.py:139 ../src/widgets_context.py:141
+#: ../src/widgets_indicator.py:107
 msgid "Remove from queue"
-msgstr ""
+msgstr "Forigi el atendovico"
 
-#: ../src/pop_menu.py:227
+#: ../src/pop_menu.py:212
 msgid "Add to others"
-msgstr ""
+msgstr "Almeti je aliaj"
 
-#: ../src/pop_menu.py:245
+#: ../src/pop_menu.py:230
 #, python-format
 msgid "Remove from \"%s\""
-msgstr ""
+msgstr "Forigi el \"%s\""
 
-#: ../src/pop_menu.py:251
+#: ../src/pop_menu.py:236
 #, python-format
 msgid "Add to \"%s\""
-msgstr ""
+msgstr "Almeti al \"%s\""
 
-#: ../src/pop_menu.py:354
-msgid "Playback"
-msgstr ""
-
-#: ../src/pop_menu.py:356 ../src/pop_menu.py:491 ../src/pop_menu.py:511
-#: ../src/selectionlist.py:309 ../src/widgets_device.py:116
-#: ../src/widgets_playlist.py:530
-msgid "Playlists"
-msgstr ""
-
-#: ../src/pop_menu.py:400
+#: ../src/pop_menu.py:370 ../src/widgets_context.py:105
 msgid "Remove album"
-msgstr ""
+msgstr "Forigi la albumon"
 
-#: ../src/pop_menu.py:402
+#: ../src/pop_menu.py:372 ../src/widgets_context.py:107
 msgid "Remove track"
-msgstr ""
+msgstr "Forigi la pecon"
 
-#: ../src/pop_menu.py:411
+#: ../src/pop_menu.py:381 ../src/widgets_context.py:128
 msgid "Modify information"
-msgstr ""
+msgstr "Modifi la detalojn"
 
-#: ../src/pop_menu.py:485 ../data/SettingsDialog.ui.h:10
+#: ../src/pop_menu.py:426 ../data/SettingsDialog.ui.h:10
 msgid "Artist"
-msgstr ""
+msgstr "Artisto"
 
-#: ../src/pop_menu.py:494 ../src/pop_menu.py:514 ../data/PlaylistView.ui.h:1
+#: ../src/pop_menu.py:430 ../src/pop_menu.py:449 ../src/selectionlist.py:279
+#: ../src/widgets_context.py:134 ../src/widgets_device.py:126
+#: ../src/widgets_playlist.py:557
+msgid "Playlists"
+msgstr "Ludlistoj"
+
+#: ../src/pop_menu.py:432 ../src/pop_menu.py:451 ../data/PlaylistView.ui.h:1
 msgid "Edit"
-msgstr ""
+msgstr "Redakti"
 
-#: ../src/pop_menu.py:622
-msgid "YouTube video address"
-msgstr ""
+#: ../src/pop_menu.py:560
+msgid "Video address"
+msgstr "Adreso de la video"
 
-#: ../src/pop_menu.py:677
+#: ../src/pop_menu.py:615
 msgid "Save genre"
-msgstr ""
+msgstr "Konservi la ĝenron"
 
-#: ../src/pop_menu.py:698 ../data/ExternalSearchRow.ui.h:1
+#: ../src/pop_menu.py:636 ../src/widgets_context.py:98
+#: ../data/ExternalSearchRow.ui.h:1
 msgid "Save into collection"
-msgstr ""
+msgstr "Konservi al kolekto"
 
 #. Translators: radio context
 #. Translators: artist context
-#: ../src/pop_radio.py:83 ../src/pop_tunein.py:223 ../src/view_artist.py:349
+#: ../src/pop_radio.py:84 ../src/pop_tunein.py:224 ../src/view_artist.py:370
 msgid "Add"
-msgstr ""
+msgstr "Almeti"
 
 #. Translators: radio context
-#: ../src/pop_radio.py:86 ../src/wikipedia.py:58
+#: ../src/pop_radio.py:87 ../src/wikipedia.py:58
 msgid "Modify"
-msgstr ""
+msgstr "Redakti"
 
-#: ../src/pop_search.py:287
+#: ../src/pop_search.py:336 ../data/SettingsDialog.ui.h:35
 msgid "You need to install youtube-dl"
-msgstr ""
+msgstr "Vi bezonas instali youtube-dl"
 
-#: ../src/pop_tunein.py:93 ../data/RadioPopover.ui.h:1
+#: ../src/pop_tunein.py:94 ../data/RadioPopover.ui.h:1
 msgid "Please wait..."
-msgstr ""
+msgstr "Bonvolu pacienci..."
 
-#: ../src/pop_tunein.py:180
+#: ../src/pop_tunein.py:181
 msgid "Can't connect to TuneIn..."
-msgstr ""
+msgstr "Maleblas konekti al Tunein..."
 
-#: ../src/selectionlist.py:306
+#: ../src/selectionlist.py:275
 msgid "Popular albums"
-msgstr ""
+msgstr "Popularaj albumoj"
 
-#: ../src/selectionlist.py:307
+#: ../src/selectionlist.py:276
+msgid "Loved albums"
+msgstr "Favorataj albumoj"
+
+#: ../src/selectionlist.py:277
 msgid "Recently added albums"
-msgstr ""
+msgstr "Freŝaldonitaj albumoj"
 
-#: ../src/selectionlist.py:308
+#: ../src/selectionlist.py:278
 msgid "Random albums"
-msgstr ""
+msgstr "Hazardelektitaj albumoj"
 
-#: ../src/selectionlist.py:310
+#: ../src/selectionlist.py:280
 msgid "Radios"
-msgstr ""
+msgstr "Radioj"
 
-#: ../src/selectionlist.py:313 ../src/settings.py:317 ../src/settings.py:327
-#: ../data/SettingsDialog.ui.h:27
+#: ../src/selectionlist.py:283 ../src/settings.py:355 ../src/settings.py:365
+#: ../data/SettingsDialog.ui.h:28
 msgid "The charts"
-msgstr ""
+msgstr "La listo de plibonaj"
 
-#: ../src/selectionlist.py:315
+#: ../src/selectionlist.py:285
 msgid "All albums"
-msgstr ""
+msgstr "Ĉiuj albumoj"
 
-#: ../src/selectionlist.py:317
+#: ../src/selectionlist.py:287
 msgid "All artists"
-msgstr ""
+msgstr "Ĉiuj artistoj"
 
-#: ../src/settings.py:95
+#: ../src/settings.py:91
+msgid "Google Web Services need a custom API key"
+msgstr "Google Web Services bezonas adaptigita API-ŝlosilo"
+
+#: ../src/settings.py:92
+msgid "Lollypop needs this to search artwork and music."
+msgstr "Lollypop bezonas ĉi tiun pri la ŝerpado de artaĵoj kaj de muziko"
+
+#: ../src/settings.py:107
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d artisto"
+msgstr[1] "%d artistoj"
 
-#: ../src/settings.py:97
+#: ../src/settings.py:109
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d albumo"
+msgstr[1] "%d albumoj"
 
-#: ../src/settings.py:99
+#: ../src/settings.py:111
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d peco"
+msgstr[1] "%d pecoj"
 
-#: ../src/settings.py:110 ../src/settings.py:113 ../data/SettingsDialog.ui.h:3
+#: ../src/settings.py:122 ../src/settings.py:125 ../data/SettingsDialog.ui.h:3
 msgid "Preferences"
-msgstr ""
+msgstr "Preferoj"
 
-#: ../src/settings.py:145
+#: ../src/settings.py:174
 msgid "You need to install kid3-cli"
-msgstr ""
-
-#: ../src/toolbar_end.py:50
-msgid "Populars"
-msgstr ""
+msgstr "Vi bezonas instali kid3-cli"
 
 #: ../src/toolbar_end.py:51
+msgid "Populars"
+msgstr "Popularaj"
+
+#: ../src/toolbar_end.py:52
 msgid "Recently added"
-msgstr ""
+msgstr "Freŝaldonitaj"
 
-#: ../src/toolbar_end.py:406
+#: ../src/toolbar_end.py:429
 msgid "Externals tracks playing"
-msgstr ""
+msgstr "Ludantaj eksteraj pecoj"
 
-#: ../src/toolbar_end.py:410
+#: ../src/toolbar_end.py:433
 msgid "Playing playlists"
-msgstr ""
+msgstr "Ludantaj ludlistoj"
 
 #. Handle language ordering
 #. Translators: Add here words that shoud be ignored for artist sort order
 #. Translators: Add The the too
-#: ../src/utils.py:134
+#: ../src/utils.py:122
 msgid "The the"
-msgstr ""
+msgstr "Oh ve"
+
+#: ../src/view_albums.py:213 ../data/TuneinPopover.ui.h:1
+msgid "Go back"
+msgstr "Reen igi"
 
 #. Translators: artist context
-#: ../src/view_artist.py:343 ../src/widgets_album.py:349
+#: ../src/view_artist.py:364 ../src/widgets_album.py:297
 msgid "Remove"
-msgstr ""
+msgstr "Forigi"
 
-#: ../src/view_device.py:35
+#: ../src/view_device.py:36
 msgid "Please unlock your device"
-msgstr ""
+msgstr "Bonvolu malŝlosi vian aparaton"
 
-#: ../src/view_device.py:95 ../src/view_device.py:192
+#: ../src/view_device.py:96 ../src/view_device.py:193
 #, python-format
 msgid "Synchronize %s"
-msgstr ""
+msgstr "Sinkronigi %s"
 
-#: ../src/view_device.py:146
+#: ../src/view_device.py:147
 msgid "Cancel synchronization"
-msgstr ""
+msgstr "Nuligi sinkronigon"
 
-#: ../src/widgets_album.py:345
+#: ../src/widgets_album.py:293
 msgid "Append"
-msgstr ""
+msgstr "Postmeti"
 
-#: ../src/widgets_album.py:517
+#: ../src/widgets_album_simple.py:137
 msgid "Play albums"
-msgstr ""
+msgstr "Ludi albumoj"
 
-#: ../src/widgets_album.py:527 ../data/AlbumDetailedWidget.ui.h:2
+#: ../src/widgets_album_simple.py:147 ../data/CoverBox.ui.h:2
 msgid "Change artwork"
-msgstr ""
+msgstr "Redakti la artaĵon"
 
-#: ../src/widgets_album.py:890
+#: ../src/widgets_album_detailed.py:382
 #, python-format
 msgid "%s h  %s m"
-msgstr ""
+msgstr "%s h %s m"
 
-#: ../src/widgets_album.py:892
+#: ../src/widgets_album_detailed.py:384
 #, python-format
 msgid "%s h"
-msgstr ""
+msgstr "%s h"
 
-#: ../src/widgets_album.py:894
+#: ../src/widgets_album_detailed.py:386
 #, python-format
 msgid "%s m"
-msgstr ""
+msgstr "%s m"
 
-#: ../src/widgets_album.py:1045
+#: ../src/widgets_album_detailed.py:530
 #, python-format
 msgid "Disc %s"
-msgstr ""
+msgstr "Disko %s"
 
-#: ../src/widgets_info.py:127
+#: ../src/widgets_info.py:128
 msgid "No information for this artist"
-msgstr ""
+msgstr "Neniu detalo pri ĉi tiu artisto"
 
-#: ../src/widgets_device.py:57
+#: ../src/widgets_device.py:61
 msgid "You need to install gstreamer-plugins-ugly"
-msgstr ""
+msgstr "Vi bezonas instali gstreamer-plugins-ugly"
 
-#: ../src/widgets_device.py:110 ../data/ArtistInfo.ui.h:1
+#: ../src/widgets_device.py:117 ../data/ArtistInfo.ui.h:1
 #: ../data/DeviceManagerWidget.ui.h:1
 msgid "Albums"
-msgstr ""
+msgstr "Albumoj"
 
-#: ../src/widgets_device.py:224
+#: ../src/widgets_device.py:235
 msgid "Unknown error while syncing, try to reboot your device"
-msgstr ""
+msgstr "Nekonata eraro dum sinkronigo, trafu restartigi vian aparaton"
 
-#: ../src/widgets_device.py:232
+#: ../src/widgets_device.py:243
 msgid "No free space available on device"
+msgstr "Neniu libera spaco disponigas al aparato"
+
+#: ../src/widgets_device.py:308
+msgid "Synced albums"
 msgstr ""
 
-#: ../src/widgets_playlist.py:564 ../src/widgets_playlist.py:567
+#: ../src/widgets_playlist.py:591 ../src/widgets_playlist.py:594
 msgid "New playlist "
-msgstr ""
+msgstr "Nova ludlisto"
 
 #. Need a copy, segfault on EOS 3.1
-#: ../src/widgets_playlist.py:668 ../src/widgets_playlist.py:855
+#: ../src/widgets_playlist.py:695 ../src/widgets_playlist.py:901
 #, python-format
 msgid "Remove \"%s\"?"
-msgstr ""
+msgstr "Forigi \"%s\"?"
 
-#: ../src/widgets_playlist.py:863
+#: ../src/widgets_playlist.py:909
 msgid "Remove these tracks?"
-msgstr ""
+msgstr "Forigi ĉi tiujn pecojn?"
 
-#: ../src/widgets_radio.py:192
+#: ../src/widgets_radio.py:198
 msgid "Modify radio"
-msgstr ""
+msgstr "Redakti radion"
 
 #. Translators: Put here words added by wikipedia in band search
 #. Ex: Muse_(band), Peaches(musician)
 #. Unused be we keep this for now (as it's already translated)
 #: ../src/wikipedia.py:36
 msgid "musician;band"
-msgstr ""
+msgstr "kantisto;kantistino;bando;repisto"
 
 #: ../data/LastfmPopover.ui.h:1 ../data/ArtistView.ui.h:4
 msgid "Similar artists"
-msgstr ""
-
-#: ../data/PlaybackMenu.ui.h:1
-msgid "Continuous playback"
-msgstr ""
-
-#: ../data/PlaybackMenu.ui.h:2
-msgid "Repeat track"
-msgstr ""
-
-#: ../data/PlaybackMenu.ui.h:3
-msgid "Stop after this track"
-msgstr ""
-
-#: ../data/PlaybackMenu.ui.h:4
-msgid "Stop after this album"
-msgstr ""
-
-#: ../data/PlaybackMenu.ui.h:5
-msgid "Do not repeat"
-msgstr ""
+msgstr "Similaj artistoj"
 
 #: ../data/AboutDialog.ui.h:1
 msgid "A music player for GNOME."
-msgstr ""
+msgstr "Muzikludilo por GNOME."
 
 #: ../data/AboutDialog.ui.h:2
 msgid "Visit Lollypop website"
-msgstr ""
+msgstr "Viziti la retejo de Lollypop"
 
 #. Replace me with your names
 #: ../data/AboutDialog.ui.h:4
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr ""
+msgstr "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 
 #: ../data/AboutDialog.ui.h:5
 msgid "Donations:"
-msgstr ""
+msgstr "Donacoj:"
 
 #: ../data/AboutDialog.ui.h:6
 msgid "Flattr"
-msgstr ""
+msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.h:7
 msgid "Paypal"
-msgstr ""
+msgstr "Paypal"
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Update music"
-msgstr ""
+msgstr "_Ĝisdatigo de muziko"
 
 #: ../data/Appmenu.ui.h:2
 msgid "_Fullscreen"
-msgstr ""
+msgstr "_Tutekrano"
 
 #: ../data/Appmenu.ui.h:3
 msgid "_Network access"
-msgstr ""
+msgstr "_Reta atingo"
 
 #: ../data/Appmenu.ui.h:4
 msgid "_Preferences"
-msgstr ""
+msgstr "_Preferoj"
 
 #: ../data/Appmenu.ui.h:5
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Fulmoklavoj"
 
 #: ../data/Appmenu.ui.h:6
 msgid "_Help"
-msgstr ""
+msgstr "_Helpo"
 
 #: ../data/Appmenu.ui.h:7
 msgid "_About"
-msgstr ""
+msgstr "_Pri"
 
 #: ../data/Appmenu.ui.h:8
 msgid "_Quit"
-msgstr ""
+msgstr "_Ĉesi"
 
 #: ../data/ArtistInfo.ui.h:2
 msgid "Last.fm"
-msgstr ""
+msgstr "Last.fm"
 
 #: ../data/ArtistInfo.ui.h:3
 msgid "Wikipedia"
-msgstr ""
+msgstr "Wikipedia"
 
 #: ../data/ArtistInfo.ui.h:4
 msgid "Lyrics"
-msgstr ""
+msgstr "Paroloj"
 
 #: ../data/ArtistInfo.ui.h:6
 msgid ""
 "Reload information\n"
 "Long press to activate auto reload"
-msgstr ""
+msgstr "Novigi detalojn\nDaŭra klako ebligas aŭtomata novigo"
 
 #: ../data/ArtistView.ui.h:1
 msgid "Photo"
-msgstr ""
+msgstr "Bildo"
 
 #: ../data/ArtistView.ui.h:3
 msgctxt "artist context"
 msgid "Add"
-msgstr ""
+msgstr "Almeti"
 
 #: ../data/ArtworkSearch.ui.h:1 ../data/RadioPopover.ui.h:2
 msgid "Select a local file"
-msgstr ""
+msgstr "Elekti lokan dosieron"
 
 #: ../data/ArtworkSearch.ui.h:2 ../data/PlaylistEditWidget.ui.h:1
-#: ../data/PlaylistsManagerWidget.ui.h:1
+#: ../data/PlaylistsManagerWidget.ui.h:1 ../data/SettingsDialog.ui.h:26
 msgid "Confirm"
-msgstr ""
+msgstr "Akcepti"
 
 #: ../data/ArtworkSearch.ui.h:3
 msgid ""
 "Lollypop uses \"Google Custom Search API\" to search images on the web.\n"
 "This API is limited so it mays not work with default API key.\n"
 "Please create a \"Custom Search Engine\" here:"
-msgstr ""
+msgstr "Lollypop uzas \"Google Custom Search API\" pri ŝerpi bildojn el reto.\nTiu ĉi API kapablas limite do eble ne funkcias kun defaŭlta API-ŝlosilo.\nBonvolu krei \"Custom Search Engine\" ĉi tie:"
 
-#: ../data/ArtworkSearch.ui.h:6 ../data/SettingsDialog.ui.h:38
+#: ../data/ArtworkSearch.ui.h:6 ../data/SettingsDialog.ui.h:45
 msgid "API key"
-msgstr ""
+msgstr "API-Ŝlosilo"
 
 #: ../data/DeviceManagerView.ui.h:1
 msgid "Synchronize your device with these playlists"
-msgstr ""
+msgstr "Sinkronigi vian aparaton kun ĉi tiujn ludlistojn"
 
 #: ../data/DeviceManagerWidget.ui.h:2
 msgid "Convert to MP3"
-msgstr ""
+msgstr "Konverti al MP3"
 
 #: ../data/DeviceManagerWidget.ui.h:3
 msgid "Normalize MP3"
-msgstr ""
+msgstr "Normaligi MP3j"
 
 #: ../data/PlaylistsManagerView.ui.h:1
 msgid "New playlist"
-msgstr ""
+msgstr "Nova ludlisto"
 
 #: ../data/PlaylistView.ui.h:2
 msgid "Unsplit view"
-msgstr ""
+msgstr "Kunmeti vido"
 
 #: ../data/QueuePopover.ui.h:1
 msgid "Clear queue"
-msgstr ""
+msgstr "Malpleni atendovico"
 
 #: ../data/RadioPopover.ui.h:3
 msgid "No logo found..."
-msgstr ""
+msgstr "Neniu logotipo trovita..."
 
 #: ../data/RadioPopover.ui.h:4
 msgid "Select a logo  for this radio"
-msgstr ""
+msgstr "Elektu logotipo por ĉi tiu radio"
 
 #: ../data/RadioPopover.ui.h:5
 msgid "Name:"
-msgstr ""
+msgstr "Namo:"
 
 #: ../data/RadioPopover.ui.h:6
 msgid "Address:"
-msgstr ""
+msgstr "Adreso:"
 
 #: ../data/RadioPopover.ui.h:7
 msgid "Delete"
-msgstr ""
+msgstr "Forigi"
 
 #: ../data/RadiosView.ui.h:1
 msgid "No favorite radios"
-msgstr ""
+msgstr "Neniu radio favoritas"
 
 #: ../data/RadiosView.ui.h:2
 msgid "New radio"
-msgstr ""
+msgstr "Nova radio"
 
 #: ../data/RadiosView.ui.h:3
 msgid "Search in TuneIn"
-msgstr ""
+msgstr "Serĉi laŭ TuneIn"
 
 #: ../data/SearchPopover.ui.h:1
 msgid "Create a new playlist based on search"
-msgstr ""
+msgstr "Krei nova ludlisto laŭ serĉrezulto"
 
 #: ../data/SearchPopover.ui.h:2
 msgid "Search on the web"
-msgstr ""
+msgstr "Serĉi la reto"
 
 #: ../data/InternalSearchRow.ui.h:1
 msgid "Add to playlist"
-msgstr ""
+msgstr "Almeti je ludlisto"
 
 #: ../data/SettingsDialog.ui.h:1
 msgid "Only in party mode"
-msgstr ""
+msgstr "Nur en festreĝimo"
 
 #: ../data/SettingsDialog.ui.h:2
 msgid "Mix duration in seconds"
-msgstr ""
+msgstr "Daŭro de la miksado en sekundoj"
 
 #: ../data/SettingsDialog.ui.h:4
 msgid "Use dark theme variant"
-msgstr ""
+msgstr "Uzi varianta malhela aspekto"
 
 #: ../data/SettingsDialog.ui.h:5
 msgid "Show genres"
-msgstr ""
+msgstr "Vidigi ĝenroj"
 
 #: ../data/SettingsDialog.ui.h:11
 msgid "Name"
-msgstr ""
+msgstr "Namo"
 
 #: ../data/SettingsDialog.ui.h:12
 msgid "Year"
-msgstr ""
+msgstr "Jaro"
 
 #: ../data/SettingsDialog.ui.h:13
 msgid "Popularity"
-msgstr ""
+msgstr "Popularo"
 
 #: ../data/SettingsDialog.ui.h:14
 msgid "Configure lollypop appearance"
-msgstr ""
+msgstr "Agordi aspekto de Lollypop"
 
 #: ../data/SettingsDialog.ui.h:15
 msgid "Appearance"
-msgstr ""
+msgstr "Aspekto"
 
-#: ../data/SettingsDialog.ui.h:17
+#: ../data/SettingsDialog.ui.h:18
 msgid "Restore state on startup"
-msgstr ""
+msgstr "Restarigi startan staton"
 
 #: ../data/SettingsDialog.ui.h:19
 msgid "Mix tracks"
-msgstr ""
+msgstr "Miksadi pecojn"
 
 #: ../data/SettingsDialog.ui.h:20
 msgid "Long press to show options"
-msgstr ""
+msgstr "Daŭra klako vidigas agordojn"
 
 #: ../data/SettingsDialog.ui.h:21
 msgid "Save changes to files"
-msgstr ""
+msgstr "Konservi anstataŭigojn al dosiero"
 
 #: ../data/SettingsDialog.ui.h:22
 msgid "Preview tracks on"
-msgstr ""
+msgstr "Antaŭvidi pecojn laŭ"
 
 #: ../data/SettingsDialog.ui.h:23
 msgid "No audio device"
-msgstr ""
+msgstr "Neniu sona kromaparato"
 
 #: ../data/SettingsDialog.ui.h:24
 msgid "Configure lollypop behaviour"
-msgstr ""
+msgstr "Agordi konduto de Lollypop"
 
 #: ../data/SettingsDialog.ui.h:25
 msgid "Behaviour"
-msgstr ""
+msgstr "Konduto"
 
-#: ../data/SettingsDialog.ui.h:26
+#: ../data/SettingsDialog.ui.h:27
 msgid "Reset database"
-msgstr ""
-
-#: ../data/SettingsDialog.ui.h:28
-msgid "Select music folders"
-msgstr ""
+msgstr "Rekomencigo de la datumbazo"
 
 #: ../data/SettingsDialog.ui.h:29
-msgid "Music"
-msgstr ""
+msgid "Select music folders"
+msgstr "Elektu muzikajn dosierojn"
 
 #: ../data/SettingsDialog.ui.h:30
-msgid "Login:"
-msgstr ""
+msgid "Music"
+msgstr "Muziko"
 
 #: ../data/SettingsDialog.ui.h:31
-msgid "Password:"
-msgstr ""
+msgid "Spotify"
+msgstr "Spotify"
 
 #: ../data/SettingsDialog.ui.h:32
+msgid "Itunes"
+msgstr "Itunes"
+
+#: ../data/SettingsDialog.ui.h:37
+msgid "Login:"
+msgstr "Ensaluto:"
+
+#: ../data/SettingsDialog.ui.h:38
+msgid "Password:"
+msgstr "Pasvorto:"
+
+#: ../data/SettingsDialog.ui.h:39
 msgid "Connect"
-msgstr ""
+msgstr "Konektado"
 
-#: ../data/SettingsDialog.ui.h:33
+#: ../data/SettingsDialog.ui.h:40
 msgid "You need to install pylast and gi secret"
-msgstr ""
+msgstr "Vi bezonas instali pylast kaj gi secret"
 
-#: ../data/SettingsDialog.ui.h:34
+#: ../data/SettingsDialog.ui.h:41
 msgid "Use Librefm"
-msgstr ""
+msgstr "Uzu Librefm"
 
-#: ../data/SettingsDialog.ui.h:35
+#: ../data/SettingsDialog.ui.h:42
 msgid ""
 "Google Web Services need a custom API key.\n"
 "Without one, you will reach default quota soon...\n"
 "Lollypop needs this to search artwork and music."
-msgstr ""
+msgstr "Google Web Services bezonas adaptan API-ŝlosilo.\nAlie, vi atingos la defaŭlta ŝultlimo tuj...\nLollypop bezonas ĉi tiun ŝlosilon por serĉi artaĵojn kaj muzikon."
 
-#: ../data/SettingsDialog.ui.h:39
+#: ../data/SettingsDialog.ui.h:46
 msgid ""
 "You need to enable \"Custom Search API\" \n"
 "and \"YouTube Data API\" for your project."
-msgstr ""
+msgstr "Vi bezonas aktivigi \"Custom Search API\"\nkaj \"Youtube Data API\" por via projekto."
 
-#: ../data/SettingsDialog.ui.h:41
-msgid "Configure Last.fm credentials"
-msgstr ""
+#: ../data/SettingsDialog.ui.h:48
+msgid "Google"
+msgstr "Google"
+
+#: ../data/SettingsDialog.ui.h:49
+msgid "Web"
+msgstr "Reto"
 
 #: ../data/ToolbarEnd.ui.h:1
-msgid "No shuffle"
-msgstr ""
+msgid "Shuffle"
+msgstr "Hazardelektita"
 
 #: ../data/ToolbarEnd.ui.h:2
-msgid "Shuffle albums"
-msgstr ""
+msgid "No shuffle"
+msgstr "Nehazardelektita"
 
 #: ../data/ToolbarEnd.ui.h:3
-msgid "Shuffle tracks"
-msgstr ""
+msgid "Shuffle albums"
+msgstr "Hazardigi albumoj"
 
 #: ../data/ToolbarEnd.ui.h:4
-msgid "Settings"
-msgstr ""
+msgid "Shuffle tracks"
+msgstr "Hazardigi pecojn"
 
 #: ../data/ToolbarEnd.ui.h:5
-msgid "Shuffle"
-msgstr ""
+msgid "Repetition"
+msgstr "Ripeti"
 
 #: ../data/ToolbarEnd.ui.h:6
+msgid "Continuous playback"
+msgstr "Senpaŭza ludado"
+
+#: ../data/ToolbarEnd.ui.h:7
+msgid "Repeat track"
+msgstr "Ripeti la pecon"
+
+#: ../data/ToolbarEnd.ui.h:8
+msgid "Do not repeat"
+msgstr "Ne ripeti"
+
+#: ../data/ToolbarEnd.ui.h:9
+msgid "Settings"
+msgstr "Agordoj"
+
+#: ../data/ToolbarEnd.ui.h:10
+msgid "Playback"
+msgstr "Ludo"
+
+#: ../data/ToolbarEnd.ui.h:11
 msgid ""
 "Party mode\n"
 "Right click to filter"
-msgstr ""
-
-#: ../data/TuneinPopover.ui.h:1
-msgid "Go back"
-msgstr ""
+msgstr "Festreĝimo\nDekstre klako filtras"
 
 #: ../data/TuneinPopover.ui.h:2
 msgid "Go home"
-msgstr ""
-
-#: ../data/Unicode.ui.h:1
-msgid "Error"
-msgstr ""
-
-#: ../data/Unicode.ui.h:2
-msgid ""
-"Lollypop isn't designed to work without an unicode locale.\n"
-"Please fix your system."
-msgstr ""
+msgstr "Iri hejmen"
 
 #: ../data/Shortcuts.ui.h:1
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Ĝeneralo"
 
 #: ../data/Shortcuts.ui.h:2
 msgctxt "shortcut window"
 msgid "Settings"
-msgstr ""
+msgstr "Agordoj"
 
 #: ../data/Shortcuts.ui.h:3
 msgctxt "shortcut window"
 msgid "Search"
-msgstr ""
+msgstr "Serĉo"
 
 #: ../data/Shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Party mode"
-msgstr ""
+msgstr "Festreĝimo"
 
 #: ../data/Shortcuts.ui.h:5
 msgctxt "shortcut window"
 msgid "Mini Player"
-msgstr ""
+msgstr "Muzikludanteto"
 
 #: ../data/Shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "Show genres"
-msgstr ""
+msgstr "Vidigi ĝenroj"
 
 #: ../data/Shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Show/Hide filter"
-msgstr ""
+msgstr "Vidigi/Kaŝi filtron"
 
 #: ../data/Shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Lock playback"
-msgstr ""
+msgstr "Ŝlosi ludado"
 
 #: ../data/Shortcuts.ui.h:9
 msgctxt "shortcut window"
-msgid "Show/Hide volume control"
-msgstr ""
+msgid "Show/Hide navigation list"
+msgstr "Vidigi/Kaŝi liston de navigado"
 
 #: ../data/Shortcuts.ui.h:10
 msgctxt "shortcut window"
-msgid "Fullscreen"
-msgstr ""
+msgid "Show/Hide volume control"
+msgstr "Vidigi/Kaŝi laŭtecilon"
 
 #: ../data/Shortcuts.ui.h:11
 msgctxt "shortcut window"
-msgid "Playback"
-msgstr ""
+msgid "Fullscreen"
+msgstr "Tutekrano"
 
 #: ../data/Shortcuts.ui.h:12
 msgctxt "shortcut window"
-msgid "Play"
-msgstr ""
+msgid "Playback"
+msgstr "Ludo"
 
 #: ../data/Shortcuts.ui.h:13
 msgctxt "shortcut window"
-msgid "Pause"
-msgstr ""
+msgid "Play"
+msgstr "Ludi"
 
 #: ../data/Shortcuts.ui.h:14
 msgctxt "shortcut window"
-msgid "Stop"
-msgstr ""
+msgid "Pause"
+msgstr "Paŭzi"
 
 #: ../data/Shortcuts.ui.h:15
 msgctxt "shortcut window"
-msgid "Next track"
-msgstr ""
+msgid "Stop"
+msgstr "Haltigi"
 
 #: ../data/Shortcuts.ui.h:16
 msgctxt "shortcut window"
-msgid "Previous track"
-msgstr ""
+msgid "Next track"
+msgstr "Sekvanta peco"
 
 #: ../data/Shortcuts.ui.h:17
 msgctxt "shortcut window"
-msgid "Skip current album"
-msgstr ""
+msgid "Previous track"
+msgstr "Antaŭa peco"
 
 #: ../data/Shortcuts.ui.h:18
 msgctxt "shortcut window"
-msgid "Love current track"
-msgstr ""
+msgid "Skip current album"
+msgstr "Neludi la nuna albumo"
 
 #: ../data/Shortcuts.ui.h:19
 msgctxt "shortcut window"
-msgid "Repeat track"
-msgstr ""
+msgid "Love current track"
+msgstr "Favorigi nunludantan pecon"
 
 #: ../data/Shortcuts.ui.h:20
 msgctxt "shortcut window"
-msgid "Skip backward in track"
-msgstr ""
+msgid "Repeat track"
+msgstr "Ripeti la pecon"
 
 #: ../data/Shortcuts.ui.h:21
 msgctxt "shortcut window"
+msgid "Skip backward in track"
+msgstr "Reen alsalti en la peco"
+
+#: ../data/Shortcuts.ui.h:22
+msgctxt "shortcut window"
 msgid "Skip forward in track"
-msgstr ""
+msgstr "Malantaŭe alsalti en la peco"
