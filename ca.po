@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-09 14:59+0100\n"
-"PO-Revision-Date: 2017-01-10 08:30+0000\n"
+"PO-Revision-Date: 2017-01-10 14:54+0000\n"
 "Last-Translator: Berta K <be.guallar@gmail.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/gnumdk/lollypop/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "Posició del minireproductor"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:7
 msgid "Access network"
-msgstr ""
+msgstr "Accés a la xarxa"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:8
 msgid "Search over network"
@@ -75,7 +75,7 @@ msgstr "Ids per gèneres"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:14
 msgid "Music uris"
-msgstr ""
+msgstr "Enllaços de música"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:15
 msgid "When empty, use XDG_MUSIC_DIR"
@@ -150,7 +150,7 @@ msgstr "Converteix a mp3 (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
 msgid "Quality for converting mp3s"
-msgstr ""
+msgstr "Qualitat per convertir mp3s"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:33
 msgid "Normalize MP3(MTP)"
@@ -170,7 +170,7 @@ msgstr "Mostra llista de gèneres"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:37
 msgid "Show navigation list"
-msgstr ""
+msgstr "Mostrar llista de navegació"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:38
 msgid "Show charts"
@@ -385,7 +385,7 @@ msgstr "Trieu caràtula"
 
 #: ../src/art_widgets.py:282
 msgid "Low quality, missing API key..."
-msgstr ""
+msgstr "Qualitat baixa, manca la clau API..."
 
 #: ../src/art_widgets.py:376
 msgid "Reset artwork?"
@@ -644,7 +644,7 @@ msgstr ""
 
 #: ../src/pop_info.py:259
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
-msgstr ""
+msgstr "La lletra no ha estat trobada, si us plau instal·li gir1.2-webkit2-4.0"
 
 #: ../src/pop_menu.py:64
 msgid "Show albums from artist"
@@ -734,7 +734,7 @@ msgstr "Modifica"
 
 #: ../src/pop_search.py:336 ../data/SettingsDialog.ui.h:35
 msgid "You need to install youtube-dl"
-msgstr ""
+msgstr "Cal instal·lar youtube-dl"
 
 #: ../src/pop_tunein.py:94 ../data/RadioPopover.ui.h:1
 msgid "Please wait..."
@@ -767,7 +767,7 @@ msgstr "Ràdios"
 #: ../src/selectionlist.py:283 ../src/settings.py:355 ../src/settings.py:365
 #: ../data/SettingsDialog.ui.h:28
 msgid "The charts"
-msgstr ""
+msgstr "Les gràfiques"
 
 #: ../src/selectionlist.py:285
 msgid "All albums"
@@ -783,7 +783,7 @@ msgstr ""
 
 #: ../src/settings.py:92
 msgid "Lollypop needs this to search artwork and music."
-msgstr ""
+msgstr "Lollypop necessita això per cercar il·lustracions i música."
 
 #: ../src/settings.py:107
 #, python-format
@@ -893,7 +893,7 @@ msgstr "Disc %s"
 
 #: ../src/widgets_info.py:128
 msgid "No information for this artist"
-msgstr ""
+msgstr "Aquest artista no té informació"
 
 #: ../src/widgets_device.py:61
 msgid "You need to install gstreamer-plugins-ugly"
@@ -981,7 +981,7 @@ msgstr "_Pantalla completa"
 
 #: ../data/Appmenu.ui.h:3
 msgid "_Network access"
-msgstr ""
+msgstr "_Accés a la xarxa"
 
 #: ../data/Appmenu.ui.h:4
 msgid "_Preferences"
@@ -1052,7 +1052,7 @@ msgstr "Clau API"
 
 #: ../data/DeviceManagerView.ui.h:1
 msgid "Synchronize your device with these playlists"
-msgstr ""
+msgstr "Sincronitzar el seu dispositiu amb aquestes llistes de reproducció"
 
 #: ../data/DeviceManagerWidget.ui.h:2
 msgid "Convert to MP3"
@@ -1200,11 +1200,11 @@ msgstr "Música"
 
 #: ../data/SettingsDialog.ui.h:31
 msgid "Spotify"
-msgstr ""
+msgstr "Spotify"
 
 #: ../data/SettingsDialog.ui.h:32
 msgid "Itunes"
-msgstr ""
+msgstr "Itunes"
 
 #: ../data/SettingsDialog.ui.h:37
 msgid "Login:"
@@ -1224,7 +1224,7 @@ msgstr "Heu d'instal·lar \"pylast\" i \"gi secret\""
 
 #: ../data/SettingsDialog.ui.h:41
 msgid "Use Librefm"
-msgstr ""
+msgstr "Utilitzar Librefm"
 
 #: ../data/SettingsDialog.ui.h:42
 msgid ""
@@ -1265,7 +1265,7 @@ msgstr "Pistes aleatòries"
 
 #: ../data/ToolbarEnd.ui.h:5
 msgid "Repetition"
-msgstr ""
+msgstr "Repetició"
 
 #: ../data/ToolbarEnd.ui.h:6
 msgid "Continuous playback"
@@ -1340,12 +1340,12 @@ msgstr "Fixa reproducció"
 #: ../data/Shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Show/Hide navigation list"
-msgstr ""
+msgstr "Mostra/amaga la llista de navegació"
 
 #: ../data/Shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Show/Hide volume control"
-msgstr ""
+msgstr "Mostra/amaga el control del volum "
 
 #: ../data/Shortcuts.ui.h:11
 msgctxt "shortcut window"

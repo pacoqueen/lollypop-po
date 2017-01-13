@@ -4,14 +4,15 @@
 # 
 # Translators:
 # Alejandro Vidal <dael99@gmail.com>, 2016
-# Se Zuo <sebastien.zurfluh@gmail.com>, 2017
+# Sebastien Zurfluh <sebastien.zurfluh@gmail.com>, 2017
+# Sebastien Zurfluh <sebastien.zurfluh@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-09 14:59+0100\n"
-"PO-Revision-Date: 2017-01-09 14:01+0000\n"
-"Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
+"PO-Revision-Date: 2017-01-11 19:58+0000\n"
+"Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto (http://www.transifex.com/gnumdk/lollypop/language/eo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,7 +50,7 @@ msgstr "Atingi reton"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:8
 msgid "Search over network"
-msgstr "Serĉi laurete"
+msgstr "Serĉi laŭrete"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:9
 msgid "Save artwork/popularity in tags"
@@ -77,11 +78,11 @@ msgstr "URIj de muzikaĵoj"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:15
 msgid "When empty, use XDG_MUSIC_DIR"
-msgstr "Kiam malplena, uzu XDG_MUSIC_DIR"
+msgstr "Se malplena, uzu XDG_MUSIC_DIR"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:16
 msgid "Use Librefm instead of Lastfm"
-msgstr "Uzu Librefm anstataŭ Lastfm"
+msgstr "Uzu Libre.fm anstataŭ Last.fm"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:17
 msgid "Last.fm login"
@@ -124,7 +125,7 @@ msgstr "Versio de datumbazo"
 #: ../data/org.gnome.Lollypop.gschema.xml.h:26
 msgid ""
 "Reset this value will reset the database, popular albums will be restored"
-msgstr "Rekomenciĝi ĉi tiun valoron rekomenciĝos la datumbazon, la popularaj albumoj restariĝos"
+msgstr "Repravalorigi ĉi tiun valoron repravalorigu la datumbazon; la popularaj albumoj restariĝos"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:27 ../data/SettingsDialog.ui.h:7
 msgid "Albums cover size"
@@ -148,7 +149,7 @@ msgstr "Konverti al MP3 (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
 msgid "Quality for converting mp3s"
-msgstr ""
+msgstr "Kvalito je MP3-konverto"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:33
 msgid "Normalize MP3(MTP)"
@@ -172,7 +173,7 @@ msgstr "Vidigi liston de navigado"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:38
 msgid "Show charts"
-msgstr "Vidigi plibonajn"
+msgstr "Vidigi furorliston"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:39 ../data/SettingsDialog.ui.h:8
 msgid "Show artist artwork"
@@ -184,7 +185,7 @@ msgstr "Uzi malhelan gtk-aspekton"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:41
 msgid "Disable the use of client side window decorations (headerbar)"
-msgstr "Malebli klientajn ornamojn (titola breto)"
+msgstr "Malŝalti klientajn ornamojn (titola breto)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:42 ../data/SettingsDialog.ui.h:6
 msgid "Show compilations in albums view"
@@ -200,7 +201,7 @@ msgstr "Sprita klasigo por artistoj"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:45
 msgid "Ex: The Beatles sorted as Beatles. Resetting database needed."
-msgstr "Ekz.: The Beatles klasigita kiel Beatles. Necesas rekomencigon de datumbazo."
+msgstr "Ekz.: The Beatles klasigita kiel Beatles. Necesas repravalorigi la datumbazon."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:46
 msgid "Restore previous state"
@@ -208,11 +209,11 @@ msgstr "Restarigi antaŭan staton"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:47
 msgid "Disable MPRIS"
-msgstr "Malebli MPRIS"
+msgstr "Malŝalti MPRIS"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:48
 msgid "Disable notifications"
-msgstr "Malebli sciigojn"
+msgstr "Malŝalti sciigojn"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:49
 msgid "Show track number from tags"
@@ -260,7 +261,7 @@ msgstr "Klasifiki albumojn per"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:60
 msgid "Charts provider"
-msgstr "Peranto de plibonaj listoj"
+msgstr "Peranto de furorlistoj"
 
 #: ../data/org.gnome.Lollypop.desktop.in.h:1
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:1
@@ -314,7 +315,7 @@ msgstr "Navigado laŭ ĝenro/artisto/artaĵo"
 #: ../data/ArtistInfo.ui.h:5 ../data/SettingsDialog.ui.h:36
 #: ../data/ToolbarEnd.ui.h:13
 msgid "Search"
-msgstr "Serĉo"
+msgstr "Serĉilo"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/pop_menu.py:428
 #: ../src/pop_menu.py:447 ../src/toolbar_end.py:431
@@ -371,7 +372,7 @@ msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
 "    - Artist informations disabled"
-msgstr "    - Scrobbler maleblita\n    - Aŭtomata elŝuto de artaĵoj maleblita\n    - Artistaj detaloj maleblita"
+msgstr "    - Scrobbler malŝaltita\n    - Aŭtomata elŝuto de artaĵoj malŝaltita\n    - Artistaj detaloj malŝaltita"
 
 #: ../src/application.py:540
 msgid "Lollypop: You need to install yelp."
@@ -559,7 +560,7 @@ msgstr "Ludi"
 
 #: ../src/controllers.py:194
 msgid "Volume"
-msgstr "Sonforto"
+msgstr "Sonlaŭto"
 
 #: ../src/database_artists.py:97
 msgid "Many artists"
@@ -567,7 +568,7 @@ msgstr "Diversaj artistoj"
 
 #: ../src/lastfm.py:23
 msgid "Last.fm authentication disabled"
-msgstr "Last.fm aliĝo malebligita"
+msgstr "Last.fm aliĝo malŝaltita"
 
 #: ../src/lastfm.py:348
 msgid "Wrong Last.fm credentials"
@@ -629,16 +630,16 @@ msgstr "Ludataj albumoj"
 
 #: ../src/pop_info.py:36
 msgid "Advanced artist informations disabled"
-msgstr "Altnivelaj detaloj pri astisto melebligita"
+msgstr "Altnivelaj detaloj pri astisto malŝaltita"
 
 #: ../src/pop_info.py:44
 msgid "WebKit support disabled"
-msgstr "Funkciado kun WebKit malebligita"
+msgstr "Funkciado kun WebKit malŝaltita"
 
 #: ../src/pop_info.py:251 ../src/settings.py:366 ../src/view_artist.py:61
 #: ../src/view_artist_albums.py:76 ../src/widgets_info.py:130
 msgid "Network access disabled"
-msgstr "Reta atingo malebligita"
+msgstr "Reta atingo malŝaltita"
 
 #: ../src/pop_info.py:259
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
@@ -765,7 +766,7 @@ msgstr "Radioj"
 #: ../src/selectionlist.py:283 ../src/settings.py:355 ../src/settings.py:365
 #: ../data/SettingsDialog.ui.h:28
 msgid "The charts"
-msgstr "La listo de plibonaj"
+msgstr "La furorlisto"
 
 #: ../src/selectionlist.py:285
 msgid "All albums"
@@ -912,7 +913,7 @@ msgstr "Neniu libera spaco disponigas al aparato"
 
 #: ../src/widgets_device.py:308
 msgid "Synced albums"
-msgstr ""
+msgstr "Sinkronigitaj albumoj"
 
 #: ../src/widgets_playlist.py:591 ../src/widgets_playlist.py:594
 msgid "New playlist "
@@ -971,11 +972,11 @@ msgstr "Paypal"
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Update music"
-msgstr "_Ĝisdatigo de muziko"
+msgstr "_Ĝisdatigu muzikon"
 
 #: ../data/Appmenu.ui.h:2
 msgid "_Fullscreen"
-msgstr "_Tutekrano"
+msgstr "_Tutekranigu"
 
 #: ../data/Appmenu.ui.h:3
 msgid "_Network access"
@@ -1154,7 +1155,7 @@ msgstr "Aspekto"
 
 #: ../data/SettingsDialog.ui.h:18
 msgid "Restore state on startup"
-msgstr "Restarigi startan staton"
+msgstr "Restarigi staton dum startado"
 
 #: ../data/SettingsDialog.ui.h:19
 msgid "Mix tracks"
@@ -1174,7 +1175,7 @@ msgstr "Antaŭvidi pecojn laŭ"
 
 #: ../data/SettingsDialog.ui.h:23
 msgid "No audio device"
-msgstr "Neniu sona kromaparato"
+msgstr "Neniu sona flankaparato"
 
 #: ../data/SettingsDialog.ui.h:24
 msgid "Configure lollypop behaviour"
@@ -1186,7 +1187,7 @@ msgstr "Konduto"
 
 #: ../data/SettingsDialog.ui.h:27
 msgid "Reset database"
-msgstr "Rekomencigo de la datumbazo"
+msgstr "Repravalorigu la datumbazon"
 
 #: ../data/SettingsDialog.ui.h:29
 msgid "Select music folders"
@@ -1214,7 +1215,7 @@ msgstr "Pasvorto:"
 
 #: ../data/SettingsDialog.ui.h:39
 msgid "Connect"
-msgstr "Konektado"
+msgstr "Konektu"
 
 #: ../data/SettingsDialog.ui.h:40
 msgid "You need to install pylast and gi secret"
@@ -1222,7 +1223,7 @@ msgstr "Vi bezonas instali pylast kaj gi secret"
 
 #: ../data/SettingsDialog.ui.h:41
 msgid "Use Librefm"
-msgstr "Uzu Librefm"
+msgstr "Uzu Libre.fm"
 
 #: ../data/SettingsDialog.ui.h:42
 msgid ""
@@ -1235,7 +1236,7 @@ msgstr "Google Web Services bezonas adaptan API-ŝlosilo.\nAlie, vi atingos la d
 msgid ""
 "You need to enable \"Custom Search API\" \n"
 "and \"YouTube Data API\" for your project."
-msgstr "Vi bezonas aktivigi \"Custom Search API\"\nkaj \"Youtube Data API\" por via projekto."
+msgstr "Vi bezonas ŝalti \"Custom Search API\"\nkaj \"Youtube Data API\" por via projekto."
 
 #: ../data/SettingsDialog.ui.h:48
 msgid "Google"
@@ -1267,7 +1268,7 @@ msgstr "Ripeti"
 
 #: ../data/ToolbarEnd.ui.h:6
 msgid "Continuous playback"
-msgstr "Senpaŭza ludado"
+msgstr "Senĉesa reludado"
 
 #: ../data/ToolbarEnd.ui.h:7
 msgid "Repeat track"
@@ -1343,7 +1344,7 @@ msgstr "Vidigi/Kaŝi liston de navigado"
 #: ../data/Shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Show/Hide volume control"
-msgstr "Vidigi/Kaŝi laŭtecilon"
+msgstr "Vidigi/Kaŝi laŭtoregilon"
 
 #: ../data/Shortcuts.ui.h:11
 msgctxt "shortcut window"

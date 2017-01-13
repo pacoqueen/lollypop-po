@@ -4,14 +4,14 @@
 # 
 # Translators:
 # gyeben <gyonkibendeguz@gmail.com>, 2016
-# naren93 <m.renato93@gmail.com>, 2015-2016
+# naren93 <m.renato93@gmail.com>, 2015-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-09 14:59+0100\n"
-"PO-Revision-Date: 2017-01-09 14:01+0000\n"
-"Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
+"PO-Revision-Date: 2017-01-10 20:48+0000\n"
+"Last-Translator: naren93 <m.renato93@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/gnumdk/lollypop/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -148,7 +148,7 @@ msgstr "Konvertálás MP3-ba (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
 msgid "Quality for converting mp3s"
-msgstr ""
+msgstr "MP3 konvertálás minősége"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:33
 msgid "Normalize MP3(MTP)"
@@ -912,7 +912,7 @@ msgstr "Nincs elég szabad terület a készüléken"
 
 #: ../src/widgets_device.py:308
 msgid "Synced albums"
-msgstr ""
+msgstr "Szinkronizált albumok"
 
 #: ../src/widgets_playlist.py:591 ../src/widgets_playlist.py:594
 msgid "New playlist "
