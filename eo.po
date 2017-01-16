@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-09 14:59+0100\n"
-"PO-Revision-Date: 2017-01-11 19:58+0000\n"
+"PO-Revision-Date: 2017-01-14 17:46+0000\n"
 "Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto (http://www.transifex.com/gnumdk/lollypop/language/eo/)\n"
 "MIME-Version: 1.0\n"
@@ -125,7 +125,7 @@ msgstr "Versio de datumbazo"
 #: ../data/org.gnome.Lollypop.gschema.xml.h:26
 msgid ""
 "Reset this value will reset the database, popular albums will be restored"
-msgstr "Repravalorigi ĉi tiun valoron repravalorigu la datumbazon; la popularaj albumoj restariĝos"
+msgstr "Repravalorigi ĉi tiun valoron repravalorigas la datumbazon; la popularaj albumoj restariĝos"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:27 ../data/SettingsDialog.ui.h:7
 msgid "Albums cover size"
@@ -766,7 +766,7 @@ msgstr "Radioj"
 #: ../src/selectionlist.py:283 ../src/settings.py:355 ../src/settings.py:365
 #: ../data/SettingsDialog.ui.h:28
 msgid "The charts"
-msgstr "La furorlisto"
+msgstr "Furorlistoj"
 
 #: ../src/selectionlist.py:285
 msgid "All albums"
@@ -976,7 +976,7 @@ msgstr "_Ĝisdatigu muzikon"
 
 #: ../data/Appmenu.ui.h:2
 msgid "_Fullscreen"
-msgstr "_Tutekranigu"
+msgstr "_Tutekranigi"
 
 #: ../data/Appmenu.ui.h:3
 msgid "_Network access"
@@ -1008,7 +1008,7 @@ msgstr "Last.fm"
 
 #: ../data/ArtistInfo.ui.h:3
 msgid "Wikipedia"
-msgstr "Wikipedia"
+msgstr "Vikipedio"
 
 #: ../data/ArtistInfo.ui.h:4
 msgid "Lyrics"
@@ -1187,7 +1187,7 @@ msgstr "Konduto"
 
 #: ../data/SettingsDialog.ui.h:27
 msgid "Reset database"
-msgstr "Repravalorigu la datumbazon"
+msgstr "Repravalorigi la datumbazon"
 
 #: ../data/SettingsDialog.ui.h:29
 msgid "Select music folders"

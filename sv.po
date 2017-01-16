@@ -5,14 +5,14 @@
 # Translators:
 # Allan Nordhøy <epost@anotheragency.no>, 2017
 # Anders Jonsson <transifex@norsjovallen.se>, 2016
-# Göran Olsson <kronstadt21@gmail.com>, 2016
+# Göran Olsson <kronstadt21@gmail.com>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-09 14:59+0100\n"
-"PO-Revision-Date: 2017-01-09 15:49+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2017-01-14 20:52+0000\n"
+"Last-Translator: Göran Olsson <kronstadt21@gmail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/gnumdk/lollypop/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,15 +38,15 @@ msgstr "Fönsterposition (x och y)."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:5
 msgid "Mini player size"
-msgstr "Storlek för minispelare"
+msgstr "Minispelares storlek"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:6
 msgid "Mini player position"
-msgstr "Position för minispelare"
+msgstr "Minispelares position"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:7
 msgid "Access network"
-msgstr ""
+msgstr "Anslut till nätverk"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:8
 msgid "Search over network"
@@ -54,7 +54,7 @@ msgstr "Sök på nätverket"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:9
 msgid "Save artwork/popularity in tags"
-msgstr ""
+msgstr "Spara bildmaterial/popularitet i taggar"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:10
 msgid "Window maximized"
@@ -74,7 +74,7 @@ msgstr "ID:n för genrer."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:14
 msgid "Music uris"
-msgstr ""
+msgstr "Musik uri:er"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:15
 msgid "When empty, use XDG_MUSIC_DIR"
@@ -82,7 +82,7 @@ msgstr "Använd XDG_MUSIC_DIR då tom"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:16
 msgid "Use Librefm instead of Lastfm"
-msgstr ""
+msgstr "Använd Librefm istället för Lastfm"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:17
 msgid "Last.fm login"
@@ -94,7 +94,7 @@ msgstr "Google Custom Search API-nyckel"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:19
 msgid "Favorite tag editor"
-msgstr "Favorittaggredigerare"
+msgstr "Föredragen taggredigerare"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:20
 msgid "INTERNAL"
@@ -149,7 +149,7 @@ msgstr "Konvertera till MP3(MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
 msgid "Quality for converting mp3s"
-msgstr ""
+msgstr "Kvalitet vid konvertering av mp3:or"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:33
 msgid "Normalize MP3(MTP)"
@@ -161,7 +161,7 @@ msgstr "Uppdatera automatiskt musik"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:35
 msgid "Split playlists view"
-msgstr ""
+msgstr "Dela spellistevy"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:36
 msgid "Show genres list"
@@ -169,11 +169,11 @@ msgstr "Visa genrelista"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:37
 msgid "Show navigation list"
-msgstr ""
+msgstr "Visa navigationslista"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:38
 msgid "Show charts"
-msgstr ""
+msgstr "Visa listor"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:39 ../data/SettingsDialog.ui.h:8
 msgid "Show artist artwork"
@@ -197,11 +197,11 @@ msgstr "Fortsätt uppspelning vid stängning"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:44
 msgid "Smart sort for artist"
-msgstr ""
+msgstr "Smart sortering av artister"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:45
 msgid "Ex: The Beatles sorted as Beatles. Resetting database needed."
-msgstr ""
+msgstr "T.ex: The Beatles sorteras som Beatles. Nödvändigt att återställa databasen."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:46
 msgid "Restore previous state"
@@ -221,11 +221,11 @@ msgstr "Visa spårnummer från taggar"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:50
 msgid "JPG cover quality"
-msgstr ""
+msgstr "JPG omslagskvalitet"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:51
 msgid "0-100"
-msgstr ""
+msgstr "0-100"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:52
 msgid "Mix songs"
@@ -237,11 +237,11 @@ msgstr "Mixa endast låtar i partyläge"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:54 ../data/SettingsDialog.ui.h:34
 msgid "Search tracks on Itunes"
-msgstr ""
+msgstr "Sök spår på Itunes"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:55 ../data/SettingsDialog.ui.h:33
 msgid "Search tracks on Spotify"
-msgstr ""
+msgstr "Sök spår på Spotify"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:56
 msgid "Mix duration"
@@ -253,7 +253,7 @@ msgstr "Blandningsläge"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:58
 msgid "Playback behaviour"
-msgstr ""
+msgstr "Uppspelningsbeteende"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:59 ../data/SettingsDialog.ui.h:9
 msgid "Order albums by"
@@ -384,7 +384,7 @@ msgstr "Välj bildmaterial"
 
 #: ../src/art_widgets.py:282
 msgid "Low quality, missing API key..."
-msgstr ""
+msgstr "Låg kvalitet, saknar API-nyckel..."
 
 #: ../src/art_widgets.py:376
 msgid "Reset artwork?"
@@ -613,7 +613,7 @@ msgstr "Slumpmässiga spår"
 
 #: ../src/pop_albums.py:81
 msgid "Compilation"
-msgstr ""
+msgstr "Samling"
 
 #: ../src/pop_albums.py:294
 msgid "Clear albums"
@@ -639,11 +639,11 @@ msgstr "Stöd för WebKit inaktiverat"
 #: ../src/pop_info.py:251 ../src/settings.py:366 ../src/view_artist.py:61
 #: ../src/view_artist_albums.py:76 ../src/widgets_info.py:130
 msgid "Network access disabled"
-msgstr ""
+msgstr "Nätverksåtkomst inaktiverat"
 
 #: ../src/pop_info.py:259
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
-msgstr ""
+msgstr "Ingen låttext hittades, vänligen installera gir1.2-webkit2-4.0"
 
 #: ../src/pop_menu.py:64
 msgid "Show albums from artist"
@@ -687,7 +687,7 @@ msgstr "Ta bort album"
 
 #: ../src/pop_menu.py:372 ../src/widgets_context.py:107
 msgid "Remove track"
-msgstr ""
+msgstr "Ta bort spår"
 
 #: ../src/pop_menu.py:381 ../src/widgets_context.py:128
 msgid "Modify information"
@@ -709,7 +709,7 @@ msgstr "Redigera"
 
 #: ../src/pop_menu.py:560
 msgid "Video address"
-msgstr ""
+msgstr "Videoadress"
 
 #: ../src/pop_menu.py:615
 msgid "Save genre"
@@ -749,7 +749,7 @@ msgstr "Populära album"
 
 #: ../src/selectionlist.py:276
 msgid "Loved albums"
-msgstr ""
+msgstr "Älskade album"
 
 #: ../src/selectionlist.py:277
 msgid "Recently added albums"
@@ -778,11 +778,11 @@ msgstr "Alla artister"
 
 #: ../src/settings.py:91
 msgid "Google Web Services need a custom API key"
-msgstr ""
+msgstr "Google Web Services behöver en särskild API-nyckel"
 
 #: ../src/settings.py:92
 msgid "Lollypop needs this to search artwork and music."
-msgstr ""
+msgstr "Lollypop behöver detta för att söka efter albumomslag och musik."
 
 #: ../src/settings.py:107
 #, python-format
@@ -892,7 +892,7 @@ msgstr "Skiva %s"
 
 #: ../src/widgets_info.py:128
 msgid "No information for this artist"
-msgstr ""
+msgstr "Ingen information för denna artist"
 
 #: ../src/widgets_device.py:61
 msgid "You need to install gstreamer-plugins-ugly"
@@ -913,7 +913,7 @@ msgstr "Inget ledigt utrymme tillgängligt på disk"
 
 #: ../src/widgets_device.py:308
 msgid "Synced albums"
-msgstr ""
+msgstr "Synkade album"
 
 #: ../src/widgets_playlist.py:591 ../src/widgets_playlist.py:594
 msgid "New playlist "
@@ -942,7 +942,7 @@ msgstr "musiker;band"
 
 #: ../data/LastfmPopover.ui.h:1 ../data/ArtistView.ui.h:4
 msgid "Similar artists"
-msgstr ""
+msgstr "Liknande artister"
 
 #: ../data/AboutDialog.ui.h:1
 msgid "A music player for GNOME."
@@ -980,7 +980,7 @@ msgstr "_Helskärm"
 
 #: ../data/Appmenu.ui.h:3
 msgid "_Network access"
-msgstr ""
+msgstr "_Nätverksåtkomst"
 
 #: ../data/Appmenu.ui.h:4
 msgid "_Preferences"
@@ -1067,7 +1067,7 @@ msgstr "Ny spellista"
 
 #: ../data/PlaylistView.ui.h:2
 msgid "Unsplit view"
-msgstr ""
+msgstr "Sammanfoga vy"
 
 #: ../data/QueuePopover.ui.h:1
 msgid "Clear queue"
@@ -1167,7 +1167,7 @@ msgstr "Långt tryck för att visa alternativ"
 
 #: ../data/SettingsDialog.ui.h:21
 msgid "Save changes to files"
-msgstr ""
+msgstr "Spara ändringar till filer"
 
 #: ../data/SettingsDialog.ui.h:22
 msgid "Preview tracks on"
@@ -1199,11 +1199,11 @@ msgstr "Musik"
 
 #: ../data/SettingsDialog.ui.h:31
 msgid "Spotify"
-msgstr ""
+msgstr "Spotify"
 
 #: ../data/SettingsDialog.ui.h:32
 msgid "Itunes"
-msgstr ""
+msgstr "Itunes"
 
 #: ../data/SettingsDialog.ui.h:37
 msgid "Login:"
@@ -1223,7 +1223,7 @@ msgstr "Du måste installera pylast och gi secret"
 
 #: ../data/SettingsDialog.ui.h:41
 msgid "Use Librefm"
-msgstr ""
+msgstr "Använd Librefm"
 
 #: ../data/SettingsDialog.ui.h:42
 msgid ""
@@ -1236,15 +1236,15 @@ msgstr "Google Web Services behöver en särskild API-nyckel.\nUtan en, kommer d
 msgid ""
 "You need to enable \"Custom Search API\" \n"
 "and \"YouTube Data API\" for your project."
-msgstr ""
+msgstr "Du måste aktivera \"Custom Search API\"\noch \"YouTube Data API\" till ditt projekt."
 
 #: ../data/SettingsDialog.ui.h:48
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: ../data/SettingsDialog.ui.h:49
 msgid "Web"
-msgstr ""
+msgstr "Webb"
 
 #: ../data/ToolbarEnd.ui.h:1
 msgid "Shuffle"
@@ -1264,7 +1264,7 @@ msgstr "Blanda spår"
 
 #: ../data/ToolbarEnd.ui.h:5
 msgid "Repetition"
-msgstr ""
+msgstr "Upprepning"
 
 #: ../data/ToolbarEnd.ui.h:6
 msgid "Continuous playback"
@@ -1329,7 +1329,7 @@ msgstr "Visa genrer"
 #: ../data/Shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Show/Hide filter"
-msgstr ""
+msgstr "Visa/Göm filter"
 
 #: ../data/Shortcuts.ui.h:8
 msgctxt "shortcut window"
@@ -1339,7 +1339,7 @@ msgstr "Lås uppspelning"
 #: ../data/Shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Show/Hide navigation list"
-msgstr ""
+msgstr "Visa/Göm navigationslista"
 
 #: ../data/Shortcuts.ui.h:10
 msgctxt "shortcut window"

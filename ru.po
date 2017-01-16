@@ -12,13 +12,14 @@
 # Maxim region51 <murmansksity@gmail.com>, 2015
 # Maxim region51 <murmansksity@gmail.com>, 2015-2016
 # Maxim region51 <murmansksity@gmail.com>, 2016
+# Mikhail Elenskii, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-09 14:59+0100\n"
-"PO-Revision-Date: 2017-01-09 14:01+0000\n"
-"Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
+"PO-Revision-Date: 2017-01-14 09:14+0000\n"
+"Last-Translator: Mikhail Elenskii\n"
 "Language-Team: Russian (http://www.transifex.com/gnumdk/lollypop/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -155,7 +156,7 @@ msgstr "Конвертировать в MP3 (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
 msgid "Quality for converting mp3s"
-msgstr ""
+msgstr "Качество конвертации в MP3"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:33
 msgid "Normalize MP3(MTP)"
@@ -175,7 +176,7 @@ msgstr "Показывать список жанров"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:37
 msgid "Show navigation list"
-msgstr ""
+msgstr "Показывать навигационный список"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:38
 msgid "Show charts"
@@ -227,11 +228,11 @@ msgstr "Показывать номер трека из тегов"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:50
 msgid "JPG cover quality"
-msgstr ""
+msgstr "Качество JPG обложек"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:51
 msgid "0-100"
-msgstr ""
+msgstr "0-100"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:52
 msgid "Mix songs"
@@ -243,11 +244,11 @@ msgstr "Сводить песни только в режиме вечеринк�
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:54 ../data/SettingsDialog.ui.h:34
 msgid "Search tracks on Itunes"
-msgstr ""
+msgstr "Искать треки в iTunes"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:55 ../data/SettingsDialog.ui.h:33
 msgid "Search tracks on Spotify"
-msgstr ""
+msgstr "Искать треки в Spotify"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:56
 msgid "Mix duration"
@@ -390,7 +391,7 @@ msgstr "Выбрать обложку"
 
 #: ../src/art_widgets.py:282
 msgid "Low quality, missing API key..."
-msgstr ""
+msgstr "Низкое качество: отсутствует ключ API"
 
 #: ../src/art_widgets.py:376
 msgid "Reset artwork?"
@@ -715,7 +716,7 @@ msgstr "Редактировать"
 
 #: ../src/pop_menu.py:560
 msgid "Video address"
-msgstr ""
+msgstr "Адрес видео"
 
 #: ../src/pop_menu.py:615
 msgid "Save genre"
@@ -755,7 +756,7 @@ msgstr "Популярные альбомы"
 
 #: ../src/selectionlist.py:276
 msgid "Loved albums"
-msgstr ""
+msgstr "Любимые альбомы"
 
 #: ../src/selectionlist.py:277
 msgid "Recently added albums"
@@ -925,7 +926,7 @@ msgstr "На устройстве не осталось свободного м�
 
 #: ../src/widgets_device.py:308
 msgid "Synced albums"
-msgstr ""
+msgstr "Синхронизированные альбомы"
 
 #: ../src/widgets_playlist.py:591 ../src/widgets_playlist.py:594
 msgid "New playlist "
@@ -1211,11 +1212,11 @@ msgstr "Музыка"
 
 #: ../data/SettingsDialog.ui.h:31
 msgid "Spotify"
-msgstr ""
+msgstr "Spotify"
 
 #: ../data/SettingsDialog.ui.h:32
 msgid "Itunes"
-msgstr ""
+msgstr "Itunes"
 
 #: ../data/SettingsDialog.ui.h:37
 msgid "Login:"
@@ -1252,11 +1253,11 @@ msgstr "Вам нужно включить «Custom Search API»\nи «Youtube D
 
 #: ../data/SettingsDialog.ui.h:48
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: ../data/SettingsDialog.ui.h:49
 msgid "Web"
-msgstr ""
+msgstr "Веб"
 
 #: ../data/ToolbarEnd.ui.h:1
 msgid "Shuffle"
@@ -1276,7 +1277,7 @@ msgstr "Перемешивать треки"
 
 #: ../data/ToolbarEnd.ui.h:5
 msgid "Repetition"
-msgstr ""
+msgstr "Повтор"
 
 #: ../data/ToolbarEnd.ui.h:6
 msgid "Continuous playback"
@@ -1351,7 +1352,7 @@ msgstr "Блокировать воспроизведение"
 #: ../data/Shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Show/Hide navigation list"
-msgstr ""
+msgstr "Показать/спрятать навигационный список"
 
 #: ../data/Shortcuts.ui.h:10
 msgctxt "shortcut window"
