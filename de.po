@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-09 14:59+0100\n"
-"PO-Revision-Date: 2017-01-11 17:35+0000\n"
+"PO-Revision-Date: 2017-01-17 20:33+0000\n"
 "Last-Translator: Vincent Bermel <palob@users.noreply.github.com>\n"
 "Language-Team: German (http://www.transifex.com/gnumdk/lollypop/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -758,7 +758,7 @@ msgstr "Beliebte Alben"
 
 #: ../src/selectionlist.py:276
 msgid "Loved albums"
-msgstr "Beliebte Alben"
+msgstr "Lieblingsalben"
 
 #: ../src/selectionlist.py:277
 msgid "Recently added albums"

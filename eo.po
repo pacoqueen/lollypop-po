@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-09 14:59+0100\n"
-"PO-Revision-Date: 2017-01-14 17:46+0000\n"
+"PO-Revision-Date: 2017-01-18 22:18+0000\n"
 "Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto (http://www.transifex.com/gnumdk/lollypop/language/eo/)\n"
 "MIME-Version: 1.0\n"
@@ -578,14 +578,14 @@ msgstr "Last.fm leĝitimaĵoj malpravas"
 #: ../src/notification.py:116
 #, python-format
 msgid "by %s"
-msgstr "laŭ %s"
+msgstr "de %s"
 
 #. TRANSLATORS: by refers to the artist,
 #. from to the album
 #: ../src/notification.py:124
 #, python-format
 msgid "by %s, from %s"
-msgstr "laŭ %s, el %s"
+msgstr "de %s, el %s"
 
 #: ../src/player_queue.py:43 ../src/player_queue.py:68
 msgid "No network available, can't play this track"
@@ -1103,7 +1103,7 @@ msgstr "Nova radio"
 
 #: ../data/RadiosView.ui.h:3
 msgid "Search in TuneIn"
-msgstr "Serĉi laŭ TuneIn"
+msgstr "Serĉi per TuneIn"
 
 #: ../data/SearchPopover.ui.h:1
 msgid "Create a new playlist based on search"
@@ -1171,7 +1171,7 @@ msgstr "Konservi anstataŭigojn al dosiero"
 
 #: ../data/SettingsDialog.ui.h:22
 msgid "Preview tracks on"
-msgstr "Antaŭvidi pecojn laŭ"
+msgstr "Antaŭvidi pecojn per"
 
 #: ../data/SettingsDialog.ui.h:23
 msgid "No audio device"
