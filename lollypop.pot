@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-23 14:01+0100\n"
+"POT-Creation-Date: 2017-01-23 14:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,11 +67,11 @@ msgid "Enabled genres in party mode"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:13
-msgid "Ids for genres."
+msgid "ID for genres."
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:14
-msgid "Music uris"
+msgid "Music URI"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:15
@@ -79,7 +79,7 @@ msgid "When empty, use XDG_MUSIC_DIR"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:16
-msgid "Use Librefm instead of Lastfm"
+msgid "Use Libre.fm instead of Last.fm"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:17
@@ -104,7 +104,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:22
 msgid ""
-"Pulseaudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
+"PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
 msgstr ""
 
@@ -122,7 +122,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:26
 msgid ""
-"Reset this value will reset the database, popular albums will be restored"
+"Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:27 ../data/SettingsDialog.ui.h:7
@@ -130,7 +130,7 @@ msgid "Albums cover size"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:28
-msgid "Replay gain value in db"
+msgid "Replay gain value in dB"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:29
@@ -146,7 +146,7 @@ msgid "Convert to MP3(MTP)"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
-msgid "Quality for converting mp3s"
+msgid "Quality for converting MP3"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:33
@@ -182,7 +182,7 @@ msgid "Use dark gtk theme"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:41
-msgid "Disable the use of client side window decorations (headerbar)"
+msgid "Disable use of client side window decorations (headerbar)"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:42 ../data/SettingsDialog.ui.h:6
@@ -230,7 +230,7 @@ msgid "Mix songs"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:53
-msgid "Mix songs only in party mode"
+msgid "Only mix songs in party mode"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:54 ../data/SettingsDialog.ui.h:34
@@ -298,70 +298,74 @@ msgid "It provides:"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:5
-msgid "mp3/4, ogg and flac playback"
+msgid "MP3, Ogg and FLAC playback"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:6
-msgid "Genre/Cover browsing"
+msgid "Web playback"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:7
+msgid "Genre/Cover browsing"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:8
 msgid "Genre/Artist/Cover browsing"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:8 ../src/playlists.py:273
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/playlists.py:273
 #: ../data/ArtistInfo.ui.h:5 ../data/SettingsDialog.ui.h:36
 #: ../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/pop_menu.py:428
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:428
 #: ../src/pop_menu.py:447 ../src/toolbar_end.py:431 ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:11
 msgid "Party mode"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:11
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:12
 msgid "Replay gain"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:12
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:13
 msgid "Cover art downloader"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:13
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:14
 msgid "Context artist view"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:14
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:15
 msgid "MTP sync"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:15
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:16
 msgid "Fullscreen view"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:16
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:17
 msgid "Radios support"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:17
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:18
 msgid "Last.fm support"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:18
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:19
 msgid "Auto install codecs"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:19
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:20
 msgid "HiDPI support"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:20
-msgid "Tunein support"
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:21
+msgid "TuneIn support"
 msgstr ""
 
 #: ../src/application.py:31
@@ -380,7 +384,7 @@ msgid "Select artwork"
 msgstr ""
 
 #: ../src/art_widgets.py:282
-msgid "Low quality, missing API key..."
+msgid "Low quality, missing API key…"
 msgstr ""
 
 #: ../src/art_widgets.py:376
@@ -605,11 +609,11 @@ msgid "You need to install youtube-dl"
 msgstr ""
 
 #: ../src/pop_tunein.py:94 ../data/RadioPopover.ui.h:1
-msgid "Please wait..."
+msgid "Please wait…"
 msgstr ""
 
 #: ../src/pop_tunein.py:181
-msgid "Can't connect to TuneIn..."
+msgid "Can't connect to TuneIn…"
 msgstr ""
 
 #: ../src/selectionlist.py:275
@@ -691,7 +695,7 @@ msgid "Recently added"
 msgstr ""
 
 #: ../src/toolbar_end.py:429
-msgid "Externals tracks playing"
+msgid "External tracks"
 msgstr ""
 
 #: ../src/toolbar_end.py:433
@@ -919,7 +923,7 @@ msgid "API key"
 msgstr ""
 
 #: ../data/DeviceManagerView.ui.h:1
-msgid "Synchronize your device with these playlists"
+msgid "Synchronize to your device"
 msgstr ""
 
 #: ../data/DeviceManagerWidget.ui.h:2
@@ -943,7 +947,7 @@ msgid "Clear queue"
 msgstr ""
 
 #: ../data/RadioPopover.ui.h:3
-msgid "No logo found..."
+msgid "No logo found…"
 msgstr ""
 
 #: ../data/RadioPopover.ui.h:4
@@ -1015,7 +1019,7 @@ msgid "Popularity"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:14
-msgid "Configure lollypop appearance"
+msgid "Configure Lollypop appearance"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:15
@@ -1047,7 +1051,7 @@ msgid "No audio device"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:24
-msgid "Configure lollypop behaviour"
+msgid "Configure Lollypop behaviour"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:25
@@ -1091,13 +1095,13 @@ msgid "You need to install pylast and gi secret"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:41
-msgid "Use Librefm"
+msgid "Use Libre.fm"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:42
 msgid ""
 "Google Web Services need a custom API key.\n"
-"Without one, you will reach default quota soon...\n"
+"Without one, you will reach default quota soon…\n"
 "Lollypop needs this to search artwork and music."
 msgstr ""
 
