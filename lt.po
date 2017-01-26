@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-09 14:59+0100\n"
-"PO-Revision-Date: 2017-01-11 23:13+0000\n"
+"POT-Creation-Date: 2017-01-23 14:29+0100\n"
+"PO-Revision-Date: 2017-01-23 15:15+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/gnumdk/lollypop/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -44,7 +44,7 @@ msgstr "Mini grotuvo vieta"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:7
 msgid "Access network"
-msgstr ""
+msgstr "Prieiga prie tinklo"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:8
 msgid "Search over network"
@@ -67,20 +67,20 @@ msgid "Enabled genres in party mode"
 msgstr "Įjungti žanrai vakarėlio veiksenoje"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:13
-msgid "Ids for genres."
-msgstr "Žanrų identifikatoriai."
+msgid "ID for genres."
+msgstr "Žanrų ID."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:14
-msgid "Music uris"
-msgstr "Muzikos uri"
+msgid "Music URI"
+msgstr "Muzikos URI"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:15
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "Kai tuščia, naudojama XDG_MUSIC_DIR"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:16
-msgid "Use Librefm instead of Lastfm"
-msgstr "Vietoj Lastfm, naudoti Librefm"
+msgid "Use Libre.fm instead of Last.fm"
+msgstr "Vietoj Last.fm, naudoti Libre.fm"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:17
 msgid "Last.fm login"
@@ -104,9 +104,9 @@ msgstr "Garso išvesties perklausa, užvedus pele ant takelio"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:22
 msgid ""
-"Pulseaudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
+"PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
-msgstr "Tik Pulseaudio. Pavyzdys: alsa_output.pci-0000_00_14.2.analog-stereo. Komanda, skirta gauti išvestis: $ pacmd list-sinks|grep 'name:'"
+msgstr "Tik PulseAudio. Pavyzdys: alsa_output.pci-0000_00_14.2.analog-stereo. Komanda, skirta gauti išvestis: $ pacmd list-sinks|grep \"name:\""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:23
 msgid "Favorite cover file"
@@ -122,7 +122,8 @@ msgstr "Duomenų bazės versija"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:26
 msgid ""
-"Reset this value will reset the database, popular albums will be restored"
+"Resetting this value will reset the database, popular albums will be "
+"restored"
 msgstr "Šios reikšmės atstatymas atstatys duomenų bazę, populiarūs albumai bus atkurti"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:27 ../data/SettingsDialog.ui.h:7
@@ -130,8 +131,8 @@ msgid "Albums cover size"
 msgstr "Albumų viršelių dydis"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:28
-msgid "Replay gain value in db"
-msgstr "Replay gain reikšmė, db"
+msgid "Replay gain value in dB"
+msgstr "Replay gain reikšmė, dB"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:29
 msgid "Between -15 and 15"
@@ -146,8 +147,8 @@ msgid "Convert to MP3(MTP)"
 msgstr "Konvertuoti į MP3(MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
-msgid "Quality for converting mp3s"
-msgstr "Mp3 konvertavimo kokybė"
+msgid "Quality for converting MP3"
+msgstr "MP3 konvertavimo kokybė"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:33
 msgid "Normalize MP3(MTP)"
@@ -182,7 +183,7 @@ msgid "Use dark gtk theme"
 msgstr "Naudoti tamsią gtk temą"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:41
-msgid "Disable the use of client side window decorations (headerbar)"
+msgid "Disable use of client side window decorations (headerbar)"
 msgstr "Išjungti kliento pusės lango dekoracijų naudojimą (antraštės juostą)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:42 ../data/SettingsDialog.ui.h:6
@@ -230,7 +231,7 @@ msgid "Mix songs"
 msgstr "Naudoti dainų perėjimą"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:53
-msgid "Mix songs only in party mode"
+msgid "Only mix songs in party mode"
 msgstr "Naudoti perėjimą tik vakarėlio veiksenoje"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:54 ../data/SettingsDialog.ui.h:34
@@ -279,12 +280,12 @@ msgstr "Grokite ir tvarkykite savo muzikinę kolekciją"
 msgid "Play/Pause"
 msgstr "Groti/Pristabdyti"
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:5 ../src/notification.py:83
+#: ../data/org.gnome.Lollypop.desktop.in.h:5 ../src/notification.py:118
 #: ../data/ToolbarPlayback.ui.h:3
 msgid "Next"
 msgstr "Kitas"
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:6 ../src/notification.py:79
+#: ../data/org.gnome.Lollypop.desktop.in.h:6 ../src/notification.py:112
 #: ../data/ToolbarPlayback.ui.h:1
 msgid "Previous"
 msgstr "Ankstesnis"
@@ -298,72 +299,76 @@ msgid "It provides:"
 msgstr "Joje pateikiama:"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:5
-msgid "mp3/4, ogg and flac playback"
-msgstr "mp3/4, ogg ir flac atkūrimas"
+msgid "MP3, Ogg and FLAC playback"
+msgstr "MP3, Ogg ir FLAC atkūrimas"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:6
+msgid "Web playback"
+msgstr "Saityno atkūrimas"
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:7
 msgid "Genre/Cover browsing"
 msgstr "Žanrų/Viršelių naršymas"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:7
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:8
 msgid "Genre/Artist/Cover browsing"
 msgstr "Žanrų/Atlikėjų/Viršelių naršymas"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:8 ../src/playlists.py:269
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/playlists.py:273
 #: ../data/ArtistInfo.ui.h:5 ../data/SettingsDialog.ui.h:36
 #: ../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr "Paieška"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/pop_menu.py:428
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:428
 #: ../src/pop_menu.py:447 ../src/toolbar_end.py:431
 #: ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr "Eilė"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:11
 msgid "Party mode"
 msgstr "Vakarėlio veiksena"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:11
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:12
 msgid "Replay gain"
 msgstr "Replay gain"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:12
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:13
 msgid "Cover art downloader"
 msgstr "Viršelių apipavidalinimų atsiuntimo įrankis"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:13
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:14
 msgid "Context artist view"
 msgstr "Kontekstinis atlikėjo rodinys"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:14
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:15
 msgid "MTP sync"
 msgstr "MTP sinchronizacija"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:15
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:16
 msgid "Fullscreen view"
 msgstr "Viso ekrano rodinys"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:16
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:17
 msgid "Radios support"
 msgstr "Radijų palaikymas"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:17
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:18
 msgid "Last.fm support"
 msgstr "Last.fm palaikymas"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:18
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:19
 msgid "Auto install codecs"
 msgstr "Automatinis kodekų įdiegimas"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:19
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:20
 msgid "HiDPI support"
 msgstr "HiDPI palaikymas"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:20
-msgid "Tunein support"
-msgstr "Tunein palaikymas"
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:21
+msgid "TuneIn support"
+msgstr "TuneIn palaikymas"
 
 #: ../src/application.py:31
 msgid ""
@@ -372,7 +377,7 @@ msgid ""
 "    - Artist informations disabled"
 msgstr "    - \"Scrobbler\" paslauga išjungta\n    - Automatinis viršelių atsiuntimas išjungtas\n    - Atlikėjų informacija išjungta"
 
-#: ../src/application.py:540
+#: ../src/application.py:631
 msgid "Lollypop: You need to install yelp."
 msgstr "Lollypop: Jums reikia įdiegti yelp."
 
@@ -381,167 +386,31 @@ msgid "Select artwork"
 msgstr "Pasirinkti iliustraciją"
 
 #: ../src/art_widgets.py:282
-msgid "Low quality, missing API key..."
-msgstr "Žema kokybė, trūksta API rakto..."
+msgid "Low quality, missing API key…"
+msgstr "Žema kokybė, trūksta API rakto…"
 
 #: ../src/art_widgets.py:376
 msgid "Reset artwork?"
 msgstr "Atstatyti iliustraciją?"
 
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:38
-msgid "alternative"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:42
-msgid "anime"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:46
-msgid "blues"
-msgstr "bliuzas"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:50
-msgid "brazil"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:54
-msgid "classic"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:58
-msgid "country"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:62
-msgid "dance"
-msgstr "šokių"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:66
-msgid "electro"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:70
-msgid "french"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:74
-msgid "german"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:78
-msgid "rap"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:82
-msgid "hip hop"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:86
-msgid "jazz"
-msgstr "džiazas"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:90
-msgid "latin"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:94
-msgid "new age"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:98
-msgid "opera"
-msgstr "opera"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:102
-msgid "pop"
-msgstr "pop"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:106
-msgid "soul"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:111
-msgid "reggae"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:115
-msgid "rock"
-msgstr "rokas"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:119
-msgid "soundtrack"
-msgstr "garso takelis"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:123
-msgid "world"
-msgstr ""
-
-#: ../src/collectionscanner.py:67
-msgid "Your music is updating"
-msgstr "Jūsų muzika yra atnaujinama"
-
-#: ../src/collectionscanner.py:189
+#: ../src/collectionscanner.py:187
 msgid "Lollypop is detecting an empty folder."
 msgstr "Lollypop aptinka tuščią aplanką."
 
-#: ../src/collectionscanner.py:190
+#: ../src/collectionscanner.py:188
 msgid "Check your music settings."
 msgstr "Patikrinkite savo muzikos nustatymus."
 
-#: ../src/collectionscanner.py:293 ../src/database_albums.py:400
+#: ../src/collectionscanner.py:291 ../src/database_albums.py:425
 #: ../src/database_artists.py:104 ../src/database_genres.py:70
-#: ../src/database_tracks.py:288 ../src/selectionlist.py:373
+#: ../src/database_tracks.py:308 ../src/selectionlist.py:373
 #: ../src/tagreader.py:85 ../src/tagreader.py:100 ../src/tagreader.py:115
 #: ../src/tagreader.py:160 ../src/tagreader.py:175 ../src/tagreader.py:178
 #: ../src/tagreader.py:188 ../src/tagreader.py:195
 msgid "Unknown"
 msgstr "Nežinoma"
 
-#: ../src/container.py:467 ../src/widgets_device.py:310
+#: ../src/container.py:467 ../src/widgets_device.py:309
 msgid "Compilations"
 msgstr "Rinkiniai"
 
@@ -550,7 +419,7 @@ msgid "Pause"
 msgstr "Pristabdyti"
 
 #: ../src/controllers.py:85 ../src/controllers.py:104 ../src/pop_tunein.py:217
-#: ../src/widgets_album_simple.py:126 ../src/widgets_radio.py:182
+#: ../src/widgets_album_simple.py:128 ../src/widgets_radio.py:182
 #: ../data/ArtistView.ui.h:2 ../data/ToolbarPlayback.ui.h:2
 #: ../data/CoverBox.ui.h:1
 msgid "Play"
@@ -573,14 +442,14 @@ msgid "Wrong Last.fm credentials"
 msgstr "Neteisingi Last.fm prisijungimo duomenys"
 
 #. TRANSLATORS: by refers to the artist,
-#: ../src/notification.py:116
+#: ../src/notification.py:148
 #, python-format
 msgid "by %s"
 msgstr "atlieka %s"
 
 #. TRANSLATORS: by refers to the artist,
 #. from to the album
-#: ../src/notification.py:124
+#: ../src/notification.py:156
 #, python-format
 msgid "by %s, from %s"
 msgstr "atlieka %s, albume %s"
@@ -593,19 +462,27 @@ msgstr "Tinklas neprieinamas, nepavyks groti šio takelio"
 msgid "Loved tracks"
 msgstr "Pamėgti takeliai"
 
-#: ../src/playlists.py:261 ../src/selectionlist.py:296
+#: ../src/playlists.py:243
+msgid "Spotify charts"
+msgstr "Spotify topai"
+
+#: ../src/playlists.py:245
+msgid "Last.fm charts"
+msgstr "Last.fm topai"
+
+#: ../src/playlists.py:265 ../src/selectionlist.py:296
 msgid "Popular tracks"
 msgstr "Populiarūs takeliai"
 
-#: ../src/playlists.py:263 ../src/selectionlist.py:298
+#: ../src/playlists.py:267 ../src/selectionlist.py:298
 msgid "Recently played"
 msgstr "Paskiausiai groti"
 
-#: ../src/playlists.py:265 ../src/selectionlist.py:299
+#: ../src/playlists.py:269 ../src/selectionlist.py:299
 msgid "Never played"
 msgstr "Niekada negroti"
 
-#: ../src/playlists.py:267 ../src/selectionlist.py:300
+#: ../src/playlists.py:271 ../src/selectionlist.py:300
 msgid "Random tracks"
 msgstr "Atsitiktiniai takeliai"
 
@@ -647,7 +524,7 @@ msgstr "Nerasta jokių dainos žodžių, prašome įdiegti gir1.2-webkit2-4.0"
 msgid "Show albums from artist"
 msgstr "Rodyti atlikėjo albumus"
 
-#: ../src/pop_menu.py:128 ../src/widgets_context.py:144
+#: ../src/pop_menu.py:128 ../src/widgets_context.py:149
 #: ../src/widgets_indicator.py:111 ../data/InternalSearchRow.ui.h:2
 msgid "Add to queue"
 msgstr "Pridėti į eilę"
@@ -660,7 +537,7 @@ msgstr "Kiti takeliai"
 msgid "Next track"
 msgstr "Kitas takelis"
 
-#: ../src/pop_menu.py:139 ../src/widgets_context.py:141
+#: ../src/pop_menu.py:139 ../src/widgets_context.py:146
 #: ../src/widgets_indicator.py:107
 msgid "Remove from queue"
 msgstr "Šalinti iš eilės"
@@ -679,15 +556,15 @@ msgstr "Šalinti iš \"%s\""
 msgid "Add to \"%s\""
 msgstr "Pridėti į \"%s\""
 
-#: ../src/pop_menu.py:370 ../src/widgets_context.py:105
+#: ../src/pop_menu.py:370 ../src/widgets_context.py:106
 msgid "Remove album"
 msgstr "Šalinti albumą"
 
-#: ../src/pop_menu.py:372 ../src/widgets_context.py:107
+#: ../src/pop_menu.py:372 ../src/widgets_context.py:108
 msgid "Remove track"
 msgstr "Šalinti takelį"
 
-#: ../src/pop_menu.py:381 ../src/widgets_context.py:128
+#: ../src/pop_menu.py:381 ../src/widgets_context.py:130
 msgid "Modify information"
 msgstr "Modifikuoti informaciją"
 
@@ -696,7 +573,7 @@ msgid "Artist"
 msgstr "Atlikėjas"
 
 #: ../src/pop_menu.py:430 ../src/pop_menu.py:449 ../src/selectionlist.py:279
-#: ../src/widgets_context.py:134 ../src/widgets_device.py:126
+#: ../src/widgets_context.py:138 ../src/widgets_device.py:125
 #: ../src/widgets_playlist.py:557
 msgid "Playlists"
 msgstr "Grojaraščiai"
@@ -705,15 +582,15 @@ msgstr "Grojaraščiai"
 msgid "Edit"
 msgstr "Redaguoti"
 
-#: ../src/pop_menu.py:560
+#: ../src/pop_menu.py:563
 msgid "Video address"
 msgstr "Vaizdo adresas"
 
-#: ../src/pop_menu.py:615
+#: ../src/pop_menu.py:618
 msgid "Save genre"
 msgstr "Įrašyti žanrą"
 
-#: ../src/pop_menu.py:636 ../src/widgets_context.py:98
+#: ../src/pop_menu.py:639 ../src/widgets_context.py:98
 #: ../data/ExternalSearchRow.ui.h:1
 msgid "Save into collection"
 msgstr "Įrašyti į kolekciją"
@@ -734,12 +611,12 @@ msgid "You need to install youtube-dl"
 msgstr "Jums reikia įdiegti youtube-dl"
 
 #: ../src/pop_tunein.py:94 ../data/RadioPopover.ui.h:1
-msgid "Please wait..."
-msgstr "Prašome palaukti..."
+msgid "Please wait…"
+msgstr "Prašome palaukti…"
 
 #: ../src/pop_tunein.py:181
-msgid "Can't connect to TuneIn..."
-msgstr "Nepavyksta prisijungti prie TuneIn..."
+msgid "Can't connect to TuneIn…"
+msgstr "Nepavyksta prisijungti prie TuneIn…"
 
 #: ../src/selectionlist.py:275
 msgid "Popular albums"
@@ -823,8 +700,8 @@ msgid "Recently added"
 msgstr "Paskiausiai pridėti"
 
 #: ../src/toolbar_end.py:429
-msgid "Externals tracks playing"
-msgstr "Išorinių takelių grojimas"
+msgid "External tracks"
+msgstr "Išoriniai takeliai"
 
 #: ../src/toolbar_end.py:433
 msgid "Playing playlists"
@@ -837,7 +714,7 @@ msgstr "Grojami grojaraščiai"
 msgid "The the"
 msgstr "The the"
 
-#: ../src/view_albums.py:213 ../data/TuneinPopover.ui.h:1
+#: ../src/view_albums.py:181 ../data/TuneinPopover.ui.h:1
 msgid "Go back"
 msgstr "Grįžti atgal"
 
@@ -863,11 +740,11 @@ msgstr "Atšaukti sinchronizaciją"
 msgid "Append"
 msgstr "Pridėti"
 
-#: ../src/widgets_album_simple.py:137
+#: ../src/widgets_album_simple.py:139
 msgid "Play albums"
 msgstr "Groti albumus"
 
-#: ../src/widgets_album_simple.py:147 ../data/CoverBox.ui.h:2
+#: ../src/widgets_album_simple.py:149 ../data/CoverBox.ui.h:2
 msgid "Change artwork"
 msgstr "Keisti iliustraciją"
 
@@ -904,15 +781,15 @@ msgstr "Jums reikia įdiegti gstreamer-plugins-ugly"
 msgid "Albums"
 msgstr "Albumai"
 
-#: ../src/widgets_device.py:235
+#: ../src/widgets_device.py:234
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr "Sinchronizuojant, įvyko nežinoma klaida, pabandykite iš naujo paleisti savo įrenginį"
 
-#: ../src/widgets_device.py:243
+#: ../src/widgets_device.py:242
 msgid "No free space available on device"
 msgstr "Įrenginyje nėra prieinamos laisvos vietos"
 
-#: ../src/widgets_device.py:308
+#: ../src/widgets_device.py:307
 msgid "Synced albums"
 msgstr "Sinchronizuoti albumai"
 
@@ -1051,8 +928,8 @@ msgid "API key"
 msgstr "API raktas"
 
 #: ../data/DeviceManagerView.ui.h:1
-msgid "Synchronize your device with these playlists"
-msgstr "Sinchronizuoti jūsų įrenginį su šiais grojaraščiais"
+msgid "Synchronize to your device"
+msgstr "Sinchronizuoti į jūsų įrenginį"
 
 #: ../data/DeviceManagerWidget.ui.h:2
 msgid "Convert to MP3"
@@ -1075,8 +952,8 @@ msgid "Clear queue"
 msgstr "Išvalyti eilę"
 
 #: ../data/RadioPopover.ui.h:3
-msgid "No logo found..."
-msgstr "Logotipų nerasta..."
+msgid "No logo found…"
+msgstr "Logotipų nerasta…"
 
 #: ../data/RadioPopover.ui.h:4
 msgid "Select a logo  for this radio"
@@ -1147,8 +1024,8 @@ msgid "Popularity"
 msgstr "Populiarumas"
 
 #: ../data/SettingsDialog.ui.h:14
-msgid "Configure lollypop appearance"
-msgstr "Konfigūruoti lollypop išvaizdą"
+msgid "Configure Lollypop appearance"
+msgstr "Konfigūruoti Lollypop išvaizdą"
 
 #: ../data/SettingsDialog.ui.h:15
 msgid "Appearance"
@@ -1179,8 +1056,8 @@ msgid "No audio device"
 msgstr "Jokio garso įrenginio"
 
 #: ../data/SettingsDialog.ui.h:24
-msgid "Configure lollypop behaviour"
-msgstr "Konfigūruoti lollypop elgseną"
+msgid "Configure Lollypop behaviour"
+msgstr "Konfigūruoti Lollypop elgseną"
 
 #: ../data/SettingsDialog.ui.h:25
 msgid "Behaviour"
@@ -1223,15 +1100,15 @@ msgid "You need to install pylast and gi secret"
 msgstr "Jums reikia įdiegti pylast ir gi secret"
 
 #: ../data/SettingsDialog.ui.h:41
-msgid "Use Librefm"
-msgstr "Naudoti Librefm"
+msgid "Use Libre.fm"
+msgstr "Naudoti Libre.fm"
 
 #: ../data/SettingsDialog.ui.h:42
 msgid ""
 "Google Web Services need a custom API key.\n"
-"Without one, you will reach default quota soon...\n"
+"Without one, you will reach default quota soon…\n"
 "Lollypop needs this to search artwork and music."
-msgstr "Google saityno paslaugos (angl. Web Services)\nreikalauja tinkinto API rakto.\nBe jo, jūs greitu metu pasieksite numatytąją normą...\nLollypop jo reikia, kad galėtų ieškoti iliustracijas\nir muziką."
+msgstr "Google saityno paslaugos (angl. Web Services)\nreikalauja tinkinto API rakto.\nBe jo, jūs greitu metu pasieksite numatytąją normą…\nLollypop jo reikia, kad galėtų ieškoti iliustracijas\nir muziką."
 
 #: ../data/SettingsDialog.ui.h:46
 msgid ""

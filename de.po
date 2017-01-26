@@ -19,8 +19,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-09 14:59+0100\n"
-"PO-Revision-Date: 2017-01-17 20:33+0000\n"
+"POT-Creation-Date: 2017-01-23 14:29+0100\n"
+"PO-Revision-Date: 2017-01-23 22:35+0000\n"
 "Last-Translator: Vincent Bermel <palob@users.noreply.github.com>\n"
 "Language-Team: German (http://www.transifex.com/gnumdk/lollypop/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -78,19 +78,19 @@ msgid "Enabled genres in party mode"
 msgstr "Genres im Partymodus"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:13
-msgid "Ids for genres."
-msgstr "Ids für Genres"
+msgid "ID for genres."
+msgstr "ID für Genres."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:14
-msgid "Music uris"
-msgstr "Musik-URIs"
+msgid "Music URI"
+msgstr "Musik-URI"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:15
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "Wenn leer, benutze XDG_MUSIC_DIR"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:16
-msgid "Use Librefm instead of Lastfm"
+msgid "Use Libre.fm instead of Last.fm"
 msgstr "Libre.fm statt Last.fm verwenden"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:17
@@ -115,9 +115,9 @@ msgstr "Vorschau beim Überfahren eines Titels mit der Maus"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:22
 msgid ""
-"Pulseaudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
+"PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
-msgstr "Nur Pulseaudio. Beispiel: alsa_output.pci-0000_00_14.2.analog-stereo. Befehl um Ausgabe zu erhalten:: $ pacmd list-sinks|grep 'name:'"
+msgstr "PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. Command to get outputs: $ pacmd list-sinks|grep 'name:'"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:23
 msgid "Favorite cover file"
@@ -133,16 +133,17 @@ msgstr "Datenbankversion"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:26
 msgid ""
-"Reset this value will reset the database, popular albums will be restored"
-msgstr "Das Zurücksetzen dieses Wertes wird die Datenbank zurücksetzen und beliebte Alben wiederherstellen."
+"Resetting this value will reset the database, popular albums will be "
+"restored"
+msgstr "Zurücksetzen dieses Wertes wird die Datenbank zurücksetzen. Albumpopularität wird erhalten."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:27 ../data/SettingsDialog.ui.h:7
 msgid "Albums cover size"
 msgstr "Albumcover-Größe"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:28
-msgid "Replay gain value in db"
-msgstr "Normalisierungswert in dB"
+msgid "Replay gain value in dB"
+msgstr "Wiedergabeverstärkung in dB"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:29
 msgid "Between -15 and 15"
@@ -157,7 +158,7 @@ msgid "Convert to MP3(MTP)"
 msgstr "Umwandeln zu MP3(MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
-msgid "Quality for converting mp3s"
+msgid "Quality for converting MP3"
 msgstr "Qualität für MP3-Konvertierung"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:33
@@ -193,8 +194,8 @@ msgid "Use dark gtk theme"
 msgstr "Dunkles GTK-Theme verwenden"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:41
-msgid "Disable the use of client side window decorations (headerbar)"
-msgstr "Client-Side-Fensterdekorationen ausschalten (Headerbar)"
+msgid "Disable use of client side window decorations (headerbar)"
+msgstr "Clienseitige Fensterdekorationen (GTK+ Headerbar) deaktivieren"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:42 ../data/SettingsDialog.ui.h:6
 msgid "Show compilations in albums view"
@@ -241,8 +242,8 @@ msgid "Mix songs"
 msgstr "Titel überblenden"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:53
-msgid "Mix songs only in party mode"
-msgstr "Titel nur im Partymodus überblenden"
+msgid "Only mix songs in party mode"
+msgstr "Songs nur im Partymodus vermischen"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:54 ../data/SettingsDialog.ui.h:34
 msgid "Search tracks on Itunes"
@@ -290,12 +291,12 @@ msgstr "Spiele und organisiere deine Musiksammlung"
 msgid "Play/Pause"
 msgstr "Play/Pause"
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:5 ../src/notification.py:83
+#: ../data/org.gnome.Lollypop.desktop.in.h:5 ../src/notification.py:118
 #: ../data/ToolbarPlayback.ui.h:3
 msgid "Next"
 msgstr "Nächster Titel"
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:6 ../src/notification.py:79
+#: ../data/org.gnome.Lollypop.desktop.in.h:6 ../src/notification.py:112
 #: ../data/ToolbarPlayback.ui.h:1
 msgid "Previous"
 msgstr "Vorheriger Titel"
@@ -309,72 +310,76 @@ msgid "It provides:"
 msgstr "Es bietet:"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:5
-msgid "mp3/4, ogg and flac playback"
-msgstr "Abspielen von mp3/4, ogg und flac-Dateien"
+msgid "MP3, Ogg and FLAC playback"
+msgstr "Wiedergabe von MP3, OGG (Vorbis+Opus) FLAC"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:6
+msgid "Web playback"
+msgstr "Wiedergabe über Webservices"
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:7
 msgid "Genre/Cover browsing"
 msgstr "Genre/Cover-Browsing"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:7
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:8
 msgid "Genre/Artist/Cover browsing"
 msgstr "Genre/Künstler/Cover-Browsing"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:8 ../src/playlists.py:269
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/playlists.py:273
 #: ../data/ArtistInfo.ui.h:5 ../data/SettingsDialog.ui.h:36
 #: ../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr "Suche"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/pop_menu.py:428
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:428
 #: ../src/pop_menu.py:447 ../src/toolbar_end.py:431
 #: ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr "Warteschlange"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:11
 msgid "Party mode"
 msgstr "Partymodus"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:11
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:12
 msgid "Replay gain"
 msgstr "Normalisierungswert"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:12
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:13
 msgid "Cover art downloader"
 msgstr "Cover-Bild-Downloader"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:13
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:14
 msgid "Context artist view"
 msgstr "Kontext Künstler-Ansicht"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:14
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:15
 msgid "MTP sync"
 msgstr "MTP-Synchronisierung"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:15
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:16
 msgid "Fullscreen view"
 msgstr "Vollbild-Ansicht"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:16
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:17
 msgid "Radios support"
 msgstr "Unterstützung von Radiosendern"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:17
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:18
 msgid "Last.fm support"
 msgstr "Last.fm-Unterstützung"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:18
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:19
 msgid "Auto install codecs"
 msgstr "Automatische Installation von Codecs"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:19
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:20
 msgid "HiDPI support"
 msgstr "HiDPI-Unterstützung"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:20
-msgid "Tunein support"
-msgstr "TuneIn-Unterstützung"
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:21
+msgid "TuneIn support"
+msgstr "Unterstützung von TuneIn"
 
 #: ../src/application.py:31
 msgid ""
@@ -383,7 +388,7 @@ msgid ""
 "    - Artist informations disabled"
 msgstr "- Scrobbler deaktiviert\n- Automatischer Cover-Download deaktiviert\n- Künster-Informationen deaktivert"
 
-#: ../src/application.py:540
+#: ../src/application.py:631
 msgid "Lollypop: You need to install yelp."
 msgstr "Lollypop: Yelp muss installiert sein."
 
@@ -392,167 +397,31 @@ msgid "Select artwork"
 msgstr "Bild wählen"
 
 #: ../src/art_widgets.py:282
-msgid "Low quality, missing API key..."
-msgstr "Schlechte Qualität, fehlender API Key..."
+msgid "Low quality, missing API key…"
+msgstr "Geringe Qualität, API-Schlüssel fehlt..."
 
 #: ../src/art_widgets.py:376
 msgid "Reset artwork?"
 msgstr "Coverbild zurücksetzen?"
 
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:38
-msgid "alternative"
-msgstr "Alternativ"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:42
-msgid "anime"
-msgstr "Anime"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:46
-msgid "blues"
-msgstr "Blues"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:50
-msgid "brazil"
-msgstr "Brasilianisch"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:54
-msgid "classic"
-msgstr "Klassisch"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:58
-msgid "country"
-msgstr "Country"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:62
-msgid "dance"
-msgstr "Dance"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:66
-msgid "electro"
-msgstr "Elektro"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:70
-msgid "french"
-msgstr "Französisch"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:74
-msgid "german"
-msgstr "Deutsch"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:78
-msgid "rap"
-msgstr "Rap"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:82
-msgid "hip hop"
-msgstr "Hip Hop"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:86
-msgid "jazz"
-msgstr "Jazz"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:90
-msgid "latin"
-msgstr "Latin"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:94
-msgid "new age"
-msgstr "New Age"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:98
-msgid "opera"
-msgstr "Oper"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:102
-msgid "pop"
-msgstr "Pop"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:106
-msgid "soul"
-msgstr "Soul"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:111
-msgid "reggae"
-msgstr "Reggae"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:115
-msgid "rock"
-msgstr "Rock"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:119
-msgid "soundtrack"
-msgstr "Soundtrack"
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:123
-msgid "world"
-msgstr "Weltmusik"
-
-#: ../src/collectionscanner.py:67
-msgid "Your music is updating"
-msgstr "Deine Musik wird gerade aktualisiert"
-
-#: ../src/collectionscanner.py:189
+#: ../src/collectionscanner.py:187
 msgid "Lollypop is detecting an empty folder."
 msgstr "Lollypop hat einen leeren Ordner gefunden."
 
-#: ../src/collectionscanner.py:190
+#: ../src/collectionscanner.py:188
 msgid "Check your music settings."
 msgstr "Bitte überprüfe Deine Audioeinstellungen."
 
-#: ../src/collectionscanner.py:293 ../src/database_albums.py:400
+#: ../src/collectionscanner.py:291 ../src/database_albums.py:425
 #: ../src/database_artists.py:104 ../src/database_genres.py:70
-#: ../src/database_tracks.py:288 ../src/selectionlist.py:373
+#: ../src/database_tracks.py:308 ../src/selectionlist.py:373
 #: ../src/tagreader.py:85 ../src/tagreader.py:100 ../src/tagreader.py:115
 #: ../src/tagreader.py:160 ../src/tagreader.py:175 ../src/tagreader.py:178
 #: ../src/tagreader.py:188 ../src/tagreader.py:195
 msgid "Unknown"
 msgstr "Unbekannt"
 
-#: ../src/container.py:467 ../src/widgets_device.py:310
+#: ../src/container.py:467 ../src/widgets_device.py:309
 msgid "Compilations"
 msgstr "Kompilationen"
 
@@ -561,7 +430,7 @@ msgid "Pause"
 msgstr "Pause"
 
 #: ../src/controllers.py:85 ../src/controllers.py:104 ../src/pop_tunein.py:217
-#: ../src/widgets_album_simple.py:126 ../src/widgets_radio.py:182
+#: ../src/widgets_album_simple.py:128 ../src/widgets_radio.py:182
 #: ../data/ArtistView.ui.h:2 ../data/ToolbarPlayback.ui.h:2
 #: ../data/CoverBox.ui.h:1
 msgid "Play"
@@ -584,14 +453,14 @@ msgid "Wrong Last.fm credentials"
 msgstr "Falsche Last.fm Anmeldedaten"
 
 #. TRANSLATORS: by refers to the artist,
-#: ../src/notification.py:116
+#: ../src/notification.py:148
 #, python-format
 msgid "by %s"
 msgstr "von %s"
 
 #. TRANSLATORS: by refers to the artist,
 #. from to the album
-#: ../src/notification.py:124
+#: ../src/notification.py:156
 #, python-format
 msgid "by %s, from %s"
 msgstr "von %s, aus %s"
@@ -604,19 +473,27 @@ msgstr "Keine Netzwerkverbindung verfügbar, Titel kann nicht abgespielt werden"
 msgid "Loved tracks"
 msgstr "Beliebte Titel"
 
-#: ../src/playlists.py:261 ../src/selectionlist.py:296
+#: ../src/playlists.py:243
+msgid "Spotify charts"
+msgstr "Spotify-Charts"
+
+#: ../src/playlists.py:245
+msgid "Last.fm charts"
+msgstr "Last.fm-Charts"
+
+#: ../src/playlists.py:265 ../src/selectionlist.py:296
 msgid "Popular tracks"
 msgstr "Beliebte Titel"
 
-#: ../src/playlists.py:263 ../src/selectionlist.py:298
+#: ../src/playlists.py:267 ../src/selectionlist.py:298
 msgid "Recently played"
 msgstr "Kürzlich abgespielt"
 
-#: ../src/playlists.py:265 ../src/selectionlist.py:299
+#: ../src/playlists.py:269 ../src/selectionlist.py:299
 msgid "Never played"
 msgstr "Noch nie abgespielt"
 
-#: ../src/playlists.py:267 ../src/selectionlist.py:300
+#: ../src/playlists.py:271 ../src/selectionlist.py:300
 msgid "Random tracks"
 msgstr "Zufällige Titel"
 
@@ -658,7 +535,7 @@ msgstr "Keine Liedtexte gefunden, bitte gir1.2-webkit2-4.0 installieren."
 msgid "Show albums from artist"
 msgstr "Zeige Alben dieses Künstlers"
 
-#: ../src/pop_menu.py:128 ../src/widgets_context.py:144
+#: ../src/pop_menu.py:128 ../src/widgets_context.py:149
 #: ../src/widgets_indicator.py:111 ../data/InternalSearchRow.ui.h:2
 msgid "Add to queue"
 msgstr "Zur Warteschlange hinzufügen"
@@ -671,7 +548,7 @@ msgstr "Nächste Titel"
 msgid "Next track"
 msgstr "Nächster Titel"
 
-#: ../src/pop_menu.py:139 ../src/widgets_context.py:141
+#: ../src/pop_menu.py:139 ../src/widgets_context.py:146
 #: ../src/widgets_indicator.py:107
 msgid "Remove from queue"
 msgstr "Aus Warteschlange entfernen"
@@ -690,15 +567,15 @@ msgstr "Aus \"%s\" entfernen"
 msgid "Add to \"%s\""
 msgstr "Zu \"%s\" hinzufügen"
 
-#: ../src/pop_menu.py:370 ../src/widgets_context.py:105
+#: ../src/pop_menu.py:370 ../src/widgets_context.py:106
 msgid "Remove album"
 msgstr "Album entfernen"
 
-#: ../src/pop_menu.py:372 ../src/widgets_context.py:107
+#: ../src/pop_menu.py:372 ../src/widgets_context.py:108
 msgid "Remove track"
 msgstr "Titel entfernen"
 
-#: ../src/pop_menu.py:381 ../src/widgets_context.py:128
+#: ../src/pop_menu.py:381 ../src/widgets_context.py:130
 msgid "Modify information"
 msgstr "Informationen bearbeiten"
 
@@ -707,7 +584,7 @@ msgid "Artist"
 msgstr "Künstler"
 
 #: ../src/pop_menu.py:430 ../src/pop_menu.py:449 ../src/selectionlist.py:279
-#: ../src/widgets_context.py:134 ../src/widgets_device.py:126
+#: ../src/widgets_context.py:138 ../src/widgets_device.py:125
 #: ../src/widgets_playlist.py:557
 msgid "Playlists"
 msgstr "Wiedergabelisten"
@@ -716,15 +593,15 @@ msgstr "Wiedergabelisten"
 msgid "Edit"
 msgstr "Bearbeiten"
 
-#: ../src/pop_menu.py:560
+#: ../src/pop_menu.py:563
 msgid "Video address"
 msgstr "Videoadresse"
 
-#: ../src/pop_menu.py:615
+#: ../src/pop_menu.py:618
 msgid "Save genre"
 msgstr "Genre speichern"
 
-#: ../src/pop_menu.py:636 ../src/widgets_context.py:98
+#: ../src/pop_menu.py:639 ../src/widgets_context.py:98
 #: ../data/ExternalSearchRow.ui.h:1
 msgid "Save into collection"
 msgstr "In Kollektion speichern"
@@ -745,12 +622,12 @@ msgid "You need to install youtube-dl"
 msgstr "youtube-dl muss installiert werden"
 
 #: ../src/pop_tunein.py:94 ../data/RadioPopover.ui.h:1
-msgid "Please wait..."
-msgstr "Bitte warten ..."
+msgid "Please wait…"
+msgstr "Bitte warten..."
 
 #: ../src/pop_tunein.py:181
-msgid "Can't connect to TuneIn..."
-msgstr "Kann keine Verbindung zu TuneIn herstellen ..."
+msgid "Can't connect to TuneIn…"
+msgstr "Kann nicht mit TuneIn verbinden... "
 
 #: ../src/selectionlist.py:275
 msgid "Popular albums"
@@ -831,8 +708,8 @@ msgid "Recently added"
 msgstr "Kürzlich hinzugefügt"
 
 #: ../src/toolbar_end.py:429
-msgid "Externals tracks playing"
-msgstr "Spiele externe Titel"
+msgid "External tracks"
+msgstr "Externe Titel"
 
 #: ../src/toolbar_end.py:433
 msgid "Playing playlists"
@@ -845,7 +722,7 @@ msgstr "Spiele Wiedergabelisten"
 msgid "The the"
 msgstr "Der der"
 
-#: ../src/view_albums.py:213 ../data/TuneinPopover.ui.h:1
+#: ../src/view_albums.py:181 ../data/TuneinPopover.ui.h:1
 msgid "Go back"
 msgstr "Zurück"
 
@@ -871,11 +748,11 @@ msgstr "Synchronisation abbrechen"
 msgid "Append"
 msgstr "Anhängen"
 
-#: ../src/widgets_album_simple.py:137
+#: ../src/widgets_album_simple.py:139
 msgid "Play albums"
 msgstr "Album wiedergeben"
 
-#: ../src/widgets_album_simple.py:147 ../data/CoverBox.ui.h:2
+#: ../src/widgets_album_simple.py:149 ../data/CoverBox.ui.h:2
 msgid "Change artwork"
 msgstr "Coverbild ändern"
 
@@ -912,15 +789,15 @@ msgstr "Die Installation von gstreamer-plugins-ugly ist erforderlich"
 msgid "Albums"
 msgstr "Alben"
 
-#: ../src/widgets_device.py:235
+#: ../src/widgets_device.py:234
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr "Unbekannter Fehler während der Synchronisation. Versuche dein Gerät neu zu starten."
 
-#: ../src/widgets_device.py:243
+#: ../src/widgets_device.py:242
 msgid "No free space available on device"
 msgstr "Kein freier Speicherplatz verfügbar auf diesem Gerät"
 
-#: ../src/widgets_device.py:308
+#: ../src/widgets_device.py:307
 msgid "Synced albums"
 msgstr "Synchronisierte Alben"
 
@@ -1059,8 +936,8 @@ msgid "API key"
 msgstr "API-Schlüssel"
 
 #: ../data/DeviceManagerView.ui.h:1
-msgid "Synchronize your device with these playlists"
-msgstr "Synchronisiere dein Gerät mit diesen Wiedergabelisten"
+msgid "Synchronize to your device"
+msgstr "Mit Gerät synchronisieren"
 
 #: ../data/DeviceManagerWidget.ui.h:2
 msgid "Convert to MP3"
@@ -1083,8 +960,8 @@ msgid "Clear queue"
 msgstr "Warteschlange leeren"
 
 #: ../data/RadioPopover.ui.h:3
-msgid "No logo found..."
-msgstr "Kein Logo gefunden ..."
+msgid "No logo found…"
+msgstr "Kein Logo gefunden..."
 
 #: ../data/RadioPopover.ui.h:4
 msgid "Select a logo  for this radio"
@@ -1155,8 +1032,8 @@ msgid "Popularity"
 msgstr "Beliebtheit"
 
 #: ../data/SettingsDialog.ui.h:14
-msgid "Configure lollypop appearance"
-msgstr "Konfiguriere das Aussehen von Lollypop"
+msgid "Configure Lollypop appearance"
+msgstr "Die Oberfläche von Lollypop anpassen"
 
 #: ../data/SettingsDialog.ui.h:15
 msgid "Appearance"
@@ -1187,8 +1064,8 @@ msgid "No audio device"
 msgstr "Keine Vorschau"
 
 #: ../data/SettingsDialog.ui.h:24
-msgid "Configure lollypop behaviour"
-msgstr "Konfiguriere das Verhalten von Lollypop"
+msgid "Configure Lollypop behaviour"
+msgstr "Das Verhalten von Lollypop anpassen"
 
 #: ../data/SettingsDialog.ui.h:25
 msgid "Behaviour"
@@ -1231,15 +1108,15 @@ msgid "You need to install pylast and gi secret"
 msgstr "Die Installation von pylast und gi secret wird benötigt"
 
 #: ../data/SettingsDialog.ui.h:41
-msgid "Use Librefm"
+msgid "Use Libre.fm"
 msgstr "Libre.fm verwenden"
 
 #: ../data/SettingsDialog.ui.h:42
 msgid ""
 "Google Web Services need a custom API key.\n"
-"Without one, you will reach default quota soon...\n"
+"Without one, you will reach default quota soon…\n"
 "Lollypop needs this to search artwork and music."
-msgstr "Die \"Google Web Services\" benötigen einen individuellen API-Key.\nOhne einen solchen wird bald die maximale Anzahl an Suchvorgängen erreicht sein.\nLollypop kann dann keine Musikinformationen und Albenartworks mehr suchen."
+msgstr "Die Google Web Services brauchen einen individuellen API-Schlüssel.\nOhne einen solchen ist die Anzahl an Suchvorgängen begrenzt,\nmit denen Lollypop nach Albumartwork und Musik sucht."
 
 #: ../data/SettingsDialog.ui.h:46
 msgid ""
