@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-23 14:29+0100\n"
-"PO-Revision-Date: 2017-01-25 21:02+0000\n"
+"PO-Revision-Date: 2017-02-06 18:52+0000\n"
 "Last-Translator: Марко М. Костић (Marko M. Kostić) <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian (http://www.transifex.com/gnumdk/lollypop/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -132,7 +132,7 @@ msgstr "Величина омота албума"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:28
 msgid "Replay gain value in dB"
-msgstr ""
+msgstr "Вредност појачања у децибелима"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:29
 msgid "Between -15 and 15"
@@ -148,7 +148,7 @@ msgstr "Претвори у МП3 (МТП)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
 msgid "Quality for converting MP3"
-msgstr ""
+msgstr "МП3 квалитет претварања"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:33
 msgid "Normalize MP3(MTP)"
@@ -184,7 +184,7 @@ msgstr "Користи тамну ГТК тему"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:41
 msgid "Disable use of client side window decorations (headerbar)"
-msgstr ""
+msgstr "Онемогући коришћење клијентских прозорских декорација (заглавље програма)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:42 ../data/SettingsDialog.ui.h:6
 msgid "Show compilations in albums view"
@@ -232,7 +232,7 @@ msgstr "Преклапај песме"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:53
 msgid "Only mix songs in party mode"
-msgstr ""
+msgstr "Преклапај песме само у режиму за журке"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:54 ../data/SettingsDialog.ui.h:34
 msgid "Search tracks on Itunes"
@@ -300,11 +300,11 @@ msgstr "Програм пружа следеће:"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:5
 msgid "MP3, Ogg and FLAC playback"
-msgstr ""
+msgstr "Пуштање mp3/4, ogg и flac формата"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:6
 msgid "Web playback"
-msgstr ""
+msgstr "Пуштање са веба"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:7
 msgid "Genre/Cover browsing"
@@ -368,7 +368,7 @@ msgstr "подршку за екране високе резолуције"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:21
 msgid "TuneIn support"
-msgstr ""
+msgstr "Подршку за Tunein услугу"
 
 #: ../src/application.py:31
 msgid ""
@@ -387,7 +387,7 @@ msgstr "Изабери портрет"
 
 #: ../src/art_widgets.py:282
 msgid "Low quality, missing API key…"
-msgstr ""
+msgstr "Низак квалитет, недостаје АПИ кључ..."
 
 #: ../src/art_widgets.py:376
 msgid "Reset artwork?"
@@ -464,11 +464,11 @@ msgstr "Омиљене песме"
 
 #: ../src/playlists.py:243
 msgid "Spotify charts"
-msgstr ""
+msgstr "Спотифај графикони"
 
 #: ../src/playlists.py:245
 msgid "Last.fm charts"
-msgstr ""
+msgstr "Last.fm графикони"
 
 #: ../src/playlists.py:265 ../src/selectionlist.py:296
 msgid "Popular tracks"
@@ -612,11 +612,11 @@ msgstr "Потребно је да инсталирате youtube-dl"
 
 #: ../src/pop_tunein.py:94 ../data/RadioPopover.ui.h:1
 msgid "Please wait…"
-msgstr ""
+msgstr "Сачекајте…"
 
 #: ../src/pop_tunein.py:181
 msgid "Can't connect to TuneIn…"
-msgstr ""
+msgstr "Не могу да се повежем на TuneIn…"
 
 #: ../src/selectionlist.py:275
 msgid "Popular albums"
@@ -701,7 +701,7 @@ msgstr "Скоро додато"
 
 #: ../src/toolbar_end.py:429
 msgid "External tracks"
-msgstr ""
+msgstr "Спољне нумере"
 
 #: ../src/toolbar_end.py:433
 msgid "Playing playlists"
@@ -929,7 +929,7 @@ msgstr "АПИ кључ"
 
 #: ../data/DeviceManagerView.ui.h:1
 msgid "Synchronize to your device"
-msgstr ""
+msgstr "Усклади на мој уређај"
 
 #: ../data/DeviceManagerWidget.ui.h:2
 msgid "Convert to MP3"
@@ -953,7 +953,7 @@ msgstr "Очисти редослед"
 
 #: ../data/RadioPopover.ui.h:3
 msgid "No logo found…"
-msgstr ""
+msgstr "Нисам нашао лого…"
 
 #: ../data/RadioPopover.ui.h:4
 msgid "Select a logo  for this radio"
@@ -1025,7 +1025,7 @@ msgstr "популарности"
 
 #: ../data/SettingsDialog.ui.h:14
 msgid "Configure Lollypop appearance"
-msgstr ""
+msgstr "Подеси изглед Лолипопа"
 
 #: ../data/SettingsDialog.ui.h:15
 msgid "Appearance"
@@ -1057,7 +1057,7 @@ msgstr "Нема звучног уређаја"
 
 #: ../data/SettingsDialog.ui.h:24
 msgid "Configure Lollypop behaviour"
-msgstr ""
+msgstr "Подеси понашање Лолипопа"
 
 #: ../data/SettingsDialog.ui.h:25
 msgid "Behaviour"
@@ -1101,14 +1101,14 @@ msgstr "Потребно је да инсталирате пакете који 
 
 #: ../data/SettingsDialog.ui.h:41
 msgid "Use Libre.fm"
-msgstr ""
+msgstr "Користи Либре.фм"
 
 #: ../data/SettingsDialog.ui.h:42
 msgid ""
 "Google Web Services need a custom API key.\n"
 "Without one, you will reach default quota soon…\n"
 "Lollypop needs this to search artwork and music."
-msgstr ""
+msgstr "Гуглове Веб Услуге траже прилагођени АПИ кључ.\nБез кључа ћете достићи подразумевану квоту ускоро…\nЛолипопу је кључ потребан зарад претраге омота и музике."
 
 #: ../data/SettingsDialog.ui.h:46
 msgid ""
