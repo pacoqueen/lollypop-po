@@ -15,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-23 14:29+0100\n"
-"PO-Revision-Date: 2017-02-22 15:25+0000\n"
-"Last-Translator: Piotr Sokół <psokol.l10n@gmail.com>\n"
+"POT-Creation-Date: 2017-02-27 13:51+0100\n"
+"PO-Revision-Date: 2017-02-27 12:55+0000\n"
+"Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Polish (http://www.transifex.com/gnumdk/lollypop/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -327,8 +327,8 @@ msgstr "przeglądanie gatunków/wykonawców/okładek albumów,"
 msgid "Search"
 msgstr "Wyszukiwanie"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:428
-#: ../src/pop_menu.py:447 ../src/toolbar_end.py:431
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:450
+#: ../src/pop_menu.py:469 ../src/toolbar_end.py:431
 #: ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr "Kolejka odtwarzania"
@@ -384,7 +384,7 @@ msgid ""
 "    - Artist informations disabled"
 msgstr "- Scrobblowanie wyłączone\n- Automatyczne pobieranie okładek wyłączone\n- Automatyczne pobieranie danych wyłączone"
 
-#: ../src/application.py:631
+#: ../src/application.py:639
 msgid "Lollypop: You need to install yelp."
 msgstr "Lollypop: należy zainstalować yelp."
 
@@ -408,9 +408,9 @@ msgstr "Wykryto pusty katalog."
 msgid "Check your music settings."
 msgstr "Sprawdź ustawienia muzyczne."
 
-#: ../src/collectionscanner.py:291 ../src/database_albums.py:425
+#: ../src/collectionscanner.py:290 ../src/database_albums.py:436
 #: ../src/database_artists.py:104 ../src/database_genres.py:70
-#: ../src/database_tracks.py:308 ../src/selectionlist.py:373
+#: ../src/database_tracks.py:320 ../src/selectionlist.py:374
 #: ../src/tagreader.py:85 ../src/tagreader.py:100 ../src/tagreader.py:115
 #: ../src/tagreader.py:160 ../src/tagreader.py:175 ../src/tagreader.py:178
 #: ../src/tagreader.py:188 ../src/tagreader.py:195
@@ -426,7 +426,7 @@ msgid "Pause"
 msgstr "Wstrzymuje odtwarzanie"
 
 #: ../src/controllers.py:85 ../src/controllers.py:104 ../src/pop_tunein.py:217
-#: ../src/widgets_album_simple.py:128 ../src/widgets_radio.py:182
+#: ../src/widgets_album_simple.py:130 ../src/widgets_radio.py:182
 #: ../data/ArtistView.ui.h:2 ../data/ToolbarPlayback.ui.h:2
 #: ../data/CoverBox.ui.h:1
 msgid "Play"
@@ -527,77 +527,85 @@ msgstr "Dostęp do sieci wyłączony"
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
 msgstr "Nie odnaleziono słów utworu. Proszę zainstalować gir1.2-webkit2-4.0"
 
-#: ../src/pop_menu.py:64
+#: ../src/pop_menu.py:65
 msgid "Show albums from artist"
 msgstr "Wyświetl albumy wykonawcy"
 
-#: ../src/pop_menu.py:128 ../src/widgets_context.py:149
+#: ../src/pop_menu.py:129 ../src/widgets_context.py:149
 #: ../src/widgets_indicator.py:111 ../data/InternalSearchRow.ui.h:2
 msgid "Add to queue"
 msgstr "Dodaj do kolejki"
 
-#: ../src/pop_menu.py:133
+#: ../src/pop_menu.py:134
 msgid "Next tracks"
 msgstr "Odtwórz jako następne"
 
-#: ../src/pop_menu.py:135 ../data/NextPopover.ui.h:1
+#: ../src/pop_menu.py:136 ../data/NextPopover.ui.h:1
 msgid "Next track"
 msgstr "Odtwórz jako następny"
 
-#: ../src/pop_menu.py:139 ../src/widgets_context.py:146
+#: ../src/pop_menu.py:140 ../src/widgets_context.py:146
 #: ../src/widgets_indicator.py:107
 msgid "Remove from queue"
 msgstr "Usuń z kolejki"
 
-#: ../src/pop_menu.py:212
+#: ../src/pop_menu.py:213
 msgid "Add to others"
 msgstr "Dodaj do innych"
 
-#: ../src/pop_menu.py:230
+#: ../src/pop_menu.py:226
+msgid "Remove from \"Not in party\""
+msgstr ""
+
+#: ../src/pop_menu.py:231
+msgid "Add to \"Not in party\""
+msgstr ""
+
+#: ../src/pop_menu.py:252
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "Usuń z „%s”"
 
-#: ../src/pop_menu.py:236
+#: ../src/pop_menu.py:258
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Dodaj do „%s”"
 
-#: ../src/pop_menu.py:370 ../src/widgets_context.py:106
+#: ../src/pop_menu.py:392 ../src/widgets_context.py:106
 msgid "Remove album"
 msgstr "Usuń album"
 
-#: ../src/pop_menu.py:372 ../src/widgets_context.py:108
+#: ../src/pop_menu.py:394 ../src/widgets_context.py:108
 msgid "Remove track"
 msgstr "Usuń utwór"
 
-#: ../src/pop_menu.py:381 ../src/widgets_context.py:130
+#: ../src/pop_menu.py:403 ../src/widgets_context.py:130
 msgid "Modify information"
 msgstr "Zmodyfikuj informacje"
 
-#: ../src/pop_menu.py:426 ../data/SettingsDialog.ui.h:10
+#: ../src/pop_menu.py:448 ../data/SettingsDialog.ui.h:10
 msgid "Artist"
 msgstr "Wykonawca"
 
-#: ../src/pop_menu.py:430 ../src/pop_menu.py:449 ../src/selectionlist.py:279
+#: ../src/pop_menu.py:452 ../src/pop_menu.py:471 ../src/selectionlist.py:279
 #: ../src/widgets_context.py:138 ../src/widgets_device.py:125
 #: ../src/widgets_playlist.py:557
 msgid "Playlists"
 msgstr "Listy odtwarzania"
 
-#: ../src/pop_menu.py:432 ../src/pop_menu.py:451 ../data/PlaylistView.ui.h:1
+#: ../src/pop_menu.py:454 ../src/pop_menu.py:473 ../data/PlaylistView.ui.h:1
 msgid "Edit"
 msgstr "Edycja"
 
-#: ../src/pop_menu.py:563
+#: ../src/pop_menu.py:585
 msgid "Video address"
 msgstr "adres Video"
 
-#: ../src/pop_menu.py:618
+#: ../src/pop_menu.py:640
 msgid "Save genre"
 msgstr "Zapisz gatunek"
 
-#: ../src/pop_menu.py:639 ../src/widgets_context.py:98
+#: ../src/pop_menu.py:661 ../src/widgets_context.py:98
 #: ../data/ExternalSearchRow.ui.h:1
 msgid "Save into collection"
 msgstr "Zapisz w kolekcji"
@@ -613,7 +621,7 @@ msgstr "Dodaj"
 msgid "Modify"
 msgstr "Zmień"
 
-#: ../src/pop_search.py:336 ../data/SettingsDialog.ui.h:35
+#: ../src/pop_search.py:334 ../data/SettingsDialog.ui.h:35
 msgid "You need to install youtube-dl"
 msgstr "Musisz zainstalować youtube-dl"
 
@@ -657,6 +665,10 @@ msgstr "Wszystkie albumy"
 #: ../src/selectionlist.py:287
 msgid "All artists"
 msgstr "Wszyscy wykonawcy"
+
+#: ../src/selectionlist.py:301
+msgid "Not in party"
+msgstr ""
 
 #: ../src/settings.py:91
 msgid "Google Web Services need a custom API key"
@@ -737,12 +749,12 @@ msgstr "Usuwa z kolejki"
 msgid "Please unlock your device"
 msgstr "Proszę odblokować urządzenie"
 
-#: ../src/view_device.py:96 ../src/view_device.py:193
+#: ../src/view_device.py:96 ../src/view_device.py:199
 #, python-format
 msgid "Synchronize %s"
 msgstr "Synchronizuj %s"
 
-#: ../src/view_device.py:147
+#: ../src/view_device.py:148
 msgid "Cancel synchronization"
 msgstr "Anuluj synchronizowanie"
 
@@ -750,11 +762,11 @@ msgstr "Anuluj synchronizowanie"
 msgid "Append"
 msgstr "Dodaje do kolejki"
 
-#: ../src/widgets_album_simple.py:139
+#: ../src/widgets_album_simple.py:141
 msgid "Play albums"
 msgstr "Odtwarza albumy"
 
-#: ../src/widgets_album_simple.py:149 ../data/CoverBox.ui.h:2
+#: ../src/widgets_album_simple.py:151 ../data/CoverBox.ui.h:2
 msgid "Change artwork"
 msgstr "Zmienia okładkę"
 
@@ -855,8 +867,8 @@ msgid "Flattr"
 msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.h:7
-msgid "Paypal"
-msgstr "Paypal"
+msgid "PayPal"
+msgstr ""
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Update music"
@@ -940,6 +952,10 @@ msgstr "Klucz API"
 #: ../data/DeviceManagerView.ui.h:1
 msgid "Synchronize to your device"
 msgstr "Synchronizacja z urządzeniem"
+
+#: ../data/DeviceManagerView.ui.h:2
+msgid "This will remove some files on your device!"
+msgstr ""
 
 #: ../data/DeviceManagerWidget.ui.h:2
 msgid "Convert to MP3"

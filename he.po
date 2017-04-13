@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-09 14:59+0100\n"
-"PO-Revision-Date: 2017-01-09 14:01+0000\n"
+"POT-Creation-Date: 2017-02-27 13:51+0100\n"
+"PO-Revision-Date: 2017-02-27 12:55+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Hebrew (http://www.transifex.com/gnumdk/lollypop/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -69,11 +69,11 @@ msgid "Enabled genres in party mode"
 msgstr "Enabled genres in party mode"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:13
-msgid "Ids for genres."
-msgstr "Ids for genres."
+msgid "ID for genres."
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:14
-msgid "Music uris"
+msgid "Music URI"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:15
@@ -81,8 +81,8 @@ msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "When empty, use XDG_MUSIC_DIR"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:16
-msgid "Use Librefm instead of Lastfm"
-msgstr "Use Librefm instead of Lastfm"
+msgid "Use Libre.fm instead of Last.fm"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:17
 msgid "Last.fm login"
@@ -106,9 +106,9 @@ msgstr "Audio output preview on track hover"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:22
 msgid ""
-"Pulseaudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
+"PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
-msgstr "Pulseaudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. Command to get outputs: $ pacmd list-sinks|grep 'name:'"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:23
 msgid "Favorite cover file"
@@ -124,16 +124,17 @@ msgstr "Database version"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:26
 msgid ""
-"Reset this value will reset the database, popular albums will be restored"
-msgstr "Reset this value will reset the database, popular albums will be restored"
+"Resetting this value will reset the database, popular albums will be "
+"restored"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:27 ../data/SettingsDialog.ui.h:7
 msgid "Albums cover size"
 msgstr "גודל עטיפת אלבום"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:28
-msgid "Replay gain value in db"
-msgstr "Replay gain value in db"
+msgid "Replay gain value in dB"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:29
 msgid "Between -15 and 15"
@@ -148,7 +149,7 @@ msgid "Convert to MP3(MTP)"
 msgstr "Convert to MP3(MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
-msgid "Quality for converting mp3s"
+msgid "Quality for converting MP3"
 msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:33
@@ -184,8 +185,8 @@ msgid "Use dark gtk theme"
 msgstr "Use dark gtk theme"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:41
-msgid "Disable the use of client side window decorations (headerbar)"
-msgstr "Disable the use of client side window decorations (headerbar)"
+msgid "Disable use of client side window decorations (headerbar)"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:42 ../data/SettingsDialog.ui.h:6
 msgid "Show compilations in albums view"
@@ -232,8 +233,8 @@ msgid "Mix songs"
 msgstr "Mix songs"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:53
-msgid "Mix songs only in party mode"
-msgstr "Mix songs only in party mode"
+msgid "Only mix songs in party mode"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:54 ../data/SettingsDialog.ui.h:34
 msgid "Search tracks on Itunes"
@@ -281,12 +282,12 @@ msgstr "ניגון וארגון אוספי המוזיקה שלך"
 msgid "Play/Pause"
 msgstr "ניגון/השהיה"
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:5 ../src/notification.py:83
+#: ../data/org.gnome.Lollypop.desktop.in.h:5 ../src/notification.py:118
 #: ../data/ToolbarPlayback.ui.h:3
 msgid "Next"
 msgstr "הבא"
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:6 ../src/notification.py:79
+#: ../data/org.gnome.Lollypop.desktop.in.h:6 ../src/notification.py:112
 #: ../data/ToolbarPlayback.ui.h:1
 msgid "Previous"
 msgstr "הקודם"
@@ -300,72 +301,76 @@ msgid "It provides:"
 msgstr "הוא מספק:"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:5
-msgid "mp3/4, ogg and flac playback"
-msgstr "השמעת mp3/4, ‏ogg ו־flac"
+msgid "MP3, Ogg and FLAC playback"
+msgstr ""
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:6
+msgid "Web playback"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:7
 msgid "Genre/Cover browsing"
 msgstr "דפדוף סוגה/עטיפה"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:7
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:8
 msgid "Genre/Artist/Cover browsing"
 msgstr "דפדוף סוגה/אמן/כיסוי"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:8 ../src/playlists.py:269
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/playlists.py:273
 #: ../data/ArtistInfo.ui.h:5 ../data/SettingsDialog.ui.h:36
 #: ../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr "חיפוש"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/pop_menu.py:428
-#: ../src/pop_menu.py:447 ../src/toolbar_end.py:431
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:450
+#: ../src/pop_menu.py:469 ../src/toolbar_end.py:431
 #: ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr "תור"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:11
 msgid "Party mode"
 msgstr "מצב מסיבה"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:11
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:12
 msgid "Replay gain"
 msgstr "מרווח בהשמעה חוזרת"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:12
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:13
 msgid "Cover art downloader"
 msgstr "הורדת עטיפה"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:13
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:14
 msgid "Context artist view"
 msgstr "תצוגת הקשר לאמן"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:14
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:15
 msgid "MTP sync"
 msgstr "תאום MTP"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:15
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:16
 msgid "Fullscreen view"
 msgstr "מצב מסך מלא"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:16
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:17
 msgid "Radios support"
 msgstr "תמיכה בתחנות רדיו"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:17
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:18
 msgid "Last.fm support"
 msgstr "תמיכה ב־Last.fm"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:18
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:19
 msgid "Auto install codecs"
 msgstr "התקנה אוטומטית של מקודדים"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:19
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:20
 msgid "HiDPI support"
 msgstr "תמיכה בהבחנה גבוהה"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:20
-msgid "Tunein support"
-msgstr "תמיכה ב־‏Tunein"
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:21
+msgid "TuneIn support"
+msgstr ""
 
 #: ../src/application.py:31
 msgid ""
@@ -374,7 +379,7 @@ msgid ""
 "    - Artist informations disabled"
 msgstr "- Scrobbler disabled\n- Auto cover download disabled\n- Artist informations disabled"
 
-#: ../src/application.py:540
+#: ../src/application.py:639
 msgid "Lollypop: You need to install yelp."
 msgstr "‏ Lollypop: יש להתקין את yelp."
 
@@ -383,167 +388,31 @@ msgid "Select artwork"
 msgstr "בחירת תמונה"
 
 #: ../src/art_widgets.py:282
-msgid "Low quality, missing API key..."
+msgid "Low quality, missing API key…"
 msgstr ""
 
 #: ../src/art_widgets.py:376
 msgid "Reset artwork?"
 msgstr "איפוס תמונה?"
 
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:38
-msgid "alternative"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:42
-msgid "anime"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:46
-msgid "blues"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:50
-msgid "brazil"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:54
-msgid "classic"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:58
-msgid "country"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:62
-msgid "dance"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:66
-msgid "electro"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:70
-msgid "french"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:74
-msgid "german"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:78
-msgid "rap"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:82
-msgid "hip hop"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:86
-msgid "jazz"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:90
-msgid "latin"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:94
-msgid "new age"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:98
-msgid "opera"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:102
-msgid "pop"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:106
-msgid "soul"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:111
-msgid "reggae"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:115
-msgid "rock"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:119
-msgid "soundtrack"
-msgstr ""
-
-#. Translators: Only translate this music genre
-#. if it makes sense for you
-#: ../src/charts_itunes.py:123
-msgid "world"
-msgstr ""
-
-#: ../src/collectionscanner.py:67
-msgid "Your music is updating"
-msgstr "המוזיקה שלך מתעדכנת"
-
-#: ../src/collectionscanner.py:189
+#: ../src/collectionscanner.py:187
 msgid "Lollypop is detecting an empty folder."
 msgstr ""
 
-#: ../src/collectionscanner.py:190
+#: ../src/collectionscanner.py:188
 msgid "Check your music settings."
 msgstr ""
 
-#: ../src/collectionscanner.py:293 ../src/database_albums.py:400
+#: ../src/collectionscanner.py:290 ../src/database_albums.py:436
 #: ../src/database_artists.py:104 ../src/database_genres.py:70
-#: ../src/database_tracks.py:288 ../src/selectionlist.py:373
+#: ../src/database_tracks.py:320 ../src/selectionlist.py:374
 #: ../src/tagreader.py:85 ../src/tagreader.py:100 ../src/tagreader.py:115
 #: ../src/tagreader.py:160 ../src/tagreader.py:175 ../src/tagreader.py:178
 #: ../src/tagreader.py:188 ../src/tagreader.py:195
 msgid "Unknown"
 msgstr "לא ידוע"
 
-#: ../src/container.py:467 ../src/widgets_device.py:310
+#: ../src/container.py:467 ../src/widgets_device.py:309
 msgid "Compilations"
 msgstr "אוספים"
 
@@ -552,7 +421,7 @@ msgid "Pause"
 msgstr "השהיה"
 
 #: ../src/controllers.py:85 ../src/controllers.py:104 ../src/pop_tunein.py:217
-#: ../src/widgets_album_simple.py:126 ../src/widgets_radio.py:182
+#: ../src/widgets_album_simple.py:130 ../src/widgets_radio.py:182
 #: ../data/ArtistView.ui.h:2 ../data/ToolbarPlayback.ui.h:2
 #: ../data/CoverBox.ui.h:1
 msgid "Play"
@@ -575,14 +444,14 @@ msgid "Wrong Last.fm credentials"
 msgstr "אישורי Last.fm שגויים"
 
 #. TRANSLATORS: by refers to the artist,
-#: ../src/notification.py:116
+#: ../src/notification.py:148
 #, python-format
 msgid "by %s"
 msgstr "מאת %s"
 
 #. TRANSLATORS: by refers to the artist,
 #. from to the album
-#: ../src/notification.py:124
+#: ../src/notification.py:156
 #, python-format
 msgid "by %s, from %s"
 msgstr "מאת %s, מתוך %s"
@@ -595,19 +464,27 @@ msgstr "אין רשת זמינה, על כן לא נתן לנגן רצועה זו
 msgid "Loved tracks"
 msgstr "רצועות אהובות"
 
-#: ../src/playlists.py:261 ../src/selectionlist.py:296
+#: ../src/playlists.py:243
+msgid "Spotify charts"
+msgstr ""
+
+#: ../src/playlists.py:245
+msgid "Last.fm charts"
+msgstr ""
+
+#: ../src/playlists.py:265 ../src/selectionlist.py:296
 msgid "Popular tracks"
 msgstr "רצועות אהובות"
 
-#: ../src/playlists.py:263 ../src/selectionlist.py:298
+#: ../src/playlists.py:267 ../src/selectionlist.py:298
 msgid "Recently played"
 msgstr "נוגן לאחרונה"
 
-#: ../src/playlists.py:265 ../src/selectionlist.py:299
+#: ../src/playlists.py:269 ../src/selectionlist.py:299
 msgid "Never played"
 msgstr "לעולם לא נוגן"
 
-#: ../src/playlists.py:267 ../src/selectionlist.py:300
+#: ../src/playlists.py:271 ../src/selectionlist.py:300
 msgid "Random tracks"
 msgstr "רצועות אקראיות"
 
@@ -645,77 +522,85 @@ msgstr ""
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
 msgstr ""
 
-#: ../src/pop_menu.py:64
+#: ../src/pop_menu.py:65
 msgid "Show albums from artist"
 msgstr ""
 
-#: ../src/pop_menu.py:128 ../src/widgets_context.py:144
+#: ../src/pop_menu.py:129 ../src/widgets_context.py:149
 #: ../src/widgets_indicator.py:111 ../data/InternalSearchRow.ui.h:2
 msgid "Add to queue"
 msgstr "הוספה לתור"
 
-#: ../src/pop_menu.py:133
+#: ../src/pop_menu.py:134
 msgid "Next tracks"
 msgstr "רצועות הבאות"
 
-#: ../src/pop_menu.py:135 ../data/NextPopover.ui.h:1
+#: ../src/pop_menu.py:136 ../data/NextPopover.ui.h:1
 msgid "Next track"
 msgstr "רצועה הבאה"
 
-#: ../src/pop_menu.py:139 ../src/widgets_context.py:141
+#: ../src/pop_menu.py:140 ../src/widgets_context.py:146
 #: ../src/widgets_indicator.py:107
 msgid "Remove from queue"
 msgstr "הסרה מהתור"
 
-#: ../src/pop_menu.py:212
+#: ../src/pop_menu.py:213
 msgid "Add to others"
 msgstr "הוספה לאחרים"
 
-#: ../src/pop_menu.py:230
+#: ../src/pop_menu.py:226
+msgid "Remove from \"Not in party\""
+msgstr ""
+
+#: ../src/pop_menu.py:231
+msgid "Add to \"Not in party\""
+msgstr ""
+
+#: ../src/pop_menu.py:252
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "הסרה מתוך „%s"
 
-#: ../src/pop_menu.py:236
+#: ../src/pop_menu.py:258
 #, python-format
 msgid "Add to \"%s\""
 msgstr "הוספה אל „%s”"
 
-#: ../src/pop_menu.py:370 ../src/widgets_context.py:105
+#: ../src/pop_menu.py:392 ../src/widgets_context.py:106
 msgid "Remove album"
 msgstr "הסרת אלבום"
 
-#: ../src/pop_menu.py:372 ../src/widgets_context.py:107
+#: ../src/pop_menu.py:394 ../src/widgets_context.py:108
 msgid "Remove track"
 msgstr ""
 
-#: ../src/pop_menu.py:381 ../src/widgets_context.py:128
+#: ../src/pop_menu.py:403 ../src/widgets_context.py:130
 msgid "Modify information"
 msgstr "שינוי מידע"
 
-#: ../src/pop_menu.py:426 ../data/SettingsDialog.ui.h:10
+#: ../src/pop_menu.py:448 ../data/SettingsDialog.ui.h:10
 msgid "Artist"
 msgstr "אמן"
 
-#: ../src/pop_menu.py:430 ../src/pop_menu.py:449 ../src/selectionlist.py:279
-#: ../src/widgets_context.py:134 ../src/widgets_device.py:126
+#: ../src/pop_menu.py:452 ../src/pop_menu.py:471 ../src/selectionlist.py:279
+#: ../src/widgets_context.py:138 ../src/widgets_device.py:125
 #: ../src/widgets_playlist.py:557
 msgid "Playlists"
 msgstr "רשימות השמעה"
 
-#: ../src/pop_menu.py:432 ../src/pop_menu.py:451 ../data/PlaylistView.ui.h:1
+#: ../src/pop_menu.py:454 ../src/pop_menu.py:473 ../data/PlaylistView.ui.h:1
 msgid "Edit"
 msgstr "עריכה"
 
-#: ../src/pop_menu.py:560
+#: ../src/pop_menu.py:585
 msgid "Video address"
 msgstr ""
 
-#: ../src/pop_menu.py:615
+#: ../src/pop_menu.py:640
 msgid "Save genre"
 msgstr "שמירת סוגה"
 
-#: ../src/pop_menu.py:636 ../src/widgets_context.py:98
+#: ../src/pop_menu.py:661 ../src/widgets_context.py:98
 #: ../data/ExternalSearchRow.ui.h:1
 msgid "Save into collection"
 msgstr ""
@@ -731,17 +616,17 @@ msgstr "הוספה"
 msgid "Modify"
 msgstr "שינוי"
 
-#: ../src/pop_search.py:336 ../data/SettingsDialog.ui.h:35
+#: ../src/pop_search.py:334 ../data/SettingsDialog.ui.h:35
 msgid "You need to install youtube-dl"
 msgstr "יש להתקין youtube-dl"
 
 #: ../src/pop_tunein.py:94 ../data/RadioPopover.ui.h:1
-msgid "Please wait..."
-msgstr "נא להמתין…"
+msgid "Please wait…"
+msgstr ""
 
 #: ../src/pop_tunein.py:181
-msgid "Can't connect to TuneIn..."
-msgstr "לא ניתן להתחבר ל־TuneIn…"
+msgid "Can't connect to TuneIn…"
+msgstr ""
 
 #: ../src/selectionlist.py:275
 msgid "Popular albums"
@@ -775,6 +660,10 @@ msgstr "כל האלבומים"
 #: ../src/selectionlist.py:287
 msgid "All artists"
 msgstr "כל האמנים"
+
+#: ../src/selectionlist.py:301
+msgid "Not in party"
+msgstr ""
 
 #: ../src/settings.py:91
 msgid "Google Web Services need a custom API key"
@@ -822,8 +711,8 @@ msgid "Recently added"
 msgstr "נוסף לאחרונה"
 
 #: ../src/toolbar_end.py:429
-msgid "Externals tracks playing"
-msgstr "ניגון רצועות חיצוניות"
+msgid "External tracks"
+msgstr ""
 
 #: ../src/toolbar_end.py:433
 msgid "Playing playlists"
@@ -836,7 +725,7 @@ msgstr "ניגון רשימות השמעה"
 msgid "The the"
 msgstr " ו"
 
-#: ../src/view_albums.py:213 ../data/TuneinPopover.ui.h:1
+#: ../src/view_albums.py:181 ../data/TuneinPopover.ui.h:1
 msgid "Go back"
 msgstr "חזרה"
 
@@ -849,12 +738,12 @@ msgstr "הסרה"
 msgid "Please unlock your device"
 msgstr "יש לשחרר נעילת ההתקן שלל"
 
-#: ../src/view_device.py:96 ../src/view_device.py:193
+#: ../src/view_device.py:96 ../src/view_device.py:199
 #, python-format
 msgid "Synchronize %s"
 msgstr "מתאם %s"
 
-#: ../src/view_device.py:147
+#: ../src/view_device.py:148
 msgid "Cancel synchronization"
 msgstr "ביטול התיאום"
 
@@ -862,11 +751,11 @@ msgstr "ביטול התיאום"
 msgid "Append"
 msgstr "הוספה"
 
-#: ../src/widgets_album_simple.py:137
+#: ../src/widgets_album_simple.py:141
 msgid "Play albums"
 msgstr "ניגון אלבומים"
 
-#: ../src/widgets_album_simple.py:147 ../data/CoverBox.ui.h:2
+#: ../src/widgets_album_simple.py:151 ../data/CoverBox.ui.h:2
 msgid "Change artwork"
 msgstr "שינוי עטיפה"
 
@@ -903,15 +792,15 @@ msgstr "יש להתקין את gstreamer-plugins-ugly"
 msgid "Albums"
 msgstr "אלבומים"
 
-#: ../src/widgets_device.py:235
+#: ../src/widgets_device.py:234
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr "שגיאה בלתי ידועה אירעה בעת התיאום, יש לנסות להפעיל מחדש את ההתקן שלך"
 
-#: ../src/widgets_device.py:243
+#: ../src/widgets_device.py:242
 msgid "No free space available on device"
 msgstr "אין שטח פנוי זמן על ההתקן"
 
-#: ../src/widgets_device.py:308
+#: ../src/widgets_device.py:307
 msgid "Synced albums"
 msgstr ""
 
@@ -967,8 +856,8 @@ msgid "Flattr"
 msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.h:7
-msgid "Paypal"
-msgstr "Paypal"
+msgid "PayPal"
+msgstr ""
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Update music"
@@ -1050,7 +939,11 @@ msgid "API key"
 msgstr "מפתח API"
 
 #: ../data/DeviceManagerView.ui.h:1
-msgid "Synchronize your device with these playlists"
+msgid "Synchronize to your device"
+msgstr ""
+
+#: ../data/DeviceManagerView.ui.h:2
+msgid "This will remove some files on your device!"
 msgstr ""
 
 #: ../data/DeviceManagerWidget.ui.h:2
@@ -1074,8 +967,8 @@ msgid "Clear queue"
 msgstr "ניקוי התור"
 
 #: ../data/RadioPopover.ui.h:3
-msgid "No logo found..."
-msgstr "לא נמצא כל סמליל…"
+msgid "No logo found…"
+msgstr ""
 
 #: ../data/RadioPopover.ui.h:4
 msgid "Select a logo  for this radio"
@@ -1146,8 +1039,8 @@ msgid "Popularity"
 msgstr "פופולריות"
 
 #: ../data/SettingsDialog.ui.h:14
-msgid "Configure lollypop appearance"
-msgstr "תצורת המראה של lollypop"
+msgid "Configure Lollypop appearance"
+msgstr ""
 
 #: ../data/SettingsDialog.ui.h:15
 msgid "Appearance"
@@ -1178,8 +1071,8 @@ msgid "No audio device"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:24
-msgid "Configure lollypop behaviour"
-msgstr "תצורת התנהגות lollypop"
+msgid "Configure Lollypop behaviour"
+msgstr ""
 
 #: ../data/SettingsDialog.ui.h:25
 msgid "Behaviour"
@@ -1222,13 +1115,13 @@ msgid "You need to install pylast and gi secret"
 msgstr "יש להתקין pylast ו־gi secret"
 
 #: ../data/SettingsDialog.ui.h:41
-msgid "Use Librefm"
+msgid "Use Libre.fm"
 msgstr ""
 
 #: ../data/SettingsDialog.ui.h:42
 msgid ""
 "Google Web Services need a custom API key.\n"
-"Without one, you will reach default quota soon...\n"
+"Without one, you will reach default quota soon…\n"
 "Lollypop needs this to search artwork and music."
 msgstr ""
 

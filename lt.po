@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-23 14:29+0100\n"
-"PO-Revision-Date: 2017-01-23 15:15+0000\n"
+"POT-Creation-Date: 2017-02-27 13:51+0100\n"
+"PO-Revision-Date: 2017-02-27 15:35+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/gnumdk/lollypop/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -320,8 +320,8 @@ msgstr "Žanrų/Atlikėjų/Viršelių naršymas"
 msgid "Search"
 msgstr "Paieška"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:428
-#: ../src/pop_menu.py:447 ../src/toolbar_end.py:431
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:450
+#: ../src/pop_menu.py:469 ../src/toolbar_end.py:431
 #: ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr "Eilė"
@@ -377,7 +377,7 @@ msgid ""
 "    - Artist informations disabled"
 msgstr "    - \"Scrobbler\" paslauga išjungta\n    - Automatinis viršelių atsiuntimas išjungtas\n    - Atlikėjų informacija išjungta"
 
-#: ../src/application.py:631
+#: ../src/application.py:639
 msgid "Lollypop: You need to install yelp."
 msgstr "Lollypop: Jums reikia įdiegti yelp."
 
@@ -401,9 +401,9 @@ msgstr "Lollypop aptinka tuščią aplanką."
 msgid "Check your music settings."
 msgstr "Patikrinkite savo muzikos nustatymus."
 
-#: ../src/collectionscanner.py:291 ../src/database_albums.py:425
+#: ../src/collectionscanner.py:290 ../src/database_albums.py:436
 #: ../src/database_artists.py:104 ../src/database_genres.py:70
-#: ../src/database_tracks.py:308 ../src/selectionlist.py:373
+#: ../src/database_tracks.py:320 ../src/selectionlist.py:374
 #: ../src/tagreader.py:85 ../src/tagreader.py:100 ../src/tagreader.py:115
 #: ../src/tagreader.py:160 ../src/tagreader.py:175 ../src/tagreader.py:178
 #: ../src/tagreader.py:188 ../src/tagreader.py:195
@@ -419,7 +419,7 @@ msgid "Pause"
 msgstr "Pristabdyti"
 
 #: ../src/controllers.py:85 ../src/controllers.py:104 ../src/pop_tunein.py:217
-#: ../src/widgets_album_simple.py:128 ../src/widgets_radio.py:182
+#: ../src/widgets_album_simple.py:130 ../src/widgets_radio.py:182
 #: ../data/ArtistView.ui.h:2 ../data/ToolbarPlayback.ui.h:2
 #: ../data/CoverBox.ui.h:1
 msgid "Play"
@@ -520,77 +520,85 @@ msgstr "Tinklo prieiga išjungta"
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
 msgstr "Nerasta jokių dainos žodžių, prašome įdiegti gir1.2-webkit2-4.0"
 
-#: ../src/pop_menu.py:64
+#: ../src/pop_menu.py:65
 msgid "Show albums from artist"
 msgstr "Rodyti atlikėjo albumus"
 
-#: ../src/pop_menu.py:128 ../src/widgets_context.py:149
+#: ../src/pop_menu.py:129 ../src/widgets_context.py:149
 #: ../src/widgets_indicator.py:111 ../data/InternalSearchRow.ui.h:2
 msgid "Add to queue"
 msgstr "Pridėti į eilę"
 
-#: ../src/pop_menu.py:133
+#: ../src/pop_menu.py:134
 msgid "Next tracks"
 msgstr "Kiti takeliai"
 
-#: ../src/pop_menu.py:135 ../data/NextPopover.ui.h:1
+#: ../src/pop_menu.py:136 ../data/NextPopover.ui.h:1
 msgid "Next track"
 msgstr "Kitas takelis"
 
-#: ../src/pop_menu.py:139 ../src/widgets_context.py:146
+#: ../src/pop_menu.py:140 ../src/widgets_context.py:146
 #: ../src/widgets_indicator.py:107
 msgid "Remove from queue"
 msgstr "Šalinti iš eilės"
 
-#: ../src/pop_menu.py:212
+#: ../src/pop_menu.py:213
 msgid "Add to others"
 msgstr "Pridėti į kitus"
 
-#: ../src/pop_menu.py:230
+#: ../src/pop_menu.py:226
+msgid "Remove from \"Not in party\""
+msgstr "Šalinti iš \"Ne vakarėlyje\""
+
+#: ../src/pop_menu.py:231
+msgid "Add to \"Not in party\""
+msgstr "Pridėti į \"Ne vakarėlyje\""
+
+#: ../src/pop_menu.py:252
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "Šalinti iš \"%s\""
 
-#: ../src/pop_menu.py:236
+#: ../src/pop_menu.py:258
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Pridėti į \"%s\""
 
-#: ../src/pop_menu.py:370 ../src/widgets_context.py:106
+#: ../src/pop_menu.py:392 ../src/widgets_context.py:106
 msgid "Remove album"
 msgstr "Šalinti albumą"
 
-#: ../src/pop_menu.py:372 ../src/widgets_context.py:108
+#: ../src/pop_menu.py:394 ../src/widgets_context.py:108
 msgid "Remove track"
 msgstr "Šalinti takelį"
 
-#: ../src/pop_menu.py:381 ../src/widgets_context.py:130
+#: ../src/pop_menu.py:403 ../src/widgets_context.py:130
 msgid "Modify information"
 msgstr "Modifikuoti informaciją"
 
-#: ../src/pop_menu.py:426 ../data/SettingsDialog.ui.h:10
+#: ../src/pop_menu.py:448 ../data/SettingsDialog.ui.h:10
 msgid "Artist"
 msgstr "Atlikėjas"
 
-#: ../src/pop_menu.py:430 ../src/pop_menu.py:449 ../src/selectionlist.py:279
+#: ../src/pop_menu.py:452 ../src/pop_menu.py:471 ../src/selectionlist.py:279
 #: ../src/widgets_context.py:138 ../src/widgets_device.py:125
 #: ../src/widgets_playlist.py:557
 msgid "Playlists"
 msgstr "Grojaraščiai"
 
-#: ../src/pop_menu.py:432 ../src/pop_menu.py:451 ../data/PlaylistView.ui.h:1
+#: ../src/pop_menu.py:454 ../src/pop_menu.py:473 ../data/PlaylistView.ui.h:1
 msgid "Edit"
 msgstr "Redaguoti"
 
-#: ../src/pop_menu.py:563
+#: ../src/pop_menu.py:585
 msgid "Video address"
 msgstr "Vaizdo adresas"
 
-#: ../src/pop_menu.py:618
+#: ../src/pop_menu.py:640
 msgid "Save genre"
 msgstr "Įrašyti žanrą"
 
-#: ../src/pop_menu.py:639 ../src/widgets_context.py:98
+#: ../src/pop_menu.py:661 ../src/widgets_context.py:98
 #: ../data/ExternalSearchRow.ui.h:1
 msgid "Save into collection"
 msgstr "Įrašyti į kolekciją"
@@ -606,7 +614,7 @@ msgstr "Pridėti"
 msgid "Modify"
 msgstr "Modifikuoti"
 
-#: ../src/pop_search.py:336 ../data/SettingsDialog.ui.h:35
+#: ../src/pop_search.py:334 ../data/SettingsDialog.ui.h:35
 msgid "You need to install youtube-dl"
 msgstr "Jums reikia įdiegti youtube-dl"
 
@@ -650,6 +658,10 @@ msgstr "Visi albumai"
 #: ../src/selectionlist.py:287
 msgid "All artists"
 msgstr "Visi atlikėjai"
+
+#: ../src/selectionlist.py:301
+msgid "Not in party"
+msgstr "Ne vakarėlyje"
 
 #: ../src/settings.py:91
 msgid "Google Web Services need a custom API key"
@@ -727,12 +739,12 @@ msgstr "Šalinti"
 msgid "Please unlock your device"
 msgstr "Prašome atrakinti savo įrenginį"
 
-#: ../src/view_device.py:96 ../src/view_device.py:193
+#: ../src/view_device.py:96 ../src/view_device.py:199
 #, python-format
 msgid "Synchronize %s"
 msgstr "Sinchronizuoti %s"
 
-#: ../src/view_device.py:147
+#: ../src/view_device.py:148
 msgid "Cancel synchronization"
 msgstr "Atšaukti sinchronizaciją"
 
@@ -740,11 +752,11 @@ msgstr "Atšaukti sinchronizaciją"
 msgid "Append"
 msgstr "Pridėti"
 
-#: ../src/widgets_album_simple.py:139
+#: ../src/widgets_album_simple.py:141
 msgid "Play albums"
 msgstr "Groti albumus"
 
-#: ../src/widgets_album_simple.py:149 ../data/CoverBox.ui.h:2
+#: ../src/widgets_album_simple.py:151 ../data/CoverBox.ui.h:2
 msgid "Change artwork"
 msgstr "Keisti iliustraciją"
 
@@ -845,8 +857,8 @@ msgid "Flattr"
 msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.h:7
-msgid "Paypal"
-msgstr "Paypal"
+msgid "PayPal"
+msgstr "PayPal"
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Update music"
@@ -930,6 +942,10 @@ msgstr "API raktas"
 #: ../data/DeviceManagerView.ui.h:1
 msgid "Synchronize to your device"
 msgstr "Sinchronizuoti į jūsų įrenginį"
+
+#: ../data/DeviceManagerView.ui.h:2
+msgid "This will remove some files on your device!"
+msgstr "Tai pašalins kai kuriuos failus jūsų įrenginyje!"
 
 #: ../data/DeviceManagerWidget.ui.h:2
 msgid "Convert to MP3"
