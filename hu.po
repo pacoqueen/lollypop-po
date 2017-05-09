@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Ákos Kovács <kovacs.akos0712@gmail.com>, 2017
 # gyeben <gyonkibendeguz@gmail.com>, 2016
 # naren93 <m.renato93@gmail.com>, 2015-2017
 msgid ""
@@ -10,8 +11,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-27 13:51+0100\n"
-"PO-Revision-Date: 2017-02-27 12:55+0000\n"
-"Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
+"PO-Revision-Date: 2017-04-30 22:59+0000\n"
+"Last-Translator: Ákos Kovács <kovacs.akos0712@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/gnumdk/lollypop/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -711,7 +712,7 @@ msgstr "Nemrég hozzáadott"
 
 #: ../src/toolbar_end.py:429
 msgid "External tracks"
-msgstr ""
+msgstr "Külső számok"
 
 #: ../src/toolbar_end.py:433
 msgid "Playing playlists"
@@ -856,7 +857,7 @@ msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.h:7
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Update music"
@@ -943,7 +944,7 @@ msgstr "Szinkronizálás eszközre"
 
 #: ../data/DeviceManagerView.ui.h:2
 msgid "This will remove some files on your device!"
-msgstr ""
+msgstr "Ez a művelet el fog távolítani néhány fájlt a készülékedről!"
 
 #: ../data/DeviceManagerWidget.ui.h:2
 msgid "Convert to MP3"
