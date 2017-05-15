@@ -6,7 +6,7 @@
 # mabier <ma_120420@msn.com>, 2015-2016
 # Mingcong Bai <jeffbai@aosc.xyz>, 2016-2017
 # orange <orau9e@outlook.com>, 2015
-# Michikora, 2016
+# michikora, 2016
 # Mingcong Bai <jeffbai@aosc.xyz>, 2016
 msgid ""
 msgstr ""

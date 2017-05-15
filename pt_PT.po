@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-27 13:51+0100\n"
-"PO-Revision-Date: 2017-03-01 16:25+0000\n"
+"PO-Revision-Date: 2017-05-10 22:57+0000\n"
 "Last-Translator: Alberto Almeida <albertocalmeida@sapo.pt>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/gnumdk/lollypop/language/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -549,11 +549,11 @@ msgstr "Adicionar a outras"
 
 #: ../src/pop_menu.py:226
 msgid "Remove from \"Not in party\""
-msgstr ""
+msgstr "Remover de \"Não no modo de festa\""
 
 #: ../src/pop_menu.py:231
 msgid "Add to \"Not in party\""
-msgstr ""
+msgstr "Adicionar a \"Não no modo de festa\""
 
 #: ../src/pop_menu.py:252
 #, python-format
@@ -662,7 +662,7 @@ msgstr "Todos os artistas"
 
 #: ../src/selectionlist.py:301
 msgid "Not in party"
-msgstr ""
+msgstr "Não no modo de festa"
 
 #: ../src/settings.py:91
 msgid "Google Web Services need a custom API key"
