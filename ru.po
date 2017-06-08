@@ -11,15 +11,16 @@
 # Ilya Shaplyko <goldilb10xa@gmail.com>, 2016
 # Maxim region51 <murmansksity@gmail.com>, 2015
 # Maxim region51 <murmansksity@gmail.com>, 2015-2016
-# Maxim region51 <murmansksity@gmail.com>, 2016
+# Maxim region51 <murmansksity@gmail.com>, 2016-2017
 # Mikhail Elenskii, 2017
+# Павел Монахов <mpolr21@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-27 13:51+0100\n"
-"PO-Revision-Date: 2017-02-27 12:55+0000\n"
-"Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
+"PO-Revision-Date: 2017-06-01 16:40+0000\n"
+"Last-Translator: Maxim region51 <murmansksity@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/gnumdk/lollypop/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -89,7 +90,7 @@ msgstr "Когда не установлено, используется XDG_MUS
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:16
 msgid "Use Libre.fm instead of Last.fm"
-msgstr ""
+msgstr "Использовать Libre.fm вместо Last.fm"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:17
 msgid "Last.fm login"
@@ -141,7 +142,7 @@ msgstr "Размер обложки альбома"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:28
 msgid "Replay gain value in dB"
-msgstr ""
+msgstr "Увеличение громкости в децибелах"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:29
 msgid "Between -15 and 15"
@@ -157,7 +158,7 @@ msgstr "Конвертировать в MP3 (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
 msgid "Quality for converting MP3"
-msgstr ""
+msgstr "Качество конвертации в MP3"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:33
 msgid "Normalize MP3(MTP)"
@@ -377,7 +378,7 @@ msgstr "Поддержка HiDPI"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:21
 msgid "TuneIn support"
-msgstr ""
+msgstr "Поддержка Tunein"
 
 #: ../src/application.py:31
 msgid ""
@@ -396,7 +397,7 @@ msgstr "Выбрать обложку"
 
 #: ../src/art_widgets.py:282
 msgid "Low quality, missing API key…"
-msgstr ""
+msgstr "Низкое качество: отсутствует ключ API"
 
 #: ../src/art_widgets.py:376
 msgid "Reset artwork?"
@@ -473,11 +474,11 @@ msgstr "Любимые треки"
 
 #: ../src/playlists.py:243
 msgid "Spotify charts"
-msgstr ""
+msgstr "Spotify чарт"
 
 #: ../src/playlists.py:245
 msgid "Last.fm charts"
-msgstr ""
+msgstr "Last.fm чарт"
 
 #: ../src/playlists.py:265 ../src/selectionlist.py:296
 msgid "Popular tracks"
@@ -629,11 +630,11 @@ msgstr "Вам нужно установить youtube-dl"
 
 #: ../src/pop_tunein.py:94 ../data/RadioPopover.ui.h:1
 msgid "Please wait…"
-msgstr ""
+msgstr "Пожалуйста, подождите…"
 
 #: ../src/pop_tunein.py:181
 msgid "Can't connect to TuneIn…"
-msgstr ""
+msgstr "Не удается подключиться к TuneIn…"
 
 #: ../src/selectionlist.py:275
 msgid "Popular albums"
@@ -870,7 +871,7 @@ msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.h:7
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Update music"
@@ -953,7 +954,7 @@ msgstr "API ключ"
 
 #: ../data/DeviceManagerView.ui.h:1
 msgid "Synchronize to your device"
-msgstr ""
+msgstr "Синхронизировать с вашим устройством"
 
 #: ../data/DeviceManagerView.ui.h:2
 msgid "This will remove some files on your device!"
@@ -981,7 +982,7 @@ msgstr "Очистить очередь"
 
 #: ../data/RadioPopover.ui.h:3
 msgid "No logo found…"
-msgstr ""
+msgstr "Логотип не найден…"
 
 #: ../data/RadioPopover.ui.h:4
 msgid "Select a logo  for this radio"
@@ -1053,7 +1054,7 @@ msgstr "по популярности"
 
 #: ../data/SettingsDialog.ui.h:14
 msgid "Configure Lollypop appearance"
-msgstr ""
+msgstr "Настроить внешний вид плеера"
 
 #: ../data/SettingsDialog.ui.h:15
 msgid "Appearance"
@@ -1085,7 +1086,7 @@ msgstr "Нет аудиоустройства"
 
 #: ../data/SettingsDialog.ui.h:24
 msgid "Configure Lollypop behaviour"
-msgstr ""
+msgstr "Настроить поведение плеера"
 
 #: ../data/SettingsDialog.ui.h:25
 msgid "Behaviour"
@@ -1129,14 +1130,14 @@ msgstr "Вам необходимо установить pylast и gi secret"
 
 #: ../data/SettingsDialog.ui.h:41
 msgid "Use Libre.fm"
-msgstr ""
+msgstr "Использовать Libre.fm"
 
 #: ../data/SettingsDialog.ui.h:42
 msgid ""
 "Google Web Services need a custom API key.\n"
 "Without one, you will reach default quota soon…\n"
 "Lollypop needs this to search artwork and music."
-msgstr ""
+msgstr "Google Web Services нужен API ключ.\nБез него, вы скоро достигните лимита…\nLollypop он нужен для поиска изображений и музыки."
 
 #: ../data/SettingsDialog.ui.h:46
 msgid ""

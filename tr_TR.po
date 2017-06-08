@@ -5,6 +5,7 @@
 # Translators:
 # Bilal, 2015
 # Bilal, 2016
+# Emin Tufan <etcetin@gmail.com>, 2017
 # Serkan Algur <info@wpadami.com>, 2015
 # tolga.g <tolga.golelcin@gmail.com>, 2016
 msgid ""
@@ -12,8 +13,8 @@ msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-27 13:51+0100\n"
-"PO-Revision-Date: 2017-02-27 12:55+0000\n"
-"Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
+"PO-Revision-Date: 2017-05-23 07:37+0000\n"
+"Last-Translator: Emin Tufan <etcetin@gmail.com>\n"
 "Language-Team: Turkish (Turkey) (http://www.transifex.com/gnumdk/lollypop/language/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,7 +44,7 @@ msgstr "Mini oynatıcı boyutu"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:6
 msgid "Mini player position"
-msgstr "Mini oynatıcı pozisyonu"
+msgstr "Mini oynatıcı konumu"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:7
 msgid "Access network"
@@ -51,7 +52,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:8
 msgid "Search over network"
-msgstr ""
+msgstr "Ağ üzerinden ara"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:9
 msgid "Save artwork/popularity in tags"
@@ -67,7 +68,7 @@ msgstr "Ekranı kaplama alanı"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:12
 msgid "Enabled genres in party mode"
-msgstr "Parti modunda türleri etkinleştir"
+msgstr "Parti kipinde türleri etkinleştir"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:13
 msgid "ID for genres."
@@ -83,7 +84,7 @@ msgstr "Boş olduğunda XDG_MUSIC_DIR kullan"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:16
 msgid "Use Libre.fm instead of Last.fm"
-msgstr ""
+msgstr "Last.fm yerine Libre.fm kullan"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:17
 msgid "Last.fm login"
@@ -91,7 +92,7 @@ msgstr "Last.fm giriş"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:18
 msgid "Google Custom Search API key"
-msgstr ""
+msgstr "Google Özel Arama API anahtarı"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:19
 msgid "Favorite tag editor"
@@ -121,13 +122,13 @@ msgstr "Yeniden başlatmak gerekli"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:25
 msgid "Database version"
-msgstr "Veritabanı sürümü"
+msgstr "Veri tabanı sürümü"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:26
 msgid ""
 "Resetting this value will reset the database, popular albums will be "
 "restored"
-msgstr ""
+msgstr "Bu değeri sıfırlamak veri tabanını sıfırlayacaktır, popüler albümler kurtarılacaktır"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:27 ../data/SettingsDialog.ui.h:7
 msgid "Albums cover size"
@@ -147,7 +148,7 @@ msgstr "Tüm albümleri senk. (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:31
 msgid "Convert to MP3(MTP)"
-msgstr "MP3'e dönüştür (MTP)"
+msgstr "MP3ʼe dönüştür (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:32
 msgid "Quality for converting MP3"
@@ -155,11 +156,11 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:33
 msgid "Normalize MP3(MTP)"
-msgstr "MP3(MTP)'i normalleştir"
+msgstr "MP3ʼü normalleştir (MTP)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:34 ../data/SettingsDialog.ui.h:16
 msgid "Auto update music"
-msgstr "Otomatik müzik gücelleme"
+msgstr "Kendiliğinden müzik gücelleme"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:35
 msgid "Split playlists view"
@@ -183,7 +184,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:40
 msgid "Use dark gtk theme"
-msgstr "Dark gtk temasını kullan"
+msgstr "Karanlık GTK gövdesini kullan"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:41
 msgid "Disable use of client side window decorations (headerbar)"
@@ -211,11 +212,11 @@ msgstr "Bir önceki durumuna geri yükle"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:47
 msgid "Disable MPRIS"
-msgstr "MPRIS etkinsizleştir"
+msgstr "MPRISʼi devre dışı bırak"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:48
 msgid "Disable notifications"
-msgstr "Bildirimleri etkinsizleştir"
+msgstr "Bildirimleri devre dışı bırak"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:49
 msgid "Show track number from tags"
@@ -223,11 +224,11 @@ msgstr "Parça numarasını etiketten göster"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:50
 msgid "JPG cover quality"
-msgstr ""
+msgstr "JPG kapak kalitesi"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:51
 msgid "0-100"
-msgstr ""
+msgstr "0-100"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:52
 msgid "Mix songs"
@@ -235,15 +236,15 @@ msgstr "Şarkıları karıştır"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:53
 msgid "Only mix songs in party mode"
-msgstr ""
+msgstr "Şarkıları yalnızca parti kipinde karıştır"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:54 ../data/SettingsDialog.ui.h:34
 msgid "Search tracks on Itunes"
-msgstr ""
+msgstr "Itunes'ta parça ara"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:55 ../data/SettingsDialog.ui.h:33
 msgid "Search tracks on Spotify"
-msgstr ""
+msgstr "Spotify'da parça ara"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:56
 msgid "Mix duration"
@@ -251,7 +252,7 @@ msgstr ""
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:57
 msgid "Shuffle mode"
-msgstr "Tekrar modu"
+msgstr "Tekrar kipi"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:58
 msgid "Playback behaviour"
@@ -303,11 +304,11 @@ msgstr "Sağladıkları:"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:5
 msgid "MP3, Ogg and FLAC playback"
-msgstr ""
+msgstr "MP3, Ogg ve FLAC kayıttan çalma"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:6
 msgid "Web playback"
-msgstr ""
+msgstr "Web kayıttan çalma"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:7
 msgid "Genre/Cover browsing"
@@ -331,7 +332,7 @@ msgstr "Sıra"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:11
 msgid "Party mode"
-msgstr "Parti modu"
+msgstr "Parti kipi"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:12
 msgid "Replay gain"
@@ -371,14 +372,14 @@ msgstr "HiDPI desteği"
 
 #: ../data/org.gnome.Lollypop.appdata.xml.in.h:21
 msgid "TuneIn support"
-msgstr ""
+msgstr "TuneIn desteği"
 
 #: ../src/application.py:31
 msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
 "    - Artist informations disabled"
-msgstr " - Skroplamayı etkinsizleştir\n- Otomatik kapak indirmeyi etkinsizleştir\n- Şarkıcı bilgilerini etkinsizleştir"
+msgstr "- Skroplama devre dışı\n- Kendiliğinden kapak indirme devre dışı\n- Sanatçı bilgileri devre dışı"
 
 #: ../src/application.py:639
 msgid "Lollypop: You need to install yelp."
@@ -390,7 +391,7 @@ msgstr ""
 
 #: ../src/art_widgets.py:282
 msgid "Low quality, missing API key…"
-msgstr ""
+msgstr "Düşük kalite, eksik API anahtarı…"
 
 #: ../src/art_widgets.py:376
 msgid "Reset artwork?"
@@ -398,11 +399,11 @@ msgstr ""
 
 #: ../src/collectionscanner.py:187
 msgid "Lollypop is detecting an empty folder."
-msgstr ""
+msgstr "Lollypop boş bir dizin saptıyor."
 
 #: ../src/collectionscanner.py:188
 msgid "Check your music settings."
-msgstr ""
+msgstr "Müzik ayarlarınızı gözden geçirin."
 
 #: ../src/collectionscanner.py:290 ../src/database_albums.py:436
 #: ../src/database_artists.py:104 ../src/database_genres.py:70
@@ -430,11 +431,11 @@ msgstr "Oynat"
 
 #: ../src/controllers.py:194
 msgid "Volume"
-msgstr ""
+msgstr "Ses"
 
 #: ../src/database_artists.py:97
 msgid "Many artists"
-msgstr "Birçok şarkıcı"
+msgstr "Birçok sanatçı"
 
 #: ../src/lastfm.py:23
 msgid "Last.fm authentication disabled"
@@ -459,7 +460,7 @@ msgstr "%s'a, %s'dan"
 
 #: ../src/player_queue.py:43 ../src/player_queue.py:68
 msgid "No network available, can't play this track"
-msgstr ""
+msgstr "Kullanılabilir ağ yok, bu parça oynatılamaz"
 
 #: ../src/playlists.py:58
 msgid "Loved tracks"
@@ -467,15 +468,15 @@ msgstr "Sevilen parçalar"
 
 #: ../src/playlists.py:243
 msgid "Spotify charts"
-msgstr ""
+msgstr "Spotify listeleri"
 
 #: ../src/playlists.py:245
 msgid "Last.fm charts"
-msgstr ""
+msgstr "Last.fm listeleri"
 
 #: ../src/playlists.py:265 ../src/selectionlist.py:296
 msgid "Popular tracks"
-msgstr "Popüler şarkılar"
+msgstr "Popüler parçalar"
 
 #: ../src/playlists.py:267 ../src/selectionlist.py:298
 msgid "Recently played"
@@ -487,7 +488,7 @@ msgstr "Hiç çalınmayanlar"
 
 #: ../src/playlists.py:271 ../src/selectionlist.py:300
 msgid "Random tracks"
-msgstr "Rastgele şarkılar"
+msgstr "Rastgele parçalar"
 
 #: ../src/pop_albums.py:81
 msgid "Compilation"
@@ -504,7 +505,7 @@ msgstr "Güncel parçaya git"
 
 #: ../src/pop_albums.py:303 ../src/toolbar_end.py:435
 msgid "Playing albums"
-msgstr ""
+msgstr "Oynatılan albümler"
 
 #: ../src/pop_info.py:36
 msgid "Advanced artist informations disabled"
@@ -517,11 +518,11 @@ msgstr "WebKit desteği devredışı bırakıldı"
 #: ../src/pop_info.py:251 ../src/settings.py:366 ../src/view_artist.py:61
 #: ../src/view_artist_albums.py:76 ../src/widgets_info.py:130
 msgid "Network access disabled"
-msgstr ""
+msgstr "Ağ erişimi devre dışı"
 
 #: ../src/pop_info.py:259
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
-msgstr ""
+msgstr "Hiç söz bulunamadı, lütfen gir1.2-webkit2-4.0'ı yükleyin"
 
 #: ../src/pop_menu.py:65
 msgid "Show albums from artist"
@@ -569,11 +570,11 @@ msgstr "\"%s\"e ekle"
 
 #: ../src/pop_menu.py:392 ../src/widgets_context.py:106
 msgid "Remove album"
-msgstr ""
+msgstr "Albümü kaldır"
 
 #: ../src/pop_menu.py:394 ../src/widgets_context.py:108
 msgid "Remove track"
-msgstr ""
+msgstr "Parçayı kaldır"
 
 #: ../src/pop_menu.py:403 ../src/widgets_context.py:130
 msgid "Modify information"
@@ -581,7 +582,7 @@ msgstr "Bilgileri değiştir"
 
 #: ../src/pop_menu.py:448 ../data/SettingsDialog.ui.h:10
 msgid "Artist"
-msgstr "şarkıcı"
+msgstr "Sanatçı"
 
 #: ../src/pop_menu.py:452 ../src/pop_menu.py:471 ../src/selectionlist.py:279
 #: ../src/widgets_context.py:138 ../src/widgets_device.py:125
@@ -619,15 +620,15 @@ msgstr "Değiştir"
 
 #: ../src/pop_search.py:334 ../data/SettingsDialog.ui.h:35
 msgid "You need to install youtube-dl"
-msgstr ""
+msgstr "youtube-dl yüklemeniz gerekiyor"
 
 #: ../src/pop_tunein.py:94 ../data/RadioPopover.ui.h:1
 msgid "Please wait…"
-msgstr ""
+msgstr "Lütfen bekle…"
 
 #: ../src/pop_tunein.py:181
 msgid "Can't connect to TuneIn…"
-msgstr ""
+msgstr "TuneInʼe bağlanamıyor…"
 
 #: ../src/selectionlist.py:275
 msgid "Popular albums"
@@ -635,7 +636,7 @@ msgstr "Popüler albümler"
 
 #: ../src/selectionlist.py:276
 msgid "Loved albums"
-msgstr ""
+msgstr "Sevilen albümler"
 
 #: ../src/selectionlist.py:277
 msgid "Recently added albums"
@@ -652,15 +653,15 @@ msgstr "Radyolar"
 #: ../src/selectionlist.py:283 ../src/settings.py:355 ../src/settings.py:365
 #: ../data/SettingsDialog.ui.h:28
 msgid "The charts"
-msgstr ""
+msgstr "Listeler"
 
 #: ../src/selectionlist.py:285
 msgid "All albums"
-msgstr "Bütün albümler"
+msgstr "Tüm albümler"
 
 #: ../src/selectionlist.py:287
 msgid "All artists"
-msgstr "Bütün şarkıcılar"
+msgstr "Tüm sanatçılar"
 
 #: ../src/selectionlist.py:301
 msgid "Not in party"
@@ -690,7 +691,7 @@ msgstr[0] "%d albüm"
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
-msgstr[0] "%d şarkı"
+msgstr[0] "%d parça"
 
 #: ../src/settings.py:122 ../src/settings.py:125 ../data/SettingsDialog.ui.h:3
 msgid "Preferences"
@@ -714,7 +715,7 @@ msgstr ""
 
 #: ../src/toolbar_end.py:433
 msgid "Playing playlists"
-msgstr ""
+msgstr "Oynatılan oynatma listeleri"
 
 #. Handle language ordering
 #. Translators: Add here words that shoud be ignored for artist sort order
@@ -779,7 +780,7 @@ msgstr "Disk %s"
 
 #: ../src/widgets_info.py:128
 msgid "No information for this artist"
-msgstr ""
+msgstr "Bu sanatçı için bilgi yok"
 
 #: ../src/widgets_device.py:61
 msgid "You need to install gstreamer-plugins-ugly"
@@ -804,7 +805,7 @@ msgstr ""
 
 #: ../src/widgets_playlist.py:591 ../src/widgets_playlist.py:594
 msgid "New playlist "
-msgstr "Yeni şarkı listesi"
+msgstr "Yeni oynatma listesi"
 
 #. Need a copy, segfault on EOS 3.1
 #: ../src/widgets_playlist.py:695 ../src/widgets_playlist.py:901
@@ -829,7 +830,7 @@ msgstr "musician;band"
 
 #: ../data/LastfmPopover.ui.h:1 ../data/ArtistView.ui.h:4
 msgid "Similar artists"
-msgstr ""
+msgstr "Benzer sanatçılar"
 
 #: ../data/AboutDialog.ui.h:1
 msgid "A music player for GNOME."
@@ -847,15 +848,15 @@ msgstr "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 
 #: ../data/AboutDialog.ui.h:5
 msgid "Donations:"
-msgstr ""
+msgstr "Bağışlar:"
 
 #: ../data/AboutDialog.ui.h:6
 msgid "Flattr"
-msgstr ""
+msgstr "Flattr"
 
 #: ../data/AboutDialog.ui.h:7
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: ../data/Appmenu.ui.h:1
 msgid "_Update music"
@@ -867,7 +868,7 @@ msgstr "_Tam ekran"
 
 #: ../data/Appmenu.ui.h:3
 msgid "_Network access"
-msgstr ""
+msgstr "_Ağ erişimi"
 
 #: ../data/Appmenu.ui.h:4
 msgid "_Preferences"
@@ -875,7 +876,7 @@ msgstr "_Tercihler"
 
 #: ../data/Appmenu.ui.h:5
 msgid "_Keyboard Shortcuts"
-msgstr "_Dizilem Kısayolları"
+msgstr "_Klavye Kısayolları"
 
 #: ../data/Appmenu.ui.h:6
 msgid "_Help"
@@ -934,7 +935,7 @@ msgstr ""
 
 #: ../data/ArtworkSearch.ui.h:6 ../data/SettingsDialog.ui.h:45
 msgid "API key"
-msgstr ""
+msgstr "API anahtarı"
 
 #: ../data/DeviceManagerView.ui.h:1
 msgid "Synchronize to your device"
@@ -954,7 +955,7 @@ msgstr "MP3'i normalleştir"
 
 #: ../data/PlaylistsManagerView.ui.h:1
 msgid "New playlist"
-msgstr "Yeni şarkı listesi"
+msgstr "Yeni oynatma listesi"
 
 #: ../data/PlaylistView.ui.h:2
 msgid "Unsplit view"
@@ -1002,15 +1003,15 @@ msgstr "Aramaya dayalı çalma listesi oluştur"
 
 #: ../data/SearchPopover.ui.h:2
 msgid "Search on the web"
-msgstr ""
+msgstr "Web üzerinde ara"
 
 #: ../data/InternalSearchRow.ui.h:1
 msgid "Add to playlist"
-msgstr "Şarkı listesine ekle"
+msgstr "Oynatma listesine ekle"
 
 #: ../data/SettingsDialog.ui.h:1
 msgid "Only in party mode"
-msgstr "Sadece parti modunda"
+msgstr "Yalnızca parti kipinde"
 
 #: ../data/SettingsDialog.ui.h:2
 msgid "Mix duration in seconds"
@@ -1018,7 +1019,7 @@ msgstr ""
 
 #: ../data/SettingsDialog.ui.h:4
 msgid "Use dark theme variant"
-msgstr "Karanlık tema varyantını kullan"
+msgstr "Karanlık gövdeyi kullan"
 
 #: ../data/SettingsDialog.ui.h:5
 msgid "Show genres"
@@ -1038,7 +1039,7 @@ msgstr "Popülerlik"
 
 #: ../data/SettingsDialog.ui.h:14
 msgid "Configure Lollypop appearance"
-msgstr ""
+msgstr "Lollypop davranışını yapılandır"
 
 #: ../data/SettingsDialog.ui.h:15
 msgid "Appearance"
@@ -1058,7 +1059,7 @@ msgstr "Ayarları görüntülemek için basılı tut"
 
 #: ../data/SettingsDialog.ui.h:21
 msgid "Save changes to files"
-msgstr ""
+msgstr "Değişiklikleri dosyalara kaydet"
 
 #: ../data/SettingsDialog.ui.h:22
 msgid "Preview tracks on"
@@ -1066,11 +1067,11 @@ msgstr "p: Önceki parça"
 
 #: ../data/SettingsDialog.ui.h:23
 msgid "No audio device"
-msgstr ""
+msgstr "Ses aygıtı yok"
 
 #: ../data/SettingsDialog.ui.h:24
 msgid "Configure Lollypop behaviour"
-msgstr ""
+msgstr "Lollypop görünüşünü yapılandır"
 
 #: ../data/SettingsDialog.ui.h:25
 msgid "Behaviour"
@@ -1090,11 +1091,11 @@ msgstr "Müzik"
 
 #: ../data/SettingsDialog.ui.h:31
 msgid "Spotify"
-msgstr ""
+msgstr "Spotify"
 
 #: ../data/SettingsDialog.ui.h:32
 msgid "Itunes"
-msgstr ""
+msgstr "Itunes"
 
 #: ../data/SettingsDialog.ui.h:37
 msgid "Login:"
@@ -1114,28 +1115,28 @@ msgstr "Pylast ve gi secret'i yükle"
 
 #: ../data/SettingsDialog.ui.h:41
 msgid "Use Libre.fm"
-msgstr ""
+msgstr "Libre.fm kullan"
 
 #: ../data/SettingsDialog.ui.h:42
 msgid ""
 "Google Web Services need a custom API key.\n"
 "Without one, you will reach default quota soon…\n"
 "Lollypop needs this to search artwork and music."
-msgstr ""
+msgstr "Google Web Hizmetleri özel API anahtarına gereksinir.\nBu olmadan, öntanımlı kotaya kısa sürede ulaşacaksınız…\nLollypop, kapak resmi ve müzik aramak için buna gereksinir."
 
 #: ../data/SettingsDialog.ui.h:46
 msgid ""
 "You need to enable \"Custom Search API\" \n"
 "and \"YouTube Data API\" for your project."
-msgstr ""
+msgstr "Tasarınız için \"Özel Arama API\" ve \n\"YouTube Veri API\"yi etkinleştirmeniz gerekiyor."
 
 #: ../data/SettingsDialog.ui.h:48
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: ../data/SettingsDialog.ui.h:49
 msgid "Web"
-msgstr ""
+msgstr "Web"
 
 #: ../data/ToolbarEnd.ui.h:1
 msgid "Shuffle"
@@ -1181,7 +1182,7 @@ msgstr "Kayıttan çal"
 msgid ""
 "Party mode\n"
 "Right click to filter"
-msgstr "Parti modu\nFiltrelemek için sağ tıkla"
+msgstr "Parti kipi\nSüzmek için sağ tıkla"
 
 #: ../data/TuneinPopover.ui.h:2
 msgid "Go home"
@@ -1205,7 +1206,7 @@ msgstr "Ara"
 #: ../data/Shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Party mode"
-msgstr "Parti modu"
+msgstr "Parti kipi"
 
 #: ../data/Shortcuts.ui.h:5
 msgctxt "shortcut window"
