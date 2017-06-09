@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Baz Man <s.raubach@web.de>, 2016
 # florian0 <florian0@project-hazard.org>, 2016
@@ -19,14 +19,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-27 13:51+0100\n"
+"POT-Creation-Date: 2017-06-09 18:53+0200\n"
 "PO-Revision-Date: 2017-03-23 01:26+0000\n"
 "Last-Translator: Vincent Bermel <palob@users.noreply.github.com>\n"
-"Language-Team: German (http://www.transifex.com/gnumdk/lollypop/language/de/)\n"
+"Language-Team: German (http://www.transifex.com/gnumdk/lollypop/language/"
+"de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:1
@@ -117,7 +118,9 @@ msgstr "Vorschau beim Überfahren eines Titels mit der Maus"
 msgid ""
 "PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
-msgstr "PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. Command to get outputs: $ pacmd list-sinks|grep 'name:'"
+msgstr ""
+"PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
+"Command to get outputs: $ pacmd list-sinks|grep 'name:'"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:23
 msgid "Favorite cover file"
@@ -133,9 +136,10 @@ msgstr "Datenbankversion"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:26
 msgid ""
-"Resetting this value will reset the database, popular albums will be "
-"restored"
-msgstr "Zurücksetzen dieses Wertes wird die Datenbank zurücksetzen. Albumpopularität wird erhalten."
+"Resetting this value will reset the database, popular albums will be restored"
+msgstr ""
+"Zurücksetzen dieses Wertes wird die Datenbank zurücksetzen. Albumpopularität "
+"wird erhalten."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:27 ../data/SettingsDialog.ui.h:7
 msgid "Albums cover size"
@@ -211,7 +215,9 @@ msgstr "Smarte Sortierung für Künstler"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:45
 msgid "Ex: The Beatles sorted as Beatles. Resetting database needed."
-msgstr "Bsp.: \"Die Beatles\" sortiert als \"Beatles.\" Datenbank muss zurückgesetzt werden."
+msgstr ""
+"Bsp.: \"Die Beatles\" sortiert als \"Beatles.\" Datenbank muss zurückgesetzt "
+"werden."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:46
 msgid "Restore previous state"
@@ -258,18 +264,22 @@ msgid "Mix duration"
 msgstr "Überblendzeit"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:57
+msgid "Reset current track position on previous"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:58
 msgid "Shuffle mode"
 msgstr "Zufallsmodus"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:58
+#: ../data/org.gnome.Lollypop.gschema.xml.h:59
 msgid "Playback behaviour"
 msgstr "Wiedergabeverhalten"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:59 ../data/SettingsDialog.ui.h:9
+#: ../data/org.gnome.Lollypop.gschema.xml.h:60 ../data/SettingsDialog.ui.h:9
 msgid "Order albums by"
 msgstr "Alben sortieren nach"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:60
+#: ../data/org.gnome.Lollypop.gschema.xml.h:61
 msgid "Charts provider"
 msgstr "Chart-Provider"
 
@@ -291,12 +301,12 @@ msgstr "Spiele und organisiere deine Musiksammlung"
 msgid "Play/Pause"
 msgstr "Play/Pause"
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:5 ../src/notification.py:118
+#: ../data/org.gnome.Lollypop.desktop.in.h:5 ../src/notification.py:120
 #: ../data/ToolbarPlayback.ui.h:3
 msgid "Next"
 msgstr "Nächster Titel"
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:6 ../src/notification.py:112
+#: ../data/org.gnome.Lollypop.desktop.in.h:6 ../src/notification.py:114
 #: ../data/ToolbarPlayback.ui.h:1
 msgid "Previous"
 msgstr "Vorheriger Titel"
@@ -325,15 +335,14 @@ msgstr "Genre/Cover-Browsing"
 msgid "Genre/Artist/Cover browsing"
 msgstr "Genre/Künstler/Cover-Browsing"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/playlists.py:273
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/playlists.py:291
 #: ../data/ArtistInfo.ui.h:5 ../data/SettingsDialog.ui.h:36
 #: ../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr "Suche"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:450
-#: ../src/pop_menu.py:469 ../src/toolbar_end.py:431
-#: ../data/QueuePopover.ui.h:2
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:529
+#: ../src/pop_menu.py:548 ../src/toolbar_end.py:438 ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr "Warteschlange"
 
@@ -386,9 +395,12 @@ msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
 "    - Artist informations disabled"
-msgstr "- Scrobbler deaktiviert\n- Automatischer Cover-Download deaktiviert\n- Künster-Informationen deaktivert"
+msgstr ""
+"- Scrobbler deaktiviert\n"
+"- Automatischer Cover-Download deaktiviert\n"
+"- Künster-Informationen deaktivert"
 
-#: ../src/application.py:639
+#: ../src/application.py:602
 msgid "Lollypop: You need to install yelp."
 msgstr "Lollypop: Yelp muss installiert sein."
 
@@ -404,24 +416,24 @@ msgstr "Geringe Qualität, API-Schlüssel fehlt..."
 msgid "Reset artwork?"
 msgstr "Coverbild zurücksetzen?"
 
-#: ../src/collectionscanner.py:187
+#: ../src/collectionscanner.py:188
 msgid "Lollypop is detecting an empty folder."
 msgstr "Lollypop hat einen leeren Ordner gefunden."
 
-#: ../src/collectionscanner.py:188
+#: ../src/collectionscanner.py:189
 msgid "Check your music settings."
 msgstr "Bitte überprüfe Deine Audioeinstellungen."
 
-#: ../src/collectionscanner.py:290 ../src/database_albums.py:436
+#: ../src/collectionscanner.py:296 ../src/database_albums.py:439
 #: ../src/database_artists.py:104 ../src/database_genres.py:70
-#: ../src/database_tracks.py:320 ../src/selectionlist.py:374
-#: ../src/tagreader.py:85 ../src/tagreader.py:100 ../src/tagreader.py:115
-#: ../src/tagreader.py:160 ../src/tagreader.py:175 ../src/tagreader.py:178
-#: ../src/tagreader.py:188 ../src/tagreader.py:195
+#: ../src/database_tracks.py:333 ../src/selectionlist.py:407
+#: ../src/tagreader.py:86 ../src/tagreader.py:102 ../src/tagreader.py:118
+#: ../src/tagreader.py:166 ../src/tagreader.py:182 ../src/tagreader.py:186
+#: ../src/tagreader.py:196 ../src/tagreader.py:204
 msgid "Unknown"
 msgstr "Unbekannt"
 
-#: ../src/container.py:467 ../src/widgets_device.py:309
+#: ../src/container.py:490 ../src/widgets_device.py:309
 msgid "Compilations"
 msgstr "Kompilationen"
 
@@ -430,7 +442,7 @@ msgid "Pause"
 msgstr "Pause"
 
 #: ../src/controllers.py:85 ../src/controllers.py:104 ../src/pop_tunein.py:217
-#: ../src/widgets_album_simple.py:130 ../src/widgets_radio.py:182
+#: ../src/widgets_album_simple.py:137 ../src/widgets_radio.py:183
 #: ../data/ArtistView.ui.h:2 ../data/ToolbarPlayback.ui.h:2
 #: ../data/CoverBox.ui.h:1
 msgid "Play"
@@ -453,14 +465,14 @@ msgid "Wrong Last.fm credentials"
 msgstr "Falsche Last.fm Anmeldedaten"
 
 #. TRANSLATORS: by refers to the artist,
-#: ../src/notification.py:148
+#: ../src/notification.py:154
 #, python-format
 msgid "by %s"
 msgstr "von %s"
 
 #. TRANSLATORS: by refers to the artist,
 #. from to the album
-#: ../src/notification.py:156
+#: ../src/notification.py:162
 #, python-format
 msgid "by %s, from %s"
 msgstr "von %s, aus %s"
@@ -473,44 +485,43 @@ msgstr "Keine Netzwerkverbindung verfügbar, Titel kann nicht abgespielt werden"
 msgid "Loved tracks"
 msgstr "Beliebte Titel"
 
-#: ../src/playlists.py:243
+#: ../src/playlists.py:261
 msgid "Spotify charts"
 msgstr "Spotify-Charts"
 
-#: ../src/playlists.py:245
+#: ../src/playlists.py:263
 msgid "Last.fm charts"
 msgstr "Last.fm-Charts"
 
-#: ../src/playlists.py:265 ../src/selectionlist.py:296
+#: ../src/playlists.py:283 ../src/selectionlist.py:310
 msgid "Popular tracks"
 msgstr "Beliebte Titel"
 
-#: ../src/playlists.py:267 ../src/selectionlist.py:298
+#: ../src/playlists.py:285 ../src/selectionlist.py:312
 msgid "Recently played"
 msgstr "Kürzlich abgespielt"
 
-#: ../src/playlists.py:269 ../src/selectionlist.py:299
+#: ../src/playlists.py:287 ../src/selectionlist.py:313
 msgid "Never played"
 msgstr "Noch nie abgespielt"
 
-#: ../src/playlists.py:271 ../src/selectionlist.py:300
+#: ../src/playlists.py:289 ../src/selectionlist.py:314
 msgid "Random tracks"
 msgstr "Zufällige Titel"
 
-#: ../src/pop_albums.py:81
+#: ../src/pop_albums.py:82
 msgid "Compilation"
 msgstr "Kompilation"
 
-#: ../src/pop_albums.py:294
+#: ../src/pop_albums.py:295
 msgid "Clear albums"
 msgstr "Bereinige Alben"
 
-#: ../src/pop_albums.py:302 ../src/view_artist.py:52 ../data/ArtistInfo.ui.h:8
-#: ../data/ArtistView.ui.h:5
+#: ../src/pop_albums.py:304 ../src/view_artist.py:52 ../data/ArtistInfo.ui.h:8
 msgid "Go to current track"
 msgstr "Zu aktuellem Titel wechseln"
 
-#: ../src/pop_albums.py:303 ../src/toolbar_end.py:435
+#: ../src/pop_albums.py:305 ../src/toolbar_end.py:442
 msgid "Playing albums"
 msgstr "Spiele Alben"
 
@@ -522,12 +533,12 @@ msgstr "Weiterführende Künstler-Informationen deaktiviert"
 msgid "WebKit support disabled"
 msgstr "WebKit-Unterstützung deaktiviert"
 
-#: ../src/pop_info.py:251 ../src/settings.py:366 ../src/view_artist.py:61
+#: ../src/pop_info.py:269 ../src/settings.py:376 ../src/view_artist.py:61
 #: ../src/view_artist_albums.py:76 ../src/widgets_info.py:130
 msgid "Network access disabled"
 msgstr "Netzwerkzugriff deaktiviert"
 
-#: ../src/pop_info.py:259
+#: ../src/pop_info.py:277
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
 msgstr "Keine Liedtexte gefunden, bitte gir1.2-webkit2-4.0 installieren."
 
@@ -535,7 +546,7 @@ msgstr "Keine Liedtexte gefunden, bitte gir1.2-webkit2-4.0 installieren."
 msgid "Show albums from artist"
 msgstr "Zeige Alben dieses Künstlers"
 
-#: ../src/pop_menu.py:129 ../src/widgets_context.py:149
+#: ../src/pop_menu.py:129 ../src/widgets_context.py:139
 #: ../src/widgets_indicator.py:111 ../data/InternalSearchRow.ui.h:2
 msgid "Add to queue"
 msgstr "Zur Warteschlange hinzufügen"
@@ -548,7 +559,7 @@ msgstr "Nächste Titel"
 msgid "Next track"
 msgstr "Nächster Titel"
 
-#: ../src/pop_menu.py:140 ../src/widgets_context.py:146
+#: ../src/pop_menu.py:140 ../src/widgets_context.py:136
 #: ../src/widgets_indicator.py:107
 msgid "Remove from queue"
 msgstr "Aus Warteschlange entfernen"
@@ -575,41 +586,44 @@ msgstr "Aus \"%s\" entfernen"
 msgid "Add to \"%s\""
 msgstr "Zu \"%s\" hinzufügen"
 
-#: ../src/pop_menu.py:392 ../src/widgets_context.py:106
+#: ../src/pop_menu.py:387 ../src/widgets_context.py:104
 msgid "Remove album"
 msgstr "Album entfernen"
 
-#: ../src/pop_menu.py:394 ../src/widgets_context.py:108
+#: ../src/pop_menu.py:389 ../src/widgets_context.py:106
 msgid "Remove track"
 msgstr "Titel entfernen"
 
-#: ../src/pop_menu.py:403 ../src/widgets_context.py:130
+#: ../src/pop_menu.py:398 ../src/widgets_context.py:121
 msgid "Modify information"
 msgstr "Informationen bearbeiten"
 
-#: ../src/pop_menu.py:448 ../data/SettingsDialog.ui.h:10
+#: ../src/pop_menu.py:407 ../src/widgets_context.py:185
+msgid "Open directory"
+msgstr ""
+
+#: ../src/pop_menu.py:527 ../data/SettingsDialog.ui.h:10
 msgid "Artist"
 msgstr "Künstler"
 
-#: ../src/pop_menu.py:452 ../src/pop_menu.py:471 ../src/selectionlist.py:279
-#: ../src/widgets_context.py:138 ../src/widgets_device.py:125
-#: ../src/widgets_playlist.py:557
+#: ../src/pop_menu.py:531 ../src/pop_menu.py:550 ../src/selectionlist.py:293
+#: ../src/widgets_device.py:125 ../src/widgets_playlist.py:557
 msgid "Playlists"
 msgstr "Wiedergabelisten"
 
-#: ../src/pop_menu.py:454 ../src/pop_menu.py:473 ../data/PlaylistView.ui.h:1
+#: ../src/pop_menu.py:533 ../src/pop_menu.py:552 ../data/PlaylistView.ui.h:1
 msgid "Edit"
 msgstr "Bearbeiten"
 
-#: ../src/pop_menu.py:585
+#: ../src/pop_menu.py:664
 msgid "Video address"
 msgstr "Videoadresse"
 
-#: ../src/pop_menu.py:640
+#: ../src/pop_menu.py:719
 msgid "Save genre"
 msgstr "Genre speichern"
 
-#: ../src/pop_menu.py:661 ../src/widgets_context.py:98
+#: ../src/pop_menu.py:740 ../src/widgets_context.py:96
 #: ../data/ExternalSearchRow.ui.h:1
 msgid "Save into collection"
 msgstr "In Kollektion speichern"
@@ -625,7 +639,7 @@ msgstr "Hinzufügen"
 msgid "Modify"
 msgstr "Ändern"
 
-#: ../src/pop_search.py:334 ../data/SettingsDialog.ui.h:35
+#: ../src/pop_search.py:338 ../data/SettingsDialog.ui.h:35
 msgid "You need to install youtube-dl"
 msgstr "youtube-dl muss installiert werden"
 
@@ -637,77 +651,77 @@ msgstr "Bitte warten..."
 msgid "Can't connect to TuneIn…"
 msgstr "Kann nicht mit TuneIn verbinden... "
 
-#: ../src/selectionlist.py:275
+#: ../src/selectionlist.py:288
 msgid "Popular albums"
 msgstr "Beliebte Alben"
 
-#: ../src/selectionlist.py:276
+#: ../src/selectionlist.py:290
 msgid "Loved albums"
 msgstr "Lieblingsalben"
 
-#: ../src/selectionlist.py:277
+#: ../src/selectionlist.py:291
 msgid "Recently added albums"
 msgstr "Kürzlich hinzugefügte Alben"
 
-#: ../src/selectionlist.py:278
+#: ../src/selectionlist.py:292
 msgid "Random albums"
 msgstr "Zufällige Alben"
 
-#: ../src/selectionlist.py:280
+#: ../src/selectionlist.py:294
 msgid "Radios"
 msgstr "Stationen"
 
-#: ../src/selectionlist.py:283 ../src/settings.py:355 ../src/settings.py:365
+#: ../src/selectionlist.py:297 ../src/settings.py:365 ../src/settings.py:375
 #: ../data/SettingsDialog.ui.h:28
 msgid "The charts"
 msgstr "Charts"
 
-#: ../src/selectionlist.py:285
+#: ../src/selectionlist.py:299
 msgid "All albums"
 msgstr "Alle Alben"
 
-#: ../src/selectionlist.py:287
+#: ../src/selectionlist.py:301
 msgid "All artists"
 msgstr "Alle Künstler"
 
-#: ../src/selectionlist.py:301
+#: ../src/selectionlist.py:315
 msgid "Not in party"
 msgstr "Nicht im Partymodus"
 
-#: ../src/settings.py:91
+#: ../src/settings.py:98
 msgid "Google Web Services need a custom API key"
 msgstr "Die Google Web Services benötigen einen eigenen API-Schlüssel"
 
-#: ../src/settings.py:92
+#: ../src/settings.py:99
 msgid "Lollypop needs this to search artwork and music."
 msgstr "Lollypop benötigt dies zum Suchen von Bildmaterial und Musik."
 
-#: ../src/settings.py:107
+#: ../src/settings.py:114
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
 msgstr[0] "%d Künstler"
 msgstr[1] "%d Künstler"
 
-#: ../src/settings.py:109
+#: ../src/settings.py:116
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
 msgstr[0] "%d Album"
 msgstr[1] "%d Alben"
 
-#: ../src/settings.py:111
+#: ../src/settings.py:118
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d Titel"
 msgstr[1] "%d Titel"
 
-#: ../src/settings.py:122 ../src/settings.py:125 ../data/SettingsDialog.ui.h:3
+#: ../src/settings.py:129 ../src/settings.py:132 ../data/SettingsDialog.ui.h:3
 msgid "Preferences"
 msgstr "Einstellungen"
 
-#: ../src/settings.py:174
+#: ../src/settings.py:184
 msgid "You need to install kid3-cli"
 msgstr "kid3-cli muss installiert werden"
 
@@ -719,18 +733,18 @@ msgstr "Beliebte"
 msgid "Recently added"
 msgstr "Kürzlich hinzugefügt"
 
-#: ../src/toolbar_end.py:429
+#: ../src/toolbar_end.py:436
 msgid "External tracks"
 msgstr "Externe Titel"
 
-#: ../src/toolbar_end.py:433
+#: ../src/toolbar_end.py:440
 msgid "Playing playlists"
 msgstr "Spiele Wiedergabelisten"
 
 #. Handle language ordering
 #. Translators: Add here words that shoud be ignored for artist sort order
 #. Translators: Add The the too
-#: ../src/utils.py:122
+#: ../src/utils.py:147
 msgid "The the"
 msgstr "Der der"
 
@@ -756,37 +770,41 @@ msgstr "%s synchronisieren"
 msgid "Cancel synchronization"
 msgstr "Synchronisation abbrechen"
 
-#: ../src/widgets_album.py:293
-msgid "Append"
-msgstr "Anhängen"
-
-#: ../src/widgets_album_simple.py:141
-msgid "Play albums"
-msgstr "Album wiedergeben"
-
-#: ../src/widgets_album_simple.py:151 ../data/CoverBox.ui.h:2
-msgid "Change artwork"
-msgstr "Coverbild ändern"
-
-#: ../src/widgets_album_detailed.py:382
+#: ../src/view_playlists.py:208 ../src/widgets_album_detailed.py:375
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h %s m"
 
-#: ../src/widgets_album_detailed.py:384
+#: ../src/view_playlists.py:210 ../src/widgets_album_detailed.py:377
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../src/widgets_album_detailed.py:386
+#: ../src/view_playlists.py:212 ../src/widgets_album_detailed.py:379
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../src/widgets_album_detailed.py:530
+#: ../src/widgets_album.py:293
+msgid "Append"
+msgstr "Anhängen"
+
+#: ../src/widgets_album_simple.py:148
+msgid "Play albums"
+msgstr "Album wiedergeben"
+
+#: ../src/widgets_album_simple.py:158 ../data/CoverBox.ui.h:2
+msgid "Change artwork"
+msgstr "Coverbild ändern"
+
+#: ../src/widgets_album_detailed.py:523
 #, python-format
 msgid "Disc %s"
 msgstr "CD %s"
+
+#: ../src/widgets_context.py:128 ../data/InternalSearchRow.ui.h:1
+msgid "Add to playlist"
+msgstr "Zur Wiedergabeliste hinzufügen"
 
 #: ../src/widgets_info.py:128
 msgid "No information for this artist"
@@ -803,7 +821,9 @@ msgstr "Alben"
 
 #: ../src/widgets_device.py:234
 msgid "Unknown error while syncing, try to reboot your device"
-msgstr "Unbekannter Fehler während der Synchronisation. Versuche dein Gerät neu zu starten."
+msgstr ""
+"Unbekannter Fehler während der Synchronisation. Versuche dein Gerät neu zu "
+"starten."
 
 #: ../src/widgets_device.py:242
 msgid "No free space available on device"
@@ -813,27 +833,27 @@ msgstr "Kein freier Speicherplatz verfügbar auf diesem Gerät"
 msgid "Synced albums"
 msgstr "Synchronisierte Alben"
 
-#: ../src/widgets_playlist.py:591 ../src/widgets_playlist.py:594
+#: ../src/widgets_playlist.py:590 ../src/widgets_playlist.py:593
 msgid "New playlist "
 msgstr "Neue Wiedergabeliste"
 
 #. Need a copy, segfault on EOS 3.1
-#: ../src/widgets_playlist.py:695 ../src/widgets_playlist.py:901
+#: ../src/widgets_playlist.py:699 ../src/widgets_playlist.py:905
 #, python-format
 msgid "Remove \"%s\"?"
 msgstr "\"%s\" entfernen?"
 
-#: ../src/widgets_playlist.py:909
+#: ../src/widgets_playlist.py:913
 msgid "Remove these tracks?"
 msgstr "Diese Titel entfernen?"
 
-#: ../src/widgets_radio.py:198
+#: ../src/widgets_radio.py:199
 msgid "Modify radio"
 msgstr "Radio modifzieren"
 
 #. Translators: Put here words added by wikipedia in band search
 #. Ex: Muse_(band), Peaches(musician)
-#. Unused be we keep this for now (as it's already translated)
+#. Unused be we keep this for now (as it"s already translated)
 #: ../src/wikipedia.py:36
 msgid "musician;band"
 msgstr "Musiker;Band"
@@ -916,7 +936,9 @@ msgstr "Liedtexte"
 msgid ""
 "Reload information\n"
 "Long press to activate auto reload"
-msgstr "Information neu laden\nGedrückt halten um Auto-Reload zu aktivieren"
+msgstr ""
+"Information neu laden\n"
+"Gedrückt halten um Auto-Reload zu aktivieren"
 
 #: ../data/ArtistView.ui.h:1
 msgid "Photo"
@@ -926,6 +948,10 @@ msgstr "Foto"
 msgctxt "artist context"
 msgid "Add"
 msgstr "Hinzufügen"
+
+#: ../data/ArtistView.ui.h:5
+msgid "Go to current track. Long press to go to current artist."
+msgstr ""
 
 #: ../data/ArtworkSearch.ui.h:1 ../data/RadioPopover.ui.h:2
 msgid "Select a local file"
@@ -941,7 +967,11 @@ msgid ""
 "Lollypop uses \"Google Custom Search API\" to search images on the web.\n"
 "This API is limited so it mays not work with default API key.\n"
 "Please create a \"Custom Search Engine\" here:"
-msgstr "Lollypop verwendet die \"Google Custom Search API\" zur Bildersuche im Internet.\nDie API ist limitiert und funktioniert nicht immer mit dem Standard-Key.\nBitte erzeuge eine eigene Suchmaschine hier:"
+msgstr ""
+"Lollypop verwendet die \"Google Custom Search API\" zur Bildersuche im "
+"Internet.\n"
+"Die API ist limitiert und funktioniert nicht immer mit dem Standard-Key.\n"
+"Bitte erzeuge eine eigene Suchmaschine hier:"
 
 #: ../data/ArtworkSearch.ui.h:6 ../data/SettingsDialog.ui.h:45
 msgid "API key"
@@ -1014,10 +1044,6 @@ msgstr "Eine neue Wiedergabeliste auf Basis der Suchergebnisse erstellen"
 #: ../data/SearchPopover.ui.h:2
 msgid "Search on the web"
 msgstr "Im Internet suchen"
-
-#: ../data/InternalSearchRow.ui.h:1
-msgid "Add to playlist"
-msgstr "Zur Wiedergabeliste hinzufügen"
 
 #: ../data/SettingsDialog.ui.h:1
 msgid "Only in party mode"
@@ -1132,13 +1158,18 @@ msgid ""
 "Google Web Services need a custom API key.\n"
 "Without one, you will reach default quota soon…\n"
 "Lollypop needs this to search artwork and music."
-msgstr "Die Google Web Services brauchen einen individuellen API-Schlüssel.\nOhne einen solchen ist die Anzahl an Suchvorgängen begrenzt,\nmit denen Lollypop nach Albumartwork und Musik sucht."
+msgstr ""
+"Die Google Web Services brauchen einen individuellen API-Schlüssel.\n"
+"Ohne einen solchen ist die Anzahl an Suchvorgängen begrenzt,\n"
+"mit denen Lollypop nach Albumartwork und Musik sucht."
 
 #: ../data/SettingsDialog.ui.h:46
 msgid ""
 "You need to enable \"Custom Search API\" \n"
 "and \"YouTube Data API\" for your project."
-msgstr "Für das Projekt müssen \"Custom Search API\"\nund \"YouTube Data API\" aktiviert werden."
+msgstr ""
+"Für das Projekt müssen \"Custom Search API\"\n"
+"und \"YouTube Data API\" aktiviert werden."
 
 #: ../data/SettingsDialog.ui.h:48
 msgid "Google"
@@ -1192,7 +1223,9 @@ msgstr "Wiedergabe"
 msgid ""
 "Party mode\n"
 "Right click to filter"
-msgstr "Partymodus\nRechtsklick für Filter"
+msgstr ""
+"Partymodus\n"
+"Rechtsklick für Filter"
 
 #: ../data/TuneinPopover.ui.h:2
 msgid "Go home"

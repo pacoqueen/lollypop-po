@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Марко М. Костић (Marko M. Kostić) <marko.m.kostic@gmail.com>, 2015
 # Марко М. Костић (Marko M. Kostić) <marko.m.kostic@gmail.com>, 2015-2017
@@ -9,15 +9,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-27 13:51+0100\n"
+"POT-Creation-Date: 2017-06-09 18:53+0200\n"
 "PO-Revision-Date: 2017-03-01 08:39+0000\n"
-"Last-Translator: Марко М. Костић (Marko M. Kostić) <marko.m.kostic@gmail.com>\n"
-"Language-Team: Serbian (Latin) (http://www.transifex.com/gnumdk/lollypop/language/sr@latin/)\n"
+"Last-Translator: Марко М. Костић (Marko M. Kostić) <marko.m.kostic@gmail."
+"com>\n"
+"Language-Team: Serbian (Latin) (http://www.transifex.com/gnumdk/lollypop/"
+"language/sr@latin/)\n"
+"Language: sr@latin\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr@latin\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:1
 msgid "Window size"
@@ -107,7 +110,9 @@ msgstr "Pusti zvuk kada se lebdi mišem nad pesmom"
 msgid ""
 "PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
-msgstr "Samo za Puls-audio. Na primer: alsa_output.pci-0000_00_14.2.analog-stereo. Naredba za dobijanje izlaza: $ pacmd list-sinks|grep 'name:'"
+msgstr ""
+"Samo za Puls-audio. Na primer: alsa_output.pci-0000_00_14.2.analog-stereo. "
+"Naredba za dobijanje izlaza: $ pacmd list-sinks|grep 'name:'"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:23
 msgid "Favorite cover file"
@@ -123,9 +128,10 @@ msgstr "Izdanje baze podataka"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:26
 msgid ""
-"Resetting this value will reset the database, popular albums will be "
-"restored"
-msgstr "Ponovno postavljanje ove vrednosti će vratiti bazu na početno stanje, Popularni albumi će biti vraćeni"
+"Resetting this value will reset the database, popular albums will be restored"
+msgstr ""
+"Ponovno postavljanje ove vrednosti će vratiti bazu na početno stanje, "
+"Popularni albumi će biti vraćeni"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:27 ../data/SettingsDialog.ui.h:7
 msgid "Albums cover size"
@@ -185,7 +191,8 @@ msgstr "Koristi tamnu GTK temu"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:41
 msgid "Disable use of client side window decorations (headerbar)"
-msgstr "Onemogući korišćenje klijentskih prozorskih dekoracija (zaglavlje programa)"
+msgstr ""
+"Onemogući korišćenje klijentskih prozorskih dekoracija (zaglavlje programa)"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:42 ../data/SettingsDialog.ui.h:6
 msgid "Show compilations in albums view"
@@ -201,7 +208,8 @@ msgstr "Pametno ređanje po izvođaču"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:45
 msgid "Ex: The Beatles sorted as Beatles. Resetting database needed."
-msgstr "Na primer: \"The Beatles\" se ređa kao \"Beatles\". Potrebno resetovati bazu."
+msgstr ""
+"Na primer: \"The Beatles\" se ređa kao \"Beatles\". Potrebno resetovati bazu."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:46
 msgid "Restore previous state"
@@ -248,18 +256,22 @@ msgid "Mix duration"
 msgstr "Trajanje preklapanja"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:57
+msgid "Reset current track position on previous"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:58
 msgid "Shuffle mode"
 msgstr "Režim mešanja pesama"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:58
+#: ../data/org.gnome.Lollypop.gschema.xml.h:59
 msgid "Playback behaviour"
 msgstr "Ponašanje puštanja"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:59 ../data/SettingsDialog.ui.h:9
+#: ../data/org.gnome.Lollypop.gschema.xml.h:60 ../data/SettingsDialog.ui.h:9
 msgid "Order albums by"
 msgstr "Poređaj albume po"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:60
+#: ../data/org.gnome.Lollypop.gschema.xml.h:61
 msgid "Charts provider"
 msgstr "Dostavljač grafikona"
 
@@ -281,12 +293,12 @@ msgstr "Puštajte i organizujte vašu muzičku biblioteku"
 msgid "Play/Pause"
 msgstr "Pusti/Zaustavi"
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:5 ../src/notification.py:118
+#: ../data/org.gnome.Lollypop.desktop.in.h:5 ../src/notification.py:120
 #: ../data/ToolbarPlayback.ui.h:3
 msgid "Next"
 msgstr "Sledeća"
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:6 ../src/notification.py:112
+#: ../data/org.gnome.Lollypop.desktop.in.h:6 ../src/notification.py:114
 #: ../data/ToolbarPlayback.ui.h:1
 msgid "Previous"
 msgstr "Prethodna"
@@ -315,15 +327,14 @@ msgstr "pregledanje po žanru i omotu"
 msgid "Genre/Artist/Cover browsing"
 msgstr "Pregledanje po žanru, izvođaču i omotu"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/playlists.py:273
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/playlists.py:291
 #: ../data/ArtistInfo.ui.h:5 ../data/SettingsDialog.ui.h:36
 #: ../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr "Pretraga"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:450
-#: ../src/pop_menu.py:469 ../src/toolbar_end.py:431
-#: ../data/QueuePopover.ui.h:2
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:529
+#: ../src/pop_menu.py:548 ../src/toolbar_end.py:438 ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr "Redosled"
 
@@ -376,9 +387,12 @@ msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
 "    - Artist informations disabled"
-msgstr "- Scrobbler je isključen\n- Automatsko skidanje omota isključeno\n- Skidanje podataka o izvođačima isključeno"
+msgstr ""
+"- Scrobbler je isključen\n"
+"- Automatsko skidanje omota isključeno\n"
+"- Skidanje podataka o izvođačima isključeno"
 
-#: ../src/application.py:639
+#: ../src/application.py:602
 msgid "Lollypop: You need to install yelp."
 msgstr "Lolipop: potrebno je da instalirate „Pomoć“ (yelp paket)."
 
@@ -394,24 +408,24 @@ msgstr "Nizak kvalitet, nedostaje API ključ…"
 msgid "Reset artwork?"
 msgstr "Resetuj omot?"
 
-#: ../src/collectionscanner.py:187
+#: ../src/collectionscanner.py:188
 msgid "Lollypop is detecting an empty folder."
 msgstr "Lolipop je pronašao praznu fasciklu."
 
-#: ../src/collectionscanner.py:188
+#: ../src/collectionscanner.py:189
 msgid "Check your music settings."
 msgstr "Proverite vaša podešavanja za muziku."
 
-#: ../src/collectionscanner.py:290 ../src/database_albums.py:436
+#: ../src/collectionscanner.py:296 ../src/database_albums.py:439
 #: ../src/database_artists.py:104 ../src/database_genres.py:70
-#: ../src/database_tracks.py:320 ../src/selectionlist.py:374
-#: ../src/tagreader.py:85 ../src/tagreader.py:100 ../src/tagreader.py:115
-#: ../src/tagreader.py:160 ../src/tagreader.py:175 ../src/tagreader.py:178
-#: ../src/tagreader.py:188 ../src/tagreader.py:195
+#: ../src/database_tracks.py:333 ../src/selectionlist.py:407
+#: ../src/tagreader.py:86 ../src/tagreader.py:102 ../src/tagreader.py:118
+#: ../src/tagreader.py:166 ../src/tagreader.py:182 ../src/tagreader.py:186
+#: ../src/tagreader.py:196 ../src/tagreader.py:204
 msgid "Unknown"
 msgstr "Nepoznato"
 
-#: ../src/container.py:467 ../src/widgets_device.py:309
+#: ../src/container.py:490 ../src/widgets_device.py:309
 msgid "Compilations"
 msgstr "Kompilacije"
 
@@ -420,7 +434,7 @@ msgid "Pause"
 msgstr "Pauziraj"
 
 #: ../src/controllers.py:85 ../src/controllers.py:104 ../src/pop_tunein.py:217
-#: ../src/widgets_album_simple.py:130 ../src/widgets_radio.py:182
+#: ../src/widgets_album_simple.py:137 ../src/widgets_radio.py:183
 #: ../data/ArtistView.ui.h:2 ../data/ToolbarPlayback.ui.h:2
 #: ../data/CoverBox.ui.h:1
 msgid "Play"
@@ -443,14 +457,14 @@ msgid "Wrong Last.fm credentials"
 msgstr "Parametri za prijavu na Last.fm su netačni"
 
 #. TRANSLATORS: by refers to the artist,
-#: ../src/notification.py:148
+#: ../src/notification.py:154
 #, python-format
 msgid "by %s"
 msgstr "izvodi %s"
 
 #. TRANSLATORS: by refers to the artist,
 #. from to the album
-#: ../src/notification.py:156
+#: ../src/notification.py:162
 #, python-format
 msgid "by %s, from %s"
 msgstr "izvodi %s, sa albuma %s"
@@ -463,44 +477,43 @@ msgstr "Ne mogu da pustim ovu numeru jer nema interneta"
 msgid "Loved tracks"
 msgstr "Omiljene pesme"
 
-#: ../src/playlists.py:243
+#: ../src/playlists.py:261
 msgid "Spotify charts"
 msgstr "Spotifaj grafikoni"
 
-#: ../src/playlists.py:245
+#: ../src/playlists.py:263
 msgid "Last.fm charts"
 msgstr "Last.fm grafikoni"
 
-#: ../src/playlists.py:265 ../src/selectionlist.py:296
+#: ../src/playlists.py:283 ../src/selectionlist.py:310
 msgid "Popular tracks"
 msgstr "Popularne pesme"
 
-#: ../src/playlists.py:267 ../src/selectionlist.py:298
+#: ../src/playlists.py:285 ../src/selectionlist.py:312
 msgid "Recently played"
 msgstr "Skoro slušano"
 
-#: ../src/playlists.py:269 ../src/selectionlist.py:299
+#: ../src/playlists.py:287 ../src/selectionlist.py:313
 msgid "Never played"
 msgstr "Nikada slušano"
 
-#: ../src/playlists.py:271 ../src/selectionlist.py:300
+#: ../src/playlists.py:289 ../src/selectionlist.py:314
 msgid "Random tracks"
 msgstr "Nasumične pesme"
 
-#: ../src/pop_albums.py:81
+#: ../src/pop_albums.py:82
 msgid "Compilation"
 msgstr "Kompilacija"
 
-#: ../src/pop_albums.py:294
+#: ../src/pop_albums.py:295
 msgid "Clear albums"
 msgstr "Očisti albume"
 
-#: ../src/pop_albums.py:302 ../src/view_artist.py:52 ../data/ArtistInfo.ui.h:8
-#: ../data/ArtistView.ui.h:5
+#: ../src/pop_albums.py:304 ../src/view_artist.py:52 ../data/ArtistInfo.ui.h:8
 msgid "Go to current track"
 msgstr "Idi na trenutnu numeru"
 
-#: ../src/pop_albums.py:303 ../src/toolbar_end.py:435
+#: ../src/pop_albums.py:305 ../src/toolbar_end.py:442
 msgid "Playing albums"
 msgstr "Pušteni albumi"
 
@@ -512,12 +525,12 @@ msgstr "Napredan prikaz podataka o izvođaču je onemogućen"
 msgid "WebKit support disabled"
 msgstr "Vebkit podrška onemogućena"
 
-#: ../src/pop_info.py:251 ../src/settings.py:366 ../src/view_artist.py:61
+#: ../src/pop_info.py:269 ../src/settings.py:376 ../src/view_artist.py:61
 #: ../src/view_artist_albums.py:76 ../src/widgets_info.py:130
 msgid "Network access disabled"
 msgstr "Pristup mreži onemogućen"
 
-#: ../src/pop_info.py:259
+#: ../src/pop_info.py:277
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
 msgstr "Tekstovi pesama nisu pronađeni, instalirajte gir1.2-webkit2-4.0"
 
@@ -525,7 +538,7 @@ msgstr "Tekstovi pesama nisu pronađeni, instalirajte gir1.2-webkit2-4.0"
 msgid "Show albums from artist"
 msgstr "Prikaži albume izvođača"
 
-#: ../src/pop_menu.py:129 ../src/widgets_context.py:149
+#: ../src/pop_menu.py:129 ../src/widgets_context.py:139
 #: ../src/widgets_indicator.py:111 ../data/InternalSearchRow.ui.h:2
 msgid "Add to queue"
 msgstr "Dodaj u redosled"
@@ -538,7 +551,7 @@ msgstr "Sledeće pesme"
 msgid "Next track"
 msgstr "Sledeća pesma"
 
-#: ../src/pop_menu.py:140 ../src/widgets_context.py:146
+#: ../src/pop_menu.py:140 ../src/widgets_context.py:136
 #: ../src/widgets_indicator.py:107
 msgid "Remove from queue"
 msgstr "Izbaci iz redosleda"
@@ -565,41 +578,44 @@ msgstr "Izbaci iz/sa \"%s\""
 msgid "Add to \"%s\""
 msgstr "Dodaj u/na \"%s\""
 
-#: ../src/pop_menu.py:392 ../src/widgets_context.py:106
+#: ../src/pop_menu.py:387 ../src/widgets_context.py:104
 msgid "Remove album"
 msgstr "Ukloni album"
 
-#: ../src/pop_menu.py:394 ../src/widgets_context.py:108
+#: ../src/pop_menu.py:389 ../src/widgets_context.py:106
 msgid "Remove track"
 msgstr "Ukloni pesmu"
 
-#: ../src/pop_menu.py:403 ../src/widgets_context.py:130
+#: ../src/pop_menu.py:398 ../src/widgets_context.py:121
 msgid "Modify information"
 msgstr "Izmeni podatke"
 
-#: ../src/pop_menu.py:448 ../data/SettingsDialog.ui.h:10
+#: ../src/pop_menu.py:407 ../src/widgets_context.py:185
+msgid "Open directory"
+msgstr ""
+
+#: ../src/pop_menu.py:527 ../data/SettingsDialog.ui.h:10
 msgid "Artist"
 msgstr "Izvođač"
 
-#: ../src/pop_menu.py:452 ../src/pop_menu.py:471 ../src/selectionlist.py:279
-#: ../src/widgets_context.py:138 ../src/widgets_device.py:125
-#: ../src/widgets_playlist.py:557
+#: ../src/pop_menu.py:531 ../src/pop_menu.py:550 ../src/selectionlist.py:293
+#: ../src/widgets_device.py:125 ../src/widgets_playlist.py:557
 msgid "Playlists"
 msgstr "Liste pesama"
 
-#: ../src/pop_menu.py:454 ../src/pop_menu.py:473 ../data/PlaylistView.ui.h:1
+#: ../src/pop_menu.py:533 ../src/pop_menu.py:552 ../data/PlaylistView.ui.h:1
 msgid "Edit"
 msgstr "Uredi"
 
-#: ../src/pop_menu.py:585
+#: ../src/pop_menu.py:664
 msgid "Video address"
 msgstr "Video adresa"
 
-#: ../src/pop_menu.py:640
+#: ../src/pop_menu.py:719
 msgid "Save genre"
 msgstr "Sačuvaj žanr"
 
-#: ../src/pop_menu.py:661 ../src/widgets_context.py:98
+#: ../src/pop_menu.py:740 ../src/widgets_context.py:96
 #: ../data/ExternalSearchRow.ui.h:1
 msgid "Save into collection"
 msgstr "Sačuvaj u kolekciju"
@@ -615,7 +631,7 @@ msgstr "Dodaj"
 msgid "Modify"
 msgstr "Izmeni"
 
-#: ../src/pop_search.py:334 ../data/SettingsDialog.ui.h:35
+#: ../src/pop_search.py:338 ../data/SettingsDialog.ui.h:35
 msgid "You need to install youtube-dl"
 msgstr "Potrebno je da instalirate youtube-dl"
 
@@ -627,52 +643,52 @@ msgstr "Sačekajte..."
 msgid "Can't connect to TuneIn…"
 msgstr "Ne mogu da se povežem na TuneIn…"
 
-#: ../src/selectionlist.py:275
+#: ../src/selectionlist.py:288
 msgid "Popular albums"
 msgstr "Popularni albumi"
 
-#: ../src/selectionlist.py:276
+#: ../src/selectionlist.py:290
 msgid "Loved albums"
 msgstr "Voljeni albumi"
 
-#: ../src/selectionlist.py:277
+#: ../src/selectionlist.py:291
 msgid "Recently added albums"
 msgstr "Skoro dodati albumi"
 
-#: ../src/selectionlist.py:278
+#: ../src/selectionlist.py:292
 msgid "Random albums"
 msgstr "Nasumični albumi"
 
-#: ../src/selectionlist.py:280
+#: ../src/selectionlist.py:294
 msgid "Radios"
 msgstr "Radio stanice"
 
-#: ../src/selectionlist.py:283 ../src/settings.py:355 ../src/settings.py:365
+#: ../src/selectionlist.py:297 ../src/settings.py:365 ../src/settings.py:375
 #: ../data/SettingsDialog.ui.h:28
 msgid "The charts"
 msgstr "Grafikoni"
 
-#: ../src/selectionlist.py:285
+#: ../src/selectionlist.py:299
 msgid "All albums"
 msgstr "Svi albumi"
 
-#: ../src/selectionlist.py:287
+#: ../src/selectionlist.py:301
 msgid "All artists"
 msgstr "Svi izvođači"
 
-#: ../src/selectionlist.py:301
+#: ../src/selectionlist.py:315
 msgid "Not in party"
 msgstr "Nije u žurci"
 
-#: ../src/settings.py:91
+#: ../src/settings.py:98
 msgid "Google Web Services need a custom API key"
 msgstr "Guglove veb usluge zahtevaju prilagođeni API ključ"
 
-#: ../src/settings.py:92
+#: ../src/settings.py:99
 msgid "Lollypop needs this to search artwork and music."
 msgstr "Lolipopu je ovo potrebno da bi tražio omote i muziku."
 
-#: ../src/settings.py:107
+#: ../src/settings.py:114
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
@@ -680,7 +696,7 @@ msgstr[0] "%d izvođač"
 msgstr[1] "%d izvođača"
 msgstr[2] "%d izvođača"
 
-#: ../src/settings.py:109
+#: ../src/settings.py:116
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
@@ -688,7 +704,7 @@ msgstr[0] "%d album"
 msgstr[1] "%d albuma"
 msgstr[2] "%d albuma"
 
-#: ../src/settings.py:111
+#: ../src/settings.py:118
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
@@ -696,11 +712,11 @@ msgstr[0] "%d numera"
 msgstr[1] "%d numere"
 msgstr[2] "%d numera"
 
-#: ../src/settings.py:122 ../src/settings.py:125 ../data/SettingsDialog.ui.h:3
+#: ../src/settings.py:129 ../src/settings.py:132 ../data/SettingsDialog.ui.h:3
 msgid "Preferences"
 msgstr "Postavke"
 
-#: ../src/settings.py:174
+#: ../src/settings.py:184
 msgid "You need to install kid3-cli"
 msgstr "Potrebno je da instalirate kid3-cli"
 
@@ -712,18 +728,18 @@ msgstr "Popularno"
 msgid "Recently added"
 msgstr "Skoro dodato"
 
-#: ../src/toolbar_end.py:429
+#: ../src/toolbar_end.py:436
 msgid "External tracks"
 msgstr "Spoljne numere"
 
-#: ../src/toolbar_end.py:433
+#: ../src/toolbar_end.py:440
 msgid "Playing playlists"
 msgstr "Pušteni spiskovi pesama"
 
 #. Handle language ordering
 #. Translators: Add here words that shoud be ignored for artist sort order
 #. Translators: Add The the too
-#: ../src/utils.py:122
+#: ../src/utils.py:147
 msgid "The the"
 msgstr "Član član"
 
@@ -749,37 +765,41 @@ msgstr "Uskladi %s"
 msgid "Cancel synchronization"
 msgstr "Otkaži usklađivanje"
 
-#: ../src/widgets_album.py:293
-msgid "Append"
-msgstr "Dodaj"
-
-#: ../src/widgets_album_simple.py:141
-msgid "Play albums"
-msgstr "Pusti albume"
-
-#: ../src/widgets_album_simple.py:151 ../data/CoverBox.ui.h:2
-msgid "Change artwork"
-msgstr "Promeni omot"
-
-#: ../src/widgets_album_detailed.py:382
+#: ../src/view_playlists.py:208 ../src/widgets_album_detailed.py:375
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s s %s m"
 
-#: ../src/widgets_album_detailed.py:384
+#: ../src/view_playlists.py:210 ../src/widgets_album_detailed.py:377
 #, python-format
 msgid "%s h"
 msgstr "%s s"
 
-#: ../src/widgets_album_detailed.py:386
+#: ../src/view_playlists.py:212 ../src/widgets_album_detailed.py:379
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../src/widgets_album_detailed.py:530
+#: ../src/widgets_album.py:293
+msgid "Append"
+msgstr "Dodaj"
+
+#: ../src/widgets_album_simple.py:148
+msgid "Play albums"
+msgstr "Pusti albume"
+
+#: ../src/widgets_album_simple.py:158 ../data/CoverBox.ui.h:2
+msgid "Change artwork"
+msgstr "Promeni omot"
+
+#: ../src/widgets_album_detailed.py:523
 #, python-format
 msgid "Disc %s"
 msgstr "Disk %s"
+
+#: ../src/widgets_context.py:128 ../data/InternalSearchRow.ui.h:1
+msgid "Add to playlist"
+msgstr "Dodaj u listu pesama"
 
 #: ../src/widgets_info.py:128
 msgid "No information for this artist"
@@ -796,7 +816,9 @@ msgstr "Albumi"
 
 #: ../src/widgets_device.py:234
 msgid "Unknown error while syncing, try to reboot your device"
-msgstr "Dogodila se nepoznata greška prilikom usklađivanja pesama sa uređajem. Probajte da ugasite i upalite uređaj pa onda da uskladite pesme."
+msgstr ""
+"Dogodila se nepoznata greška prilikom usklađivanja pesama sa uređajem. "
+"Probajte da ugasite i upalite uređaj pa onda da uskladite pesme."
 
 #: ../src/widgets_device.py:242
 msgid "No free space available on device"
@@ -806,27 +828,27 @@ msgstr "Nema dovoljno slobodnog prostora na uređaju"
 msgid "Synced albums"
 msgstr "Usklađeni albumi"
 
-#: ../src/widgets_playlist.py:591 ../src/widgets_playlist.py:594
+#: ../src/widgets_playlist.py:590 ../src/widgets_playlist.py:593
 msgid "New playlist "
 msgstr "Nova lista pesama"
 
 #. Need a copy, segfault on EOS 3.1
-#: ../src/widgets_playlist.py:695 ../src/widgets_playlist.py:901
+#: ../src/widgets_playlist.py:699 ../src/widgets_playlist.py:905
 #, python-format
 msgid "Remove \"%s\"?"
 msgstr "Ukloniti \"%s\"?"
 
-#: ../src/widgets_playlist.py:909
+#: ../src/widgets_playlist.py:913
 msgid "Remove these tracks?"
 msgstr "Ukloniti ove pesme?"
 
-#: ../src/widgets_radio.py:198
+#: ../src/widgets_radio.py:199
 msgid "Modify radio"
 msgstr "Izmeni stanicu"
 
 #. Translators: Put here words added by wikipedia in band search
 #. Ex: Muse_(band), Peaches(musician)
-#. Unused be we keep this for now (as it's already translated)
+#. Unused be we keep this for now (as it"s already translated)
 #: ../src/wikipedia.py:36
 msgid "musician;band"
 msgstr "izvođač;bend"
@@ -909,7 +931,9 @@ msgstr "Tekst pesme"
 msgid ""
 "Reload information\n"
 "Long press to activate auto reload"
-msgstr "Ponovo učitaj podatke\nDuže pritisnite da biste pokrenuli automatsko ponovno učitavanje"
+msgstr ""
+"Ponovo učitaj podatke\n"
+"Duže pritisnite da biste pokrenuli automatsko ponovno učitavanje"
 
 #: ../data/ArtistView.ui.h:1
 msgid "Photo"
@@ -919,6 +943,10 @@ msgstr "Slika"
 msgctxt "artist context"
 msgid "Add"
 msgstr "Dodaj"
+
+#: ../data/ArtistView.ui.h:5
+msgid "Go to current track. Long press to go to current artist."
+msgstr ""
 
 #: ../data/ArtworkSearch.ui.h:1 ../data/RadioPopover.ui.h:2
 msgid "Select a local file"
@@ -934,7 +962,12 @@ msgid ""
 "Lollypop uses \"Google Custom Search API\" to search images on the web.\n"
 "This API is limited so it mays not work with default API key.\n"
 "Please create a \"Custom Search Engine\" here:"
-msgstr "Lolipop koristi „Guglov prilagođeni pretraživački API“ da bi tražio slike na vebu.\nOvaj API je ograničen tako da se može desiti da ne radi sa podrazumevanim API ključem.\nNapravite „prilagođenog pretraživača“ ovde:"
+msgstr ""
+"Lolipop koristi „Guglov prilagođeni pretraživački API“ da bi tražio slike na "
+"vebu.\n"
+"Ovaj API je ograničen tako da se može desiti da ne radi sa podrazumevanim "
+"API ključem.\n"
+"Napravite „prilagođenog pretraživača“ ovde:"
 
 #: ../data/ArtworkSearch.ui.h:6 ../data/SettingsDialog.ui.h:45
 msgid "API key"
@@ -1007,10 +1040,6 @@ msgstr "Napravi novu listu pesama na osnovu rezultata iz pretrage"
 #: ../data/SearchPopover.ui.h:2
 msgid "Search on the web"
 msgstr "Potraži na vebu"
-
-#: ../data/InternalSearchRow.ui.h:1
-msgid "Add to playlist"
-msgstr "Dodaj u listu pesama"
 
 #: ../data/SettingsDialog.ui.h:1
 msgid "Only in party mode"
@@ -1125,13 +1154,18 @@ msgid ""
 "Google Web Services need a custom API key.\n"
 "Without one, you will reach default quota soon…\n"
 "Lollypop needs this to search artwork and music."
-msgstr "Guglove Veb Usluge traže prilagođeni API ključ.\nBez ključa ćete dositći podrazumevanu kvotu uskoro…\nLolipopu je ključ potreban zarad pretrage omota i muzike."
+msgstr ""
+"Guglove Veb Usluge traže prilagođeni API ključ.\n"
+"Bez ključa ćete dositći podrazumevanu kvotu uskoro…\n"
+"Lolipopu je ključ potreban zarad pretrage omota i muzike."
 
 #: ../data/SettingsDialog.ui.h:46
 msgid ""
 "You need to enable \"Custom Search API\" \n"
 "and \"YouTube Data API\" for your project."
-msgstr "Morate omogućiti „prilagođeni API pretrage“\ni „Jutjub API podataka“ za vaš projekat."
+msgstr ""
+"Morate omogućiti „prilagođeni API pretrage“\n"
+"i „Jutjub API podataka“ za vaš projekat."
 
 #: ../data/SettingsDialog.ui.h:48
 msgid "Google"
@@ -1185,7 +1219,9 @@ msgstr "Puštanje"
 msgid ""
 "Party mode\n"
 "Right click to filter"
-msgstr "Režim za žurke\nDesni klik za filtriranje"
+msgstr ""
+"Režim za žurke\n"
+"Desni klik za filtriranje"
 
 #: ../data/TuneinPopover.ui.h:2
 msgid "Go home"

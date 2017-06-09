@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Jan Máslo <inactive+maslic_@transifex.com>, 2015
 # fri, 2014
@@ -11,14 +11,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-27 13:51+0100\n"
+"POT-Creation-Date: 2017-06-09 18:53+0200\n"
 "PO-Revision-Date: 2017-03-01 15:30+0000\n"
 "Last-Translator: fri\n"
-"Language-Team: Czech (http://www.transifex.com/gnumdk/lollypop/language/cs/)\n"
+"Language-Team: Czech (http://www.transifex.com/gnumdk/lollypop/language/"
+"cs/)\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:1
@@ -109,7 +110,9 @@ msgstr "Ukázka výstupu zvuku při přejetí nad skladbou"
 msgid ""
 "PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
-msgstr "Pouze PulseAudio. Příklad: alsa_output.pci-0000_00_14.2.analog-stereo. Příkaz pro získání výstupů: $ pacmd list-sinks|grep 'name:'"
+msgstr ""
+"Pouze PulseAudio. Příklad: alsa_output.pci-0000_00_14.2.analog-stereo. "
+"Příkaz pro získání výstupů: $ pacmd list-sinks|grep 'name:'"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:23
 msgid "Favorite cover file"
@@ -125,9 +128,9 @@ msgstr "Verze databáze"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:26
 msgid ""
-"Resetting this value will reset the database, popular albums will be "
-"restored"
-msgstr "Vynulování této hodnoty vynuluje databázi, oblíbená alba budou obnovena"
+"Resetting this value will reset the database, popular albums will be restored"
+msgstr ""
+"Vynulování této hodnoty vynuluje databázi, oblíbená alba budou obnovena"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:27 ../data/SettingsDialog.ui.h:7
 msgid "Albums cover size"
@@ -203,7 +206,8 @@ msgstr "Chytré třídění pro umělce"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:45
 msgid "Ex: The Beatles sorted as Beatles. Resetting database needed."
-msgstr "Např.: The Beatles tříděny jako Beatles. Je potřeba znovunastavení databáze."
+msgstr ""
+"Např.: The Beatles tříděny jako Beatles. Je potřeba znovunastavení databáze."
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:46
 msgid "Restore previous state"
@@ -250,18 +254,22 @@ msgid "Mix duration"
 msgstr "Zamíchat dobu trvání"
 
 #: ../data/org.gnome.Lollypop.gschema.xml.h:57
+msgid "Reset current track position on previous"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml.h:58
 msgid "Shuffle mode"
 msgstr "Režim míchání"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:58
+#: ../data/org.gnome.Lollypop.gschema.xml.h:59
 msgid "Playback behaviour"
 msgstr "Chování přehrávání"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:59 ../data/SettingsDialog.ui.h:9
+#: ../data/org.gnome.Lollypop.gschema.xml.h:60 ../data/SettingsDialog.ui.h:9
 msgid "Order albums by"
 msgstr "Řadit alba podle"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:60
+#: ../data/org.gnome.Lollypop.gschema.xml.h:61
 msgid "Charts provider"
 msgstr "Poskytovatel žebříčků"
 
@@ -283,12 +291,12 @@ msgstr "Přehrávejte a pořádejte svoji hudební sbírku"
 msgid "Play/Pause"
 msgstr "Přehrát/Pozastavit"
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:5 ../src/notification.py:118
+#: ../data/org.gnome.Lollypop.desktop.in.h:5 ../src/notification.py:120
 #: ../data/ToolbarPlayback.ui.h:3
 msgid "Next"
 msgstr "Další"
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:6 ../src/notification.py:112
+#: ../data/org.gnome.Lollypop.desktop.in.h:6 ../src/notification.py:114
 #: ../data/ToolbarPlayback.ui.h:1
 msgid "Previous"
 msgstr "Předchozí"
@@ -317,15 +325,14 @@ msgstr "Procházení podle žánrů/obalů"
 msgid "Genre/Artist/Cover browsing"
 msgstr "Procházení podle žánrů/umělců/obalů"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/playlists.py:273
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/playlists.py:291
 #: ../data/ArtistInfo.ui.h:5 ../data/SettingsDialog.ui.h:36
 #: ../data/ToolbarEnd.ui.h:13
 msgid "Search"
 msgstr "Hledat"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:450
-#: ../src/pop_menu.py:469 ../src/toolbar_end.py:431
-#: ../data/QueuePopover.ui.h:2
+#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:529
+#: ../src/pop_menu.py:548 ../src/toolbar_end.py:438 ../data/QueuePopover.ui.h:2
 msgid "Queue"
 msgstr "Řada"
 
@@ -378,9 +385,12 @@ msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
 "    - Artist informations disabled"
-msgstr "    - Odesílání informací o přehrávaných skladbách zakázáno\n    - Automatické stahování obalů zakázáno\n    - Informace o umělcích zakázány"
+msgstr ""
+"    - Odesílání informací o přehrávaných skladbách zakázáno\n"
+"    - Automatické stahování obalů zakázáno\n"
+"    - Informace o umělcích zakázány"
 
-#: ../src/application.py:639
+#: ../src/application.py:602
 msgid "Lollypop: You need to install yelp."
 msgstr "Lollypop: Je potřeba nainstalovat yelp."
 
@@ -396,24 +406,24 @@ msgstr "Nízká jakost. Chybí klíč API..."
 msgid "Reset artwork?"
 msgstr "Nastavit obal znovu?"
 
-#: ../src/collectionscanner.py:187
+#: ../src/collectionscanner.py:188
 msgid "Lollypop is detecting an empty folder."
 msgstr "Lollypop zjistil prázdnou složku."
 
-#: ../src/collectionscanner.py:188
+#: ../src/collectionscanner.py:189
 msgid "Check your music settings."
 msgstr "Prověřte nastavení pro vaši hudbu."
 
-#: ../src/collectionscanner.py:290 ../src/database_albums.py:436
+#: ../src/collectionscanner.py:296 ../src/database_albums.py:439
 #: ../src/database_artists.py:104 ../src/database_genres.py:70
-#: ../src/database_tracks.py:320 ../src/selectionlist.py:374
-#: ../src/tagreader.py:85 ../src/tagreader.py:100 ../src/tagreader.py:115
-#: ../src/tagreader.py:160 ../src/tagreader.py:175 ../src/tagreader.py:178
-#: ../src/tagreader.py:188 ../src/tagreader.py:195
+#: ../src/database_tracks.py:333 ../src/selectionlist.py:407
+#: ../src/tagreader.py:86 ../src/tagreader.py:102 ../src/tagreader.py:118
+#: ../src/tagreader.py:166 ../src/tagreader.py:182 ../src/tagreader.py:186
+#: ../src/tagreader.py:196 ../src/tagreader.py:204
 msgid "Unknown"
 msgstr "Neznámý"
 
-#: ../src/container.py:467 ../src/widgets_device.py:309
+#: ../src/container.py:490 ../src/widgets_device.py:309
 msgid "Compilations"
 msgstr "Kompilace"
 
@@ -422,7 +432,7 @@ msgid "Pause"
 msgstr "Pozastavit"
 
 #: ../src/controllers.py:85 ../src/controllers.py:104 ../src/pop_tunein.py:217
-#: ../src/widgets_album_simple.py:130 ../src/widgets_radio.py:182
+#: ../src/widgets_album_simple.py:137 ../src/widgets_radio.py:183
 #: ../data/ArtistView.ui.h:2 ../data/ToolbarPlayback.ui.h:2
 #: ../data/CoverBox.ui.h:1
 msgid "Play"
@@ -445,14 +455,14 @@ msgid "Wrong Last.fm credentials"
 msgstr "Nesprávné přihlašovací údaje k Last.fm"
 
 #. TRANSLATORS: by refers to the artist,
-#: ../src/notification.py:148
+#: ../src/notification.py:154
 #, python-format
 msgid "by %s"
 msgstr "od %s"
 
 #. TRANSLATORS: by refers to the artist,
 #. from to the album
-#: ../src/notification.py:156
+#: ../src/notification.py:162
 #, python-format
 msgid "by %s, from %s"
 msgstr "od %s, na %s"
@@ -465,44 +475,43 @@ msgstr "Není dostupná žádná síť. Tuto skladbu nelze přehrát"
 msgid "Loved tracks"
 msgstr "Zamilované skladby"
 
-#: ../src/playlists.py:243
+#: ../src/playlists.py:261
 msgid "Spotify charts"
 msgstr "Grafy Spotify"
 
-#: ../src/playlists.py:245
+#: ../src/playlists.py:263
 msgid "Last.fm charts"
 msgstr "Grafy Last.fm"
 
-#: ../src/playlists.py:265 ../src/selectionlist.py:296
+#: ../src/playlists.py:283 ../src/selectionlist.py:310
 msgid "Popular tracks"
 msgstr "Oblíbené skladby"
 
-#: ../src/playlists.py:267 ../src/selectionlist.py:298
+#: ../src/playlists.py:285 ../src/selectionlist.py:312
 msgid "Recently played"
 msgstr "Nedávno hráno"
 
-#: ../src/playlists.py:269 ../src/selectionlist.py:299
+#: ../src/playlists.py:287 ../src/selectionlist.py:313
 msgid "Never played"
 msgstr "Nikdy nehráno"
 
-#: ../src/playlists.py:271 ../src/selectionlist.py:300
+#: ../src/playlists.py:289 ../src/selectionlist.py:314
 msgid "Random tracks"
 msgstr "Náhodné skladby"
 
-#: ../src/pop_albums.py:81
+#: ../src/pop_albums.py:82
 msgid "Compilation"
 msgstr "Sbírka skladeb"
 
-#: ../src/pop_albums.py:294
+#: ../src/pop_albums.py:295
 msgid "Clear albums"
 msgstr "Vyprázdnit alba"
 
-#: ../src/pop_albums.py:302 ../src/view_artist.py:52 ../data/ArtistInfo.ui.h:8
-#: ../data/ArtistView.ui.h:5
+#: ../src/pop_albums.py:304 ../src/view_artist.py:52 ../data/ArtistInfo.ui.h:8
 msgid "Go to current track"
 msgstr "Jít na nynější skladbu"
 
-#: ../src/pop_albums.py:303 ../src/toolbar_end.py:435
+#: ../src/pop_albums.py:305 ../src/toolbar_end.py:442
 msgid "Playing albums"
 msgstr "Přehrávání alb"
 
@@ -514,12 +523,12 @@ msgstr "Rozšířené informace o umělci zakázány"
 msgid "WebKit support disabled"
 msgstr "Podpora WebKit je vypnuta"
 
-#: ../src/pop_info.py:251 ../src/settings.py:366 ../src/view_artist.py:61
+#: ../src/pop_info.py:269 ../src/settings.py:376 ../src/view_artist.py:61
 #: ../src/view_artist_albums.py:76 ../src/widgets_info.py:130
 msgid "Network access disabled"
 msgstr "Přístup k síti zakázán"
 
-#: ../src/pop_info.py:259
+#: ../src/pop_info.py:277
 msgid "No lyrics found, please install gir1.2-webkit2-4.0"
 msgstr "Nenalezen žádný text písně. Nainstalujte, prosím, gir1.2-webkit2-4.0"
 
@@ -527,7 +536,7 @@ msgstr "Nenalezen žádný text písně. Nainstalujte, prosím, gir1.2-webkit2-4
 msgid "Show albums from artist"
 msgstr "Ukázat alba podle umělce"
 
-#: ../src/pop_menu.py:129 ../src/widgets_context.py:149
+#: ../src/pop_menu.py:129 ../src/widgets_context.py:139
 #: ../src/widgets_indicator.py:111 ../data/InternalSearchRow.ui.h:2
 msgid "Add to queue"
 msgstr "Přidat do řady"
@@ -540,7 +549,7 @@ msgstr "Další skladby"
 msgid "Next track"
 msgstr "Další skladba"
 
-#: ../src/pop_menu.py:140 ../src/widgets_context.py:146
+#: ../src/pop_menu.py:140 ../src/widgets_context.py:136
 #: ../src/widgets_indicator.py:107
 msgid "Remove from queue"
 msgstr "Odstranit z řady"
@@ -567,41 +576,44 @@ msgstr "Odstranit z \"%s\""
 msgid "Add to \"%s\""
 msgstr "Přidat do \"%s\""
 
-#: ../src/pop_menu.py:392 ../src/widgets_context.py:106
+#: ../src/pop_menu.py:387 ../src/widgets_context.py:104
 msgid "Remove album"
 msgstr "Odstranit album"
 
-#: ../src/pop_menu.py:394 ../src/widgets_context.py:108
+#: ../src/pop_menu.py:389 ../src/widgets_context.py:106
 msgid "Remove track"
 msgstr "Odstranit skladbu"
 
-#: ../src/pop_menu.py:403 ../src/widgets_context.py:130
+#: ../src/pop_menu.py:398 ../src/widgets_context.py:121
 msgid "Modify information"
 msgstr "Upravit údaje"
 
-#: ../src/pop_menu.py:448 ../data/SettingsDialog.ui.h:10
+#: ../src/pop_menu.py:407 ../src/widgets_context.py:185
+msgid "Open directory"
+msgstr ""
+
+#: ../src/pop_menu.py:527 ../data/SettingsDialog.ui.h:10
 msgid "Artist"
 msgstr "Umělec"
 
-#: ../src/pop_menu.py:452 ../src/pop_menu.py:471 ../src/selectionlist.py:279
-#: ../src/widgets_context.py:138 ../src/widgets_device.py:125
-#: ../src/widgets_playlist.py:557
+#: ../src/pop_menu.py:531 ../src/pop_menu.py:550 ../src/selectionlist.py:293
+#: ../src/widgets_device.py:125 ../src/widgets_playlist.py:557
 msgid "Playlists"
 msgstr "Seznamy skladeb"
 
-#: ../src/pop_menu.py:454 ../src/pop_menu.py:473 ../data/PlaylistView.ui.h:1
+#: ../src/pop_menu.py:533 ../src/pop_menu.py:552 ../data/PlaylistView.ui.h:1
 msgid "Edit"
 msgstr "Upravit"
 
-#: ../src/pop_menu.py:585
+#: ../src/pop_menu.py:664
 msgid "Video address"
 msgstr "Adresa videa"
 
-#: ../src/pop_menu.py:640
+#: ../src/pop_menu.py:719
 msgid "Save genre"
 msgstr "Uložit žánr"
 
-#: ../src/pop_menu.py:661 ../src/widgets_context.py:98
+#: ../src/pop_menu.py:740 ../src/widgets_context.py:96
 #: ../data/ExternalSearchRow.ui.h:1
 msgid "Save into collection"
 msgstr "Uložit do sbírky"
@@ -617,7 +629,7 @@ msgstr "Přidat"
 msgid "Modify"
 msgstr "Upravit"
 
-#: ../src/pop_search.py:334 ../data/SettingsDialog.ui.h:35
+#: ../src/pop_search.py:338 ../data/SettingsDialog.ui.h:35
 msgid "You need to install youtube-dl"
 msgstr "Je potřeba nainstalovat youtube-dl"
 
@@ -629,52 +641,52 @@ msgstr "Počkejte, prosím..."
 msgid "Can't connect to TuneIn…"
 msgstr "Nelze se připojit k TuneIn..."
 
-#: ../src/selectionlist.py:275
+#: ../src/selectionlist.py:288
 msgid "Popular albums"
 msgstr "Oblíbená alba"
 
-#: ../src/selectionlist.py:276
+#: ../src/selectionlist.py:290
 msgid "Loved albums"
 msgstr "Zamilovaná alba"
 
-#: ../src/selectionlist.py:277
+#: ../src/selectionlist.py:291
 msgid "Recently added albums"
 msgstr "Nedávno přidaná alba"
 
-#: ../src/selectionlist.py:278
+#: ../src/selectionlist.py:292
 msgid "Random albums"
 msgstr "Náhodná alba"
 
-#: ../src/selectionlist.py:280
+#: ../src/selectionlist.py:294
 msgid "Radios"
 msgstr "Rádia"
 
-#: ../src/selectionlist.py:283 ../src/settings.py:355 ../src/settings.py:365
+#: ../src/selectionlist.py:297 ../src/settings.py:365 ../src/settings.py:375
 #: ../data/SettingsDialog.ui.h:28
 msgid "The charts"
 msgstr "Grafy"
 
-#: ../src/selectionlist.py:285
+#: ../src/selectionlist.py:299
 msgid "All albums"
 msgstr "Všechna alba"
 
-#: ../src/selectionlist.py:287
+#: ../src/selectionlist.py:301
 msgid "All artists"
 msgstr "Všichni umělci"
 
-#: ../src/selectionlist.py:301
+#: ../src/selectionlist.py:315
 msgid "Not in party"
 msgstr "Není na večírku"
 
-#: ../src/settings.py:91
+#: ../src/settings.py:98
 msgid "Google Web Services need a custom API key"
 msgstr "Internetové služby Google potřebují vlastní klíč API"
 
-#: ../src/settings.py:92
+#: ../src/settings.py:99
 msgid "Lollypop needs this to search artwork and music."
 msgstr "Lollypop jej potřebuáje kvůli hledání obalů a hudby."
 
-#: ../src/settings.py:107
+#: ../src/settings.py:114
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
@@ -682,7 +694,7 @@ msgstr[0] "%d umělec"
 msgstr[1] "%d umělci"
 msgstr[2] "%d umělců"
 
-#: ../src/settings.py:109
+#: ../src/settings.py:116
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
@@ -690,7 +702,7 @@ msgstr[0] "%d album"
 msgstr[1] "%d alba"
 msgstr[2] "%d alb"
 
-#: ../src/settings.py:111
+#: ../src/settings.py:118
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
@@ -698,11 +710,11 @@ msgstr[0] "%d skladba"
 msgstr[1] "%d skladby"
 msgstr[2] "%d skladeb"
 
-#: ../src/settings.py:122 ../src/settings.py:125 ../data/SettingsDialog.ui.h:3
+#: ../src/settings.py:129 ../src/settings.py:132 ../data/SettingsDialog.ui.h:3
 msgid "Preferences"
 msgstr "Nastavení"
 
-#: ../src/settings.py:174
+#: ../src/settings.py:184
 msgid "You need to install kid3-cli"
 msgstr "Je potřeba nainstalovat kid3-cli"
 
@@ -714,18 +726,18 @@ msgstr "Oblíbené"
 msgid "Recently added"
 msgstr "Nedávno přidáno"
 
-#: ../src/toolbar_end.py:429
+#: ../src/toolbar_end.py:436
 msgid "External tracks"
 msgstr "Vnější skladby"
 
-#: ../src/toolbar_end.py:433
+#: ../src/toolbar_end.py:440
 msgid "Playing playlists"
 msgstr "Přehrávání seznamů skladeb"
 
 #. Handle language ordering
 #. Translators: Add here words that shoud be ignored for artist sort order
 #. Translators: Add The the too
-#: ../src/utils.py:122
+#: ../src/utils.py:147
 msgid "The the"
 msgstr "\"The\""
 
@@ -751,37 +763,41 @@ msgstr "Seřídit %s"
 msgid "Cancel synchronization"
 msgstr "Zrušit seřizování"
 
-#: ../src/widgets_album.py:293
-msgid "Append"
-msgstr "Připojit"
-
-#: ../src/widgets_album_simple.py:141
-msgid "Play albums"
-msgstr "Přehrát alba"
-
-#: ../src/widgets_album_simple.py:151 ../data/CoverBox.ui.h:2
-msgid "Change artwork"
-msgstr "Změnit obal"
-
-#: ../src/widgets_album_detailed.py:382
+#: ../src/view_playlists.py:208 ../src/widgets_album_detailed.py:375
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h  %s m"
 
-#: ../src/widgets_album_detailed.py:384
+#: ../src/view_playlists.py:210 ../src/widgets_album_detailed.py:377
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../src/widgets_album_detailed.py:386
+#: ../src/view_playlists.py:212 ../src/widgets_album_detailed.py:379
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../src/widgets_album_detailed.py:530
+#: ../src/widgets_album.py:293
+msgid "Append"
+msgstr "Připojit"
+
+#: ../src/widgets_album_simple.py:148
+msgid "Play albums"
+msgstr "Přehrát alba"
+
+#: ../src/widgets_album_simple.py:158 ../data/CoverBox.ui.h:2
+msgid "Change artwork"
+msgstr "Změnit obal"
+
+#: ../src/widgets_album_detailed.py:523
 #, python-format
 msgid "Disc %s"
 msgstr "Disk %s"
+
+#: ../src/widgets_context.py:128 ../data/InternalSearchRow.ui.h:1
+msgid "Add to playlist"
+msgstr "Přidat do seznamu skladeb"
 
 #: ../src/widgets_info.py:128
 msgid "No information for this artist"
@@ -798,7 +814,8 @@ msgstr "Alba"
 
 #: ../src/widgets_device.py:234
 msgid "Unknown error while syncing, try to reboot your device"
-msgstr "Při seřizování nastala neznámá chyba. pokuste se své zařízení zavést znovu"
+msgstr ""
+"Při seřizování nastala neznámá chyba. pokuste se své zařízení zavést znovu"
 
 #: ../src/widgets_device.py:242
 msgid "No free space available on device"
@@ -808,27 +825,27 @@ msgstr "Na zařízení není žádné volné místo"
 msgid "Synced albums"
 msgstr "Seřízená alba"
 
-#: ../src/widgets_playlist.py:591 ../src/widgets_playlist.py:594
+#: ../src/widgets_playlist.py:590 ../src/widgets_playlist.py:593
 msgid "New playlist "
 msgstr "Nový seznam skladeb"
 
 #. Need a copy, segfault on EOS 3.1
-#: ../src/widgets_playlist.py:695 ../src/widgets_playlist.py:901
+#: ../src/widgets_playlist.py:699 ../src/widgets_playlist.py:905
 #, python-format
 msgid "Remove \"%s\"?"
 msgstr "Odstranit \"%s\"?"
 
-#: ../src/widgets_playlist.py:909
+#: ../src/widgets_playlist.py:913
 msgid "Remove these tracks?"
 msgstr "Odstranit tyto skladby?"
 
-#: ../src/widgets_radio.py:198
+#: ../src/widgets_radio.py:199
 msgid "Modify radio"
 msgstr "Upravit rádio"
 
 #. Translators: Put here words added by wikipedia in band search
 #. Ex: Muse_(band), Peaches(musician)
-#. Unused be we keep this for now (as it's already translated)
+#. Unused be we keep this for now (as it"s already translated)
 #: ../src/wikipedia.py:36
 msgid "musician;band"
 msgstr "hudebník;skupina"
@@ -911,7 +928,9 @@ msgstr "Text písně"
 msgid ""
 "Reload information\n"
 "Long press to activate auto reload"
-msgstr "Nahrát údaje znovu\nDlouhé stisknutí pro zapnutí automatického nahrávání"
+msgstr ""
+"Nahrát údaje znovu\n"
+"Dlouhé stisknutí pro zapnutí automatického nahrávání"
 
 #: ../data/ArtistView.ui.h:1
 msgid "Photo"
@@ -921,6 +940,10 @@ msgstr "Fotografie"
 msgctxt "artist context"
 msgid "Add"
 msgstr "Přidat"
+
+#: ../data/ArtistView.ui.h:5
+msgid "Go to current track. Long press to go to current artist."
+msgstr ""
 
 #: ../data/ArtworkSearch.ui.h:1 ../data/RadioPopover.ui.h:2
 msgid "Select a local file"
@@ -936,7 +959,11 @@ msgid ""
 "Lollypop uses \"Google Custom Search API\" to search images on the web.\n"
 "This API is limited so it mays not work with default API key.\n"
 "Please create a \"Custom Search Engine\" here:"
-msgstr "Lollypop používá \"Vlastní hledání Google (Google Custom Search API)\" při hledání obrázků na internetu.\nToto API je omezeno, takže nemusí pracovat s výchozím klíčem API.\nVytvořte, prosím, vlastní vyhledávač zde:"
+msgstr ""
+"Lollypop používá \"Vlastní hledání Google (Google Custom Search API)\" při "
+"hledání obrázků na internetu.\n"
+"Toto API je omezeno, takže nemusí pracovat s výchozím klíčem API.\n"
+"Vytvořte, prosím, vlastní vyhledávač zde:"
 
 #: ../data/ArtworkSearch.ui.h:6 ../data/SettingsDialog.ui.h:45
 msgid "API key"
@@ -1009,10 +1036,6 @@ msgstr "Vytvořit nový seznam skladeb založený na hledání"
 #: ../data/SearchPopover.ui.h:2
 msgid "Search on the web"
 msgstr "Hledat na internetu"
-
-#: ../data/InternalSearchRow.ui.h:1
-msgid "Add to playlist"
-msgstr "Přidat do seznamu skladeb"
 
 #: ../data/SettingsDialog.ui.h:1
 msgid "Only in party mode"
@@ -1127,13 +1150,18 @@ msgid ""
 "Google Web Services need a custom API key.\n"
 "Without one, you will reach default quota soon…\n"
 "Lollypop needs this to search artwork and music."
-msgstr "Internetové služby Google potřebují vlastní klíč API.\nBez jednoho takového brzy dosáhnete výchozího přídělu...\nLollypop jej potřebuje kvůli hledání umění a hudby."
+msgstr ""
+"Internetové služby Google potřebují vlastní klíč API.\n"
+"Bez jednoho takového brzy dosáhnete výchozího přídělu...\n"
+"Lollypop jej potřebuje kvůli hledání umění a hudby."
 
 #: ../data/SettingsDialog.ui.h:46
 msgid ""
 "You need to enable \"Custom Search API\" \n"
 "and \"YouTube Data API\" for your project."
-msgstr "Pro svůj projekt musíte povolit \"Vlastní \nvyhledávací API\" a \"API pro data Youtube\"."
+msgstr ""
+"Pro svůj projekt musíte povolit \"Vlastní \n"
+"vyhledávací API\" a \"API pro data Youtube\"."
 
 #: ../data/SettingsDialog.ui.h:48
 msgid "Google"
@@ -1187,7 +1215,9 @@ msgstr "Přehrávání"
 msgid ""
 "Party mode\n"
 "Right click to filter"
-msgstr "Večírkový režim\nKlepnutí pravým tlačítkem pro filtrování"
+msgstr ""
+"Večírkový režim\n"
+"Klepnutí pravým tlačítkem pro filtrování"
 
 #: ../data/TuneinPopover.ui.h:2
 msgid "Go home"
