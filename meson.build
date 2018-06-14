@@ -8,7 +8,5 @@ if not meson.is_subproject()
 endif
 
 i18n = import('i18n')
-
-
 message('Update translations')
 i18n.gettext('lollypop', preset: 'glib')
