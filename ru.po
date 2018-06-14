@@ -18,683 +18,1196 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-09 18:53+0200\n"
-"PO-Revision-Date: 2017-06-01 16:40+0000\n"
-"Last-Translator: Maxim region51 <murmansksity@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/gnumdk/lollypop/language/"
-"ru/)\n"
+"POT-Creation-Date: 2018-06-12 00:01+0200\n"
+"PO-Revision-Date: 2018-01-24 12:27+0000\n"
+"Last-Translator: Дмитрий Нужнов <sergash.mail@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
+"ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.19-dev\n"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:1
+#: ../data/org.gnome.Lollypop.gschema.xml:28
 msgid "Window size"
 msgstr "Размер окна"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:2
+#: ../data/org.gnome.Lollypop.gschema.xml:29
+#: ../data/org.gnome.Lollypop.gschema.xml:39
 msgid "Window size (width and height)."
 msgstr "Размер окна (ширина и высота)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:3
+#: ../data/org.gnome.Lollypop.gschema.xml:33
 msgid "Window position"
 msgstr "Позиция окна"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:4
+#: ../data/org.gnome.Lollypop.gschema.xml:34
+#: ../data/org.gnome.Lollypop.gschema.xml:44
 msgid "Window position (x and y)."
 msgstr "Позиция окна (x, y)"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:5
+#: ../data/org.gnome.Lollypop.gschema.xml:38
 msgid "Mini player size"
 msgstr "Размер Мини-плеера"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:6
+#: ../data/org.gnome.Lollypop.gschema.xml:43
 msgid "Mini player position"
 msgstr "Позиция Мини-плеера"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:7
-msgid "Access network"
-msgstr "Доступ к сети"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:8
-msgid "Search over network"
-msgstr "Поиск по сети"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:9
-msgid "Save artwork/popularity in tags"
-msgstr "Сохранять изображения или популярность в тегах"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:10
-msgid "Window maximized"
-msgstr "Развёрнутое окно"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:11
-msgid "Window maximized state."
-msgstr "Состояние развёрнутого окна"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:12
-msgid "Enabled genres in party mode"
-msgstr "Включает жанры в режиме вечеринки"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:13
-msgid "ID for genres."
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:14
-msgid "Music URI"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:15
-msgid "When empty, use XDG_MUSIC_DIR"
-msgstr "Когда не установлено, используется XDG_MUSIC_DIR"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:16
-msgid "Use Libre.fm instead of Last.fm"
-msgstr "Использовать Libre.fm вместо Last.fm"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:17
-msgid "Last.fm login"
-msgstr "Last.fm авторизация"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:18
-msgid "Google Custom Search API key"
-msgstr "Google Custom Search API ключ"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:19
-msgid "Favorite tag editor"
-msgstr "Любимый редактор тегов"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:20
+#: ../data/org.gnome.Lollypop.gschema.xml:48
+#: ../data/org.gnome.Lollypop.gschema.xml:53
+#: ../data/org.gnome.Lollypop.gschema.xml:236
+#: ../data/org.gnome.Lollypop.gschema.xml:241
+#: ../data/org.gnome.Lollypop.gschema.xml:251
+#: ../data/org.gnome.Lollypop.gschema.xml:256
 msgid "INTERNAL"
 msgstr "ВНУТРЕННИЙ"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:21
+#: ../data/org.gnome.Lollypop.gschema.xml:58
+msgid "Allow user to donate to the project"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:63
+msgid "Allow using a cover per track"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:68
+msgid "Access network"
+msgstr "Доступ к сети"
+
+#: ../data/org.gnome.Lollypop.gschema.xml:73
+msgid "Save artwork/popularity in tags"
+msgstr "Сохранять изображения или популярность в тегах"
+
+#: ../data/org.gnome.Lollypop.gschema.xml:78
+msgid "Preserve the cover’s aspect ratio"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:83
+msgid "Window maximized"
+msgstr "Развёрнутое окно"
+
+#: ../data/org.gnome.Lollypop.gschema.xml:84
+msgid "Window maximized state."
+msgstr "Состояние развёрнутого окна"
+
+#: ../data/org.gnome.Lollypop.gschema.xml:88
+msgid "Enabled genres in party mode"
+msgstr "Включает жанры в режиме вечеринки"
+
+#: ../data/org.gnome.Lollypop.gschema.xml:89
+msgid "ID for genres."
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:93
+msgid "REMOVE ME LATER"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:98
+msgid "Music URI"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:99
+msgid "When empty, use XDG_MUSIC_DIR"
+msgstr "Когда не установлено, используется XDG_MUSIC_DIR"
+
+#: ../data/org.gnome.Lollypop.gschema.xml:103
+msgid "Use Libre.fm instead of Last.fm"
+msgstr "Использовать Libre.fm вместо Last.fm"
+
+#: ../data/org.gnome.Lollypop.gschema.xml:108
+msgid "Last.fm login"
+msgstr "Last.fm авторизация"
+
+#: ../data/org.gnome.Lollypop.gschema.xml:113
+msgid "ListenBrainz user token"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:118
+msgid "Google Custom Search API key"
+msgstr "Google Custom Search API ключ"
+
+#: ../data/org.gnome.Lollypop.gschema.xml:123
+msgid "Favorite tag editor"
+msgstr "Любимый редактор тегов"
+
+#: ../data/org.gnome.Lollypop.gschema.xml:128
 msgid "Audio output preview on track hover"
 msgstr "Воспроизведение звука при наведении указателя мыши на трек"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:22
+#: ../data/org.gnome.Lollypop.gschema.xml:129
 msgid ""
 "PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:23
+#: ../data/org.gnome.Lollypop.gschema.xml:133
 msgid "Favorite cover file"
 msgstr "Любимый файл обложки"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:24
+#: ../data/org.gnome.Lollypop.gschema.xml:134
+#: ../data/org.gnome.Lollypop.gschema.xml:219
 msgid "Restart needed"
 msgstr "Необходим перезапуск"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:25
+#: ../data/org.gnome.Lollypop.gschema.xml:138
 msgid "Database version"
 msgstr "Версия базы данных"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:26
+#: ../data/org.gnome.Lollypop.gschema.xml:139
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:27 ../data/SettingsDialog.ui.h:7
+#: ../data/org.gnome.Lollypop.gschema.xml:143 ../data/SettingsDialog.ui:138
 msgid "Albums cover size"
 msgstr "Размер обложки альбома"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:28
+#: ../data/org.gnome.Lollypop.gschema.xml:148
 msgid "Replay gain value in dB"
 msgstr "Увеличение громкости в децибелах"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:29
+#: ../data/org.gnome.Lollypop.gschema.xml:149
 msgid "Between -15 and 15"
 msgstr "Между -15 и 15"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:30
-msgid "Sync all albums(MTP)"
-msgstr "Синхронизировать все альбомы (MTP)"
+#: ../data/org.gnome.Lollypop.gschema.xml:153
+msgid "Encoding quality"
+msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:31
-msgid "Convert to MP3(MTP)"
-msgstr "Конвертировать в MP3 (MTP)"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:32
-msgid "Quality for converting MP3"
-msgstr "Качество конвертации в MP3"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:33
-msgid "Normalize MP3(MTP)"
-msgstr "Нормализовать MP3 (MTP)"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:34 ../data/SettingsDialog.ui.h:16
+#: ../data/org.gnome.Lollypop.gschema.xml:158 ../data/SettingsDialog.ui:275
+#: ../data/SettingsDialog.ui:277 ../data/SettingsDialog.ui:288
 msgid "Auto update music"
 msgstr "Автоматическое обновление музыки"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:35
+#: ../data/org.gnome.Lollypop.gschema.xml:163
 msgid "Split playlists view"
 msgstr "Разделенный вид плейлистов"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:36
-msgid "Show genres list"
-msgstr "Показывать список жанров"
+#: ../data/org.gnome.Lollypop.gschema.xml:168
+msgid "Show list of genres"
+msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:37
-msgid "Show navigation list"
-msgstr "Показывать навигационный список"
+#: ../data/org.gnome.Lollypop.gschema.xml:173
+msgid "Show sidebar"
+msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:38
-msgid "Show charts"
-msgstr "Показать чарты"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:39 ../data/SettingsDialog.ui.h:8
+#: ../data/org.gnome.Lollypop.gschema.xml:178 ../data/SettingsDialog.ui:165
+#: ../data/SettingsDialog.ui:176
 msgid "Show artist artwork"
 msgstr "Показывать обложку исполнителя"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:40
-msgid "Use dark gtk theme"
-msgstr "Использовать тёмный вариант темы"
+#: ../data/org.gnome.Lollypop.gschema.xml:183
+msgid "Use dark GTK theme"
+msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:41
+#: ../data/org.gnome.Lollypop.gschema.xml:188
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:42 ../data/SettingsDialog.ui.h:6
+#: ../data/org.gnome.Lollypop.gschema.xml:193
+msgid "Handle compilations"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsDialog.ui:1202
 msgid "Show compilations in albums view"
 msgstr "Показывать сборники в списке альбомов"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:43 ../data/SettingsDialog.ui.h:17
+#: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsDialog.ui:302
+#: ../data/SettingsDialog.ui:329
 msgid "Continue playback when closed"
 msgstr "Продолжить воспроизведение после закрытия"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:44
+#: ../data/org.gnome.Lollypop.gschema.xml:208
 msgid "Smart sort for artist"
 msgstr "Умная сортировка для исполнителя"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:45
-msgid "Ex: The Beatles sorted as Beatles. Resetting database needed."
+#: ../data/org.gnome.Lollypop.gschema.xml:209
+msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
 msgstr ""
-"Пример: «The Beatles» сортируются как «Beatles». Потребуется сброс базы "
-"данных."
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:46
+#: ../data/org.gnome.Lollypop.gschema.xml:213
 msgid "Restore previous state"
 msgstr "Восстанавливать предыдущее состояние"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:47
+#: ../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Disable MPRIS"
 msgstr "Отключить MPRIS"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:48
-msgid "Disable notifications"
-msgstr "Отключить уведомления"
+#: ../data/org.gnome.Lollypop.gschema.xml:223
+msgid "Disable all notifications"
+msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:49
+#: ../data/org.gnome.Lollypop.gschema.xml:227
+msgid "Disable notifications upon change of song"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:231
 msgid "Show track number from tags"
 msgstr "Показывать номер трека из тегов"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:50
+#: ../data/org.gnome.Lollypop.gschema.xml:246
 msgid "JPG cover quality"
 msgstr "Качество JPG обложек"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:51
+#: ../data/org.gnome.Lollypop.gschema.xml:247
 msgid "0-100"
 msgstr "0-100"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:52
-msgid "Mix songs"
-msgstr "Микшировать песни"
+#: ../data/org.gnome.Lollypop.gschema.xml:261
+msgid "Smooth track transitions"
+msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:53
+#: ../data/org.gnome.Lollypop.gschema.xml:266
 msgid "Only mix songs in party mode"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:54 ../data/SettingsDialog.ui.h:34
-msgid "Search tracks on Itunes"
-msgstr "Искать треки в iTunes"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:55 ../data/SettingsDialog.ui.h:33
-msgid "Search tracks on Spotify"
-msgstr "Искать треки в Spotify"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:56
-msgid "Mix duration"
-msgstr "Длительность сведения"
-
-#: ../data/org.gnome.Lollypop.gschema.xml.h:57
-msgid "Reset current track position on previous"
+#: ../data/org.gnome.Lollypop.gschema.xml:271
+msgid "Smoothing duration"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:58
+#: ../data/org.gnome.Lollypop.gschema.xml:276
+msgid "Restart current track on previous"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:281
 msgid "Shuffle mode"
 msgstr "Режим перемешивания"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:59
+#: ../data/org.gnome.Lollypop.gschema.xml:286
+msgid "Possibilities for powermanagement options"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:287
+msgid "This option inhibits screensaver and suspend during Lollypop playback."
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.gschema.xml:291
 msgid "Playback behaviour"
 msgstr "Поведение при проигрывании"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:60 ../data/SettingsDialog.ui.h:9
+#: ../data/org.gnome.Lollypop.gschema.xml:296 ../data/SettingsDialog.ui:190
 msgid "Order albums by"
 msgstr "Сортировать альбомы"
 
-#: ../data/org.gnome.Lollypop.gschema.xml.h:61
-msgid "Charts provider"
-msgstr "Поставщик чартов"
+#: ../data/AboutDialog.ui.in:13
+msgid "A music player for GNOME."
+msgstr "Музыкальный плеер для GNOME."
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:1
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:1
+#: ../data/AboutDialog.ui.in:15
+msgid "Visit Lollypop website"
+msgstr "Посетить сайт Lollypop"
+
+#. Replace me with your names
+#: ../data/AboutDialog.ui.in:26
+msgctxt "Translation credits here, put your name here!"
+msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
+msgstr ""
+"Derpy Crabs <derpycrabs@gmail.com>\n"
+"Maxim Orlov <murmansksity@gmail.com>"
+
+#: ../data/AboutDialog.ui.in:56
+msgid "Donations:"
+msgstr "Пожертвования:"
+
+#: ../data/AboutDialog.ui.in:63
+msgid "Flattr"
+msgstr "Flattr"
+
+#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:770
+msgid "Liberapay"
+msgstr ""
+
+#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:770
+msgid "PayPal"
+msgstr "PayPal"
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:7
+#: ../data/org.gnome.Lollypop.desktop.in:3
 msgid "Lollypop"
-msgstr "Lollypop"
+msgstr ""
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:2
-msgid "Music Player"
-msgstr "Музыкальный плеер"
-
-#: ../data/org.gnome.Lollypop.desktop.in.h:3
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:2
+#: ../data/org.gnome.Lollypop.appdata.xml.in:8
+#: ../data/org.gnome.Lollypop.desktop.in:5
 msgid "Play and organize your music collection"
-msgstr "Воспроизводите и организовывайте свою музыкальную коллекцию"
+msgstr ""
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:4
+#: ../data/org.gnome.Lollypop.appdata.xml.in:10
+msgid "Lollypop is a modern music player for GNOME."
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:11
+msgid "Features:"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:13
+msgid "Play many audio formats: MP3, MP4, OGG, and FLAC"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:14
+msgid ""
+"Intuitive browsing: Walk through your collection by genre/artist and album "
+"artwork"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:15
+msgid "Search in your collection by artist, album and title"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:16
+msgid "Artist bio, lyrics: Get artist and track information from the web"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:17
+msgid "Party mode: No awkward silences, let Lollypop choose music for you"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:18
+msgid "ReplayGain (RG): Automatically select the best audio level"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:19
+msgid ""
+"Cover art downloader: Automatic artwork downloader from Last.fm, Itunes and "
+"Spotify"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:20
+msgid "MTP devices: Sync your music with Android phones and any MTP devices"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:21
+msgid "Fullscreen view: Visual access from your couch"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:22
+msgid "Radios support"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:23
+msgid "Last.fm, Libre.fm and ListenBrainz support"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:24
+msgid "Auto install codecs"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:25
+msgid "HiDPI support"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.appdata.xml.in:26
+msgid "TuneIn support"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.desktop.in:4
+msgid "Music Player"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.desktop.in:7
+msgid "org.gnome.Lollypop"
+msgstr ""
+
+#: ../data/org.gnome.Lollypop.desktop.in:19
 msgid "Play/Pause"
-msgstr "Воспроизведение/Пауза"
+msgstr ""
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:5 ../src/notification.py:120
-#: ../data/ToolbarPlayback.ui.h:3
+#: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
+#: ../lollypop/notification.py:39
 msgid "Next"
 msgstr "Следующий"
 
-#: ../data/org.gnome.Lollypop.desktop.in.h:6 ../src/notification.py:114
-#: ../data/ToolbarPlayback.ui.h:1
+#: ../data/org.gnome.Lollypop.desktop.in:27 ../data/ToolbarPlayback.ui:65
+#: ../lollypop/notification.py:35
 msgid "Previous"
 msgstr "Предыдущий"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:3
-msgid "Lollypop is a new GNOME music playing application."
-msgstr ""
-"Lollypop - это новое приложение для воспроизведения музыки в среде GNOME."
+#: ../data/Appmenu.ui:7
+msgid "_Update music"
+msgstr "_Обновить базу музыки"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:4
-msgid "It provides:"
-msgstr "Возможности:"
+#: ../data/Appmenu.ui:11
+msgid "_Fullscreen"
+msgstr "_Полноэкранный режим"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:5
-msgid "MP3, Ogg and FLAC playback"
-msgstr ""
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:6
-msgid "Web playback"
+#: ../data/Appmenu.ui:15
+msgid "_Sidebar"
 msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:7
-msgid "Genre/Cover browsing"
-msgstr "Жанр/Просмотр обложки"
+#: ../data/Appmenu.ui:21
+msgid "_Preferences"
+msgstr "_Настройки"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:8
-msgid "Genre/Artist/Cover browsing"
-msgstr "Жанр/Исполнитель/Просмотр обложки"
+#: ../data/Appmenu.ui:27
+msgid "_Keyboard Shortcuts"
+msgstr "_Горячие клавиши"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:9 ../src/playlists.py:291
-#: ../data/ArtistInfo.ui.h:5 ../data/SettingsDialog.ui.h:36
-#: ../data/ToolbarEnd.ui.h:13
-msgid "Search"
-msgstr "Поиск"
+#: ../data/Appmenu.ui:31
+msgid "_About"
+msgstr "_Информация"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:10 ../src/pop_menu.py:529
-#: ../src/pop_menu.py:548 ../src/toolbar_end.py:438 ../data/QueuePopover.ui.h:2
-msgid "Queue"
-msgstr "Очередь"
+#: ../data/Appmenu.ui:35
+msgid "_Quit"
+msgstr "_Выход"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:11
-msgid "Party mode"
-msgstr "Режим вечеринки"
+#: ../data/ArtistView.ui:65
+msgid "Photo"
+msgstr "Фото"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:12
-msgid "Replay gain"
-msgstr "Режим Replay Gain"
+#: ../data/ArtistView.ui:102 ../lollypop/widgets_album_simple.py:145
+msgid "Play albums"
+msgstr "Проиграть альбомы"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:13
-msgid "Cover art downloader"
-msgstr "Загрузка обложек альбомов"
+#: ../data/ArtistView.ui:117
+msgctxt "artist context"
+msgid "Add to current playlist"
+msgstr ""
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:14
-msgid "Context artist view"
-msgstr "Информация об исполнителе"
+#: ../data/ArtistView.ui:132 ../data/LastfmPopover.ui:60
+msgid "Similar artists"
+msgstr "Похожие исполнители"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:15
-msgid "MTP sync"
-msgstr "MTP синхронизация"
+#: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:92
+#: ../lollypop/pop_albums.py:51 ../lollypop/view_artist.py:50
+msgid "Go to current track"
+msgstr "Перейти к текущему треку"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:16
-msgid "Fullscreen view"
-msgstr "Полноэкранный режим"
+#: ../data/ArtworkSearch.ui:52 ../data/RadioPopover.ui:46
+#: ../data/RadioPopover.ui:100 ../data/RadioPopover.ui:163
+msgid "Select a local file"
+msgstr "Выбрать локальный файл"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:17
-msgid "Radios support"
-msgstr "Поддержка радио потоков"
+#: ../data/ArtworkSearch.ui:143 ../data/PlaylistEditWidget.ui:46
+#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:542
+msgid "Confirm"
+msgstr "Подтвердить"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:18
-msgid "Last.fm support"
-msgstr "Поддержка Last.fm"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:19
-msgid "Auto install codecs"
-msgstr "Автоустановка кодеков"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:20
-msgid "HiDPI support"
-msgstr "Поддержка HiDPI"
-
-#: ../data/org.gnome.Lollypop.appdata.xml.in.h:21
-msgid "TuneIn support"
-msgstr "Поддержка Tunein"
-
-#: ../src/application.py:31
+#: ../data/ArtworkSearch.ui:221
 msgid ""
-"    - Scrobbler disabled\n"
-"    - Auto cover download disabled\n"
-"    - Artist informations disabled"
+"<b>Lollypop uses the Google Custom Search API to search for images on the "
+"web.</b>\n"
+"<small>This API is limited, so it may not work with the default API key.</"
+"small>"
 msgstr ""
-"    - Скробблинг отключен\n"
-"    - Автоматическая загрузка обложек отключена\n"
-"    - Информация об исполнителе отключена"
 
-#: ../src/application.py:602
-msgid "Lollypop: You need to install yelp."
-msgstr "Lollypop: Вам необходимо установить yelp."
+#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1107
+msgid "API key"
+msgstr "API ключ"
 
-#: ../src/art_widgets.py:71
-msgid "Select artwork"
-msgstr "Выбрать обложку"
+#: ../data/ArtworkSearch.ui:265
+msgid "<b>Please create a \"Custom Search Engine\" here</b>:"
+msgstr ""
 
-#: ../src/art_widgets.py:282
-msgid "Low quality, missing API key…"
-msgstr "Низкое качество: отсутствует ключ API"
-
-#: ../src/art_widgets.py:376
-msgid "Reset artwork?"
-msgstr "Сбросить обложку?"
-
-#: ../src/collectionscanner.py:188
-msgid "Lollypop is detecting an empty folder."
-msgstr "Lollypop обнаружил пустую папку."
-
-#: ../src/collectionscanner.py:189
-msgid "Check your music settings."
-msgstr "Проверьте ваши музыкальные настройки."
-
-#: ../src/collectionscanner.py:296 ../src/database_albums.py:439
-#: ../src/database_artists.py:104 ../src/database_genres.py:70
-#: ../src/database_tracks.py:333 ../src/selectionlist.py:407
-#: ../src/tagreader.py:86 ../src/tagreader.py:102 ../src/tagreader.py:118
-#: ../src/tagreader.py:166 ../src/tagreader.py:182 ../src/tagreader.py:186
-#: ../src/tagreader.py:196 ../src/tagreader.py:204
-msgid "Unknown"
-msgstr "Неизвестный"
-
-#: ../src/container.py:490 ../src/widgets_device.py:309
-msgid "Compilations"
-msgstr "Подборки"
-
-#: ../src/controllers.py:83 ../src/controllers.py:107
-msgid "Pause"
-msgstr "Приостановить"
-
-#: ../src/controllers.py:85 ../src/controllers.py:104 ../src/pop_tunein.py:217
-#: ../src/widgets_album_simple.py:137 ../src/widgets_radio.py:183
-#: ../data/ArtistView.ui.h:2 ../data/ToolbarPlayback.ui.h:2
-#: ../data/CoverBox.ui.h:1
+#: ../data/CoverBox.ui:50 ../data/ToolbarPlayback.ui:84
+#: ../lollypop/controllers.py:88 ../lollypop/controllers.py:107
+#: ../lollypop/pop_tunein.py:191 ../lollypop/widgets_album_simple.py:134
+#: ../lollypop/widgets_radio.py:179
 msgid "Play"
 msgstr "Воспроизвести"
 
-#: ../src/controllers.py:194
+#: ../data/CoverBox.ui:76 ../lollypop/widgets_album_simple.py:155
+msgid "Change artwork"
+msgstr "Изменить обложку"
+
+#: ../data/DeviceManagerView.ui:40
+msgid "Synchronize to your device"
+msgstr "Синхронизировать с вашим устройством"
+
+#: ../data/DeviceManagerView.ui:106
+msgid "This will remove some files on your device!"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:201 ../lollypop/widgets_device.py:108
+msgid "Albums"
+msgstr "Альбомы"
+
+#: ../data/DeviceManagerWidget.ui:224
+msgid "Convert to:"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:236
+msgid "Normalize"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:257
+msgid "Do not convert"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:275
+msgid "MP3"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:294
+msgid "Ogg Vorbis"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:313
+msgid "AAC"
+msgstr ""
+
+#: ../data/DeviceManagerWidget.ui:332
+msgid "FLAC"
+msgstr ""
+
+#: ../data/NextPopover.ui:84
+msgid "Next track"
+msgstr "Следующий трек"
+
+#: ../data/PlaylistEditWidget.ui:102
+msgid "You can select tracks with mouse or Ctrl key"
+msgstr ""
+
+#: ../data/PlaylistsManagerView.ui:22
+msgid "New playlist"
+msgstr "Новый плейлист"
+
+#: ../data/PlaylistView.ui:73
+msgid "Edit playlist"
+msgstr ""
+
+#: ../data/PlaylistView.ui:108
+msgid "Unsplit view"
+msgstr "Неразделённый вид"
+
+#: ../data/PlaylistView.ui:137 ../lollypop/view_playlists.py:207
+msgid "Save playlist"
+msgstr ""
+
+#: ../data/QueuePopover.ui:37
+msgid "Clear queue"
+msgstr "Очистить очередь"
+
+#: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:422
+#: ../lollypop/toolbar_end.py:421
+msgid "Queue"
+msgstr "Очередь"
+
+#: ../data/RadioPopover.ui:34 ../lollypop/pop_tunein.py:99
+msgid "Please wait…"
+msgstr "Пожалуйста, подождите…"
+
+#: ../data/RadioPopover.ui:75
+msgid "No logo found…"
+msgstr "Логотип не найден…"
+
+#: ../data/RadioPopover.ui:128
+msgid "Select a logo  for this radio"
+msgstr "Выберите логотип для этой радиостанции"
+
+#: ../data/RadioPopover.ui:192
+msgid "Name:"
+msgstr "Название:"
+
+#: ../data/RadioPopover.ui:215
+msgid "Address:"
+msgstr "Адрес:"
+
+#: ../data/RadioPopover.ui:255
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../data/RadiosView.ui:10
+msgid "No favorite radios"
+msgstr "Нет избранного радио"
+
+#: ../data/RadiosView.ui:38
+msgid "New radio"
+msgstr "Новая радиостанция"
+
+#: ../data/RadiosView.ui:58
+msgid "Search in TuneIn"
+msgstr "Искать в TuneIn"
+
+#: ../data/SearchPopover.ui:45 ../lollypop/pop_albums.py:43
+msgid "Create a new playlist"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:109
+#: ../lollypop/settings.py:112
+msgid "Preferences"
+msgstr "Настройки"
+
+#: ../data/SettingsDialog.ui:58 ../data/SettingsDialog.ui:70
+msgid "Use dark theme variant"
+msgstr "Использовать тёмный вариант темы"
+
+#: ../data/SettingsDialog.ui:85 ../data/SettingsDialog.ui:97
+msgid "Show genres"
+msgstr "Показывать жанры"
+
+#: ../data/SettingsDialog.ui:112 ../data/SettingsDialog.ui:123
+msgid "Show compilations"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:203 ../lollypop/pop_menu.py:399
+#: ../lollypop/pop_menu.py:420
+msgid "Artist"
+msgstr "по исполнителю"
+
+#: ../data/SettingsDialog.ui:204
+msgid "Name"
+msgstr "по имени"
+
+#: ../data/SettingsDialog.ui:205
+msgid "Year"
+msgstr "по году"
+
+#: ../data/SettingsDialog.ui:206
+msgid "Popularity"
+msgstr "по популярности"
+
+#: ../data/SettingsDialog.ui:250
+msgid "Configure Lollypop appearance"
+msgstr "Настроить внешний вид плеера"
+
+#: ../data/SettingsDialog.ui:251
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: ../data/SettingsDialog.ui:317 ../data/SettingsDialog.ui:340
+msgid "Restore state on startup"
+msgstr "Восстанавливать состояние при запуске"
+
+#: ../data/SettingsDialog.ui:355 ../data/SettingsDialog.ui:366
+msgid "Smooth transitions"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:381 ../data/SettingsDialog.ui:392
+msgid "Save changes to files"
+msgstr "Сохранять изменения в файлах"
+
+#: ../data/SettingsDialog.ui:406
+msgid "Preview tracks on"
+msgstr "Предварительное прослушивание треков"
+
+#: ../data/SettingsDialog.ui:420
+msgid "No audio device"
+msgstr "Нет аудиоустройства"
+
+#: ../data/SettingsDialog.ui:435 ../data/SettingsDialog.ui:446
+msgid "Turn on background data"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:496
+msgid "Configure Lollypop behaviour"
+msgstr "Настроить поведение плеера"
+
+#: ../data/SettingsDialog.ui:497
+msgid "Behaviour"
+msgstr "Поведение"
+
+#: ../data/SettingsDialog.ui:629
+msgid "Reset database"
+msgstr "Сброс базы данных"
+
+#: ../data/SettingsDialog.ui:745
+msgid "Select music folders"
+msgstr "Выбрать директории с музыкой"
+
+#: ../data/SettingsDialog.ui:746
+msgid "Music"
+msgstr "Музыка"
+
+#: ../data/SettingsDialog.ui:776 ../data/SettingsDialog.ui:891
+msgid "Login:"
+msgstr "Логин:"
+
+#: ../data/SettingsDialog.ui:789 ../data/SettingsDialog.ui:904
+msgid "Password:"
+msgstr "Пароль:"
+
+#: ../data/SettingsDialog.ui:825 ../data/SettingsDialog.ui:940
+msgid "Connect"
+msgstr "Подключение"
+
+#: ../data/SettingsDialog.ui:852 ../data/SettingsDialog.ui:967
+msgid "You need to install pylast and gi secret"
+msgstr "Вам необходимо установить pylast и gi secret"
+
+#: ../data/SettingsDialog.ui:987
+msgid "Libre.fm"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1011
+msgid ""
+"<b>ListenBrainz user token</b>\n"
+"<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
+"token below. You can see your user token in your <a href=\"https://"
+"listenbrainz.org/profile/\">user profile</a>.</small>"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1041
+msgid "User token"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1057
+msgid "ListenBrainz"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1081
+msgid ""
+"<b>Google Web Services require an API key.</b>\n"
+"<small>Otherwise you will soon reach the default quota…\n"
+"Lollypop needs this to search for artwork.</small>"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1125
+msgid ""
+"<small>You need to enable \"Custom Search API\"  for your project.</small>"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:140
+#: ../lollypop/playlists.py:283
+msgid "Search"
+msgstr "Поиск"
+
+#: ../data/SettingsDialog.ui:1168 ../data/SettingsDialog.ui:1169
+msgid "Web"
+msgstr "Веб"
+
+#: ../data/SettingsDialog.ui:1237
+msgid ""
+"A compilation is an album without any \"Album artist tag\"\n"
+"and with different artists."
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1251
+msgid "You need to reset database [Music]"
+msgstr ""
+
+#: ../data/SettingsDialog.ui:1287
+msgid "Only in party mode"
+msgstr "Только в режиме вечеринки"
+
+#: ../data/SettingsDialog.ui:1338
+msgid "Transition duration in seconds"
+msgstr ""
+
+#: ../data/Shortcuts.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Общее"
+
+#: ../data/Shortcuts.ui:17
+msgctxt "shortcut window"
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../data/Shortcuts.ui:24
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Поиск"
+
+#: ../data/Shortcuts.ui:31
+msgctxt "shortcut window"
+msgid "Party mode"
+msgstr "Режим вечеринки"
+
+#: ../data/Shortcuts.ui:38
+msgctxt "shortcut window"
+msgid "Mini Player"
+msgstr "Мини-плеер"
+
+#: ../data/Shortcuts.ui:45
+msgctxt "shortcut window"
+msgid "Show genres"
+msgstr "Показывать жанры"
+
+#: ../data/Shortcuts.ui:52
+msgctxt "shortcut window"
+msgid "Show/Hide filter"
+msgstr "Показать/скрыть фильтр"
+
+#: ../data/Shortcuts.ui:59
+msgctxt "shortcut window"
+msgid "Lock playback"
+msgstr "Блокировать воспроизведение"
+
+#: ../data/Shortcuts.ui:66
+msgctxt "shortcut window"
+msgid "Show/Hide navigation list"
+msgstr "Показать/спрятать навигационный список"
+
+#: ../data/Shortcuts.ui:73
+msgctxt "shortcut window"
+msgid "Show/Hide volume control"
+msgstr "Показать/спрятать регулятор громкости"
+
+#: ../data/Shortcuts.ui:80
+msgctxt "shortcut window"
+msgid "Show lyrics"
+msgstr ""
+
+#: ../data/Shortcuts.ui:87
+msgctxt "shortcut window"
+msgid "Show albums from artist"
+msgstr ""
+
+#: ../data/Shortcuts.ui:94
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "Полноэкранный режим"
+
+#: ../data/Shortcuts.ui:103
+msgctxt "shortcut window"
+msgid "Playback"
+msgstr "Проигрывание"
+
+#: ../data/Shortcuts.ui:107
+msgctxt "shortcut window"
+msgid "Play"
+msgstr "Воспроизвести"
+
+#: ../data/Shortcuts.ui:114
+msgctxt "shortcut window"
+msgid "Pause"
+msgstr "Приостановить"
+
+#: ../data/Shortcuts.ui:121
+msgctxt "shortcut window"
+msgid "Stop"
+msgstr "Остановить"
+
+#: ../data/Shortcuts.ui:128
+msgctxt "shortcut window"
+msgid "Next track"
+msgstr "Следующий трек"
+
+#: ../data/Shortcuts.ui:135
+msgctxt "shortcut window"
+msgid "Previous track"
+msgstr "Предыдущий трек"
+
+#: ../data/Shortcuts.ui:142
+msgctxt "shortcut window"
+msgid "Skip current album"
+msgstr "Пропустить текущий альбом"
+
+#: ../data/Shortcuts.ui:149
+msgctxt "shortcut window"
+msgid "Love current track"
+msgstr "Любимый трек"
+
+#: ../data/Shortcuts.ui:156
+msgctxt "shortcut window"
+msgid "Repeat track"
+msgstr "Повторить трек"
+
+#: ../data/Shortcuts.ui:163
+msgctxt "shortcut window"
+msgid "Skip backward in track"
+msgstr "Перемотать назад"
+
+#: ../data/Shortcuts.ui:170
+msgctxt "shortcut window"
+msgid "Skip forward in track"
+msgstr "Перемотать вперёд"
+
+#: ../data/ToolbarEnd.ui:7
+msgid "Shuffle"
+msgstr "Перемешивать"
+
+#: ../data/ToolbarEnd.ui:9
+msgid "No shuffle"
+msgstr "Без перемешивания"
+
+#: ../data/ToolbarEnd.ui:14
+msgid "Shuffle albums"
+msgstr "Перемешивать альбомы"
+
+#: ../data/ToolbarEnd.ui:19
+msgid "Shuffle tracks"
+msgstr "Перемешивать треки"
+
+#: ../data/ToolbarEnd.ui:25
+msgid "Repetition"
+msgstr "Повтор"
+
+#: ../data/ToolbarEnd.ui:27
+msgid "Continuous playback"
+msgstr "Непрерывное воспроизведение"
+
+#: ../data/ToolbarEnd.ui:32
+msgid "Repeat track"
+msgstr "Повторить трек"
+
+#: ../data/ToolbarEnd.ui:37
+msgid "Do not repeat"
+msgstr "Не повторять"
+
+#: ../data/ToolbarEnd.ui:52
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../data/ToolbarEnd.ui:81
+msgid "Playback"
+msgstr "Проигрывание"
+
+#: ../data/ToolbarEnd.ui:111
+msgid ""
+"Party mode\n"
+"Right click to filter"
+msgstr ""
+"Режим вечеринки\n"
+"Щелкните правой кнопкой мыши, чтобы отфильтровать"
+
+#: ../data/TuneinPopover.ui:38
+msgid "Go back"
+msgstr "Вернуться назад"
+
+#: ../data/TuneinPopover.ui:70
+msgid "Go home"
+msgstr "Вернуться домой"
+
+#: ../lollypop/application.py:31
+msgid ""
+"    - Scrobbler disabled\n"
+"    - Auto cover download disabled\n"
+"    - Artist information disabled"
+msgstr ""
+
+#: ../lollypop/art_widgets.py:71
+msgid "Select artwork"
+msgstr "Выбрать обложку"
+
+#: ../lollypop/art_widgets.py:237
+msgid "Low quality, missing API key…"
+msgstr "Низкое качество: отсутствует ключ API"
+
+#: ../lollypop/art_widgets.py:362
+msgid "Reset artwork?"
+msgstr "Сбросить обложку?"
+
+#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:313
+#: ../lollypop/database_albums.py:373 ../lollypop/database_artists.py:110
+#: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
+#: ../lollypop/selectionlist.py:564 ../lollypop/selectionlist.py:577
+#: ../lollypop/tagreader.py:86 ../lollypop/tagreader.py:102
+#: ../lollypop/tagreader.py:141 ../lollypop/tagreader.py:189
+#: ../lollypop/tagreader.py:205 ../lollypop/tagreader.py:209
+#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:227
+msgid "Unknown"
+msgstr "Неизвестный"
+
+#: ../lollypop/container.py:769
+msgid "Please consider a donation to the project"
+msgstr ""
+
+#: ../lollypop/container.py:892
+msgid "New tracks available"
+msgstr ""
+
+#: ../lollypop/container.py:893
+msgid "Refresh"
+msgstr ""
+
+#: ../lollypop/controllers.py:86 ../lollypop/controllers.py:110
+msgid "Pause"
+msgstr "Приостановить"
+
+#: ../lollypop/controllers.py:206
 msgid "Volume"
 msgstr "Громкость"
 
-#: ../src/database_artists.py:97
+#: ../lollypop/database_artists.py:103
 msgid "Many artists"
 msgstr "Множество исполнителей"
 
-#: ../src/lastfm.py:23
+#: ../lollypop/lastfm.py:23
 msgid "Last.fm authentication disabled"
 msgstr "Аутентификация Last.fm отключена"
 
-#: ../src/lastfm.py:348
-msgid "Wrong Last.fm credentials"
-msgstr "Неверные данные учётной записи Last.fm"
-
-#. TRANSLATORS: by refers to the artist,
-#: ../src/notification.py:154
+#: ../lollypop/notification.py:98
 #, python-format
 msgid "by %s"
 msgstr "от %s"
 
-#. TRANSLATORS: by refers to the artist,
-#. from to the album
-#: ../src/notification.py:162
+#: ../lollypop/notification.py:104
 #, python-format
 msgid "by %s, from %s"
 msgstr "от %s, из %s"
 
-#: ../src/player_queue.py:43 ../src/player_queue.py:68
-msgid "No network available, can't play this track"
-msgstr "Нет соединения с сетью, трек невозможно воспроизвести"
-
-#: ../src/playlists.py:58
+#: ../lollypop/playlists.py:57
 msgid "Loved tracks"
 msgstr "Любимые треки"
 
-#: ../src/playlists.py:261
-msgid "Spotify charts"
-msgstr "Spotify чарт"
-
-#: ../src/playlists.py:263
-msgid "Last.fm charts"
-msgstr "Last.fm чарт"
-
-#: ../src/playlists.py:283 ../src/selectionlist.py:310
+#: ../lollypop/playlists.py:275 ../lollypop/selectionlist.py:76
 msgid "Popular tracks"
 msgstr "Популярные треки"
 
-#: ../src/playlists.py:285 ../src/selectionlist.py:312
+#: ../lollypop/playlists.py:277 ../lollypop/selectionlist.py:80
 msgid "Recently played"
 msgstr "Недавно прослушанные"
 
-#: ../src/playlists.py:287 ../src/selectionlist.py:313
+#: ../lollypop/playlists.py:279
 msgid "Never played"
 msgstr "Ни разу не проигрывались"
 
-#: ../src/playlists.py:289 ../src/selectionlist.py:314
+#: ../lollypop/playlists.py:281 ../lollypop/selectionlist.py:84
 msgid "Random tracks"
 msgstr "Случайные треки"
 
-#: ../src/pop_albums.py:82
-msgid "Compilation"
-msgstr "Подборка"
-
-#: ../src/pop_albums.py:295
+#: ../lollypop/pop_albums.py:36
 msgid "Clear albums"
 msgstr "Очистить альбомы"
 
-#: ../src/pop_albums.py:304 ../src/view_artist.py:52 ../data/ArtistInfo.ui.h:8
-msgid "Go to current track"
-msgstr "Перейти к текущему треку"
-
-#: ../src/pop_albums.py:305 ../src/toolbar_end.py:442
+#: ../lollypop/pop_albums.py:52 ../lollypop/toolbar_end.py:425
 msgid "Playing albums"
 msgstr "Воспроизведение альбомов"
 
-#: ../src/pop_info.py:36
-msgid "Advanced artist informations disabled"
-msgstr "Подробная информация об исполнителе отключена"
-
-#: ../src/pop_info.py:44
-msgid "WebKit support disabled"
-msgstr "Поддержка WebKit отключена"
-
-#: ../src/pop_info.py:269 ../src/settings.py:376 ../src/view_artist.py:61
-#: ../src/view_artist_albums.py:76 ../src/widgets_info.py:130
+#: ../lollypop/pop_information.py:88 ../lollypop/view_artist_albums.py:74
+#: ../lollypop/view_artist.py:59 ../lollypop/view_lyrics.py:77
 msgid "Network access disabled"
 msgstr "Доступ к сети невозможен"
 
-#: ../src/pop_info.py:277
-msgid "No lyrics found, please install gir1.2-webkit2-4.0"
-msgstr "Текст не найден, пожалуйста, установите gir1.2-webkit2-4.0"
+#: ../lollypop/pop_information.py:90
+msgid "Loading information"
+msgstr ""
 
-#: ../src/pop_menu.py:65
+#: ../lollypop/pop_information.py:152
+msgid "No information on this artist"
+msgstr ""
+
+#: ../lollypop/pop_menu.py:76
 msgid "Show albums from artist"
 msgstr "Показать альбомы исполнителя"
 
-#: ../src/pop_menu.py:129 ../src/widgets_context.py:139
-#: ../src/widgets_indicator.py:111 ../data/InternalSearchRow.ui.h:2
+#: ../lollypop/pop_menu.py:112 ../lollypop/widgets_context.py:70
 msgid "Add to queue"
 msgstr "Добавить в очередь"
 
-#: ../src/pop_menu.py:134
-msgid "Next tracks"
-msgstr "Следующие треки"
-
-#: ../src/pop_menu.py:136 ../data/NextPopover.ui.h:1
-msgid "Next track"
-msgstr "Следующий трек"
-
-#: ../src/pop_menu.py:140 ../src/widgets_context.py:136
-#: ../src/widgets_indicator.py:107
+#: ../lollypop/pop_menu.py:118 ../lollypop/widgets_context.py:74
 msgid "Remove from queue"
 msgstr "Удалить из очереди "
 
-#: ../src/pop_menu.py:213
+#: ../lollypop/pop_menu.py:163
 msgid "Add to others"
 msgstr "Добавить к другим"
 
-#: ../src/pop_menu.py:226
+#: ../lollypop/pop_menu.py:174
 msgid "Remove from \"Not in party\""
 msgstr ""
 
-#: ../src/pop_menu.py:231
+#: ../lollypop/pop_menu.py:179
 msgid "Add to \"Not in party\""
 msgstr ""
 
-#: ../src/pop_menu.py:252
+#: ../lollypop/pop_menu.py:198
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "Удалить из \"%s\""
 
-#: ../src/pop_menu.py:258
+#: ../lollypop/pop_menu.py:204
 #, python-format
 msgid "Add to \"%s\""
 msgstr "Добавить к \"%s\" "
 
-#: ../src/pop_menu.py:387 ../src/widgets_context.py:104
-msgid "Remove album"
-msgstr "Удалить альбом"
-
-#: ../src/pop_menu.py:389 ../src/widgets_context.py:106
-msgid "Remove track"
-msgstr "Удалить трек"
-
-#: ../src/pop_menu.py:398 ../src/widgets_context.py:121
-msgid "Modify information"
-msgstr "Изменить информацию"
-
-#: ../src/pop_menu.py:407 ../src/widgets_context.py:185
-msgid "Open directory"
+#: ../lollypop/pop_menu.py:300
+msgid "Show lyrics"
 msgstr ""
 
-#: ../src/pop_menu.py:527 ../data/SettingsDialog.ui.h:10
-msgid "Artist"
-msgstr "по исполнителю"
+#: ../lollypop/pop_menu.py:301
+msgid "Lyrics"
+msgstr "Lyrics"
 
-#: ../src/pop_menu.py:531 ../src/pop_menu.py:550 ../src/selectionlist.py:293
-#: ../src/widgets_device.py:125 ../src/widgets_playlist.py:557
+#: ../lollypop/pop_menu.py:304 ../lollypop/pop_menu.py:401
+#: ../lollypop/pop_menu.py:424 ../lollypop/selectionlist.py:48
+#: ../lollypop/widgets_device.py:116 ../lollypop/widgets_playlist.py:587
 msgid "Playlists"
 msgstr "Плейлисты"
 
-#: ../src/pop_menu.py:533 ../src/pop_menu.py:552 ../data/PlaylistView.ui.h:1
+#: ../lollypop/pop_menu.py:357 ../lollypop/widgets_context.py:59
+msgid "Modify information"
+msgstr "Изменить информацию"
+
+#: ../lollypop/pop_menu.py:403 ../lollypop/pop_menu.py:426
 msgid "Edit"
 msgstr "Редактировать"
 
-#: ../src/pop_menu.py:664
-msgid "Video address"
-msgstr "Адрес видео"
-
-#: ../src/pop_menu.py:719
-msgid "Save genre"
-msgstr "Сохранить жанр"
-
-#: ../src/pop_menu.py:740 ../src/widgets_context.py:96
-#: ../data/ExternalSearchRow.ui.h:1
-msgid "Save into collection"
-msgstr "Сохранить в коллекции"
-
-#. Translators: radio context
-#. Translators: artist context
-#: ../src/pop_radio.py:84 ../src/pop_tunein.py:224 ../src/view_artist.py:370
+#: ../lollypop/pop_radio.py:84 ../lollypop/pop_tunein.py:198
 msgid "Add"
 msgstr "Добавить"
 
-#. Translators: radio context
-#: ../src/pop_radio.py:87 ../src/wikipedia.py:58
-msgid "Modify"
-msgstr "Изменить"
+#: ../lollypop/pop_radio.py:87
+msgid "Image"
+msgstr ""
 
-#: ../src/pop_search.py:338 ../data/SettingsDialog.ui.h:35
-msgid "You need to install youtube-dl"
-msgstr "Вам нужно установить youtube-dl"
-
-#: ../src/pop_tunein.py:94 ../data/RadioPopover.ui.h:1
-msgid "Please wait…"
-msgstr "Пожалуйста, подождите…"
-
-#: ../src/pop_tunein.py:181
+#: ../lollypop/pop_tunein.py:92 ../lollypop/pop_tunein.py:399
 msgid "Can't connect to TuneIn…"
 msgstr "Не удается подключиться к TuneIn…"
 
-#: ../src/selectionlist.py:288
+#: ../lollypop/pop_tunein.py:394 ../lollypop/pop_tunein.py:396
+msgid "No result…"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:38
 msgid "Popular albums"
 msgstr "Популярные альбомы"
 
-#: ../src/selectionlist.py:290
+#: ../lollypop/selectionlist.py:40
 msgid "Loved albums"
 msgstr "Любимые альбомы"
 
-#: ../src/selectionlist.py:291
+#: ../lollypop/selectionlist.py:42
 msgid "Recently added albums"
 msgstr "Недавно добавленные альбомы"
 
-#: ../src/selectionlist.py:292
+#: ../lollypop/selectionlist.py:44
 msgid "Random albums"
 msgstr "Случайные альбомы"
 
-#: ../src/selectionlist.py:294
+#: ../lollypop/selectionlist.py:46
+msgid "Unplayed albums"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:50
 msgid "Radios"
 msgstr "Радиостанции"
 
-#: ../src/selectionlist.py:297 ../src/settings.py:365 ../src/settings.py:375
-#: ../data/SettingsDialog.ui.h:28
-msgid "The charts"
-msgstr "Чарты"
-
-#: ../src/selectionlist.py:299
+#: ../lollypop/selectionlist.py:53
 msgid "All albums"
 msgstr "Все альбомы"
 
-#: ../src/selectionlist.py:301
+#: ../lollypop/selectionlist.py:55
 msgid "All artists"
 msgstr "Все исполнители"
 
-#: ../src/selectionlist.py:315
+#: ../lollypop/selectionlist.py:58 ../lollypop/widgets_device.py:303
+msgid "Compilations"
+msgstr "Подборки"
+
+#: ../lollypop/selectionlist.py:60
+msgid "USB disks"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:82
+msgid "Unplayed"
+msgstr ""
+
+#: ../lollypop/selectionlist.py:86
 msgid "Not in party"
 msgstr ""
 
-#: ../src/settings.py:98
-msgid "Google Web Services need a custom API key"
-msgstr "Google Web Services нужен API ключ"
+#: ../lollypop/selectionlist.py:116
+msgid "Default on startup"
+msgstr ""
 
-#: ../src/settings.py:99
-msgid "Lollypop needs this to search artwork and music."
-msgstr "Lollypop он нужен для поиска изображений и музыки."
+#: ../lollypop/selectionlist.py:119
+msgid "Startup"
+msgstr ""
 
-#: ../src/settings.py:114
+#: ../lollypop/selectionlist.py:141
+msgid "Shown"
+msgstr ""
+
+#: ../lollypop/settings.py:82
+msgid "Using \"GNOME Online Accounts\" settings"
+msgstr ""
+
+#: ../lollypop/settings.py:89
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
@@ -703,7 +1216,7 @@ msgstr[1] "%d исполнителя"
 msgstr[2] "%d исполнителей"
 msgstr[3] "%d исполнителей"
 
-#: ../src/settings.py:116
+#: ../lollypop/settings.py:91
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
@@ -712,7 +1225,7 @@ msgstr[1] "%d альбома"
 msgstr[2] "%d альбомов"
 msgstr[3] "%d альбомов"
 
-#: ../src/settings.py:118
+#: ../lollypop/settings.py:93
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
@@ -721,628 +1234,219 @@ msgstr[1] "%d трека"
 msgstr[2] "%d треков"
 msgstr[3] "%d треков"
 
-#: ../src/settings.py:129 ../src/settings.py:132 ../data/SettingsDialog.ui.h:3
-msgid "Preferences"
-msgstr "Настройки"
-
-#: ../src/settings.py:184
+#: ../lollypop/settings.py:739
 msgid "You need to install kid3-cli"
 msgstr "Вам нужно установить kid3-cli"
 
-#: ../src/toolbar_end.py:51
+#: ../lollypop/toolbar_end.py:50
 msgid "Populars"
 msgstr "Популярные"
 
-#: ../src/toolbar_end.py:52
+#: ../lollypop/toolbar_end.py:51
 msgid "Recently added"
 msgstr "Недавно добавленные"
 
-#: ../src/toolbar_end.py:436
-msgid "External tracks"
-msgstr ""
-
-#: ../src/toolbar_end.py:440
+#: ../lollypop/toolbar_end.py:423
 msgid "Playing playlists"
 msgstr "Воспроизведение плейлистов"
 
-#. Handle language ordering
-#. Translators: Add here words that shoud be ignored for artist sort order
-#. Translators: Add The the too
-#: ../src/utils.py:147
+#: ../lollypop/utils.py:252
 msgid "The the"
 msgstr "The the"
 
-#: ../src/view_albums.py:181 ../data/TuneinPopover.ui.h:1
-msgid "Go back"
-msgstr "Вернуться назад"
+#: ../lollypop/view_albums_list.py:95
+msgid "Compilation"
+msgstr "Подборка"
 
-#. Translators: artist context
-#: ../src/view_artist.py:364 ../src/widgets_album.py:297
-msgid "Remove"
-msgstr "Удалить"
+#: ../lollypop/view_artist.py:346 ../lollypop/widgets_album.py:291
+#: ../lollypop/widgets_context.py:88 ../lollypop/widgets_indicator.py:109
+#, fuzzy
+msgid "Add to current playlist"
+msgstr "Добавить в плейлист"
 
-#: ../src/view_device.py:36
+#: ../lollypop/view_artist.py:353 ../lollypop/widgets_album.py:296
+#: ../lollypop/widgets_context.py:103 ../lollypop/widgets_indicator.py:105
+#, fuzzy
+msgid "Remove from current playlist"
+msgstr "Добавить в плейлист"
+
+#: ../lollypop/view_device.py:37
 msgid "Please unlock your device"
 msgstr "Пожалуйста, разблокируйте ваше устройство"
 
-#: ../src/view_device.py:96 ../src/view_device.py:199
+#: ../lollypop/view_device.py:97 ../lollypop/view_device.py:208
 #, python-format
 msgid "Synchronize %s"
 msgstr "Синхронизировать %s"
 
-#: ../src/view_device.py:148
+#: ../lollypop/view_device.py:157
 msgid "Cancel synchronization"
 msgstr "Отменить синхронизацию"
 
-#: ../src/view_playlists.py:208 ../src/widgets_album_detailed.py:375
+#: ../lollypop/view_lyrics.py:57
+msgid "Loading…"
+msgstr ""
+
+#: ../lollypop/view_lyrics.py:220
+msgid "No lyrics found "
+msgstr ""
+
+#: ../lollypop/view_playlists.py:210
+msgid "Save"
+msgstr ""
+
+#: ../lollypop/view_playlists.py:211
+msgid "Cancel"
+msgstr ""
+
+#: ../lollypop/view_playlists.py:277 ../lollypop/widgets_album_detailed.py:290
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s ч %s мин"
 
-#: ../src/view_playlists.py:210 ../src/widgets_album_detailed.py:377
+#: ../lollypop/view_playlists.py:279 ../lollypop/widgets_album_detailed.py:292
 #, python-format
 msgid "%s h"
 msgstr "%s ч"
 
-#: ../src/view_playlists.py:212 ../src/widgets_album_detailed.py:379
+#: ../lollypop/view_playlists.py:281 ../lollypop/widgets_album_detailed.py:294
 #, python-format
 msgid "%s m"
 msgstr "%s мин"
 
-#: ../src/widgets_album.py:293
-msgid "Append"
-msgstr "Добавить"
-
-#: ../src/widgets_album_simple.py:148
-msgid "Play albums"
-msgstr "Проиграть альбомы"
-
-#: ../src/widgets_album_simple.py:158 ../data/CoverBox.ui.h:2
-msgid "Change artwork"
-msgstr "Изменить обложку"
-
-#: ../src/widgets_album_detailed.py:523
+#: ../lollypop/view_tracks.py:386
 #, python-format
 msgid "Disc %s"
 msgstr "Диск %s"
 
-#: ../src/widgets_context.py:128 ../data/InternalSearchRow.ui.h:1
+#: ../lollypop/widgets_context.py:121
 msgid "Add to playlist"
 msgstr "Добавить в плейлист"
 
-#: ../src/widgets_info.py:128
-msgid "No information for this artist"
-msgstr "Нет информации об этом исполнителе"
-
-#: ../src/widgets_device.py:61
-msgid "You need to install gstreamer-plugins-ugly"
-msgstr "Вам нужно установить gstreamer-plugins-ugly"
-
-#: ../src/widgets_device.py:117 ../data/ArtistInfo.ui.h:1
-#: ../data/DeviceManagerWidget.ui.h:1
-msgid "Albums"
-msgstr "Альбомы"
-
-#: ../src/widgets_device.py:234
+#: ../lollypop/widgets_device.py:239
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr ""
 "Неизвестная ошибка при синхронизации, попробуйте перезагрузить ваше "
 "устройство"
 
-#: ../src/widgets_device.py:242
+#: ../lollypop/widgets_device.py:247
 msgid "No free space available on device"
 msgstr "На устройстве не осталось свободного места"
 
-#: ../src/widgets_device.py:307
+#: ../lollypop/widgets_device.py:301
 msgid "Synced albums"
 msgstr "Синхронизированные альбомы"
 
-#: ../src/widgets_playlist.py:590 ../src/widgets_playlist.py:593
+#: ../lollypop/widgets_playlist.py:620 ../lollypop/widgets_playlist.py:623
 msgid "New playlist "
 msgstr "Новый плейлист"
 
-#. Need a copy, segfault on EOS 3.1
-#: ../src/widgets_playlist.py:699 ../src/widgets_playlist.py:905
+#: ../lollypop/widgets_playlist.py:728 ../lollypop/widgets_playlist.py:922
 #, python-format
 msgid "Remove \"%s\"?"
 msgstr "Удалить \"%s\"?"
 
-#: ../src/widgets_playlist.py:913
+#: ../lollypop/widgets_playlist.py:930
 msgid "Remove these tracks?"
 msgstr "Удалить эти треки?"
 
-#: ../src/widgets_radio.py:199
+#: ../lollypop/widgets_radio.py:195
 msgid "Modify radio"
 msgstr "Изменить радио"
 
-#. Translators: Put here words added by wikipedia in band search
-#. Ex: Muse_(band), Peaches(musician)
-#. Unused be we keep this for now (as it"s already translated)
-#: ../src/wikipedia.py:36
-msgid "musician;band"
-msgstr "музыкант;группа"
-
-#: ../data/LastfmPopover.ui.h:1 ../data/ArtistView.ui.h:4
-msgid "Similar artists"
-msgstr "Похожие исполнители"
-
-#: ../data/AboutDialog.ui.h:1
-msgid "A music player for GNOME."
-msgstr "Музыкальный плеер для GNOME."
-
-#: ../data/AboutDialog.ui.h:2
-msgid "Visit Lollypop website"
-msgstr "Посетить сайт Lollypop"
-
-#. Replace me with your names
-#: ../data/AboutDialog.ui.h:4
-msgctxt "Translation credits here, put your name here!"
-msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
-msgstr ""
-"Derpy Crabs <derpycrabs@gmail.com>\n"
-"Maxim Orlov <murmansksity@gmail.com>"
-
-#: ../data/AboutDialog.ui.h:5
-msgid "Donations:"
-msgstr "Пожертвования:"
-
-#: ../data/AboutDialog.ui.h:6
-msgid "Flattr"
-msgstr "Flattr"
-
-#: ../data/AboutDialog.ui.h:7
-msgid "PayPal"
-msgstr "PayPal"
-
-#: ../data/Appmenu.ui.h:1
-msgid "_Update music"
-msgstr "_Обновить базу музыки"
-
-#: ../data/Appmenu.ui.h:2
-msgid "_Fullscreen"
-msgstr "_Полноэкранный режим"
-
-#: ../data/Appmenu.ui.h:3
-msgid "_Network access"
-msgstr "_Доступ к сети"
-
-#: ../data/Appmenu.ui.h:4
-msgid "_Preferences"
-msgstr "_Настройки"
-
-#: ../data/Appmenu.ui.h:5
-msgid "_Keyboard Shortcuts"
-msgstr "_Горячие клавиши"
-
-#: ../data/Appmenu.ui.h:6
-msgid "_Help"
-msgstr "_Помощь"
-
-#: ../data/Appmenu.ui.h:7
-msgid "_About"
-msgstr "_О программе"
-
-#: ../data/Appmenu.ui.h:8
-msgid "_Quit"
-msgstr "_Закрыть"
-
-#: ../data/ArtistInfo.ui.h:2
-msgid "Last.fm"
-msgstr "Last.fm"
-
-#: ../data/ArtistInfo.ui.h:3
-msgid "Wikipedia"
-msgstr "Wikipedia"
-
-#: ../data/ArtistInfo.ui.h:4
-msgid "Lyrics"
-msgstr "Lyrics"
-
-#: ../data/ArtistInfo.ui.h:6
-msgid ""
-"Reload information\n"
-"Long press to activate auto reload"
-msgstr ""
-"Обновить информацию\n"
-"Длительное нажатие активирует автообновление"
-
-#: ../data/ArtistView.ui.h:1
-msgid "Photo"
-msgstr "Фото"
-
-#: ../data/ArtistView.ui.h:3
-msgctxt "artist context"
-msgid "Add"
-msgstr "Добавить"
-
-#: ../data/ArtistView.ui.h:5
-msgid "Go to current track. Long press to go to current artist."
+#: ../lollypop/widgets_rating.py:51
+#, python-format
+msgid "Song played %s times"
 msgstr ""
 
-#: ../data/ArtworkSearch.ui.h:1 ../data/RadioPopover.ui.h:2
-msgid "Select a local file"
-msgstr "Выбрать локальный файл"
-
-#: ../data/ArtworkSearch.ui.h:2 ../data/PlaylistEditWidget.ui.h:1
-#: ../data/PlaylistsManagerWidget.ui.h:1 ../data/SettingsDialog.ui.h:26
-msgid "Confirm"
-msgstr "Подтвердить"
-
-#: ../data/ArtworkSearch.ui.h:3
-msgid ""
-"Lollypop uses \"Google Custom Search API\" to search images on the web.\n"
-"This API is limited so it mays not work with default API key.\n"
-"Please create a \"Custom Search Engine\" here:"
-msgstr ""
-"Lollypop использует «Google Custom Search API» для поиска изображений в "
-"сети.\n"
-"Этот API ограничен и может не работать с API ключом по умолчанию.\n"
-"Пожалуйста, создайте «Custom Search Engine» здесь:"
-
-#: ../data/ArtworkSearch.ui.h:6 ../data/SettingsDialog.ui.h:45
-msgid "API key"
-msgstr "API ключ"
-
-#: ../data/DeviceManagerView.ui.h:1
-msgid "Synchronize to your device"
-msgstr "Синхронизировать с вашим устройством"
-
-#: ../data/DeviceManagerView.ui.h:2
-msgid "This will remove some files on your device!"
-msgstr ""
-
-#: ../data/DeviceManagerWidget.ui.h:2
-msgid "Convert to MP3"
-msgstr "Конвертировать в MP3"
-
-#: ../data/DeviceManagerWidget.ui.h:3
-msgid "Normalize MP3"
-msgstr "Нормализовать MP3"
-
-#: ../data/PlaylistsManagerView.ui.h:1
-msgid "New playlist"
-msgstr "Новый плейлист"
-
-#: ../data/PlaylistView.ui.h:2
-msgid "Unsplit view"
-msgstr "Неразделённый вид"
-
-#: ../data/QueuePopover.ui.h:1
-msgid "Clear queue"
-msgstr "Очистить очередь"
-
-#: ../data/RadioPopover.ui.h:3
-msgid "No logo found…"
-msgstr "Логотип не найден…"
-
-#: ../data/RadioPopover.ui.h:4
-msgid "Select a logo  for this radio"
-msgstr "Выберите логотип для этой радиостанции"
-
-#: ../data/RadioPopover.ui.h:5
-msgid "Name:"
-msgstr "Имя:"
-
-#: ../data/RadioPopover.ui.h:6
-msgid "Address:"
-msgstr "Адрес:"
-
-#: ../data/RadioPopover.ui.h:7
-msgid "Delete"
-msgstr "Удалить"
-
-#: ../data/RadiosView.ui.h:1
-msgid "No favorite radios"
-msgstr "Нет избранного радио"
-
-#: ../data/RadiosView.ui.h:2
-msgid "New radio"
-msgstr "Новая радиостанция"
-
-#: ../data/RadiosView.ui.h:3
-msgid "Search in TuneIn"
-msgstr "Искать в TuneIn"
-
-#: ../data/SearchPopover.ui.h:1
-msgid "Create a new playlist based on search"
-msgstr "Создать новый плейлист на основе поиска"
-
-#: ../data/SearchPopover.ui.h:2
-msgid "Search on the web"
-msgstr "Поиск в Интернете"
-
-#: ../data/SettingsDialog.ui.h:1
-msgid "Only in party mode"
-msgstr "Только в режиме вечеринки"
-
-#: ../data/SettingsDialog.ui.h:2
-msgid "Mix duration in seconds"
-msgstr "Длительность сведения в секундах"
-
-#: ../data/SettingsDialog.ui.h:4
-msgid "Use dark theme variant"
-msgstr "Использовать тёмный вариант темы"
-
-#: ../data/SettingsDialog.ui.h:5
-msgid "Show genres"
-msgstr "Показывать жанры"
-
-#: ../data/SettingsDialog.ui.h:11
-msgid "Name"
-msgstr "по имени"
-
-#: ../data/SettingsDialog.ui.h:12
-msgid "Year"
-msgstr "по году"
-
-#: ../data/SettingsDialog.ui.h:13
-msgid "Popularity"
-msgstr "по популярности"
-
-#: ../data/SettingsDialog.ui.h:14
-msgid "Configure Lollypop appearance"
-msgstr "Настроить внешний вид плеера"
-
-#: ../data/SettingsDialog.ui.h:15
-msgid "Appearance"
-msgstr "Внешний вид"
-
-#: ../data/SettingsDialog.ui.h:18
-msgid "Restore state on startup"
-msgstr "Восстанавливать состояние при запуске"
-
-#: ../data/SettingsDialog.ui.h:19
-msgid "Mix tracks"
-msgstr "Микшировать треки"
-
-#: ../data/SettingsDialog.ui.h:20
-msgid "Long press to show options"
-msgstr "Нажмите, чтобы показать опции"
-
-#: ../data/SettingsDialog.ui.h:21
-msgid "Save changes to files"
-msgstr "Сохранять изменения в файлах"
-
-#: ../data/SettingsDialog.ui.h:22
-msgid "Preview tracks on"
-msgstr "Предварительное прослушивание треков"
-
-#: ../data/SettingsDialog.ui.h:23
-msgid "No audio device"
-msgstr "Нет аудиоустройства"
-
-#: ../data/SettingsDialog.ui.h:24
-msgid "Configure Lollypop behaviour"
-msgstr "Настроить поведение плеера"
-
-#: ../data/SettingsDialog.ui.h:25
-msgid "Behaviour"
-msgstr "Поведение"
-
-#: ../data/SettingsDialog.ui.h:27
-msgid "Reset database"
-msgstr "Сброс базы данных"
-
-#: ../data/SettingsDialog.ui.h:29
-msgid "Select music folders"
-msgstr "Выбрать директории с музыкой"
-
-#: ../data/SettingsDialog.ui.h:30
-msgid "Music"
-msgstr "Музыка"
-
-#: ../data/SettingsDialog.ui.h:31
-msgid "Spotify"
-msgstr "Spotify"
-
-#: ../data/SettingsDialog.ui.h:32
-msgid "Itunes"
-msgstr "Itunes"
-
-#: ../data/SettingsDialog.ui.h:37
-msgid "Login:"
-msgstr "Логин:"
-
-#: ../data/SettingsDialog.ui.h:38
-msgid "Password:"
-msgstr "Пароль:"
-
-#: ../data/SettingsDialog.ui.h:39
-msgid "Connect"
-msgstr "Подключение"
-
-#: ../data/SettingsDialog.ui.h:40
-msgid "You need to install pylast and gi secret"
-msgstr "Вам необходимо установить pylast и gi secret"
-
-#: ../data/SettingsDialog.ui.h:41
-msgid "Use Libre.fm"
-msgstr "Использовать Libre.fm"
-
-#: ../data/SettingsDialog.ui.h:42
-msgid ""
-"Google Web Services need a custom API key.\n"
-"Without one, you will reach default quota soon…\n"
-"Lollypop needs this to search artwork and music."
-msgstr ""
-"Google Web Services нужен API ключ.\n"
-"Без него, вы скоро достигните лимита…\n"
-"Lollypop он нужен для поиска изображений и музыки."
-
-#: ../data/SettingsDialog.ui.h:46
-msgid ""
-"You need to enable \"Custom Search API\" \n"
-"and \"YouTube Data API\" for your project."
-msgstr ""
-"Вам нужно включить «Custom Search API»\n"
-"и «Youtube Data API» для вашего проекта."
-
-#: ../data/SettingsDialog.ui.h:48
-msgid "Google"
-msgstr "Google"
-
-#: ../data/SettingsDialog.ui.h:49
-msgid "Web"
-msgstr "Веб"
-
-#: ../data/ToolbarEnd.ui.h:1
-msgid "Shuffle"
-msgstr "Перемешивать"
-
-#: ../data/ToolbarEnd.ui.h:2
-msgid "No shuffle"
-msgstr "Без перемешивания"
-
-#: ../data/ToolbarEnd.ui.h:3
-msgid "Shuffle albums"
-msgstr "Перемешивать альбомы"
-
-#: ../data/ToolbarEnd.ui.h:4
-msgid "Shuffle tracks"
-msgstr "Перемешивать треки"
-
-#: ../data/ToolbarEnd.ui.h:5
-msgid "Repetition"
-msgstr "Повтор"
-
-#: ../data/ToolbarEnd.ui.h:6
-msgid "Continuous playback"
-msgstr "Непрерывное воспроизведение"
-
-#: ../data/ToolbarEnd.ui.h:7
-msgid "Repeat track"
-msgstr "Повторить трек"
-
-#: ../data/ToolbarEnd.ui.h:8
-msgid "Do not repeat"
-msgstr "Не повторять"
-
-#: ../data/ToolbarEnd.ui.h:9
-msgid "Settings"
-msgstr "Настройки"
-
-#: ../data/ToolbarEnd.ui.h:10
-msgid "Playback"
-msgstr "Проигрывание"
-
-#: ../data/ToolbarEnd.ui.h:11
-msgid ""
-"Party mode\n"
-"Right click to filter"
-msgstr ""
-"Режим вечеринки\n"
-"Щелкните правой кнопкой мыши, чтобы отфильтровать"
-
-#: ../data/TuneinPopover.ui.h:2
-msgid "Go home"
-msgstr "Вернуться домой"
-
-#: ../data/Shortcuts.ui.h:1
-msgctxt "shortcut window"
-msgid "General"
-msgstr "Общие"
-
-#: ../data/Shortcuts.ui.h:2
-msgctxt "shortcut window"
-msgid "Settings"
-msgstr "Настройки"
-
-#: ../data/Shortcuts.ui.h:3
-msgctxt "shortcut window"
-msgid "Search"
-msgstr "Поиск"
-
-#: ../data/Shortcuts.ui.h:4
-msgctxt "shortcut window"
-msgid "Party mode"
-msgstr "Режим вечеринки"
-
-#: ../data/Shortcuts.ui.h:5
-msgctxt "shortcut window"
-msgid "Mini Player"
-msgstr "Мини-плеер"
-
-#: ../data/Shortcuts.ui.h:6
-msgctxt "shortcut window"
-msgid "Show genres"
-msgstr "Показывать жанры"
-
-#: ../data/Shortcuts.ui.h:7
-msgctxt "shortcut window"
-msgid "Show/Hide filter"
-msgstr "Показать/скрыть фильтр"
-
-#: ../data/Shortcuts.ui.h:8
-msgctxt "shortcut window"
-msgid "Lock playback"
-msgstr "Блокировать воспроизведение"
-
-#: ../data/Shortcuts.ui.h:9
-msgctxt "shortcut window"
-msgid "Show/Hide navigation list"
-msgstr "Показать/спрятать навигационный список"
-
-#: ../data/Shortcuts.ui.h:10
-msgctxt "shortcut window"
-msgid "Show/Hide volume control"
-msgstr "Показать/спрятать регулятор громкости"
-
-#: ../data/Shortcuts.ui.h:11
-msgctxt "shortcut window"
-msgid "Fullscreen"
-msgstr "Полноэкранный режим"
-
-#: ../data/Shortcuts.ui.h:12
-msgctxt "shortcut window"
-msgid "Playback"
-msgstr "Проигрывание"
-
-#: ../data/Shortcuts.ui.h:13
-msgctxt "shortcut window"
-msgid "Play"
-msgstr "Воспроизвести"
-
-#: ../data/Shortcuts.ui.h:14
-msgctxt "shortcut window"
-msgid "Pause"
-msgstr "Приостановить"
-
-#: ../data/Shortcuts.ui.h:15
-msgctxt "shortcut window"
-msgid "Stop"
-msgstr "Остановить"
-
-#: ../data/Shortcuts.ui.h:16
-msgctxt "shortcut window"
-msgid "Next track"
-msgstr "Следующий трек"
-
-#: ../data/Shortcuts.ui.h:17
-msgctxt "shortcut window"
-msgid "Previous track"
-msgstr "Предыдущий трек"
-
-#: ../data/Shortcuts.ui.h:18
-msgctxt "shortcut window"
-msgid "Skip current album"
-msgstr "Пропустить текущий альбом"
-
-#: ../data/Shortcuts.ui.h:19
-msgctxt "shortcut window"
-msgid "Love current track"
-msgstr "Любимый трек"
-
-#: ../data/Shortcuts.ui.h:20
-msgctxt "shortcut window"
-msgid "Repeat track"
-msgstr "Повторить трек"
-
-#: ../data/Shortcuts.ui.h:21
-msgctxt "shortcut window"
-msgid "Skip backward in track"
-msgstr "Перемотать назад"
-
-#: ../data/Shortcuts.ui.h:22
-msgctxt "shortcut window"
-msgid "Skip forward in track"
-msgstr "Перемотать вперёд"
+#~ msgid "Create a new playlist based on search"
+#~ msgstr "Создать новый плейлист на основе поиска"
+
+#~ msgid "Sync all albums(MTP)"
+#~ msgstr "Синхронизировать все альбомы (MTP)"
+
+#, fuzzy
+#~ msgid "Enable network access"
+#~ msgstr "_Доступ к сети"
+
+#~ msgid "Normalize MP3(MTP)"
+#~ msgstr "Нормализовать MP3 (MTP)"
+
+#~ msgid "Convert to MP3"
+#~ msgstr "Конвертировать в MP3"
+
+#~ msgid "Normalize MP3"
+#~ msgstr "Нормализовать MP3"
+
+#~ msgid "You need to install gstreamer-plugins-ugly"
+#~ msgstr "Вам нужно установить gstreamer-plugins-ugly"
+
+#~ msgid "Long press to show options"
+#~ msgstr "Нажмите, чтобы показать опции"
+
+#~ msgid "Show navigation list"
+#~ msgstr "Показывать навигационный список"
+
+#~ msgid "Lollypop is detecting an empty folder."
+#~ msgstr "Lollypop обнаружил пустую папку."
+
+#~ msgid "Check your music settings."
+#~ msgstr "Проверьте ваши музыкальные настройки."
+
+#~ msgid "Modify"
+#~ msgstr "Изменять"
+
+#~ msgid "Last.fm"
+#~ msgstr "Last.fm"
+
+#~ msgid "Wikipedia"
+#~ msgstr "Wikipedia"
+
+#~ msgid ""
+#~ "Reload information\n"
+#~ "Long press to activate auto reload"
+#~ msgstr ""
+#~ "Обновить информацию\n"
+#~ "Длительное нажатие активирует автообновление"
+
+#~ msgid "WebKit support disabled"
+#~ msgstr "Поддержка WebKit отключена"
+
+#~ msgid "No lyrics found, please install gir1.2-webkit2-4.0"
+#~ msgstr "Текст не найден, пожалуйста, установите gir1.2-webkit2-4.0"
+
+#~ msgid "No information for this artist"
+#~ msgstr "Нет информации об этом исполнителе"
+
+#~ msgid "musician;band"
+#~ msgstr "музыкант;группа"
+
+#~ msgid "Mix songs"
+#~ msgstr "Микшировать песни"
+
+#~ msgid "Mix duration"
+#~ msgstr "Длительность сведения"
+
+#~ msgid "Mix duration in seconds"
+#~ msgstr "Длительность сведения в секундах"
+
+#~ msgid "Mix tracks"
+#~ msgstr "Микшировать треки"
+
+#~ msgid "Remove"
+#~ msgstr "Удалить"
+
+#~ msgid "Save into collection"
+#~ msgstr "Сохранить в коллекции"
+
+#~ msgid "Next tracks"
+#~ msgstr "Следующие треки"
+
+#~ msgid "Append"
+#~ msgstr "Добавить"
+
+#~ msgid "Lollypop: You need to install yelp."
+#~ msgstr "Lollypop: Вам необходимо установить yelp."
+
+#~ msgid "_Help"
+#~ msgstr "_Помощь"
