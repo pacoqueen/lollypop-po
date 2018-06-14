@@ -1,4 +1,7 @@
-project ('lollypop-po')
+project ('lollypop-po',
+  version: '0.1_redux',
+  meson_version: '>= 0.40.0'
+)
 
 if not meson.is_subproject()
     message('WARNING: This project is only intended to be used as a subproject!')
