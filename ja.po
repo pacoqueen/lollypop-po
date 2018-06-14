@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-12 00:01+0200\n"
+"POT-Creation-Date: 2018-06-14 19:17+0200\n"
 "PO-Revision-Date: 2018-06-05 02:03+0000\n"
 "Last-Translator: Kenkowo Nishihama <nishihama@hitobashira.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -19,327 +19,59 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 3.0\n"
 
-#: ../data/org.gnome.Lollypop.gschema.xml:28
-msgid "Window size"
-msgstr "ウインドウサイズ"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:29
-#: ../data/org.gnome.Lollypop.gschema.xml:39
-msgid "Window size (width and height)."
-msgstr "ウィンドウ サイズ (幅と高さ)。"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:33
-msgid "Window position"
-msgstr "ウィンドウの位置"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:34
-#: ../data/org.gnome.Lollypop.gschema.xml:44
-msgid "Window position (x and y)."
-msgstr "ウィンドウの位置 (x および y)。"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:38
-msgid "Mini player size"
-msgstr "ミニプレーヤーのサイズ"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:43
-msgid "Mini player position"
-msgstr "ミニプレーヤーの位置"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:48
-#: ../data/org.gnome.Lollypop.gschema.xml:53
-#: ../data/org.gnome.Lollypop.gschema.xml:236
-#: ../data/org.gnome.Lollypop.gschema.xml:241
-#: ../data/org.gnome.Lollypop.gschema.xml:251
-#: ../data/org.gnome.Lollypop.gschema.xml:256
-msgid "INTERNAL"
-msgstr "内部"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:58
-msgid "Allow user to donate to the project"
-msgstr "プロジェクトに寄付するユーザーを許可"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:63
-msgid "Allow using a cover per track"
-msgstr "トラック毎のカバーの使用を許可"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:68
-msgid "Access network"
-msgstr "ネットワークにアクセス"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:73
-msgid "Save artwork/popularity in tags"
-msgstr "タグでアートワーク/人気度を保存"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:78
-msgid "Preserve the cover’s aspect ratio"
-msgstr "カバーの縦横比を維持"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:83
-msgid "Window maximized"
-msgstr "最大化されたウィンドウ"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:84
-msgid "Window maximized state."
-msgstr "ウィンドウが最大化した状態。"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:88
-msgid "Enabled genres in party mode"
-msgstr "パーティーモード時ジャンル有効"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:89
-msgid "ID for genres."
-msgstr "ジャンルの ID。"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:93
-msgid "REMOVE ME LATER"
-msgstr "後から私を削除"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:98
-msgid "Music URI"
-msgstr "音楽 URI"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:99
-msgid "When empty, use XDG_MUSIC_DIR"
-msgstr "空の場合、XDG_MUSIC_DIR を使用"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:103
-msgid "Use Libre.fm instead of Last.fm"
-msgstr "Last.fm の代わりに Libre.fm を使用"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:108
-msgid "Last.fm login"
-msgstr "Last.fm ログイン"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:113
-msgid "ListenBrainz user token"
-msgstr "ListenBrainz ユーザー トークン"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:118
-msgid "Google Custom Search API key"
-msgstr "Google カスタム検索 API キー"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:123
-msgid "Favorite tag editor"
-msgstr "お気に入りタグエディター"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:128
-msgid "Audio output preview on track hover"
-msgstr "トラックホバーでオーディオ出力プレビュー(試聴)"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:129
-msgid ""
-"PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
-"Command to get outputs: $ pacmd list-sinks|grep 'name:'"
-msgstr ""
-"PulseAudio のみ。例: alsa_output.pci-0000_00_14.2.analog-ステレオ。コマンドの"
-"出力を取得する: $ pacmd list-sinks|grep 'name:'"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:133
-msgid "Favorite cover file"
-msgstr "お気に入りのカバーファイル"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:134
-#: ../data/org.gnome.Lollypop.gschema.xml:219
-msgid "Restart needed"
-msgstr "再起動が必要です"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:138
-msgid "Database version"
-msgstr "データベースのバージョン"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:139
-msgid ""
-"Resetting this value will reset the database, popular albums will be restored"
-msgstr ""
-"この値をリセットするとデータベースがリセットされ、アルバム人気度が戻ります(初"
-"期化)"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:143 ../data/SettingsDialog.ui:138
-msgid "Albums cover size"
-msgstr "アルバム カバーのサイズ"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:148
-msgid "Replay gain value in dB"
-msgstr "リプレイゲイン dB の値"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:149
-msgid "Between -15 and 15"
-msgstr "-15 と 15 の間"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:153
-msgid "Encoding quality"
-msgstr "エンコード品質"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:158 ../data/SettingsDialog.ui:275
-#: ../data/SettingsDialog.ui:277 ../data/SettingsDialog.ui:288
-msgid "Auto update music"
-msgstr "楽曲自動更新"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:163
-msgid "Split playlists view"
-msgstr "分割プレイリスト ビュー"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:168
-msgid "Show list of genres"
-msgstr "ジャンル一覧を表示"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:173
-msgid "Show sidebar"
-msgstr "サイドバーを表示"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:178 ../data/SettingsDialog.ui:165
-#: ../data/SettingsDialog.ui:176
-msgid "Show artist artwork"
-msgstr "アーティストのアートワークを表示"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:183
-msgid "Use dark GTK theme"
-msgstr "ダーク GTK テーマを使用"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:188
-msgid "Disable use of client side window decorations (headerbar)"
-msgstr "クライアント側の窓飾り (headerbar) の使用を無効に"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:193
-msgid "Handle compilations"
-msgstr "コンピレーションを処理"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:198 ../data/SettingsDialog.ui:1202
-msgid "Show compilations in albums view"
-msgstr "アルバム ビューでコンピレーションを表示"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:203 ../data/SettingsDialog.ui:302
-#: ../data/SettingsDialog.ui:329
-msgid "Continue playback when closed"
-msgstr "閉じたときのプレイバックを継続"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:208
-msgid "Smart sort for artist"
-msgstr "アーティストのスマート ソート"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:209
-msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
-msgstr "例: The を削除して並べ替えられます。データベースのリセットが必要。"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:213
-msgid "Restore previous state"
-msgstr "以前の状態を復元"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:218
-msgid "Disable MPRIS"
-msgstr "MPRIS を無効に"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:223
-msgid "Disable all notifications"
-msgstr "すべての通知を無効に"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:227
-msgid "Disable notifications upon change of song"
-msgstr "楽曲変更時の通知を無効に"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:231
-msgid "Show track number from tags"
-msgstr "タグのトラック番号を表示"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:246
-msgid "JPG cover quality"
-msgstr "JPG カバーの品質"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:247
-msgid "0-100"
-msgstr "0-100"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:261
-msgid "Smooth track transitions"
-msgstr "滑らかなトラック遷移"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:266
-msgid "Only mix songs in party mode"
-msgstr "パーティーモードでのみ曲をミックス"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:271
-msgid "Smoothing duration"
-msgstr "平滑化期間"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:276
-msgid "Restart current track on previous"
-msgstr "現在のトラックを再起動"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:281
-msgid "Shuffle mode"
-msgstr "シャッフル モード"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:286
-msgid "Possibilities for powermanagement options"
-msgstr "パワーマネージメントオプション"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:287
-msgid "This option inhibits screensaver and suspend during Lollypop playback."
-msgstr ""
-"このオプションは、スクリーン セーバーを抑制する、ロリーポッププレイバック中に"
-"中断します。"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:291
-msgid "Playback behaviour"
-msgstr "プレイバック挙動"
-
-#: ../data/org.gnome.Lollypop.gschema.xml:296 ../data/SettingsDialog.ui:190
-msgid "Order albums by"
-msgstr "アルバム順"
-
-#: ../data/AboutDialog.ui.in:13
+#: ../../data/AboutDialog.ui.in:13
 msgid "A music player for GNOME."
 msgstr "GNOME 用の音楽プレーヤー。"
 
-#: ../data/AboutDialog.ui.in:15
+#: ../../data/AboutDialog.ui.in:15
 msgid "Visit Lollypop website"
 msgstr "ロリーポップのウェブサイトを訪問"
 
 #. Replace me with your names
-#: ../data/AboutDialog.ui.in:26
+#: ../../data/AboutDialog.ui.in:26
 msgctxt "Translation credits here, put your name here!"
 msgid "Cédric Bellegarde <cedric.bellegarde@adishatz.org>"
 msgstr "Kenkowo Nishihama 西浜ケンコヲ<hitobashira.weblate@gmail.com>"
 
-#: ../data/AboutDialog.ui.in:56
+#: ../../data/AboutDialog.ui.in:56
 msgid "Donations:"
 msgstr "寄付:"
 
-#: ../data/AboutDialog.ui.in:63
+#: ../../data/AboutDialog.ui.in:63
 msgid "Flattr"
 msgstr "Flattr"
 
-#: ../data/AboutDialog.ui.in:73 ../lollypop/container.py:770
+#: ../../data/AboutDialog.ui.in:73 ../../lollypop/container.py:775
 msgid "Liberapay"
 msgstr "Liberapay"
 
-#: ../data/AboutDialog.ui.in:83 ../lollypop/container.py:770
+#: ../../data/AboutDialog.ui.in:83 ../../lollypop/container.py:775
 msgid "PayPal"
 msgstr "PayPal"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:7
-#: ../data/org.gnome.Lollypop.desktop.in:3
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:7
+#: ../../data/org.gnome.Lollypop.desktop.in:3
 msgid "Lollypop"
 msgstr "ロリーポップ"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:8
-#: ../data/org.gnome.Lollypop.desktop.in:5
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:8
+#: ../../data/org.gnome.Lollypop.desktop.in:5
 msgid "Play and organize your music collection"
 msgstr "お気に入りの楽曲コレクションを再生・管理します"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:10
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:10
 msgid "Lollypop is a modern music player for GNOME."
 msgstr "ロリポップは、GNOME のモダーンな音楽プレーヤーです。"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:11
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:11
 msgid "Features:"
 msgstr "機能:"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:13
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:13
 msgid "Play many audio formats: MP3, MP4, OGG, and FLAC"
 msgstr "多くのオーディオ フォーマットを再生: MP3、MP4、OGG、FLAC の"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:14
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:14
 msgid ""
 "Intuitive browsing: Walk through your collection by genre/artist and album "
 "artwork"
@@ -347,139 +79,411 @@ msgstr ""
 "直感的に閲覧: ジャンル/アーティストとアルバムのアートワークで、コレクションを"
 "縦走"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:15
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:15
 msgid "Search in your collection by artist, album and title"
 msgstr "アーティスト、アルバム、タイトルでコレクション内検索"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:16
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:16
 msgid "Artist bio, lyrics: Get artist and track information from the web"
 msgstr "アーティスト バイオ、歌詞: web からアーティストやトラック情報を取得"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:17
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:17
 msgid "Party mode: No awkward silences, let Lollypop choose music for you"
 msgstr "パーティーモード: ロリーポップに音楽の選択させれば、ぎこちない沈黙なし"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:18
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:18
 msgid "ReplayGain (RG): Automatically select the best audio level"
 msgstr "ReplayGain (RG): ベストオーディオレベルを自動的に選択"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:19
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:19
 msgid ""
 "Cover art downloader: Automatic artwork downloader from Last.fm, Itunes and "
 "Spotify"
 msgstr "カバーアートダウンローダー:  自動的にLast.fm、Itunes 、Spotify から"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:20
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:20
 msgid "MTP devices: Sync your music with Android phones and any MTP devices"
 msgstr "MTP デバイス: アンドロイド携帯電話や任意の MTP デバイスと音楽を同期"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:21
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:21
 msgid "Fullscreen view: Visual access from your couch"
 msgstr "全画面表示: あなたのソファから視覚的なアクセス"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:22
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:22
 msgid "Radios support"
 msgstr "ラジオのサポート"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:23
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:23
 msgid "Last.fm, Libre.fm and ListenBrainz support"
 msgstr "Last.fm、Libre.fm、ListenBrainz のサポート"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:24
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:24
 msgid "Auto install codecs"
 msgstr "コーデック自動インストール"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:25
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:25
 msgid "HiDPI support"
 msgstr "HiDPI サポート"
 
-#: ../data/org.gnome.Lollypop.appdata.xml.in:26
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:26
 msgid "TuneIn support"
 msgstr "TuneIn サポート"
 
-#: ../data/org.gnome.Lollypop.desktop.in:4
+#: ../../data/org.gnome.Lollypop.desktop.in:4
 msgid "Music Player"
 msgstr "音楽プレーヤー"
 
-#: ../data/org.gnome.Lollypop.desktop.in:7
+#: ../../data/org.gnome.Lollypop.desktop.in:7
 msgid "org.gnome.Lollypop"
 msgstr "org.gnome.Lollypop"
 
-#: ../data/org.gnome.Lollypop.desktop.in:19
+#: ../../data/org.gnome.Lollypop.desktop.in:19
 msgid "Play/Pause"
 msgstr "再生/一時停止"
 
-#: ../data/org.gnome.Lollypop.desktop.in:23 ../data/ToolbarPlayback.ui:103
-#: ../lollypop/notification.py:39
+#: ../../data/org.gnome.Lollypop.desktop.in:23
+#: ../../data/ToolbarPlayback.ui:103 ../../lollypop/notification.py:39
 msgid "Next"
 msgstr "次へ"
 
-#: ../data/org.gnome.Lollypop.desktop.in:27 ../data/ToolbarPlayback.ui:65
-#: ../lollypop/notification.py:35
+#: ../../data/org.gnome.Lollypop.desktop.in:27 ../../data/ToolbarPlayback.ui:65
+#: ../../lollypop/notification.py:35
 msgid "Previous"
 msgstr "前へ"
 
-#: ../data/Appmenu.ui:7
+#: ../../data/org.gnome.Lollypop.gschema.xml:28
+msgid "Window size"
+msgstr "ウインドウサイズ"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:29
+#: ../../data/org.gnome.Lollypop.gschema.xml:39
+msgid "Window size (width and height)."
+msgstr "ウィンドウ サイズ (幅と高さ)。"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:33
+msgid "Window position"
+msgstr "ウィンドウの位置"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:34
+#: ../../data/org.gnome.Lollypop.gschema.xml:44
+msgid "Window position (x and y)."
+msgstr "ウィンドウの位置 (x および y)。"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:38
+msgid "Mini player size"
+msgstr "ミニプレーヤーのサイズ"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:43
+msgid "Mini player position"
+msgstr "ミニプレーヤーの位置"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:48
+#: ../../data/org.gnome.Lollypop.gschema.xml:53
+#: ../../data/org.gnome.Lollypop.gschema.xml:236
+#: ../../data/org.gnome.Lollypop.gschema.xml:241
+#: ../../data/org.gnome.Lollypop.gschema.xml:251
+#: ../../data/org.gnome.Lollypop.gschema.xml:256
+msgid "INTERNAL"
+msgstr "内部"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:58
+msgid "Allow user to donate to the project"
+msgstr "プロジェクトに寄付するユーザーを許可"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:63
+msgid "Allow using a cover per track"
+msgstr "トラック毎のカバーの使用を許可"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:68
+msgid "Access network"
+msgstr "ネットワークにアクセス"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:73
+msgid "Save artwork/popularity in tags"
+msgstr "タグでアートワーク/人気度を保存"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:78
+msgid "Preserve the cover’s aspect ratio"
+msgstr "カバーの縦横比を維持"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:83
+msgid "Window maximized"
+msgstr "最大化されたウィンドウ"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:84
+msgid "Window maximized state."
+msgstr "ウィンドウが最大化した状態。"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:88
+msgid "Enabled genres in party mode"
+msgstr "パーティーモード時ジャンル有効"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:89
+msgid "ID for genres."
+msgstr "ジャンルの ID。"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:93
+msgid "REMOVE ME LATER"
+msgstr "後から私を削除"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:98
+msgid "Music URI"
+msgstr "音楽 URI"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:99
+msgid "When empty, use XDG_MUSIC_DIR"
+msgstr "空の場合、XDG_MUSIC_DIR を使用"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:103
+msgid "Use Libre.fm instead of Last.fm"
+msgstr "Last.fm の代わりに Libre.fm を使用"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:108
+msgid "Last.fm login"
+msgstr "Last.fm ログイン"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:113
+msgid "ListenBrainz user token"
+msgstr "ListenBrainz ユーザー トークン"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:118
+msgid "Google Custom Search API key"
+msgstr "Google カスタム検索 API キー"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:123
+msgid "Favorite tag editor"
+msgstr "お気に入りタグエディター"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:128
+msgid "Audio output preview on track hover"
+msgstr "トラックホバーでオーディオ出力プレビュー(試聴)"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:129
+msgid ""
+"PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
+"Command to get outputs: $ pacmd list-sinks|grep 'name:'"
+msgstr ""
+"PulseAudio のみ。例: alsa_output.pci-0000_00_14.2.analog-ステレオ。コマンドの"
+"出力を取得する: $ pacmd list-sinks|grep 'name:'"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:133
+msgid "Favorite cover file"
+msgstr "お気に入りのカバーファイル"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:134
+#: ../../data/org.gnome.Lollypop.gschema.xml:219
+msgid "Restart needed"
+msgstr "再起動が必要です"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:138
+msgid "Database version"
+msgstr "データベースのバージョン"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:139
+msgid ""
+"Resetting this value will reset the database, popular albums will be restored"
+msgstr ""
+"この値をリセットするとデータベースがリセットされ、アルバム人気度が戻ります(初"
+"期化)"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:143
+#: ../../data/SettingsDialog.ui:138
+msgid "Albums cover size"
+msgstr "アルバム カバーのサイズ"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:148
+msgid "Replay gain value in dB"
+msgstr "リプレイゲイン dB の値"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:149
+msgid "Between -15 and 15"
+msgstr "-15 と 15 の間"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:153
+msgid "Encoding quality"
+msgstr "エンコード品質"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:158
+#: ../../data/SettingsDialog.ui:275 ../../data/SettingsDialog.ui:277
+#: ../../data/SettingsDialog.ui:288
+msgid "Auto update music"
+msgstr "楽曲自動更新"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:163
+msgid "Split playlists view"
+msgstr "分割プレイリスト ビュー"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:168
+msgid "Show list of genres"
+msgstr "ジャンル一覧を表示"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:173
+msgid "Show sidebar"
+msgstr "サイドバーを表示"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:178
+#: ../../data/SettingsDialog.ui:165 ../../data/SettingsDialog.ui:176
+msgid "Show artist artwork"
+msgstr "アーティストのアートワークを表示"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:183
+msgid "Use dark GTK theme"
+msgstr "ダーク GTK テーマを使用"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:188
+msgid "Disable use of client side window decorations (headerbar)"
+msgstr "クライアント側の窓飾り (headerbar) の使用を無効に"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:193
+msgid "Handle compilations"
+msgstr "コンピレーションを処理"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:198
+#: ../../data/SettingsDialog.ui:1202
+msgid "Show compilations in albums view"
+msgstr "アルバム ビューでコンピレーションを表示"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:203
+#: ../../data/SettingsDialog.ui:302 ../../data/SettingsDialog.ui:329
+msgid "Continue playback when closed"
+msgstr "閉じたときのプレイバックを継続"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:208
+msgid "Smart sort for artist"
+msgstr "アーティストのスマート ソート"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:209
+msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
+msgstr "例: The を削除して並べ替えられます。データベースのリセットが必要。"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:213
+msgid "Restore previous state"
+msgstr "以前の状態を復元"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:218
+msgid "Disable MPRIS"
+msgstr "MPRIS を無効に"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:223
+msgid "Disable all notifications"
+msgstr "すべての通知を無効に"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:227
+msgid "Disable notifications upon change of song"
+msgstr "楽曲変更時の通知を無効に"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:231
+msgid "Show track number from tags"
+msgstr "タグのトラック番号を表示"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:246
+msgid "JPG cover quality"
+msgstr "JPG カバーの品質"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:247
+msgid "0-100"
+msgstr "0-100"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:261
+msgid "Smooth track transitions"
+msgstr "滑らかなトラック遷移"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:266
+msgid "Only mix songs in party mode"
+msgstr "パーティーモードでのみ曲をミックス"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:271
+msgid "Smoothing duration"
+msgstr "平滑化期間"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:276
+msgid "Restart current track on previous"
+msgstr "現在のトラックを再起動"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:281
+msgid "Shuffle mode"
+msgstr "シャッフル モード"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:286
+msgid "Possibilities for powermanagement options"
+msgstr "パワーマネージメントオプション"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:287
+msgid "This option inhibits screensaver and suspend during Lollypop playback."
+msgstr ""
+"このオプションは、スクリーン セーバーを抑制する、ロリーポッププレイバック中に"
+"中断します。"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:291
+msgid "Playback behaviour"
+msgstr "プレイバック挙動"
+
+#: ../../data/org.gnome.Lollypop.gschema.xml:296
+#: ../../data/SettingsDialog.ui:190
+msgid "Order albums by"
+msgstr "アルバム順"
+
+#: ../../data/Appmenu.ui:7
 msgid "_Update music"
 msgstr "_ 楽曲アップデート"
 
-#: ../data/Appmenu.ui:11
+#: ../../data/Appmenu.ui:11
 msgid "_Fullscreen"
 msgstr "_全画面表示"
 
-#: ../data/Appmenu.ui:15
+#: ../../data/Appmenu.ui:15
 msgid "_Sidebar"
 msgstr "サイド バー"
 
-#: ../data/Appmenu.ui:21
+#: ../../data/Appmenu.ui:21
 msgid "_Preferences"
 msgstr "_基本設定"
 
-#: ../data/Appmenu.ui:27
+#: ../../data/Appmenu.ui:27
 msgid "_Keyboard Shortcuts"
 msgstr "キーボード ショートカット"
 
-#: ../data/Appmenu.ui:31
+#: ../../data/Appmenu.ui:31
 msgid "_About"
 msgstr "_バージョン情報"
 
-#: ../data/Appmenu.ui:35
+#: ../../data/Appmenu.ui:35
 msgid "_Quit"
 msgstr "終了"
 
-#: ../data/ArtistView.ui:65
+#: ../../data/ArtistView.ui:65
 msgid "Photo"
 msgstr "写真"
 
-#: ../data/ArtistView.ui:102 ../lollypop/widgets_album_simple.py:145
+#: ../../data/ArtistView.ui:102 ../../lollypop/widgets_album_simple.py:145
 msgid "Play albums"
 msgstr "アルバムを再生"
 
-#: ../data/ArtistView.ui:117
+#: ../../data/ArtistView.ui:117
 msgctxt "artist context"
 msgid "Add to current playlist"
 msgstr "現在の再生リストに追加"
 
-#: ../data/ArtistView.ui:132 ../data/LastfmPopover.ui:60
+#: ../../data/ArtistView.ui:132 ../../data/LastfmPopover.ui:60
 msgid "Similar artists"
 msgstr "類似のアーティスト"
 
-#: ../data/ArtistView.ui:148 ../data/PlaylistView.ui:92
-#: ../lollypop/pop_albums.py:51 ../lollypop/view_artist.py:50
+#: ../../data/ArtistView.ui:148 ../../data/PlaylistView.ui:92
+#: ../../lollypop/pop_albums.py:51 ../../lollypop/view_artist.py:50
 msgid "Go to current track"
 msgstr "現在のトラックへ移動"
 
-#: ../data/ArtworkSearch.ui:52 ../data/RadioPopover.ui:46
-#: ../data/RadioPopover.ui:100 ../data/RadioPopover.ui:163
+#: ../../data/ArtworkSearch.ui:52 ../../data/RadioPopover.ui:46
+#: ../../data/RadioPopover.ui:100 ../../data/RadioPopover.ui:163
 msgid "Select a local file"
 msgstr "ローカルファイルを選択"
 
-#: ../data/ArtworkSearch.ui:143 ../data/PlaylistEditWidget.ui:46
-#: ../data/PlaylistsManagerWidget.ui:46 ../data/SettingsDialog.ui:542
+#: ../../data/ArtworkSearch.ui:143 ../../data/PlaylistEditWidget.ui:46
+#: ../../data/PlaylistsManagerWidget.ui:46 ../../data/SettingsDialog.ui:542
 msgid "Confirm"
 msgstr "確認"
 
-#: ../data/ArtworkSearch.ui:221
+#: ../../data/ArtworkSearch.ui:221
 msgid ""
 "<b>Lollypop uses the Google Custom Search API to search for images on the "
 "web.</b>\n"
@@ -490,245 +494,245 @@ msgstr ""
 "します</b>。\n"
 "<small>既定の API キーで動かないので、この API は限られています。</small>"
 
-#: ../data/ArtworkSearch.ui:253 ../data/SettingsDialog.ui:1107
+#: ../../data/ArtworkSearch.ui:253 ../../data/SettingsDialog.ui:1107
 msgid "API key"
 msgstr "API キー"
 
-#: ../data/ArtworkSearch.ui:265
+#: ../../data/ArtworkSearch.ui:265
 msgid "<b>Please create a \"Custom Search Engine\" here</b>:"
 msgstr "<b>ここで「カスタム検索エンジン」を作成してください</b> ："
 
-#: ../data/CoverBox.ui:50 ../data/ToolbarPlayback.ui:84
-#: ../lollypop/controllers.py:88 ../lollypop/controllers.py:107
-#: ../lollypop/pop_tunein.py:191 ../lollypop/widgets_album_simple.py:134
-#: ../lollypop/widgets_radio.py:179
+#: ../../data/CoverBox.ui:50 ../../data/ToolbarPlayback.ui:84
+#: ../../lollypop/controllers.py:88 ../../lollypop/controllers.py:107
+#: ../../lollypop/pop_tunein.py:191 ../../lollypop/widgets_album_simple.py:134
+#: ../../lollypop/widgets_radio.py:179
 msgid "Play"
 msgstr "再生"
 
-#: ../data/CoverBox.ui:76 ../lollypop/widgets_album_simple.py:155
+#: ../../data/CoverBox.ui:76 ../../lollypop/widgets_album_simple.py:155
 msgid "Change artwork"
 msgstr "アートワーク変更"
 
-#: ../data/DeviceManagerView.ui:40
+#: ../../data/DeviceManagerView.ui:40
 msgid "Synchronize to your device"
 msgstr "デバイスと同期"
 
-#: ../data/DeviceManagerView.ui:106
+#: ../../data/DeviceManagerView.ui:106
 msgid "This will remove some files on your device!"
 msgstr "あなたのデバイス上のいくつかのファイルが削除されます!"
 
-#: ../data/DeviceManagerWidget.ui:201 ../lollypop/widgets_device.py:108
+#: ../../data/DeviceManagerWidget.ui:201 ../../lollypop/widgets_device.py:108
 msgid "Albums"
 msgstr "アルバム"
 
-#: ../data/DeviceManagerWidget.ui:224
+#: ../../data/DeviceManagerWidget.ui:224
 msgid "Convert to:"
 msgstr "変換する:"
 
-#: ../data/DeviceManagerWidget.ui:236
+#: ../../data/DeviceManagerWidget.ui:236
 msgid "Normalize"
 msgstr "正規化"
 
-#: ../data/DeviceManagerWidget.ui:257
+#: ../../data/DeviceManagerWidget.ui:257
 msgid "Do not convert"
 msgstr "変換しないで"
 
-#: ../data/DeviceManagerWidget.ui:275
+#: ../../data/DeviceManagerWidget.ui:275
 msgid "MP3"
 msgstr "MP3"
 
-#: ../data/DeviceManagerWidget.ui:294
+#: ../../data/DeviceManagerWidget.ui:294
 msgid "Ogg Vorbis"
 msgstr "Ogg Vorbis"
 
-#: ../data/DeviceManagerWidget.ui:313
+#: ../../data/DeviceManagerWidget.ui:313
 msgid "AAC"
 msgstr "AAC"
 
-#: ../data/DeviceManagerWidget.ui:332
+#: ../../data/DeviceManagerWidget.ui:332
 msgid "FLAC"
 msgstr "FLAC"
 
-#: ../data/NextPopover.ui:84
+#: ../../data/NextPopover.ui:84
 msgid "Next track"
 msgstr "次のトラック"
 
-#: ../data/PlaylistEditWidget.ui:102
+#: ../../data/PlaylistEditWidget.ui:102
 msgid "You can select tracks with mouse or Ctrl key"
 msgstr "マウスまたは Ctrl キーでトラックを選択できます"
 
-#: ../data/PlaylistsManagerView.ui:22
+#: ../../data/PlaylistsManagerView.ui:22
 msgid "New playlist"
 msgstr "新しいプレイリスト"
 
-#: ../data/PlaylistView.ui:73
+#: ../../data/PlaylistView.ui:73
 msgid "Edit playlist"
 msgstr "プレイリストを編集"
 
-#: ../data/PlaylistView.ui:108
+#: ../../data/PlaylistView.ui:108
 msgid "Unsplit view"
 msgstr "分割されていないビュー"
 
-#: ../data/PlaylistView.ui:137 ../lollypop/view_playlists.py:207
+#: ../../data/PlaylistView.ui:137 ../../lollypop/view_playlists.py:207
 msgid "Save playlist"
 msgstr "プレイリストの保存"
 
-#: ../data/QueuePopover.ui:37
+#: ../../data/QueuePopover.ui:37
 msgid "Clear queue"
 msgstr "キューのクリア"
 
-#: ../data/QueuePopover.ui:55 ../lollypop/pop_menu.py:422
-#: ../lollypop/toolbar_end.py:421
+#: ../../data/QueuePopover.ui:55 ../../lollypop/pop_menu.py:422
+#: ../../lollypop/toolbar_end.py:421
 msgid "Queue"
 msgstr "キュー"
 
-#: ../data/RadioPopover.ui:34 ../lollypop/pop_tunein.py:99
+#: ../../data/RadioPopover.ui:34 ../../lollypop/pop_tunein.py:99
 msgid "Please wait…"
 msgstr "お待ちください……"
 
-#: ../data/RadioPopover.ui:75
+#: ../../data/RadioPopover.ui:75
 msgid "No logo found…"
 msgstr "ロゴが見つかりません…"
 
-#: ../data/RadioPopover.ui:128
+#: ../../data/RadioPopover.ui:128
 msgid "Select a logo  for this radio"
 msgstr "このラジオのロゴを選択"
 
-#: ../data/RadioPopover.ui:192
+#: ../../data/RadioPopover.ui:192
 msgid "Name:"
 msgstr "名称："
 
-#: ../data/RadioPopover.ui:215
+#: ../../data/RadioPopover.ui:215
 msgid "Address:"
 msgstr "アドレス:"
 
-#: ../data/RadioPopover.ui:255
+#: ../../data/RadioPopover.ui:255
 msgid "Delete"
 msgstr "削除"
 
-#: ../data/RadiosView.ui:10
+#: ../../data/RadiosView.ui:10
 msgid "No favorite radios"
 msgstr "好きなラジオなし"
 
-#: ../data/RadiosView.ui:38
+#: ../../data/RadiosView.ui:38
 msgid "New radio"
 msgstr "新しいラジオ"
 
-#: ../data/RadiosView.ui:58
+#: ../../data/RadiosView.ui:58
 msgid "Search in TuneIn"
 msgstr "TuneIn で検索"
 
-#: ../data/SearchPopover.ui:45 ../lollypop/pop_albums.py:43
+#: ../../data/SearchPopover.ui:45 ../../lollypop/pop_albums.py:43
 msgid "Create a new playlist"
 msgstr ""
 
-#: ../data/SettingsDialog.ui:22 ../lollypop/settings.py:109
-#: ../lollypop/settings.py:112
+#: ../../data/SettingsDialog.ui:22 ../../lollypop/settings.py:115
+#: ../../lollypop/settings.py:118
 msgid "Preferences"
 msgstr "基本設定"
 
-#: ../data/SettingsDialog.ui:58 ../data/SettingsDialog.ui:70
+#: ../../data/SettingsDialog.ui:58 ../../data/SettingsDialog.ui:70
 msgid "Use dark theme variant"
 msgstr "暗い色のテーマを使用:"
 
-#: ../data/SettingsDialog.ui:85 ../data/SettingsDialog.ui:97
+#: ../../data/SettingsDialog.ui:85 ../../data/SettingsDialog.ui:97
 msgid "Show genres"
 msgstr "ジャンル表示"
 
-#: ../data/SettingsDialog.ui:112 ../data/SettingsDialog.ui:123
+#: ../../data/SettingsDialog.ui:112 ../../data/SettingsDialog.ui:123
 msgid "Show compilations"
 msgstr "コンピレーションを表示"
 
-#: ../data/SettingsDialog.ui:203 ../lollypop/pop_menu.py:399
-#: ../lollypop/pop_menu.py:420
+#: ../../data/SettingsDialog.ui:203 ../../lollypop/pop_menu.py:399
+#: ../../lollypop/pop_menu.py:420
 msgid "Artist"
 msgstr "アーティスト"
 
-#: ../data/SettingsDialog.ui:204
+#: ../../data/SettingsDialog.ui:204
 msgid "Name"
 msgstr "名前"
 
-#: ../data/SettingsDialog.ui:205
+#: ../../data/SettingsDialog.ui:205
 msgid "Year"
 msgstr "年"
 
-#: ../data/SettingsDialog.ui:206
+#: ../../data/SettingsDialog.ui:206
 msgid "Popularity"
 msgstr "人気度"
 
-#: ../data/SettingsDialog.ui:250
+#: ../../data/SettingsDialog.ui:250
 msgid "Configure Lollypop appearance"
 msgstr "ロリーポップの外観を設定"
 
-#: ../data/SettingsDialog.ui:251
+#: ../../data/SettingsDialog.ui:251
 msgid "Appearance"
 msgstr "外観"
 
-#: ../data/SettingsDialog.ui:317 ../data/SettingsDialog.ui:340
+#: ../../data/SettingsDialog.ui:317 ../../data/SettingsDialog.ui:340
 msgid "Restore state on startup"
 msgstr "起動時に状態を復元"
 
-#: ../data/SettingsDialog.ui:355 ../data/SettingsDialog.ui:366
+#: ../../data/SettingsDialog.ui:355 ../../data/SettingsDialog.ui:366
 msgid "Smooth transitions"
 msgstr "滑らかなトラック遷移"
 
-#: ../data/SettingsDialog.ui:381 ../data/SettingsDialog.ui:392
+#: ../../data/SettingsDialog.ui:381 ../../data/SettingsDialog.ui:392
 msgid "Save changes to files"
 msgstr "変更をファイルに保存"
 
-#: ../data/SettingsDialog.ui:406
+#: ../../data/SettingsDialog.ui:406
 msgid "Preview tracks on"
 msgstr "トラックをプレビュー"
 
-#: ../data/SettingsDialog.ui:420
+#: ../../data/SettingsDialog.ui:420
 msgid "No audio device"
 msgstr "オーディオ デバイスなし"
 
-#: ../data/SettingsDialog.ui:435 ../data/SettingsDialog.ui:446
+#: ../../data/SettingsDialog.ui:435 ../../data/SettingsDialog.ui:446
 msgid "Turn on background data"
 msgstr "バック グラウンド データをオンに"
 
-#: ../data/SettingsDialog.ui:496
+#: ../../data/SettingsDialog.ui:496
 msgid "Configure Lollypop behaviour"
 msgstr "ロリーポップ動作を設定"
 
-#: ../data/SettingsDialog.ui:497
+#: ../../data/SettingsDialog.ui:497
 msgid "Behaviour"
 msgstr "基本動作"
 
-#: ../data/SettingsDialog.ui:629
+#: ../../data/SettingsDialog.ui:629
 msgid "Reset database"
 msgstr "データベースをリセット"
 
-#: ../data/SettingsDialog.ui:745
+#: ../../data/SettingsDialog.ui:745
 msgid "Select music folders"
 msgstr "音楽フォルダーを選択"
 
-#: ../data/SettingsDialog.ui:746
+#: ../../data/SettingsDialog.ui:746
 msgid "Music"
 msgstr "音楽"
 
-#: ../data/SettingsDialog.ui:776 ../data/SettingsDialog.ui:891
+#: ../../data/SettingsDialog.ui:776 ../../data/SettingsDialog.ui:891
 msgid "Login:"
 msgstr "ログイン:"
 
-#: ../data/SettingsDialog.ui:789 ../data/SettingsDialog.ui:904
+#: ../../data/SettingsDialog.ui:789 ../../data/SettingsDialog.ui:904
 msgid "Password:"
 msgstr "パスワード:"
 
-#: ../data/SettingsDialog.ui:825 ../data/SettingsDialog.ui:940
+#: ../../data/SettingsDialog.ui:825 ../../data/SettingsDialog.ui:940
 msgid "Connect"
 msgstr "接続"
 
-#: ../data/SettingsDialog.ui:852 ../data/SettingsDialog.ui:967
+#: ../../data/SettingsDialog.ui:852 ../../data/SettingsDialog.ui:967
 msgid "You need to install pylast and gi secret"
 msgstr "Pylast と gi の秘密をインストールする必要あり"
 
-#: ../data/SettingsDialog.ui:987
+#: ../../data/SettingsDialog.ui:987
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../data/SettingsDialog.ui:1011
+#: ../../data/SettingsDialog.ui:1011
 msgid ""
 "<b>ListenBrainz user token</b>\n"
 "<small>To submit your listens to ListenBrainz, enter your ListenBrainz user "
@@ -740,15 +744,15 @@ msgstr ""
 "を入力してください。<a href=\"https://listenbrainz.org/profile/\"> ユーザー "
 "プロファイル</a> にユーザー トークンを見ることができます</small>"
 
-#: ../data/SettingsDialog.ui:1041
+#: ../../data/SettingsDialog.ui:1041
 msgid "User token"
 msgstr "ユーザー トークン"
 
-#: ../data/SettingsDialog.ui:1057
+#: ../../data/SettingsDialog.ui:1057
 msgid "ListenBrainz"
 msgstr "ListenBrainz"
 
-#: ../data/SettingsDialog.ui:1081
+#: ../../data/SettingsDialog.ui:1081
 msgid ""
 "<b>Google Web Services require an API key.</b>\n"
 "<small>Otherwise you will soon reach the default quota…\n"
@@ -758,201 +762,201 @@ msgstr ""
 "<small>それ以外の場合あなたはすぐに既定のクォータを達する.\n"
 "ロリポップはこのアートワークを検索する必要があります</small>"
 
-#: ../data/SettingsDialog.ui:1125
+#: ../../data/SettingsDialog.ui:1125
 msgid ""
 "<small>You need to enable \"Custom Search API\"  for your project.</small>"
 msgstr ""
 "<small>プロジェクトの「カスタム検索 API」有効にする必要があります。</small>"
 
-#: ../data/SettingsDialog.ui:1146 ../data/ToolbarEnd.ui:140
-#: ../lollypop/playlists.py:283
+#: ../../data/SettingsDialog.ui:1146 ../../data/ToolbarEnd.ui:140
+#: ../../lollypop/playlists.py:283
 msgid "Search"
 msgstr "検索"
 
-#: ../data/SettingsDialog.ui:1168 ../data/SettingsDialog.ui:1169
+#: ../../data/SettingsDialog.ui:1168 ../../data/SettingsDialog.ui:1169
 msgid "Web"
 msgstr "ウェブ"
 
-#: ../data/SettingsDialog.ui:1237
+#: ../../data/SettingsDialog.ui:1237
 msgid ""
 "A compilation is an album without any \"Album artist tag\"\n"
 "and with different artists."
 msgstr ""
 "コンピレーション(アルバム)は、アーティストが混在するアルバムです(意訳)。"
 
-#: ../data/SettingsDialog.ui:1251
+#: ../../data/SettingsDialog.ui:1251
 msgid "You need to reset database [Music]"
 msgstr "[音楽] データベースをリセットする必要あり"
 
-#: ../data/SettingsDialog.ui:1287
+#: ../../data/SettingsDialog.ui:1287
 msgid "Only in party mode"
 msgstr "パーティ モードでのみ"
 
-#: ../data/SettingsDialog.ui:1338
+#: ../../data/SettingsDialog.ui:1338
 msgid "Transition duration in seconds"
 msgstr "トランジションのデュレーションを秒単位で"
 
-#: ../data/Shortcuts.ui:13
+#: ../../data/Shortcuts.ui:13
 msgctxt "shortcut window"
 msgid "General"
 msgstr "概要"
 
-#: ../data/Shortcuts.ui:17
+#: ../../data/Shortcuts.ui:17
 msgctxt "shortcut window"
 msgid "Settings"
 msgstr "設定"
 
-#: ../data/Shortcuts.ui:24
+#: ../../data/Shortcuts.ui:24
 msgctxt "shortcut window"
 msgid "Search"
 msgstr "検索"
 
-#: ../data/Shortcuts.ui:31
+#: ../../data/Shortcuts.ui:31
 msgctxt "shortcut window"
 msgid "Party mode"
 msgstr "パーティーモード"
 
-#: ../data/Shortcuts.ui:38
+#: ../../data/Shortcuts.ui:38
 msgctxt "shortcut window"
 msgid "Mini Player"
 msgstr "ミニプレーヤー"
 
-#: ../data/Shortcuts.ui:45
+#: ../../data/Shortcuts.ui:45
 msgctxt "shortcut window"
 msgid "Show genres"
 msgstr "ジャンル表示"
 
-#: ../data/Shortcuts.ui:52
+#: ../../data/Shortcuts.ui:52
 msgctxt "shortcut window"
 msgid "Show/Hide filter"
 msgstr "表示/非表示フィルター"
 
-#: ../data/Shortcuts.ui:59
+#: ../../data/Shortcuts.ui:59
 msgctxt "shortcut window"
 msgid "Lock playback"
 msgstr "プレイバックを固定"
 
-#: ../data/Shortcuts.ui:66
+#: ../../data/Shortcuts.ui:66
 msgctxt "shortcut window"
 msgid "Show/Hide navigation list"
 msgstr "ナビゲーション リストの表示/非表示"
 
-#: ../data/Shortcuts.ui:73
+#: ../../data/Shortcuts.ui:73
 msgctxt "shortcut window"
 msgid "Show/Hide volume control"
 msgstr "ボリュームコントロールの表示/非表示"
 
-#: ../data/Shortcuts.ui:80
+#: ../../data/Shortcuts.ui:80
 msgctxt "shortcut window"
 msgid "Show lyrics"
 msgstr "歌詞を表示"
 
-#: ../data/Shortcuts.ui:87
+#: ../../data/Shortcuts.ui:87
 msgctxt "shortcut window"
 msgid "Show albums from artist"
 msgstr "アーティストからアルバムを表示"
 
-#: ../data/Shortcuts.ui:94
+#: ../../data/Shortcuts.ui:94
 msgctxt "shortcut window"
 msgid "Fullscreen"
 msgstr "全画面表示"
 
-#: ../data/Shortcuts.ui:103
+#: ../../data/Shortcuts.ui:103
 msgctxt "shortcut window"
 msgid "Playback"
 msgstr "プレイバック"
 
-#: ../data/Shortcuts.ui:107
+#: ../../data/Shortcuts.ui:107
 msgctxt "shortcut window"
 msgid "Play"
 msgstr "再生"
 
-#: ../data/Shortcuts.ui:114
+#: ../../data/Shortcuts.ui:114
 msgctxt "shortcut window"
 msgid "Pause"
 msgstr "一時停止"
 
-#: ../data/Shortcuts.ui:121
+#: ../../data/Shortcuts.ui:121
 msgctxt "shortcut window"
 msgid "Stop"
 msgstr "停止"
 
-#: ../data/Shortcuts.ui:128
+#: ../../data/Shortcuts.ui:128
 msgctxt "shortcut window"
 msgid "Next track"
 msgstr "次のトラック"
 
-#: ../data/Shortcuts.ui:135
+#: ../../data/Shortcuts.ui:135
 msgctxt "shortcut window"
 msgid "Previous track"
 msgstr "前のトラック"
 
-#: ../data/Shortcuts.ui:142
+#: ../../data/Shortcuts.ui:142
 msgctxt "shortcut window"
 msgid "Skip current album"
 msgstr "現在アルバムをスキップする"
 
-#: ../data/Shortcuts.ui:149
+#: ../../data/Shortcuts.ui:149
 msgctxt "shortcut window"
 msgid "Love current track"
 msgstr "現在トラックを Love"
 
-#: ../data/Shortcuts.ui:156
+#: ../../data/Shortcuts.ui:156
 msgctxt "shortcut window"
 msgid "Repeat track"
 msgstr "トラックをリピート"
 
-#: ../data/Shortcuts.ui:163
+#: ../../data/Shortcuts.ui:163
 msgctxt "shortcut window"
 msgid "Skip backward in track"
 msgstr "戻る/backwardk"
 
-#: ../data/Shortcuts.ui:170
+#: ../../data/Shortcuts.ui:170
 msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "進む/forward"
 
-#: ../data/ToolbarEnd.ui:7
+#: ../../data/ToolbarEnd.ui:7
 msgid "Shuffle"
 msgstr "シャッフル"
 
-#: ../data/ToolbarEnd.ui:9
+#: ../../data/ToolbarEnd.ui:9
 msgid "No shuffle"
 msgstr "シャッフルなし"
 
-#: ../data/ToolbarEnd.ui:14
+#: ../../data/ToolbarEnd.ui:14
 msgid "Shuffle albums"
 msgstr "アルバムをシャッフル"
 
-#: ../data/ToolbarEnd.ui:19
+#: ../../data/ToolbarEnd.ui:19
 msgid "Shuffle tracks"
 msgstr "トラックをシャッフル"
 
-#: ../data/ToolbarEnd.ui:25
+#: ../../data/ToolbarEnd.ui:25
 msgid "Repetition"
 msgstr "リピート"
 
-#: ../data/ToolbarEnd.ui:27
+#: ../../data/ToolbarEnd.ui:27
 msgid "Continuous playback"
 msgstr "連続プレイバック"
 
-#: ../data/ToolbarEnd.ui:32
+#: ../../data/ToolbarEnd.ui:32
 msgid "Repeat track"
 msgstr "トラックリピート"
 
-#: ../data/ToolbarEnd.ui:37
+#: ../../data/ToolbarEnd.ui:37
 msgid "Do not repeat"
 msgstr "リピートしない"
 
-#: ../data/ToolbarEnd.ui:52
+#: ../../data/ToolbarEnd.ui:52
 msgid "Settings"
 msgstr "設定"
 
-#: ../data/ToolbarEnd.ui:81
+#: ../../data/ToolbarEnd.ui:81
 msgid "Playback"
 msgstr "プレイバック"
 
-#: ../data/ToolbarEnd.ui:111
+#: ../../data/ToolbarEnd.ui:111
 msgid ""
 "Party mode\n"
 "Right click to filter"
@@ -960,15 +964,15 @@ msgstr ""
 "パーティー モード\n"
 "右クリックしてフィルターを適用"
 
-#: ../data/TuneinPopover.ui:38
+#: ../../data/TuneinPopover.ui:38
 msgid "Go back"
 msgstr "前に戻る"
 
-#: ../data/TuneinPopover.ui:70
+#: ../../data/TuneinPopover.ui:70
 msgid "Go home"
 msgstr "ホームに移動"
 
-#: ../lollypop/application.py:31
+#: ../../lollypop/application.py:31
 msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
@@ -978,379 +982,391 @@ msgstr ""
 "- 自動カバー ダウンロード無効 \n"
 "- アーティスト情報 無効"
 
-#: ../lollypop/art_widgets.py:71
+#: ../../lollypop/art_widgets.py:71
 msgid "Select artwork"
 msgstr "アートワークを選択"
 
-#: ../lollypop/art_widgets.py:237
+#: ../../lollypop/art_widgets.py:237
 msgid "Low quality, missing API key…"
 msgstr "低品質、API キーが見つかりません……"
 
-#: ../lollypop/art_widgets.py:362
+#: ../../lollypop/art_widgets.py:362
 msgid "Reset artwork?"
 msgstr "アートワークをリセットしますか?"
 
-#: ../lollypop/collectionimporter.py:100 ../lollypop/collectionscanner.py:313
-#: ../lollypop/database_albums.py:373 ../lollypop/database_artists.py:110
-#: ../lollypop/database_genres.py:70 ../lollypop/database_tracks.py:307
-#: ../lollypop/selectionlist.py:564 ../lollypop/selectionlist.py:577
-#: ../lollypop/tagreader.py:86 ../lollypop/tagreader.py:102
-#: ../lollypop/tagreader.py:141 ../lollypop/tagreader.py:189
-#: ../lollypop/tagreader.py:205 ../lollypop/tagreader.py:209
-#: ../lollypop/tagreader.py:219 ../lollypop/tagreader.py:227
+#: ../../lollypop/collectionimporter.py:100
+#: ../../lollypop/collectionscanner.py:313
+#: ../../lollypop/database_albums.py:373 ../../lollypop/database_artists.py:110
+#: ../../lollypop/database_genres.py:70 ../../lollypop/database_tracks.py:307
+#: ../../lollypop/selectionlist.py:564 ../../lollypop/selectionlist.py:577
+#: ../../lollypop/tagreader.py:86 ../../lollypop/tagreader.py:102
+#: ../../lollypop/tagreader.py:141 ../../lollypop/tagreader.py:189
+#: ../../lollypop/tagreader.py:205 ../../lollypop/tagreader.py:209
+#: ../../lollypop/tagreader.py:219 ../../lollypop/tagreader.py:227
 msgid "Unknown"
 msgstr "不明"
 
-#: ../lollypop/container.py:769
+#: ../../lollypop/container.py:774
 msgid "Please consider a donation to the project"
 msgstr "プロジェクトへの寄付をご検討ください"
 
-#: ../lollypop/container.py:892
+#: ../../lollypop/container.py:897
 msgid "New tracks available"
 msgstr "新しい曲の準備ができた"
 
-#: ../lollypop/container.py:893
+#: ../../lollypop/container.py:898
 msgid "Refresh"
 msgstr "更新"
 
-#: ../lollypop/controllers.py:86 ../lollypop/controllers.py:110
+#: ../../lollypop/controllers.py:86 ../../lollypop/controllers.py:110
 msgid "Pause"
 msgstr "一時停止"
 
-#: ../lollypop/controllers.py:206
+#: ../../lollypop/controllers.py:206
 msgid "Volume"
 msgstr "ボリューム"
 
-#: ../lollypop/database_artists.py:103
+#: ../../lollypop/database_artists.py:103
 msgid "Many artists"
 msgstr "多くのアーティスト"
 
-#: ../lollypop/lastfm.py:23
+#: ../../lollypop/lastfm.py:23
 msgid "Last.fm authentication disabled"
 msgstr "Last.fm 認証を無効に"
 
-#: ../lollypop/notification.py:98
+#: ../../lollypop/notification.py:98
 #, python-format
 msgid "by %s"
 msgstr "%s による"
 
-#: ../lollypop/notification.py:104
+#: ../../lollypop/notification.py:104
 #, python-format
 msgid "by %s, from %s"
 msgstr "%s から %s によって"
 
-#: ../lollypop/playlists.py:57
+#: ../../lollypop/playlists.py:57
 msgid "Loved tracks"
 msgstr "Love したトラック"
 
-#: ../lollypop/playlists.py:275 ../lollypop/selectionlist.py:76
+#: ../../lollypop/playlists.py:275 ../../lollypop/selectionlist.py:76
 msgid "Popular tracks"
 msgstr "人気のあるトラック"
 
-#: ../lollypop/playlists.py:277 ../lollypop/selectionlist.py:80
+#: ../../lollypop/playlists.py:277 ../../lollypop/selectionlist.py:80
 msgid "Recently played"
 msgstr "最近再生した曲"
 
-#: ../lollypop/playlists.py:279
+#: ../../lollypop/playlists.py:279
 msgid "Never played"
 msgstr "未再生"
 
-#: ../lollypop/playlists.py:281 ../lollypop/selectionlist.py:84
+#: ../../lollypop/playlists.py:281 ../../lollypop/selectionlist.py:84
 msgid "Random tracks"
 msgstr "ランダムなトラック"
 
-#: ../lollypop/pop_albums.py:36
+#: ../../lollypop/pop_albums.py:36
 msgid "Clear albums"
 msgstr "アルバムをクリア"
 
-#: ../lollypop/pop_albums.py:52 ../lollypop/toolbar_end.py:425
+#: ../../lollypop/pop_albums.py:52 ../../lollypop/toolbar_end.py:425
 msgid "Playing albums"
 msgstr "アルバムを再生"
 
-#: ../lollypop/pop_information.py:88 ../lollypop/view_artist_albums.py:74
-#: ../lollypop/view_artist.py:59 ../lollypop/view_lyrics.py:77
+#: ../../lollypop/pop_information.py:88 ../../lollypop/view_artist_albums.py:74
+#: ../../lollypop/view_artist.py:59 ../../lollypop/view_lyrics.py:77
 msgid "Network access disabled"
 msgstr "ネットワーク アクセス無効"
 
-#: ../lollypop/pop_information.py:90
+#: ../../lollypop/pop_information.py:90
 msgid "Loading information"
 msgstr "情報を読み込んでいます"
 
-#: ../lollypop/pop_information.py:152
+#: ../../lollypop/pop_information.py:152
 msgid "No information on this artist"
 msgstr "このアーティストの情報はありません"
 
-#: ../lollypop/pop_menu.py:76
+#: ../../lollypop/pop_menu.py:76
 msgid "Show albums from artist"
 msgstr "アーティストからアルバムを表示します"
 
-#: ../lollypop/pop_menu.py:112 ../lollypop/widgets_context.py:70
+#: ../../lollypop/pop_menu.py:112 ../../lollypop/widgets_context.py:82
 msgid "Add to queue"
 msgstr "キューに追加"
 
-#: ../lollypop/pop_menu.py:118 ../lollypop/widgets_context.py:74
+#: ../../lollypop/pop_menu.py:118 ../../lollypop/widgets_context.py:86
 msgid "Remove from queue"
 msgstr "キューから削除"
 
-#: ../lollypop/pop_menu.py:163
+#: ../../lollypop/pop_menu.py:163
 msgid "Add to others"
 msgstr "他に追加"
 
-#: ../lollypop/pop_menu.py:174
+#: ../../lollypop/pop_menu.py:174
 msgid "Remove from \"Not in party\""
 msgstr "「パーティーでない」から削除"
 
-#: ../lollypop/pop_menu.py:179
+#: ../../lollypop/pop_menu.py:179
 msgid "Add to \"Not in party\""
 msgstr "「パーティーでない」へ追加"
 
-#: ../lollypop/pop_menu.py:198
+#: ../../lollypop/pop_menu.py:198
 #, python-format
 msgid "Remove from \"%s\""
 msgstr "\"%s\"から削除"
 
-#: ../lollypop/pop_menu.py:204
+#: ../../lollypop/pop_menu.py:204
 #, python-format
 msgid "Add to \"%s\""
 msgstr "\"%s\"に追加"
 
-#: ../lollypop/pop_menu.py:300
+#: ../../lollypop/pop_menu.py:300
 msgid "Show lyrics"
 msgstr "歌詞を表示"
 
-#: ../lollypop/pop_menu.py:301
+#: ../../lollypop/pop_menu.py:301
 msgid "Lyrics"
 msgstr "歌詞"
 
-#: ../lollypop/pop_menu.py:304 ../lollypop/pop_menu.py:401
-#: ../lollypop/pop_menu.py:424 ../lollypop/selectionlist.py:48
-#: ../lollypop/widgets_device.py:116 ../lollypop/widgets_playlist.py:587
+#: ../../lollypop/pop_menu.py:304 ../../lollypop/pop_menu.py:401
+#: ../../lollypop/pop_menu.py:424 ../../lollypop/selectionlist.py:48
+#: ../../lollypop/widgets_device.py:116 ../../lollypop/widgets_playlist.py:587
 msgid "Playlists"
 msgstr "プレイリスト"
 
-#: ../lollypop/pop_menu.py:357 ../lollypop/widgets_context.py:59
+#: ../../lollypop/pop_menu.py:357 ../../lollypop/widgets_context.py:64
 msgid "Modify information"
 msgstr "情報を変更"
 
-#: ../lollypop/pop_menu.py:403 ../lollypop/pop_menu.py:426
+#: ../../lollypop/pop_menu.py:403 ../../lollypop/pop_menu.py:426
 msgid "Edit"
 msgstr "編集"
 
-#: ../lollypop/pop_radio.py:84 ../lollypop/pop_tunein.py:198
+#: ../../lollypop/pop_radio.py:84 ../../lollypop/pop_tunein.py:198
 msgid "Add"
 msgstr "追加"
 
-#: ../lollypop/pop_radio.py:87
+#: ../../lollypop/pop_radio.py:87
 msgid "Image"
 msgstr "画像"
 
-#: ../lollypop/pop_tunein.py:92 ../lollypop/pop_tunein.py:399
+#: ../../lollypop/pop_tunein.py:92 ../../lollypop/pop_tunein.py:399
 msgid "Can't connect to TuneIn…"
 msgstr "TuneIn に接続できない……"
 
-#: ../lollypop/pop_tunein.py:394 ../lollypop/pop_tunein.py:396
+#: ../../lollypop/pop_tunein.py:394 ../../lollypop/pop_tunein.py:396
 msgid "No result…"
 msgstr "結果なし……"
 
-#: ../lollypop/selectionlist.py:38
+#: ../../lollypop/selectionlist.py:38
 msgid "Popular albums"
 msgstr "人気のアルバム"
 
-#: ../lollypop/selectionlist.py:40
+#: ../../lollypop/selectionlist.py:40
 msgid "Loved albums"
 msgstr "愛するアルバム"
 
-#: ../lollypop/selectionlist.py:42
+#: ../../lollypop/selectionlist.py:42
 msgid "Recently added albums"
 msgstr "最近追加されたアルバム"
 
-#: ../lollypop/selectionlist.py:44
+#: ../../lollypop/selectionlist.py:44
 msgid "Random albums"
 msgstr "ランダムなアルバム"
 
-#: ../lollypop/selectionlist.py:46
+#: ../../lollypop/selectionlist.py:46
 msgid "Unplayed albums"
 msgstr "未再生のアルバム"
 
-#: ../lollypop/selectionlist.py:50
+#: ../../lollypop/selectionlist.py:50
 msgid "Radios"
 msgstr "ラジオ"
 
-#: ../lollypop/selectionlist.py:53
+#: ../../lollypop/selectionlist.py:53
 msgid "All albums"
 msgstr "すべてのアルバム"
 
-#: ../lollypop/selectionlist.py:55
+#: ../../lollypop/selectionlist.py:55
 msgid "All artists"
 msgstr "すべてのアーティスト"
 
-#: ../lollypop/selectionlist.py:58 ../lollypop/widgets_device.py:303
+#: ../../lollypop/selectionlist.py:58 ../../lollypop/widgets_device.py:303
 msgid "Compilations"
 msgstr "コンピレーション"
 
-#: ../lollypop/selectionlist.py:60
+#: ../../lollypop/selectionlist.py:60
 msgid "USB disks"
 msgstr "USB ディスク"
 
-#: ../lollypop/selectionlist.py:82
+#: ../../lollypop/selectionlist.py:82
 msgid "Unplayed"
 msgstr "未再生"
 
-#: ../lollypop/selectionlist.py:86
+#: ../../lollypop/selectionlist.py:86
 msgid "Not in party"
 msgstr "パーティーではなく"
 
-#: ../lollypop/selectionlist.py:116
+#: ../../lollypop/selectionlist.py:116
 msgid "Default on startup"
 msgstr "起動時デフォルト"
 
-#: ../lollypop/selectionlist.py:119
+#: ../../lollypop/selectionlist.py:119
 msgid "Startup"
 msgstr "スタートアップ"
 
-#: ../lollypop/selectionlist.py:141
+#: ../../lollypop/selectionlist.py:141
 msgid "Shown"
 msgstr "表示"
 
-#: ../lollypop/settings.py:82
+#: ../../lollypop/settings.py:88
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "「GNOME オンライン アカウント」設定を使用"
 
-#: ../lollypop/settings.py:89
+#: ../../lollypop/settings.py:95
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
 msgstr[0] "%d アーティスト"
 
-#: ../lollypop/settings.py:91
+#: ../../lollypop/settings.py:97
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
 msgstr[0] "%d アルバム"
 
-#: ../lollypop/settings.py:93
+#: ../../lollypop/settings.py:99
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d トラック"
 
-#: ../lollypop/settings.py:739
+#: ../../lollypop/settings.py:747
 msgid "You need to install kid3-cli"
 msgstr "Kid3 cli をインストールする必要あり"
 
-#: ../lollypop/toolbar_end.py:50
+#: ../../lollypop/toolbar_end.py:50
 msgid "Populars"
 msgstr "人気度"
 
-#: ../lollypop/toolbar_end.py:51
+#: ../../lollypop/toolbar_end.py:51
 msgid "Recently added"
 msgstr "最近の追加"
 
-#: ../lollypop/toolbar_end.py:423
+#: ../../lollypop/toolbar_end.py:423
 msgid "Playing playlists"
 msgstr "プレイリストの再生"
 
-#: ../lollypop/utils.py:252
+#: ../../lollypop/utils.py:252
 msgid "The the"
 msgstr "The the"
 
-#: ../lollypop/view_albums_list.py:95
+#: ../../lollypop/view_albums_list.py:95
 msgid "Compilation"
 msgstr "コンピレーション"
 
-#: ../lollypop/view_artist.py:346 ../lollypop/widgets_album.py:291
-#: ../lollypop/widgets_context.py:88 ../lollypop/widgets_indicator.py:109
+#: ../../lollypop/view_artist.py:346 ../../lollypop/widgets_album.py:291
+#: ../../lollypop/widgets_context.py:100
+#: ../../lollypop/widgets_indicator.py:109
 msgid "Add to current playlist"
 msgstr "現在の再生リストに追加"
 
-#: ../lollypop/view_artist.py:353 ../lollypop/widgets_album.py:296
-#: ../lollypop/widgets_context.py:103 ../lollypop/widgets_indicator.py:105
+#: ../../lollypop/view_artist.py:353 ../../lollypop/widgets_album.py:296
+#: ../../lollypop/widgets_context.py:115
+#: ../../lollypop/widgets_indicator.py:105
 msgid "Remove from current playlist"
 msgstr "現在のプレイリストから削除"
 
-#: ../lollypop/view_device.py:37
+#: ../../lollypop/view_device.py:37
 msgid "Please unlock your device"
 msgstr "お使いのデバイスをロック解除して"
 
-#: ../lollypop/view_device.py:97 ../lollypop/view_device.py:208
+#: ../../lollypop/view_device.py:97 ../../lollypop/view_device.py:208
 #, python-format
 msgid "Synchronize %s"
 msgstr "同期 %s"
 
-#: ../lollypop/view_device.py:157
+#: ../../lollypop/view_device.py:157
 msgid "Cancel synchronization"
 msgstr "同期をキャンセル"
 
-#: ../lollypop/view_lyrics.py:57
+#: ../../lollypop/view_lyrics.py:57
 msgid "Loading…"
 msgstr "ロード中…"
 
-#: ../lollypop/view_lyrics.py:220
+#: ../../lollypop/view_lyrics.py:220
 msgid "No lyrics found "
 msgstr "このトラックの歌詞は見つかりませんでした "
 
-#: ../lollypop/view_playlists.py:210
+#: ../../lollypop/view_playlists.py:210
 msgid "Save"
 msgstr "保存"
 
-#: ../lollypop/view_playlists.py:211
+#: ../../lollypop/view_playlists.py:211
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: ../lollypop/view_playlists.py:277 ../lollypop/widgets_album_detailed.py:290
+#: ../../lollypop/view_playlists.py:277
+#: ../../lollypop/widgets_album_detailed.py:290
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h  %s m"
 
-#: ../lollypop/view_playlists.py:279 ../lollypop/widgets_album_detailed.py:292
+#: ../../lollypop/view_playlists.py:279
+#: ../../lollypop/widgets_album_detailed.py:292
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
-#: ../lollypop/view_playlists.py:281 ../lollypop/widgets_album_detailed.py:294
+#: ../../lollypop/view_playlists.py:281
+#: ../../lollypop/widgets_album_detailed.py:294
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../lollypop/view_tracks.py:386
+#: ../../lollypop/view_tracks.py:386
 #, python-format
 msgid "Disc %s"
 msgstr "Disc %s"
 
-#: ../lollypop/widgets_context.py:121
+#: ../../lollypop/widgets_context.py:77
+msgid "Open directory"
+msgstr ""
+
+#: ../../lollypop/widgets_context.py:133
 msgid "Add to playlist"
 msgstr "再生リストに追加"
 
-#: ../lollypop/widgets_device.py:239
+#: ../../lollypop/widgets_device.py:239
 msgid "Unknown error while syncing, try to reboot your device"
 msgstr "同期中に不明なエラー、デバイスを再起動してみて"
 
-#: ../lollypop/widgets_device.py:247
+#: ../../lollypop/widgets_device.py:247
 msgid "No free space available on device"
 msgstr "デバイスに残り容量がありません"
 
-#: ../lollypop/widgets_device.py:301
+#: ../../lollypop/widgets_device.py:301
 msgid "Synced albums"
 msgstr "同期済みアルバム"
 
-#: ../lollypop/widgets_playlist.py:620 ../lollypop/widgets_playlist.py:623
+#: ../../lollypop/widgets_playlist.py:620
+#: ../../lollypop/widgets_playlist.py:623
 msgid "New playlist "
 msgstr "新しいプレイリスト "
 
-#: ../lollypop/widgets_playlist.py:728 ../lollypop/widgets_playlist.py:922
+#: ../../lollypop/widgets_playlist.py:728
+#: ../../lollypop/widgets_playlist.py:922
 #, python-format
 msgid "Remove \"%s\"?"
 msgstr "%s の削除?"
 
-#: ../lollypop/widgets_playlist.py:930
+#: ../../lollypop/widgets_playlist.py:930
 msgid "Remove these tracks?"
 msgstr "これらのトラックを削除しますか?"
 
-#: ../lollypop/widgets_radio.py:195
+#: ../../lollypop/widgets_radio.py:195
 msgid "Modify radio"
 msgstr "ラジオをモディファイ"
 
-#: ../lollypop/widgets_rating.py:51
+#: ../../lollypop/widgets_rating.py:51
 #, python-format
 msgid "Song played %s times"
 msgstr "再生数 %s 回"
