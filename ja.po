@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-14 19:17+0200\n"
+"POT-Creation-Date: 2018-06-14 19:54+0200\n"
 "PO-Revision-Date: 2018-06-05 02:03+0000\n"
 "Last-Translator: Kenkowo Nishihama <nishihama@hitobashira.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -470,6 +470,7 @@ msgstr "類似のアーティスト"
 
 #: ../../data/ArtistView.ui:148 ../../data/PlaylistView.ui:92
 #: ../../lollypop/pop_albums.py:51 ../../lollypop/view_artist.py:50
+#: ../../lollypop/pop_albums.py:59 ../../lollypop/pop_albums.py:61
 msgid "Go to current track"
 msgstr "現在のトラックへ移動"
 
@@ -582,7 +583,7 @@ msgid "Clear queue"
 msgstr "キューのクリア"
 
 #: ../../data/QueuePopover.ui:55 ../../lollypop/pop_menu.py:422
-#: ../../lollypop/toolbar_end.py:421
+#: ../../lollypop/toolbar_end.py:421 ../../lollypop/toolbar_end.py:427
 msgid "Queue"
 msgstr "キュー"
 
@@ -623,6 +624,7 @@ msgid "Search in TuneIn"
 msgstr "TuneIn で検索"
 
 #: ../../data/SearchPopover.ui:45 ../../lollypop/pop_albums.py:43
+#: ../../lollypop/pop_albums.py:50 ../../lollypop/pop_albums.py:51
 msgid "Create a new playlist"
 msgstr ""
 
@@ -1064,11 +1066,14 @@ msgstr "未再生"
 msgid "Random tracks"
 msgstr "ランダムなトラック"
 
-#: ../../lollypop/pop_albums.py:36
+#: ../../lollypop/pop_albums.py:36 ../../lollypop/pop_albums.py:43
+#: ../../lollypop/pop_albums.py:44
 msgid "Clear albums"
 msgstr "アルバムをクリア"
 
 #: ../../lollypop/pop_albums.py:52 ../../lollypop/toolbar_end.py:425
+#: ../../lollypop/pop_albums.py:60 ../../lollypop/pop_albums.py:62
+#: ../../lollypop/toolbar_end.py:431
 msgid "Playing albums"
 msgstr "アルバムを再生"
 
@@ -1251,7 +1256,7 @@ msgstr "人気度"
 msgid "Recently added"
 msgstr "最近の追加"
 
-#: ../../lollypop/toolbar_end.py:423
+#: ../../lollypop/toolbar_end.py:423 ../../lollypop/toolbar_end.py:429
 msgid "Playing playlists"
 msgstr "プレイリストの再生"
 

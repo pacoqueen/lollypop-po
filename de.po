@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-14 19:17+0200\n"
+"POT-Creation-Date: 2018-06-14 19:54+0200\n"
 "PO-Revision-Date: 2018-05-20 19:37+0000\n"
 "Last-Translator: Vincent Bermel <willovince@openmailbox.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -490,6 +490,7 @@ msgstr "Ähnliche Künstler"
 
 #: ../../data/ArtistView.ui:148 ../../data/PlaylistView.ui:92
 #: ../../lollypop/pop_albums.py:51 ../../lollypop/view_artist.py:50
+#: ../../lollypop/pop_albums.py:59 ../../lollypop/pop_albums.py:61
 msgid "Go to current track"
 msgstr "Zu aktuellem Titel wechseln"
 
@@ -603,7 +604,7 @@ msgid "Clear queue"
 msgstr "Warteschlange leeren"
 
 #: ../../data/QueuePopover.ui:55 ../../lollypop/pop_menu.py:422
-#: ../../lollypop/toolbar_end.py:421
+#: ../../lollypop/toolbar_end.py:421 ../../lollypop/toolbar_end.py:427
 msgid "Queue"
 msgstr "Warteschlange"
 
@@ -644,6 +645,7 @@ msgid "Search in TuneIn"
 msgstr "In TuneIn suchen"
 
 #: ../../data/SearchPopover.ui:45 ../../lollypop/pop_albums.py:43
+#: ../../lollypop/pop_albums.py:50 ../../lollypop/pop_albums.py:51
 msgid "Create a new playlist"
 msgstr ""
 
@@ -1086,11 +1088,14 @@ msgstr "Noch nie abgespielt"
 msgid "Random tracks"
 msgstr "Zufällige Titel"
 
-#: ../../lollypop/pop_albums.py:36
+#: ../../lollypop/pop_albums.py:36 ../../lollypop/pop_albums.py:43
+#: ../../lollypop/pop_albums.py:44
 msgid "Clear albums"
 msgstr "Bereinige Alben"
 
 #: ../../lollypop/pop_albums.py:52 ../../lollypop/toolbar_end.py:425
+#: ../../lollypop/pop_albums.py:60 ../../lollypop/pop_albums.py:62
+#: ../../lollypop/toolbar_end.py:431
 msgid "Playing albums"
 msgstr "Spiele Alben"
 
@@ -1276,7 +1281,7 @@ msgstr "Beliebte"
 msgid "Recently added"
 msgstr "Kürzlich hinzugefügt"
 
-#: ../../lollypop/toolbar_end.py:423
+#: ../../lollypop/toolbar_end.py:423 ../../lollypop/toolbar_end.py:429
 msgid "Playing playlists"
 msgstr "Spiele Wiedergabelisten"
 

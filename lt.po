@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-14 19:17+0200\n"
+"POT-Creation-Date: 2018-06-14 19:54+0200\n"
 "PO-Revision-Date: 2018-05-27 19:59+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/gnumdk/"
@@ -482,6 +482,7 @@ msgstr "Panašūs atlikėjai"
 
 #: ../../data/ArtistView.ui:148 ../../data/PlaylistView.ui:92
 #: ../../lollypop/pop_albums.py:51 ../../lollypop/view_artist.py:50
+#: ../../lollypop/pop_albums.py:59 ../../lollypop/pop_albums.py:61
 msgid "Go to current track"
 msgstr "Pereiti prie esamo takelio"
 
@@ -595,7 +596,7 @@ msgid "Clear queue"
 msgstr "Išvalyti eilę"
 
 #: ../../data/QueuePopover.ui:55 ../../lollypop/pop_menu.py:422
-#: ../../lollypop/toolbar_end.py:421
+#: ../../lollypop/toolbar_end.py:421 ../../lollypop/toolbar_end.py:427
 msgid "Queue"
 msgstr "Eilė"
 
@@ -636,6 +637,7 @@ msgid "Search in TuneIn"
 msgstr "Ieškoti sistemoje TuneIn"
 
 #: ../../data/SearchPopover.ui:45 ../../lollypop/pop_albums.py:43
+#: ../../lollypop/pop_albums.py:50 ../../lollypop/pop_albums.py:51
 msgid "Create a new playlist"
 msgstr ""
 
@@ -1080,11 +1082,14 @@ msgstr "Niekada negroti"
 msgid "Random tracks"
 msgstr "Atsitiktiniai takeliai"
 
-#: ../../lollypop/pop_albums.py:36
+#: ../../lollypop/pop_albums.py:36 ../../lollypop/pop_albums.py:43
+#: ../../lollypop/pop_albums.py:44
 msgid "Clear albums"
 msgstr "Išvalyti albumus"
 
 #: ../../lollypop/pop_albums.py:52 ../../lollypop/toolbar_end.py:425
+#: ../../lollypop/pop_albums.py:60 ../../lollypop/pop_albums.py:62
+#: ../../lollypop/toolbar_end.py:431
 msgid "Playing albums"
 msgstr "Grojami albumai"
 
@@ -1273,7 +1278,7 @@ msgstr "Populiarūs"
 msgid "Recently added"
 msgstr "Paskiausiai pridėti"
 
-#: ../../lollypop/toolbar_end.py:423
+#: ../../lollypop/toolbar_end.py:423 ../../lollypop/toolbar_end.py:429
 msgid "Playing playlists"
 msgstr "Grojami grojaraščiai"
 

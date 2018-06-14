@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-14 19:17+0200\n"
+"POT-Creation-Date: 2018-06-14 19:54+0200\n"
 "PO-Revision-Date: 2018-05-23 17:09+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -482,6 +482,7 @@ msgstr "Artistes similaires"
 
 #: ../../data/ArtistView.ui:148 ../../data/PlaylistView.ui:92
 #: ../../lollypop/pop_albums.py:51 ../../lollypop/view_artist.py:50
+#: ../../lollypop/pop_albums.py:59 ../../lollypop/pop_albums.py:61
 msgid "Go to current track"
 msgstr "Aller au morceau courant"
 
@@ -595,7 +596,7 @@ msgid "Clear queue"
 msgstr "Vider la file d'attente"
 
 #: ../../data/QueuePopover.ui:55 ../../lollypop/pop_menu.py:422
-#: ../../lollypop/toolbar_end.py:421
+#: ../../lollypop/toolbar_end.py:421 ../../lollypop/toolbar_end.py:427
 msgid "Queue"
 msgstr "File d'attente"
 
@@ -636,6 +637,7 @@ msgid "Search in TuneIn"
 msgstr "Rechercher dans TuneIn"
 
 #: ../../data/SearchPopover.ui:45 ../../lollypop/pop_albums.py:43
+#: ../../lollypop/pop_albums.py:50 ../../lollypop/pop_albums.py:51
 msgid "Create a new playlist"
 msgstr ""
 
@@ -1079,11 +1081,14 @@ msgstr "Jamais jouées"
 msgid "Random tracks"
 msgstr "Morceaux aléatoires"
 
-#: ../../lollypop/pop_albums.py:36
+#: ../../lollypop/pop_albums.py:36 ../../lollypop/pop_albums.py:43
+#: ../../lollypop/pop_albums.py:44
 msgid "Clear albums"
 msgstr "Vider la liste des albums"
 
 #: ../../lollypop/pop_albums.py:52 ../../lollypop/toolbar_end.py:425
+#: ../../lollypop/pop_albums.py:60 ../../lollypop/pop_albums.py:62
+#: ../../lollypop/toolbar_end.py:431
 msgid "Playing albums"
 msgstr "Albums en cours de lecture"
 
@@ -1269,7 +1274,7 @@ msgstr "Populaires"
 msgid "Recently added"
 msgstr "Ajoutés récemment"
 
-#: ../../lollypop/toolbar_end.py:423
+#: ../../lollypop/toolbar_end.py:423 ../../lollypop/toolbar_end.py:429
 msgid "Playing playlists"
 msgstr "Listes de lecture en cours"
 

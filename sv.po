@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-14 19:17+0200\n"
+"POT-Creation-Date: 2018-06-14 19:54+0200\n"
 "PO-Revision-Date: 2018-05-19 08:58+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -473,6 +473,7 @@ msgstr "Liknande artister"
 
 #: ../../data/ArtistView.ui:148 ../../data/PlaylistView.ui:92
 #: ../../lollypop/pop_albums.py:51 ../../lollypop/view_artist.py:50
+#: ../../lollypop/pop_albums.py:59 ../../lollypop/pop_albums.py:61
 msgid "Go to current track"
 msgstr "Gå till aktuellt spår"
 
@@ -586,7 +587,7 @@ msgid "Clear queue"
 msgstr "Rensa kö"
 
 #: ../../data/QueuePopover.ui:55 ../../lollypop/pop_menu.py:422
-#: ../../lollypop/toolbar_end.py:421
+#: ../../lollypop/toolbar_end.py:421 ../../lollypop/toolbar_end.py:427
 msgid "Queue"
 msgstr "Kö"
 
@@ -627,6 +628,7 @@ msgid "Search in TuneIn"
 msgstr "Sök i TuneIn"
 
 #: ../../data/SearchPopover.ui:45 ../../lollypop/pop_albums.py:43
+#: ../../lollypop/pop_albums.py:50 ../../lollypop/pop_albums.py:51
 msgid "Create a new playlist"
 msgstr ""
 
@@ -1069,11 +1071,14 @@ msgstr "Aldrig spelade"
 msgid "Random tracks"
 msgstr "Slumpmässiga spår"
 
-#: ../../lollypop/pop_albums.py:36
+#: ../../lollypop/pop_albums.py:36 ../../lollypop/pop_albums.py:43
+#: ../../lollypop/pop_albums.py:44
 msgid "Clear albums"
 msgstr "Rensa album"
 
 #: ../../lollypop/pop_albums.py:52 ../../lollypop/toolbar_end.py:425
+#: ../../lollypop/pop_albums.py:60 ../../lollypop/pop_albums.py:62
+#: ../../lollypop/toolbar_end.py:431
 msgid "Playing albums"
 msgstr "Album som spelas"
 
@@ -1259,7 +1264,7 @@ msgstr "Populära"
 msgid "Recently added"
 msgstr "Nyligen tillagda"
 
-#: ../../lollypop/toolbar_end.py:423
+#: ../../lollypop/toolbar_end.py:423 ../../lollypop/toolbar_end.py:429
 msgid "Playing playlists"
 msgstr "Spellistor som spelas"
 
