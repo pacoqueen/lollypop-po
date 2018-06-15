@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-14 19:54+0200\n"
+"POT-Creation-Date: 2018-06-15 08:23+0200\n"
 "PO-Revision-Date: 2018-04-21 21:38+0000\n"
 "Last-Translator: Ale-Ma <alemassimiani@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -586,6 +586,7 @@ msgid "Unsplit view"
 msgstr "Visualizzazione non divisa"
 
 #: ../../data/PlaylistView.ui:137 ../../lollypop/view_playlists.py:207
+#: ../../lollypop/view_playlists.py:209
 msgid "Save playlist"
 msgstr "Salva playlist"
 
@@ -778,7 +779,7 @@ msgstr ""
 "<small>È necessario abilitare le «Custom Search API» per il progetto.</small>"
 
 #: ../../data/SettingsDialog.ui:1146 ../../data/ToolbarEnd.ui:140
-#: ../../lollypop/playlists.py:283
+#: ../../lollypop/playlists.py:283 ../../lollypop/playlists.py:284
 msgid "Search"
 msgstr "Ricerca"
 
@@ -980,7 +981,7 @@ msgstr "Va indietro"
 msgid "Go home"
 msgstr "Va all'indice"
 
-#: ../../lollypop/application.py:31
+#: ../../lollypop/application.py:31 ../../lollypop/application.py:33
 msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
@@ -1011,6 +1012,10 @@ msgstr "Rimuovere copertina?"
 #: ../../lollypop/tagreader.py:141 ../../lollypop/tagreader.py:189
 #: ../../lollypop/tagreader.py:205 ../../lollypop/tagreader.py:209
 #: ../../lollypop/tagreader.py:219 ../../lollypop/tagreader.py:227
+#: ../../lollypop/collectionscanner.py:315
+#: ../../lollypop/collectionscanner.py:314
+#: ../../lollypop/collectionscanner.py:316
+#: ../../lollypop/collectionscanner.py:318
 msgid "Unknown"
 msgstr "Sconosciuto"
 
@@ -1052,23 +1057,26 @@ msgstr "di %s"
 msgid "by %s, from %s"
 msgstr "di %s, da %s"
 
-#: ../../lollypop/playlists.py:57
+#: ../../lollypop/playlists.py:57 ../../lollypop/playlists.py:58
 msgid "Loved tracks"
 msgstr "Tracce piaciute"
 
 #: ../../lollypop/playlists.py:275 ../../lollypop/selectionlist.py:76
+#: ../../lollypop/playlists.py:276
 msgid "Popular tracks"
 msgstr "Tracce popolari"
 
 #: ../../lollypop/playlists.py:277 ../../lollypop/selectionlist.py:80
+#: ../../lollypop/playlists.py:278
 msgid "Recently played"
 msgstr "Riprodotte di recente"
 
-#: ../../lollypop/playlists.py:279
+#: ../../lollypop/playlists.py:279 ../../lollypop/playlists.py:280
 msgid "Never played"
 msgstr "Mai riprodotte"
 
 #: ../../lollypop/playlists.py:281 ../../lollypop/selectionlist.py:84
+#: ../../lollypop/playlists.py:282
 msgid "Random tracks"
 msgstr "Tracce casuali"
 
@@ -1079,7 +1087,7 @@ msgstr "Pulisce album"
 
 #: ../../lollypop/pop_albums.py:52 ../../lollypop/toolbar_end.py:425
 #: ../../lollypop/pop_albums.py:60 ../../lollypop/pop_albums.py:62
-#: ../../lollypop/toolbar_end.py:431
+#: ../../lollypop/toolbar_end.py:431 ../../lollypop/pop_albums.py:63
 msgid "Playing albums"
 msgstr "Album in riproduzione"
 
@@ -1141,6 +1149,7 @@ msgstr "Testi"
 #: ../../lollypop/pop_menu.py:304 ../../lollypop/pop_menu.py:401
 #: ../../lollypop/pop_menu.py:424 ../../lollypop/selectionlist.py:48
 #: ../../lollypop/widgets_device.py:116 ../../lollypop/widgets_playlist.py:587
+#: ../../lollypop/widgets_playlist.py:589
 msgid "Playlists"
 msgstr "Scalette"
 
@@ -1312,28 +1321,31 @@ msgstr "Caricamento…"
 msgid "No lyrics found "
 msgstr "Nessun testo trovato "
 
-#: ../../lollypop/view_playlists.py:210
+#: ../../lollypop/view_playlists.py:210 ../../lollypop/view_playlists.py:212
 msgid "Save"
 msgstr "Salva"
 
-#: ../../lollypop/view_playlists.py:211
+#: ../../lollypop/view_playlists.py:211 ../../lollypop/view_playlists.py:213
 msgid "Cancel"
 msgstr ""
 
 #: ../../lollypop/view_playlists.py:277
 #: ../../lollypop/widgets_album_detailed.py:290
+#: ../../lollypop/view_playlists.py:279
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s ora  %s min"
 
 #: ../../lollypop/view_playlists.py:279
 #: ../../lollypop/widgets_album_detailed.py:292
+#: ../../lollypop/view_playlists.py:281
 #, python-format
 msgid "%s h"
 msgstr "%s ora"
 
 #: ../../lollypop/view_playlists.py:281
 #: ../../lollypop/widgets_album_detailed.py:294
+#: ../../lollypop/view_playlists.py:283
 #, python-format
 msgid "%s m"
 msgstr "%s min"
@@ -1367,16 +1379,21 @@ msgstr "Album sincronizzato"
 
 #: ../../lollypop/widgets_playlist.py:620
 #: ../../lollypop/widgets_playlist.py:623
+#: ../../lollypop/widgets_playlist.py:622
+#: ../../lollypop/widgets_playlist.py:625
 msgid "New playlist "
 msgstr "Nuova scaletta"
 
 #: ../../lollypop/widgets_playlist.py:728
 #: ../../lollypop/widgets_playlist.py:922
+#: ../../lollypop/widgets_playlist.py:730
+#: ../../lollypop/widgets_playlist.py:924
 #, python-format
 msgid "Remove \"%s\"?"
 msgstr "Rimuovere «%s»?"
 
 #: ../../lollypop/widgets_playlist.py:930
+#: ../../lollypop/widgets_playlist.py:932
 msgid "Remove these tracks?"
 msgstr "Rimuovere queste tracce?"
 
@@ -1388,6 +1405,10 @@ msgstr "Modifica la radio"
 #, python-format
 msgid "Song played %s times"
 msgstr "Brano riprodotto %s volte"
+
+#: ../../lollypop/pop_albums.py:62
+msgid "Go to current track. Hold for jump to current artist"
+msgstr ""
 
 #~ msgid "Create a new playlist based on search"
 #~ msgstr "Crea una nuova scaletta basata sulla ricerca"

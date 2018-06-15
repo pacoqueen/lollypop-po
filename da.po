@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-14 19:54+0200\n"
+"POT-Creation-Date: 2018-06-15 08:23+0200\n"
 "PO-Revision-Date: 2017-11-29 00:27+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -577,6 +577,7 @@ msgid "Unsplit view"
 msgstr "Saml visning"
 
 #: ../../data/PlaylistView.ui:137 ../../lollypop/view_playlists.py:207
+#: ../../lollypop/view_playlists.py:209
 msgid "Save playlist"
 msgstr ""
 
@@ -768,7 +769,7 @@ msgid ""
 msgstr "<small>Du skal aktivere \"Custom Search API\" for dit projekt.</small>"
 
 #: ../../data/SettingsDialog.ui:1146 ../../data/ToolbarEnd.ui:140
-#: ../../lollypop/playlists.py:283
+#: ../../lollypop/playlists.py:283 ../../lollypop/playlists.py:284
 msgid "Search"
 msgstr "Søgning"
 
@@ -970,7 +971,7 @@ msgstr "Gå tilbage"
 msgid "Go home"
 msgstr "Gå hjem"
 
-#: ../../lollypop/application.py:31
+#: ../../lollypop/application.py:31 ../../lollypop/application.py:33
 msgid ""
 "    - Scrobbler disabled\n"
 "    - Auto cover download disabled\n"
@@ -1001,6 +1002,10 @@ msgstr "Nulstil billede?"
 #: ../../lollypop/tagreader.py:141 ../../lollypop/tagreader.py:189
 #: ../../lollypop/tagreader.py:205 ../../lollypop/tagreader.py:209
 #: ../../lollypop/tagreader.py:219 ../../lollypop/tagreader.py:227
+#: ../../lollypop/collectionscanner.py:315
+#: ../../lollypop/collectionscanner.py:314
+#: ../../lollypop/collectionscanner.py:316
+#: ../../lollypop/collectionscanner.py:318
 msgid "Unknown"
 msgstr "Ukendt"
 
@@ -1042,23 +1047,26 @@ msgstr "af %s"
 msgid "by %s, from %s"
 msgstr "af %s, fra %s"
 
-#: ../../lollypop/playlists.py:57
+#: ../../lollypop/playlists.py:57 ../../lollypop/playlists.py:58
 msgid "Loved tracks"
 msgstr "Elskede spor"
 
 #: ../../lollypop/playlists.py:275 ../../lollypop/selectionlist.py:76
+#: ../../lollypop/playlists.py:276
 msgid "Popular tracks"
 msgstr "Populære spor"
 
 #: ../../lollypop/playlists.py:277 ../../lollypop/selectionlist.py:80
+#: ../../lollypop/playlists.py:278
 msgid "Recently played"
 msgstr "Nyligt afspillede"
 
-#: ../../lollypop/playlists.py:279
+#: ../../lollypop/playlists.py:279 ../../lollypop/playlists.py:280
 msgid "Never played"
 msgstr "Aldrig afspillede"
 
 #: ../../lollypop/playlists.py:281 ../../lollypop/selectionlist.py:84
+#: ../../lollypop/playlists.py:282
 msgid "Random tracks"
 msgstr "Tilfældige spor"
 
@@ -1069,7 +1077,7 @@ msgstr "Ryd albummer"
 
 #: ../../lollypop/pop_albums.py:52 ../../lollypop/toolbar_end.py:425
 #: ../../lollypop/pop_albums.py:60 ../../lollypop/pop_albums.py:62
-#: ../../lollypop/toolbar_end.py:431
+#: ../../lollypop/toolbar_end.py:431 ../../lollypop/pop_albums.py:63
 msgid "Playing albums"
 msgstr "Afspillende albummer"
 
@@ -1131,6 +1139,7 @@ msgstr "Sangtekster"
 #: ../../lollypop/pop_menu.py:304 ../../lollypop/pop_menu.py:401
 #: ../../lollypop/pop_menu.py:424 ../../lollypop/selectionlist.py:48
 #: ../../lollypop/widgets_device.py:116 ../../lollypop/widgets_playlist.py:587
+#: ../../lollypop/widgets_playlist.py:589
 msgid "Playlists"
 msgstr "Afspilningslister"
 
@@ -1302,28 +1311,31 @@ msgstr ""
 msgid "No lyrics found "
 msgstr ""
 
-#: ../../lollypop/view_playlists.py:210
+#: ../../lollypop/view_playlists.py:210 ../../lollypop/view_playlists.py:212
 msgid "Save"
 msgstr ""
 
-#: ../../lollypop/view_playlists.py:211
+#: ../../lollypop/view_playlists.py:211 ../../lollypop/view_playlists.py:213
 msgid "Cancel"
 msgstr ""
 
 #: ../../lollypop/view_playlists.py:277
 #: ../../lollypop/widgets_album_detailed.py:290
+#: ../../lollypop/view_playlists.py:279
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s t %s m"
 
 #: ../../lollypop/view_playlists.py:279
 #: ../../lollypop/widgets_album_detailed.py:292
+#: ../../lollypop/view_playlists.py:281
 #, python-format
 msgid "%s h"
 msgstr "%s t"
 
 #: ../../lollypop/view_playlists.py:281
 #: ../../lollypop/widgets_album_detailed.py:294
+#: ../../lollypop/view_playlists.py:283
 #, python-format
 msgid "%s m"
 msgstr "%s m"
@@ -1355,16 +1367,21 @@ msgstr "Synkroniserede albummer"
 
 #: ../../lollypop/widgets_playlist.py:620
 #: ../../lollypop/widgets_playlist.py:623
+#: ../../lollypop/widgets_playlist.py:622
+#: ../../lollypop/widgets_playlist.py:625
 msgid "New playlist "
 msgstr "Ny afspilningsliste "
 
 #: ../../lollypop/widgets_playlist.py:728
 #: ../../lollypop/widgets_playlist.py:922
+#: ../../lollypop/widgets_playlist.py:730
+#: ../../lollypop/widgets_playlist.py:924
 #, python-format
 msgid "Remove \"%s\"?"
 msgstr "Fjern \"%s\"?"
 
 #: ../../lollypop/widgets_playlist.py:930
+#: ../../lollypop/widgets_playlist.py:932
 msgid "Remove these tracks?"
 msgstr "Fjern disse spor?"
 
@@ -1376,6 +1393,10 @@ msgstr "Rediger radio"
 #, python-format
 msgid "Song played %s times"
 msgstr "Sang afspillet %s gange"
+
+#: ../../lollypop/pop_albums.py:62
+msgid "Go to current track. Hold for jump to current artist"
+msgstr ""
 
 #~ msgid "Create a new playlist based on search"
 #~ msgstr "Opret en ny afspilningsliste ud fra søgningen"
