@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-15 08:23+0200\n"
+"POT-Creation-Date: 2018-06-15 11:48+0200\n"
 "PO-Revision-Date: 2018-06-04 06:21+0000\n"
 "Last-Translator: ferranroig <forums@ferranroig.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -648,7 +648,8 @@ msgid "Create a new playlist"
 msgstr ""
 
 #: ../../data/SettingsDialog.ui:22 ../../lollypop/settings.py:115
-#: ../../lollypop/settings.py:118
+#: ../../lollypop/settings.py:118 ../../lollypop/settings.py:117
+#: ../../lollypop/settings.py:120
 msgid "Preferences"
 msgstr "Configuració"
 
@@ -1251,32 +1252,32 @@ msgstr "Engegada"
 msgid "Shown"
 msgstr "Mostrat"
 
-#: ../../lollypop/settings.py:88
+#: ../../lollypop/settings.py:88 ../../lollypop/settings.py:90
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "Utilitzant configuració de \"GNOME comptes en línia\""
 
-#: ../../lollypop/settings.py:95
+#: ../../lollypop/settings.py:95 ../../lollypop/settings.py:97
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
 msgstr[0] "%d artista"
 msgstr[1] "%d artistes"
 
-#: ../../lollypop/settings.py:97
+#: ../../lollypop/settings.py:97 ../../lollypop/settings.py:99
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
 msgstr[0] "%d àlbum"
 msgstr[1] "%d àlbums"
 
-#: ../../lollypop/settings.py:99
+#: ../../lollypop/settings.py:99 ../../lollypop/settings.py:101
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d pista"
 msgstr[1] "%d pistes"
 
-#: ../../lollypop/settings.py:747
+#: ../../lollypop/settings.py:747 ../../lollypop/settings.py:749
 msgid "You need to install kid3-cli"
 msgstr "Heu d'instal·lar \"kid3-cli\""
 

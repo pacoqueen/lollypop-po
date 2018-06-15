@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Turkish (gnumdk)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-15 08:23+0200\n"
+"POT-Creation-Date: 2018-06-15 11:48+0200\n"
 "PO-Revision-Date: 2018-05-31 07:05+0000\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -643,7 +643,8 @@ msgid "Create a new playlist"
 msgstr ""
 
 #: ../../data/SettingsDialog.ui:22 ../../lollypop/settings.py:115
-#: ../../lollypop/settings.py:118
+#: ../../lollypop/settings.py:118 ../../lollypop/settings.py:117
+#: ../../lollypop/settings.py:120
 msgid "Preferences"
 msgstr "Tercihler"
 
@@ -1247,32 +1248,32 @@ msgstr "Başlangıç"
 msgid "Shown"
 msgstr "Gösterilen"
 
-#: ../../lollypop/settings.py:88
+#: ../../lollypop/settings.py:88 ../../lollypop/settings.py:90
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "\"GNOME Çevrim İçi Hesaplar\" ayarlarını kullan"
 
-#: ../../lollypop/settings.py:95
+#: ../../lollypop/settings.py:95 ../../lollypop/settings.py:97
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
 msgstr[0] "%d sanatçı"
 msgstr[1] "%d sanatçı"
 
-#: ../../lollypop/settings.py:97
+#: ../../lollypop/settings.py:97 ../../lollypop/settings.py:99
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
 msgstr[0] "%d albüm"
 msgstr[1] "%d albüm"
 
-#: ../../lollypop/settings.py:99
+#: ../../lollypop/settings.py:99 ../../lollypop/settings.py:101
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d parça"
 msgstr[1] "%d parça"
 
-#: ../../lollypop/settings.py:747
+#: ../../lollypop/settings.py:747 ../../lollypop/settings.py:749
 msgid "You need to install kid3-cli"
 msgstr "kid3-cli'i indirmen gerekmektedir"
 

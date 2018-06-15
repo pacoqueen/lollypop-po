@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-15 08:23+0200\n"
+"POT-Creation-Date: 2018-06-15 11:48+0200\n"
 "PO-Revision-Date: 2017-12-07 21:27+0000\n"
 "Last-Translator: Sebastien Zurfluh <sebastien.zurfluh@gmail.com>\n"
 "Language-Team: Esperanto (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -632,7 +632,8 @@ msgid "Create a new playlist"
 msgstr ""
 
 #: ../../data/SettingsDialog.ui:22 ../../lollypop/settings.py:115
-#: ../../lollypop/settings.py:118
+#: ../../lollypop/settings.py:118 ../../lollypop/settings.py:117
+#: ../../lollypop/settings.py:120
 msgid "Preferences"
 msgstr "Preferoj"
 
@@ -1228,32 +1229,32 @@ msgstr ""
 msgid "Shown"
 msgstr ""
 
-#: ../../lollypop/settings.py:88
+#: ../../lollypop/settings.py:88 ../../lollypop/settings.py:90
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr ""
 
-#: ../../lollypop/settings.py:95
+#: ../../lollypop/settings.py:95 ../../lollypop/settings.py:97
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
 msgstr[0] "%d artisto"
 msgstr[1] "%d artistoj"
 
-#: ../../lollypop/settings.py:97
+#: ../../lollypop/settings.py:97 ../../lollypop/settings.py:99
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
 msgstr[0] "%d albumo"
 msgstr[1] "%d albumoj"
 
-#: ../../lollypop/settings.py:99
+#: ../../lollypop/settings.py:99 ../../lollypop/settings.py:101
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d peco"
 msgstr[1] "%d pecoj"
 
-#: ../../lollypop/settings.py:747
+#: ../../lollypop/settings.py:747 ../../lollypop/settings.py:749
 msgid "You need to install kid3-cli"
 msgstr "Vi bezonas instali kid3-cli"
 

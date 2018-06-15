@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-15 08:23+0200\n"
+"POT-Creation-Date: 2018-06-15 11:48+0200\n"
 "PO-Revision-Date: 2018-06-05 02:03+0000\n"
 "Last-Translator: Kenkowo Nishihama <nishihama@hitobashira.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnumdk/lollypop/"
@@ -630,7 +630,8 @@ msgid "Create a new playlist"
 msgstr ""
 
 #: ../../data/SettingsDialog.ui:22 ../../lollypop/settings.py:115
-#: ../../lollypop/settings.py:118
+#: ../../lollypop/settings.py:118 ../../lollypop/settings.py:117
+#: ../../lollypop/settings.py:120
 msgid "Preferences"
 msgstr "基本設定"
 
@@ -1231,29 +1232,29 @@ msgstr "スタートアップ"
 msgid "Shown"
 msgstr "表示"
 
-#: ../../lollypop/settings.py:88
+#: ../../lollypop/settings.py:88 ../../lollypop/settings.py:90
 msgid "Using \"GNOME Online Accounts\" settings"
 msgstr "「GNOME オンライン アカウント」設定を使用"
 
-#: ../../lollypop/settings.py:95
+#: ../../lollypop/settings.py:95 ../../lollypop/settings.py:97
 #, python-format
 msgid "%d artist"
 msgid_plural "%d artists"
 msgstr[0] "%d アーティスト"
 
-#: ../../lollypop/settings.py:97
+#: ../../lollypop/settings.py:97 ../../lollypop/settings.py:99
 #, python-format
 msgid "%d album"
 msgid_plural "%d albums"
 msgstr[0] "%d アルバム"
 
-#: ../../lollypop/settings.py:99
+#: ../../lollypop/settings.py:99 ../../lollypop/settings.py:101
 #, python-format
 msgid "%d track"
 msgid_plural "%d tracks"
 msgstr[0] "%d トラック"
 
-#: ../../lollypop/settings.py:747
+#: ../../lollypop/settings.py:747 ../../lollypop/settings.py:749
 msgid "You need to install kid3-cli"
 msgstr "Kid3 cli をインストールする必要あり"
 
