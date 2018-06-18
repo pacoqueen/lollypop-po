@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-15 14:01+0200\n"
+"POT-Creation-Date: 2018-06-18 14:34+0200\n"
 "PO-Revision-Date: 2017-11-27 17:21+0000\n"
 "Last-Translator: fri\n"
 "Language-Team: Czech (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -1086,6 +1086,8 @@ msgstr "Přehrávání alb"
 
 #: ../../lollypop/pop_information.py:88 ../../lollypop/view_artist_albums.py:74
 #: ../../lollypop/view_artist.py:59 ../../lollypop/view_lyrics.py:77
+#: ../../lollypop/view_lyrics.py:86 ../../lollypop/view_lyrics.py:87
+#: ../../lollypop/view_lyrics.py:88
 msgid "Network access disabled"
 msgstr "Přístup k síti zakázán"
 
@@ -1309,11 +1311,15 @@ msgstr "Seřídit %s"
 msgid "Cancel synchronization"
 msgstr "Zrušit seřizování"
 
-#: ../../lollypop/view_lyrics.py:57
+#: ../../lollypop/view_lyrics.py:57 ../../lollypop/view_lyrics.py:65
+#: ../../lollypop/view_lyrics.py:67
 msgid "Loading…"
 msgstr ""
 
-#: ../../lollypop/view_lyrics.py:220
+#: ../../lollypop/view_lyrics.py:220 ../../lollypop/view_lyrics.py:229
+#: ../../lollypop/view_lyrics.py:230 ../../lollypop/view_lyrics.py:231
+#: ../../lollypop/view_lyrics.py:233 ../../lollypop/view_lyrics.py:234
+#: ../../lollypop/view_lyrics.py:240
 msgid "No lyrics found "
 msgstr ""
 
@@ -1403,6 +1409,18 @@ msgstr "Píseň hrána %s krát"
 
 #: ../../lollypop/pop_albums.py:62
 msgid "Go to current track. Hold for jump to current artist"
+msgstr ""
+
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:33
+msgid "Workaround a crash in Pango"
+msgstr ""
+
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:34
+msgid "Enable new encoders in MTP sync"
+msgstr ""
+
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:35
+msgid "Use Gtk.Gesture"
 msgstr ""
 
 #~ msgid "Create a new playlist based on search"
