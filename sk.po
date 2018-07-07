@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lollypop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-18 14:34+0200\n"
+"POT-Creation-Date: 2018-07-07 22:35+0200\n"
 "PO-Revision-Date: 2017-11-27 14:00+0000\n"
 "Last-Translator: Cédric Bellegarde <web@adishatz.org>\n"
 "Language-Team: Slovak (http://www.transifex.com/gnumdk/lollypop/language/"
@@ -42,10 +42,12 @@ msgid "Flattr"
 msgstr "Flattr"
 
 #: ../../data/AboutDialog.ui.in:73 ../../lollypop/container.py:775
+#: ../../lollypop/container.py:779
 msgid "Liberapay"
 msgstr ""
 
 #: ../../data/AboutDialog.ui.in:83 ../../lollypop/container.py:775
+#: ../../lollypop/container.py:779
 msgid "PayPal"
 msgstr "PayPal"
 
@@ -141,6 +143,7 @@ msgstr ""
 
 #: ../../data/org.gnome.Lollypop.desktop.in:23
 #: ../../data/ToolbarPlayback.ui:103 ../../lollypop/notification.py:39
+#: ../../lollypop/toolbar_end.py:265
 msgid "Next"
 msgstr "Nasledujúca"
 
@@ -181,82 +184,104 @@ msgstr "Pozícia mini prehrávača"
 #: ../../data/org.gnome.Lollypop.gschema.xml:241
 #: ../../data/org.gnome.Lollypop.gschema.xml:251
 #: ../../data/org.gnome.Lollypop.gschema.xml:256
+#: ../../data/org.gnome.Lollypop.gschema.xml:58
+#: ../../data/org.gnome.Lollypop.gschema.xml:246
+#: ../../data/org.gnome.Lollypop.gschema.xml:261
 msgid "INTERNAL"
 msgstr "VNÚTORNÉ"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:58
+#: ../../data/org.gnome.Lollypop.gschema.xml:63
 msgid "Allow user to donate to the project"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:63
+#: ../../data/org.gnome.Lollypop.gschema.xml:68
 msgid "Allow using a cover per track"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:68
+#: ../../data/org.gnome.Lollypop.gschema.xml:73
 msgid "Access network"
 msgstr "Pristupovať k sieti"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:73
+#: ../../data/org.gnome.Lollypop.gschema.xml:78
 msgid "Save artwork/popularity in tags"
 msgstr "Uložiť obrázok/obľúbenosť v značkách"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:78
+#: ../../data/org.gnome.Lollypop.gschema.xml:83
 msgid "Preserve the cover’s aspect ratio"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:83
+#: ../../data/org.gnome.Lollypop.gschema.xml:88
 msgid "Window maximized"
 msgstr "Maximalizované okno"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:84
+#: ../../data/org.gnome.Lollypop.gschema.xml:89
 msgid "Window maximized state."
 msgstr "Maximalizovaný stav okna."
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:88
+#: ../../data/org.gnome.Lollypop.gschema.xml:93
 msgid "Enabled genres in party mode"
 msgstr "Povolené žánre v párty režime"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:89
+#: ../../data/org.gnome.Lollypop.gschema.xml:94
 msgid "ID for genres."
 msgstr "ID pre žánre."
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:93
+#: ../../data/org.gnome.Lollypop.gschema.xml:98
 msgid "REMOVE ME LATER"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:98
+#: ../../data/org.gnome.Lollypop.gschema.xml:103
 msgid "Music URI"
 msgstr "URI hudby"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:99
+#: ../../data/org.gnome.Lollypop.gschema.xml:104
 msgid "When empty, use XDG_MUSIC_DIR"
 msgstr "Keď je prázdne, použije sa XDG_MUSIC_DIR"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:103
+#: ../../data/org.gnome.Lollypop.gschema.xml:108
 msgid "Use Libre.fm instead of Last.fm"
 msgstr "Použiť službu Libre.fm namiesto Last.fm"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:108
+#: ../../data/org.gnome.Lollypop.gschema.xml:113
 msgid "Last.fm login"
 msgstr "Prihlásenie do služby Last.fm"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:113
+#: ../../data/org.gnome.Lollypop.gschema.xml:118
 msgid "ListenBrainz user token"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:118
+#: ../../data/org.gnome.Lollypop.gschema.xml:123
 msgid "Google Custom Search API key"
 msgstr "Kľúč API vlastného vyhľadávania Google"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:123
+#: ../../data/org.gnome.Lollypop.gschema.xml:128
 msgid "Favorite tag editor"
 msgstr "Editor obľúbených značiek"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:128
+#: ../../data/org.gnome.Lollypop.gschema.xml:133
 msgid "Audio output preview on track hover"
 msgstr "Ukážka zvukového výstupu pri prejdení myšou ponad skladbu"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:129
+#: ../../data/org.gnome.Lollypop.gschema.xml:134
 msgid ""
 "PulseAudio only. Example: alsa_output.pci-0000_00_14.2.analog-stereo. "
 "Command to get outputs: $ pacmd list-sinks|grep 'name:'"
@@ -265,19 +290,24 @@ msgstr ""
 "na získanie výstupov: $ pacmd list-sinks|grep „name:“"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:133
+#: ../../data/org.gnome.Lollypop.gschema.xml:138
 msgid "Favorite cover file"
 msgstr "Súbor obľúbeného obalu"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:134
 #: ../../data/org.gnome.Lollypop.gschema.xml:219
+#: ../../data/org.gnome.Lollypop.gschema.xml:139
+#: ../../data/org.gnome.Lollypop.gschema.xml:224
 msgid "Restart needed"
 msgstr "Potrebný reštart"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:138
+#: ../../data/org.gnome.Lollypop.gschema.xml:143
 msgid "Database version"
 msgstr "Verzia databázy"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:139
+#: ../../data/org.gnome.Lollypop.gschema.xml:144
 msgid ""
 "Resetting this value will reset the database, popular albums will be restored"
 msgstr ""
@@ -286,136 +316,168 @@ msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:143
 #: ../../data/SettingsDialog.ui:138
+#: ../../data/org.gnome.Lollypop.gschema.xml:148
 msgid "Albums cover size"
 msgstr "Veľkosť obalu albumu"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:148
+#: ../../data/org.gnome.Lollypop.gschema.xml:153
 msgid "Replay gain value in dB"
 msgstr "Zosilnenie prehrávania v dB"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:149
+#: ../../data/org.gnome.Lollypop.gschema.xml:154
 msgid "Between -15 and 15"
 msgstr "Medzi -15 a 15"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:153
+#: ../../data/org.gnome.Lollypop.gschema.xml:158
 msgid "Encoding quality"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:158
 #: ../../data/SettingsDialog.ui:275 ../../data/SettingsDialog.ui:277
 #: ../../data/SettingsDialog.ui:288
+#: ../../data/org.gnome.Lollypop.gschema.xml:163
 msgid "Auto update music"
 msgstr "Automaticky aktualizovať hudbu"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:163
+#: ../../data/org.gnome.Lollypop.gschema.xml:168
 msgid "Split playlists view"
 msgstr "Rozdeliť zobrazenie zoznamov skladieb"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:168
+#: ../../data/org.gnome.Lollypop.gschema.xml:173
 msgid "Show list of genres"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:173
+#: ../../data/org.gnome.Lollypop.gschema.xml:178
 msgid "Show sidebar"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:178
 #: ../../data/SettingsDialog.ui:165 ../../data/SettingsDialog.ui:176
+#: ../../data/org.gnome.Lollypop.gschema.xml:183
 msgid "Show artist artwork"
 msgstr "Zobraziť obrázok interpreta"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:183
+#: ../../data/org.gnome.Lollypop.gschema.xml:188
 msgid "Use dark GTK theme"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:188
+#: ../../data/org.gnome.Lollypop.gschema.xml:193
 msgid "Disable use of client side window decorations (headerbar)"
 msgstr "Zakázať použitie dekorácie okien z klientskej strany (záhlavie)"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:193
+#: ../../data/org.gnome.Lollypop.gschema.xml:198
 msgid "Handle compilations"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:198
 #: ../../data/SettingsDialog.ui:1202
+#: ../../data/org.gnome.Lollypop.gschema.xml:203
 msgid "Show compilations in albums view"
 msgstr "Zobraziť kompilácie v zobrazení albumov"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:203
 #: ../../data/SettingsDialog.ui:302 ../../data/SettingsDialog.ui:329
+#: ../../data/org.gnome.Lollypop.gschema.xml:208
 msgid "Continue playback when closed"
 msgstr "Pokračovať v prehrávaní aj po zatvorení"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:208
+#: ../../data/org.gnome.Lollypop.gschema.xml:213
 msgid "Smart sort for artist"
 msgstr "Zoradiť interpretov inteligentne"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:209
+#: ../../data/org.gnome.Lollypop.gschema.xml:214
 msgid "Ex: The Beatles sorted as Beatles. Reset of database required."
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:213
+#: ../../data/org.gnome.Lollypop.gschema.xml:218
 msgid "Restore previous state"
 msgstr "Obnoviť predchádzajúci stav"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:218
+#: ../../data/org.gnome.Lollypop.gschema.xml:223
 msgid "Disable MPRIS"
 msgstr "Zakázať MPRIS"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:223
+#: ../../data/org.gnome.Lollypop.gschema.xml:228
 msgid "Disable all notifications"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:227
+#: ../../data/org.gnome.Lollypop.gschema.xml:232
 msgid "Disable notifications upon change of song"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:231
+#: ../../data/org.gnome.Lollypop.gschema.xml:236
 msgid "Show track number from tags"
 msgstr "Zobraziť číslo skladby zo značiek"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:246
+#: ../../data/org.gnome.Lollypop.gschema.xml:251
 msgid "JPG cover quality"
 msgstr "Kvalita obalu vo formáte JPG"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:247
+#: ../../data/org.gnome.Lollypop.gschema.xml:252
 msgid "0-100"
 msgstr "0-100"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:261
+#: ../../data/org.gnome.Lollypop.gschema.xml:266
 msgid "Smooth track transitions"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:266
+#: ../../data/org.gnome.Lollypop.gschema.xml:271
 msgid "Only mix songs in party mode"
 msgstr "Zamiešať skladby iba v párty režime"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:271
+#: ../../data/org.gnome.Lollypop.gschema.xml:276
 msgid "Smoothing duration"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:276
+#: ../../data/org.gnome.Lollypop.gschema.xml:281
 msgid "Restart current track on previous"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:281
+#: ../../data/org.gnome.Lollypop.gschema.xml:286
 msgid "Shuffle mode"
 msgstr "Náhodný režim"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:286
+#: ../../data/org.gnome.Lollypop.gschema.xml:291
 msgid "Possibilities for powermanagement options"
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:287
+#: ../../data/org.gnome.Lollypop.gschema.xml:292
 msgid "This option inhibits screensaver and suspend during Lollypop playback."
 msgstr ""
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:291
+#: ../../data/org.gnome.Lollypop.gschema.xml:296
 msgid "Playback behaviour"
 msgstr "Správanie prehrávania"
 
 #: ../../data/org.gnome.Lollypop.gschema.xml:296
 #: ../../data/SettingsDialog.ui:190
+#: ../../data/org.gnome.Lollypop.gschema.xml:301
 msgid "Order albums by"
 msgstr "Zoradiť albumy podľa"
 
@@ -568,7 +630,7 @@ msgid "Unsplit view"
 msgstr "Vráti rozdelenie zobrazenia"
 
 #: ../../data/PlaylistView.ui:137 ../../lollypop/view_playlists.py:207
-#: ../../lollypop/view_playlists.py:209
+#: ../../lollypop/view_playlists.py:209 ../../lollypop/view_playlists.py:210
 msgid "Save playlist"
 msgstr ""
 
@@ -578,6 +640,7 @@ msgstr "Vymaže frontu"
 
 #: ../../data/QueuePopover.ui:55 ../../lollypop/pop_menu.py:422
 #: ../../lollypop/toolbar_end.py:421 ../../lollypop/toolbar_end.py:427
+#: ../../lollypop/pop_menu.py:416 ../../lollypop/toolbar_end.py:430
 msgid "Queue"
 msgstr "Fronta"
 
@@ -641,7 +704,8 @@ msgid "Show compilations"
 msgstr ""
 
 #: ../../data/SettingsDialog.ui:203 ../../lollypop/pop_menu.py:399
-#: ../../lollypop/pop_menu.py:420
+#: ../../lollypop/pop_menu.py:420 ../../lollypop/pop_menu.py:393
+#: ../../lollypop/pop_menu.py:414
 msgid "Artist"
 msgstr "Interpreta"
 
@@ -759,6 +823,7 @@ msgstr ""
 
 #: ../../data/SettingsDialog.ui:1146 ../../data/ToolbarEnd.ui:140
 #: ../../lollypop/playlists.py:283 ../../lollypop/playlists.py:284
+#: ../../data/ToolbarEnd.ui:118
 msgid "Search"
 msgstr "Vyhľadá"
 
@@ -904,35 +969,35 @@ msgctxt "shortcut window"
 msgid "Skip forward in track"
 msgstr "Skok dopredu v skladbe"
 
-#: ../../data/ToolbarEnd.ui:7
+#: ../../data/ToolbarEnd.ui:7 ../../data/ToolbarEnd.ui:17
 msgid "Shuffle"
 msgstr "Zamieša"
 
-#: ../../data/ToolbarEnd.ui:9
+#: ../../data/ToolbarEnd.ui:9 ../../data/ToolbarEnd.ui:19
 msgid "No shuffle"
 msgstr "Nezamiešať"
 
-#: ../../data/ToolbarEnd.ui:14
+#: ../../data/ToolbarEnd.ui:14 ../../data/ToolbarEnd.ui:24
 msgid "Shuffle albums"
 msgstr "Zamiešať albumy"
 
-#: ../../data/ToolbarEnd.ui:19
+#: ../../data/ToolbarEnd.ui:19 ../../data/ToolbarEnd.ui:29
 msgid "Shuffle tracks"
 msgstr "Zamiešať skladby"
 
-#: ../../data/ToolbarEnd.ui:25
+#: ../../data/ToolbarEnd.ui:25 ../../data/ToolbarEnd.ui:35
 msgid "Repetition"
 msgstr "Opakovanie"
 
-#: ../../data/ToolbarEnd.ui:27
+#: ../../data/ToolbarEnd.ui:27 ../../data/ToolbarEnd.ui:37
 msgid "Continuous playback"
 msgstr "Nepretržité prehrávanie"
 
-#: ../../data/ToolbarEnd.ui:32
+#: ../../data/ToolbarEnd.ui:32 ../../data/ToolbarEnd.ui:42
 msgid "Repeat track"
 msgstr "Opakovanie skladby"
 
-#: ../../data/ToolbarEnd.ui:37
+#: ../../data/ToolbarEnd.ui:37 ../../data/ToolbarEnd.ui:47
 msgid "Do not repeat"
 msgstr "Neopakovať"
 
@@ -991,19 +1056,20 @@ msgstr "Obnoviť obrázok?"
 #: ../../lollypop/collectionscanner.py:315
 #: ../../lollypop/collectionscanner.py:314
 #: ../../lollypop/collectionscanner.py:316
-#: ../../lollypop/collectionscanner.py:318
+#: ../../lollypop/collectionscanner.py:318 ../../lollypop/selectionlist.py:568
+#: ../../lollypop/selectionlist.py:581
 msgid "Unknown"
 msgstr "Neznáme"
 
-#: ../../lollypop/container.py:774
+#: ../../lollypop/container.py:774 ../../lollypop/container.py:778
 msgid "Please consider a donation to the project"
 msgstr ""
 
-#: ../../lollypop/container.py:897
+#: ../../lollypop/container.py:897 ../../lollypop/container.py:901
 msgid "New tracks available"
 msgstr ""
 
-#: ../../lollypop/container.py:898
+#: ../../lollypop/container.py:898 ../../lollypop/container.py:902
 msgid "Refresh"
 msgstr ""
 
@@ -1064,21 +1130,23 @@ msgstr "Vymaže albumy"
 #: ../../lollypop/pop_albums.py:52 ../../lollypop/toolbar_end.py:425
 #: ../../lollypop/pop_albums.py:60 ../../lollypop/pop_albums.py:62
 #: ../../lollypop/toolbar_end.py:431 ../../lollypop/pop_albums.py:63
+#: ../../lollypop/pop_albums.py:64 ../../lollypop/toolbar_end.py:434
 msgid "Playing albums"
 msgstr "Hrané albumy"
 
 #: ../../lollypop/pop_information.py:88 ../../lollypop/view_artist_albums.py:74
 #: ../../lollypop/view_artist.py:59 ../../lollypop/view_lyrics.py:77
 #: ../../lollypop/view_lyrics.py:86 ../../lollypop/view_lyrics.py:87
-#: ../../lollypop/view_lyrics.py:88
+#: ../../lollypop/view_lyrics.py:88 ../../lollypop/pop_information.py:93
+#: ../../lollypop/view_lyrics.py:90
 msgid "Network access disabled"
 msgstr "Prístup k sieti zakázaný"
 
-#: ../../lollypop/pop_information.py:90
+#: ../../lollypop/pop_information.py:90 ../../lollypop/pop_information.py:95
 msgid "Loading information"
 msgstr ""
 
-#: ../../lollypop/pop_information.py:152
+#: ../../lollypop/pop_information.py:152 ../../lollypop/pop_information.py:157
 msgid "No information on this artist"
 msgstr ""
 
@@ -1116,7 +1184,7 @@ msgstr "„%s“"
 msgid "Add to \"%s\""
 msgstr "Pridať do „%s“"
 
-#: ../../lollypop/pop_menu.py:300
+#: ../../lollypop/pop_menu.py:300 ../../data/ArtistInformation.ui:108
 msgid "Show lyrics"
 msgstr ""
 
@@ -1127,15 +1195,18 @@ msgstr "Text skladby"
 #: ../../lollypop/pop_menu.py:304 ../../lollypop/pop_menu.py:401
 #: ../../lollypop/pop_menu.py:424 ../../lollypop/selectionlist.py:48
 #: ../../lollypop/widgets_device.py:116 ../../lollypop/widgets_playlist.py:587
-#: ../../lollypop/widgets_playlist.py:589
+#: ../../lollypop/widgets_playlist.py:589 ../../lollypop/pop_menu.py:298
+#: ../../lollypop/pop_menu.py:395 ../../lollypop/pop_menu.py:418
 msgid "Playlists"
 msgstr "Zoznamy skladieb"
 
 #: ../../lollypop/pop_menu.py:357 ../../lollypop/widgets_context.py:64
+#: ../../lollypop/pop_menu.py:351
 msgid "Modify information"
 msgstr "Upraviť informáciu"
 
 #: ../../lollypop/pop_menu.py:403 ../../lollypop/pop_menu.py:426
+#: ../../lollypop/pop_menu.py:397 ../../lollypop/pop_menu.py:420
 msgid "Edit"
 msgstr "Upraví"
 
@@ -1256,6 +1327,7 @@ msgid "Recently added"
 msgstr "Nedávno pridané"
 
 #: ../../lollypop/toolbar_end.py:423 ../../lollypop/toolbar_end.py:429
+#: ../../lollypop/toolbar_end.py:432
 msgid "Playing playlists"
 msgstr "Hrané zoznamy skladieb"
 
@@ -1295,47 +1367,52 @@ msgid "Cancel synchronization"
 msgstr "Zrušiť synchronizáciu"
 
 #: ../../lollypop/view_lyrics.py:57 ../../lollypop/view_lyrics.py:65
-#: ../../lollypop/view_lyrics.py:67
+#: ../../lollypop/view_lyrics.py:67 ../../lollypop/view_lyrics.py:69
 msgid "Loading…"
 msgstr ""
 
 #: ../../lollypop/view_lyrics.py:220 ../../lollypop/view_lyrics.py:229
 #: ../../lollypop/view_lyrics.py:230 ../../lollypop/view_lyrics.py:231
 #: ../../lollypop/view_lyrics.py:233 ../../lollypop/view_lyrics.py:234
-#: ../../lollypop/view_lyrics.py:240
+#: ../../lollypop/view_lyrics.py:240 ../../lollypop/view_lyrics.py:242
 msgid "No lyrics found "
 msgstr ""
 
 #: ../../lollypop/view_playlists.py:210 ../../lollypop/view_playlists.py:212
+#: ../../lollypop/view_playlists.py:213
 msgid "Save"
 msgstr ""
 
 #: ../../lollypop/view_playlists.py:211 ../../lollypop/view_playlists.py:213
+#: ../../lollypop/view_playlists.py:214
 msgid "Cancel"
 msgstr ""
 
 #: ../../lollypop/view_playlists.py:277
 #: ../../lollypop/widgets_album_detailed.py:290
-#: ../../lollypop/view_playlists.py:279
+#: ../../lollypop/view_playlists.py:279 ../../lollypop/view_playlists.py:280
+#: ../../lollypop/widgets_album_detailed.py:289
 #, python-format
 msgid "%s h  %s m"
 msgstr "%s h  %s m"
 
 #: ../../lollypop/view_playlists.py:279
 #: ../../lollypop/widgets_album_detailed.py:292
-#: ../../lollypop/view_playlists.py:281
+#: ../../lollypop/view_playlists.py:281 ../../lollypop/view_playlists.py:282
+#: ../../lollypop/widgets_album_detailed.py:291
 #, python-format
 msgid "%s h"
 msgstr "%s h"
 
 #: ../../lollypop/view_playlists.py:281
 #: ../../lollypop/widgets_album_detailed.py:294
-#: ../../lollypop/view_playlists.py:283
+#: ../../lollypop/view_playlists.py:283 ../../lollypop/view_playlists.py:284
+#: ../../lollypop/widgets_album_detailed.py:293
 #, python-format
 msgid "%s m"
 msgstr "%s m"
 
-#: ../../lollypop/view_tracks.py:386
+#: ../../lollypop/view_tracks.py:386 ../../lollypop/view_tracks.py:395
 #, python-format
 msgid "Disc %s"
 msgstr "Disk %s"
@@ -1405,6 +1482,38 @@ msgstr ""
 
 #: ../../data/org.gnome.Lollypop.appdata.xml.in:35
 msgid "Use Gtk.Gesture"
+msgstr ""
+
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:33
+msgid "Restore Next Popover"
+msgstr ""
+
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:40
+msgid "Bug fixes"
+msgstr ""
+
+#: ../../data/org.gnome.Lollypop.appdata.xml.in:41
+msgid "Bye bye appmenu"
+msgstr ""
+
+#: ../../data/ToolbarEnd.ui:7
+msgid "Party mode"
+msgstr ""
+
+#: ../../data/ToolbarEnd.ui:9
+msgid "Enable party mode"
+msgstr ""
+
+#: ../../data/ToolbarEnd.ui:92
+msgid "Playback type"
+msgstr ""
+
+#: ../../lollypop/selectionlist.py:530
+msgid "Right click to configure"
+msgstr ""
+
+#: ../../lollypop/toolbar_end.py:261
+msgid "All genres"
 msgstr ""
 
 #~ msgid "Create a new playlist based on search"
